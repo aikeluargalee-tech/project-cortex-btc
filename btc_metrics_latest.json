@@ -1,0 +1,111 @@
+{
+  "schema_version": "cortex-telemetry-v3.0",
+  "as_of_utc": "2026-11-14T01:06:18Z",
+  "as_of_myt": "2026-11-14 09:06:18 MYT",
+  "generated_at_epoch": 1794618378,
+  "spot_price": 68324.69,
+  "venues": {
+    "binance": {
+      "price": 68324.69,
+      "timestamp_utc": "2026-11-14T01:06:18Z"
+    },
+    "coinbase": {
+      "price": 68244.59,
+      "timestamp_utc": "2026-11-14T01:06:19Z"
+    },
+    "coingecko": {
+      "price": 68203.0,
+      "timestamp_utc": "2026-11-14T01:04:57Z"
+    },
+    "kraken": {
+      "price": 68242.7,
+      "timestamp_utc": "2026-11-14T01:06:18Z"
+    },
+    "okx": {
+      "price": 68313.6,
+      "timestamp_utc": "2026-11-14T01:06:20Z"
+    }
+  },
+  "price": {
+    "spot": 68324.69,
+    "high_24h": 71234.01,
+    "low_24h": 67568.0,
+    "price_change_pct_24h": -3.627,
+    "volume_24h_usd": 2008575148.003583,
+    "sma50": 80308.8048,
+    "sma200": 73051.46584999996,
+    "rsi14": 24.492680333998052,
+    "atr14": 2454.269285714285,
+    "range_high_45d": 87220.0,
+    "range_low_45d": 67568.0,
+    "realized_vol_7d_pct": 38.01136198663598
+  },
+  "liquidity": {
+    "spread_bps": 0.001,
+    "depth_1pct_usd": 15002589.84
+  },
+  "derivatives": {
+    "open_interest": {
+      "current_btc": 33505.543100000155,
+      "change_24h_pct": -9.448,
+      "venue": "OKX BTC-USDT-SWAP"
+    },
+    "funding_rate_pct": 0.0048,
+    "long_short_ratio": 3.22,
+    "perp_cvd": {
+      "24h": {
+        "cvd_btc": -759766.73
+      }
+    }
+  },
+  "order_flow": {
+    "spot_cvd_binance": {
+      "24h": {
+        "cvd_btc": -661.4398
+      }
+    }
+  },
+  "onchain": {
+    "source": "mempool.space",
+    "fastest_fee_sat_vb": 3.0,
+    "half_hour_fee_sat_vb": 1.0,
+    "hour_fee_sat_vb": 1.0,
+    "minimum_fee_sat_vb": 1.0,
+    "mempool_tx_count": 66991.0,
+    "mempool_vsize_bytes": 34654847.0,
+    "block_height": 975729
+  },
+  "macro": {
+    "us10y_yield_pct": {
+      "value": 5.1,
+      "as_of_utc": "2026-11-12",
+      "source": "FRED:DGS10",
+      "status": "ok"
+    },
+    "us10y_real_yield_pct": {
+      "value": 2.86,
+      "as_of_utc": "2026-11-12",
+      "source": "FRED:DFII10",
+      "status": "ok"
+    },
+    "dxy": {
+      "value": 121.8803,
+      "as_of_utc": "2026-11-06",
+      "source": "FRED:DTWEXBGS",
+      "status": "ok"
+    },
+    "vix": {
+      "value": 18.7,
+      "as_of_utc": "2026-11-12",
+      "source": "FRED:VIXCLS",
+      "status": "ok"
+    },
+    "sp500": {
+      "value": 7592.4,
+      "as_of_utc": "2026-11-12",
+      "source": "FRED:SP500",
+      "status": "ok"
+    }
+  },
+  "errors": []
+}
