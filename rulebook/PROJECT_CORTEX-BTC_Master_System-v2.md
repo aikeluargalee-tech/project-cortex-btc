@@ -1,6 +1,6 @@
 # PROJECT CORTEX-BTC: FULL-STACK MASTER SYSTEM ARCHITECTURE
-**Consolidated Architecture, Historical Registries & 41 Quantitative Execution Modules**
-**Version:** 2.1 (45 Total Sources — `MOD 01–MOD 41` Complete Index, November 2026)
+**Consolidated Architecture, Historical Registries & 42 Quantitative Execution Modules**
+**Version:** 2.2 (47 Total Sources — `MOD 01–MOD 42` Complete Index, November 2026)
 
 ---
 
@@ -10,9 +10,9 @@
 - [00 — Project CORTEX-BTC  Charter, 5-Pillar Waterfall   18-Modul](#00__project_cortex-btc__charter_5-pillar_waterfall___18-modul)
 - [00B — Project CORTEX-BTC V2.0 Full-Stack Master Index (MOD 01–2](#00b__project_cortex-btc_v20_full-stack_master_index_mod_012)
 - [00C — Historical Registry (Entries #1–#37), 9-Year Cycle Laws  ](#00c__historical_registry_entries_137_9-year_cycle_laws__)
-- [00D — Project CORTEX-BTC Complete 45-Source Master Directory (MOD 01–MOD 41)](#00d__project_cortex-btc_complete_44-source_master_directory_m)
+- [00D — Project CORTEX-BTC Complete 47-Source Master Directory (MOD 01–MOD 42)](#00d__project_cortex-btc_complete_44-source_master_directory_m)
 
-### II. Quantitative Execution & Risk Engine Modules (MOD 01 – MOD 41)
+### II. Quantitative Execution & Risk Engine Modules (MOD 01 – MOD 42)
 - [MOD 01 — Rising OI + Extreme Negative Perp Basis (Pillar 3)](#mod_01__rising_oi__extreme_negative_perp_basis_pillar_3)
 - [MOD 02 — Rising OI + High Positive Basis (Pillar 3)](#mod_02__rising_oi__high_positive_basis_pillar_3)
 - [MOD 03 — Deleveraging Flushes   OI Reset Mechanics (Pillar 3)](#mod_03__deleveraging_flushes___oi_reset_mechanics_pillar_3)
@@ -54,6 +54,7 @@
 - [MOD 39 — Exchange Supply Activation   Aged-UTXO Dormancy Engine](#mod_39__exchange_supply_activation___aged-utxo_dormancy_engine)
 - [MOD 40 — Miner Treasury Stress   Hashprice Economics Engine (Pi](#mod_40__miner_treasury_stress___hashprice_economics_engine_pi)
 - [MOD 41 — Secular Cycle ATH Cluster & Double-Top Exit Engine (Pillar 1 & 4)](./MOD_41_Secular_Cycle_ATH_Cluster_and_Double_Top_Exit_Engine.md)
+- [MOD 42 — Classical Structural Shapes & Liquidity-Pool Authentication Engine (Pillar 2)](./MOD_42_Classical_Structural_Shapes_and_Liquidity_Pool_Authentication.md)
 
 ---
 
@@ -260,18 +261,18 @@ To prevent premature entries and poor reward-to-risk setups during `MOD 11` (Vol
 
 <a id="00d__project_cortex-btc_complete_44-source_master_directory_m"></a>
 
-# [4/44] 00D — Project CORTEX-BTC Complete 45-Source Master Directory (MOD 01–MOD 41)
+# [4/44] 00D — Project CORTEX-BTC Complete 47-Source Master Directory (MOD 01–MOD 42)
 
-*Source File: `00D_—_Project_CORTEX-BTC_Complete_45-Source_Master_Directory_(MOD_01-41)`*
-
----
-
-# PROJECT CORTEX-BTC — 00D: COMPLETE 45-SOURCE MASTER DIRECTORY (MOD 01–MOD 41)
-**Status:** Full-Stack Core Kernel (`MOD 01–18`) + Institutional Expansion Packs (`MOD 19–28`) + Upgraded Master Log Frameworks (`MOD 29–32`) + Supreme 5-Regime Master Radar (`MOD 33`) + Defense/Execution/On-Chain/Cycle Pack (`MOD 34–41`) **100% Built, Indexed & Live** (**45 total sources**: 4 governance docs + 41 quantitative modules `MOD 01–MOD 41`).
+*Source File: `00D_—_Project_CORTEX-BTC_Complete_47-Source_Master_Directory_(MOD_01-42)`*
 
 ---
 
-## Complete Directory Map (45 Total Sources)
+# PROJECT CORTEX-BTC — 00D: COMPLETE 47-SOURCE MASTER DIRECTORY (MOD 01–MOD 42)
+**Status:** Full-Stack Core Kernel (`MOD 01–18`) + Institutional Expansion Packs (`MOD 19–28`) + Upgraded Master Log Frameworks (`MOD 29–32`) + Supreme 5-Regime Master Radar (`MOD 33`) + Defense/Execution/On-Chain/Cycle/Shapes Pack (`MOD 34–42`) **100% Built, Indexed & Live** (**47 total sources** across NotebookLM & GitHub `/rulebook/`, spanning `00–00D` + `MOD 01–MOD 42`).
+
+---
+
+## Complete Directory Map (47 Total Sources)
 
 ### 1. Governance, Indices & Historical Invariants (4 Sources)
 * **`00` — Project CORTEX-BTC Charter, 5-Pillar Waterfall & 18-Module Index**
@@ -324,7 +325,7 @@ To prevent premature entries and poor reward-to-risk setups during `MOD 11` (Vol
 * **`MOD 28` — Live Autopsy & Black Swan Circuit Breaker Engine**
 * **`MOD 31` — Institutional Capital Defense Matrix (ICDM 100-Pt Fragility Scale)**
 
-### 8. Cycle Defense, Execution, Settlement & Supply Pack (8 Sources: MOD 34–MOD 41)
+### 8. Cycle Defense, Execution, Settlement, Supply & Structural Shapes Pack (9 Sources: MOD 34–MOD 42)
 * **`MOD 34` — AEGIS-3: 3-Stage Impulse Defense & Anti-Capitulation Shield**
 * **`MOD 35` — Liquidation Heatmap Distance Rule & Pull Score Engine**
 * **`MOD 36` — Telemetry Trust, Staleness SLA & Determinism Attestation**
@@ -333,6 +334,7 @@ To prevent premature entries and poor reward-to-risk setups during `MOD 11` (Vol
 * **`MOD 39` — Exchange Supply Activation & Aged-UTXO Dormancy Engine**
 * **`MOD 40` — Miner Treasury Stress & Hashprice Economics Engine**
 * **`MOD 41` — [Secular Cycle ATH Cluster & Double-Top Exit Engine](./MOD_41_Secular_Cycle_ATH_Cluster_and_Double_Top_Exit_Engine.md)** *(3,341 daily candles, 107 ATHs, Rule 1 First-Week Flush + Rule 3 Flat/Wide Double-Top Filter)*
+* **`MOD 42` — [Classical Structural Shapes & Liquidity-Pool Authentication Engine](./MOD_42_Classical_Structural_Shapes_and_Liquidity_Pool_Authentication.md)** *(Double Top/H&S, Double Bottom/iH&S/Wyckoff Spring, Rising Wedge, Bull Flag/Falling Wedge authenticated via 15m/1H VAH/VAL, Domestic USD Spot CVD & Rough Path `A_P,V`)*
 
 
 ---
