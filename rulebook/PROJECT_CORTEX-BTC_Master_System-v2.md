@@ -53,7 +53,8 @@
 - [MOD 38 — ETF Primary-Market Settlement   BRRNY Fix-Window Engin](#mod_38__etf_primary-market_settlement___brrny_fix-window_engin)
 - [MOD 39 — Exchange Supply Activation   Aged-UTXO Dormancy Engine](#mod_39__exchange_supply_activation___aged-utxo_dormancy_engine)
 - [MOD 40 — Miner Treasury Stress   Hashprice Economics Engine (Pi](#mod_40__miner_treasury_stress___hashprice_economics_engine_pi)
-- [MOD 41 — Secular Cycle ATH Cluster & Double-Top Exit Engine (Pillar 1 & 4)](./MOD_41_Secular_Cycle_ATH_Cluster_and_Double_Top_Exit_Engine.md)
+- [MOD 41 — Secular Cycle ATH Cluster, First-Week Flush (Rule 1) & Flat Double-Top (+4% Rule 3) Exit Engine (Pillar 1 & 5)](./MOD_41_Secular_Cycle_ATH_Cluster_and_Double_Top_Exit_Engine.md)
+- [MOD 41.1 — Secular ATH Operational Field Runbook & Countdown Checklist (Pillar 1 & 5)](./MOD_41.1_Secular_ATH_Operational_Field_Runbook_and_Countdown_Checklist.md)
 - [MOD 42 — Classical Structural Shapes & Liquidity-Pool Authentication Engine (Pillar 2)](./MOD_42_Classical_Structural_Shapes_and_Liquidity_Pool_Authentication.md)
 
 ---
@@ -325,7 +326,7 @@ To prevent premature entries and poor reward-to-risk setups during `MOD 11` (Vol
 * **`MOD 28` — Live Autopsy & Black Swan Circuit Breaker Engine**
 * **`MOD 31` — Institutional Capital Defense Matrix (ICDM 100-Pt Fragility Scale)**
 
-### 8. Cycle Defense, Execution, Settlement, Supply & Structural Shapes Pack (9 Sources: MOD 34–MOD 42)
+### 8. Cycle Defense, Execution, Settlement, Supply & Structural Shapes Pack (10 Sources: MOD 34–MOD 42 incl. MOD 41.1)
 * **`MOD 34` — AEGIS-3: 3-Stage Impulse Defense & Anti-Capitulation Shield**
 * **`MOD 35` — Liquidation Heatmap Distance Rule & Pull Score Engine**
 * **`MOD 36` — Telemetry Trust, Staleness SLA & Determinism Attestation**
@@ -333,7 +334,8 @@ To prevent premature entries and poor reward-to-risk setups during `MOD 11` (Vol
 * **`MOD 38` — ETF Primary-Market Settlement & BRRNY Fix-Window Engine**
 * **`MOD 39` — Exchange Supply Activation & Aged-UTXO Dormancy Engine**
 * **`MOD 40` — Miner Treasury Stress & Hashprice Economics Engine**
-* **`MOD 41` — [Secular Cycle ATH Cluster & Double-Top Exit Engine](./MOD_41_Secular_Cycle_ATH_Cluster_and_Double_Top_Exit_Engine.md)** *(3,341 daily candles, 107 ATHs, Rule 1 First-Week Flush + Rule 3 Flat/Wide Double-Top Filter)*
+* **`MOD 41` — [Secular Cycle ATH Cluster, First-Week Flush (Rule 1) & Flat Double-Top (+4% Rule 3) Exit Engine](./MOD_41_Secular_Cycle_ATH_Cluster_and_Double_Top_Exit_Engine.md)** *(3,341 daily candles, 107 ATHs, Rule 1 First-Week Flush + Rule 3 Flat/Wide Double-Top Filter + Next-Cycle Harvest Models)*
+* **`MOD 41.1` — [Secular ATH Operational Field Runbook & Countdown Checklist](./MOD_41.1_Secular_ATH_Operational_Field_Runbook_and_Countdown_Checklist.md)** *(Day 0–10 chronological countdown cockpit, laddered `4 x 5%` distribution tranches & M1–M8 mutation overrides)*
 * **`MOD 42` — [Classical Structural Shapes & Liquidity-Pool Authentication Engine](./MOD_42_Classical_Structural_Shapes_and_Liquidity_Pool_Authentication.md)** *(Double Top/H&S, Double Bottom/iH&S/Wyckoff Spring, Rising Wedge, Bull Flag/Falling Wedge authenticated via 15m/1H VAH/VAL, Domestic USD Spot CVD & Rough Path `A_P,V`)*
 
 
