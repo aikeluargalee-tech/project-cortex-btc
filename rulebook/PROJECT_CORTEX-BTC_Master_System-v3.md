@@ -1,6 +1,6 @@
 # PROJECT CORTEX-BTC: FULL QUANTITATIVE RULEBOOK & MASTER ARCHITECTURE (V3.0)
 **System Status:** Operational Control-Plane & 5-Pillar Deterministic Execution Stack
-**Coverage:** Complete 47-Source Core Architecture, Modules MOD 01–42, and Operational Field Runbooks
+**Coverage:** Complete 48-Source Core Architecture, Modules MOD 01–43, and Operational Field Runbooks
 **Compiled Archive:** Release V3.0 (Master Backup)
 
 ---
@@ -13,7 +13,7 @@
 - [00C_—_Historical_Registry_(Entries_#1–#37),_9-Year_Cycle_Laws__](#00c__historical_registry_entries_137_9-year_cycle_laws__)
 - [00D_—_Project_CORTEX-BTC_Complete_44-Source_Master_Directory_(M](#00d__project_cortex-btc_complete_44-source_master_directory_m)
 
-### Quantitative Execution Modules (MOD 01 – MOD 42)
+### Quantitative Execution Modules (MOD 01 – MOD 43)
 - [MOD_01_—_Rising_OI_+_Extreme_Negative_Perp_Basis_(Pillar_3)](#mod_01__rising_oi__extreme_negative_perp_basis_pillar_3)
 - [MOD_02_—_Rising_OI_+_High_Positive_Basis_(Pillar_3)](#mod_02__rising_oi__high_positive_basis_pillar_3)
 - [MOD_03_—_Deleveraging_Flushes___OI_Reset_Mechanics_(Pillar_3)](#mod_03__deleveraging_flushes___oi_reset_mechanics_pillar_3)
@@ -57,13 +57,14 @@
 - [MOD_41_—_Secular_Cycle_ATH_Cluster,_First-Week_Flush_(Rule_1)__](#mod_41__secular_cycle_ath_cluster_first-week_flush_rule_1__)
 - [MOD_41.1_—_Secular_ATH_Operational_Field_Runbook___Countdown_Ch](#mod_411__secular_ath_operational_field_runbook___countdown_ch)
 - [MOD_42_—_Classical_Structural_Shapes___Liquidity-Pool_Authentic](#mod_42__classical_structural_shapes___liquidity-pool_authentic)
+- [MOD_43_—_Algorithmic_Fibonacci_Confluence___Harmonic_Impulse_Me](#mod_43__algorithmic_fibonacci_confluence___harmonic_impulse_me)
 
 ---
 
 
 <a id="00__project_cortex-btc__charter_5-pillar_waterfall___18-modul"></a>
 
-# [01/47] SOURCE: 00_—_Project_CORTEX-BTC__Charter,_5-Pillar_Waterfall___18-Modul
+# [01/48] SOURCE: 00_—_Project_CORTEX-BTC__Charter,_5-Pillar_Waterfall___18-Modul
 
 # PROJECT CORTEX-BTC: THE SOVEREIGN BITCOIN BRAIN MATRIX
 **Architectural Charter, Mission Manifesto & Operational Blueprint (v1.0)**
@@ -149,7 +150,7 @@ Most market participants fail not because they lack charts or news feeds, but be
 
 <a id="00b__project_cortex-btc_v20_full-stack_master_index_mod_012"></a>
 
-# [02/47] SOURCE: 00B_—_Project_CORTEX-BTC_V2.0_Full-Stack_Master_Index_(MOD_01–2
+# [02/48] SOURCE: 00B_—_Project_CORTEX-BTC_V2.0_Full-Stack_Master_Index_(MOD_01–2
 
 # PROJECT CORTEX-BTC — V2.0 FULL-STACK MASTER INDEX (MODULES 01–28+)
 **Status:** Full-Stack Core Kernel (`MOD 01–18`) + Institutional Expansion Packs (`Tier C: MOD 19–21`, `Tier B: MOD 22–24`, `Tier A: MOD 25–27`, `Tier D: MOD 28+`) **100% Built, Indexed & Operational**.
@@ -206,7 +207,7 @@ Most market participants fail not because they lack charts or news feeds, but be
 
 <a id="00c__historical_registry_entries_137_9-year_cycle_laws__"></a>
 
-# [03/47] SOURCE: 00C_—_Historical_Registry_(Entries_#1–#37),_9-Year_Cycle_Laws__
+# [03/48] SOURCE: 00C_—_Historical_Registry_(Entries_#1–#37),_9-Year_Cycle_Laws__
 
 # PROJECT CORTEX-BTC — 00C: HISTORICAL INTELLIGENCE REGISTRY (ENTRIES #1–#37), 9-YEAR CYCLE LAWS & EXECUTION INVARIANTS
 **Provenance:** Consolidated & deduplicated from `Crypto & Macro Master Intelligence Log` (Sources `00` & `04`) to preserve foundational historical lessons without duplicating `MOD 01–28`.
@@ -250,7 +251,7 @@ To prevent premature entries and poor reward-to-risk setups during `MOD 11` (Vol
 
 <a id="00d__project_cortex-btc_complete_44-source_master_directory_m"></a>
 
-# [04/47] SOURCE: 00D_—_Project_CORTEX-BTC_Complete_44-Source_Master_Directory_(M
+# [04/48] SOURCE: 00D_—_Project_CORTEX-BTC_Complete_44-Source_Master_Directory_(M
 
 # PROJECT CORTEX-BTC — 00D: COMPLETE 36-SOURCE MASTER DIRECTORY (MOD 01–33)
 **Status:** Full-Stack Core Kernel (`MOD 01–18`) + Institutional Expansion Packs (`MOD 19–28`) + Upgraded Master Log Frameworks (`MOD 29–32`) + Supreme 5-Regime Master Radar (`MOD 33`) **100% Built, Indexed & Live** (36 unique sources total).
@@ -316,7 +317,7 @@ To prevent premature entries and poor reward-to-risk setups during `MOD 11` (Vol
 
 <a id="mod_01__rising_oi__extreme_negative_perp_basis_pillar_3"></a>
 
-# [05/47] SOURCE: MOD_01_—_Rising_OI_+_Extreme_Negative_Perp_Basis_(Pillar_3)
+# [05/48] SOURCE: MOD_01_—_Rising_OI_+_Extreme_Negative_Perp_Basis_(Pillar_3)
 
 # PROJECT CORTEX-BTC — MODULE 01: RISING OPEN INTEREST + EXTREME NEGATIVE PERPETUAL BASIS
 **Waterfall Tier:** Pillar 3 (Derivatives & Market Fragility) cross-verified with Pillar 2 (Microstructure & Order Flow) and Pillar 4 (Portfolio Engineering).
@@ -440,7 +441,7 @@ Before any Scenario in Module 01 can authorize a spot entry, all four circuit br
 
 <a id="mod_02__rising_oi__high_positive_basis_pillar_3"></a>
 
-# [06/47] SOURCE: MOD_02_—_Rising_OI_+_High_Positive_Basis_(Pillar_3)
+# [06/48] SOURCE: MOD_02_—_Rising_OI_+_High_Positive_Basis_(Pillar_3)
 
 # PROJECT CORTEX-BTC — MODULE 02: RISING OPEN INTEREST + HIGH POSITIVE PERPETUAL BASIS
 **Waterfall Tier:** Pillar 3 (Derivatives & Market Fragility) cross-verified with Pillar 2 (Microstructure & Order Flow) and Pillar 4 (Portfolio Engineering).
@@ -565,7 +566,7 @@ Before any Scenario in Module 02 can authorize a spot action, all four circuit b
 
 <a id="mod_03__deleveraging_flushes___oi_reset_mechanics_pillar_3"></a>
 
-# [07/47] SOURCE: MOD_03_—_Deleveraging_Flushes___OI_Reset_Mechanics_(Pillar_3)
+# [07/48] SOURCE: MOD_03_—_Deleveraging_Flushes___OI_Reset_Mechanics_(Pillar_3)
 
 # PROJECT CORTEX-BTC — MODULE 03: DELEVERAGING FLUSHES & OPEN INTEREST RESET MECHANICS
 **Waterfall Tier:** Pillar 3 (Derivatives & Market Fragility) cross-verified with Pillar 2 (Microstructure & Order Flow) and Pillar 4 (Portfolio Engineering).
@@ -688,7 +689,7 @@ Before any Scenario in Module 03 can authorize a spot entry after a flush, all f
 
 <a id="mod_04__funding_rate_velocity___price_divergence_matrix_pilla"></a>
 
-# [08/47] SOURCE: MOD_04_—_Funding_Rate_Velocity___Price_Divergence_Matrix_(Pilla
+# [08/48] SOURCE: MOD_04_—_Funding_Rate_Velocity___Price_Divergence_Matrix_(Pilla
 
 # PROJECT CORTEX-BTC — MODULE 04: FUNDING RATE VELOCITY & PRICE DIVERGENCE MATRIX
 **Waterfall Tier:** Pillar 3 (Derivatives & Market Fragility) cross-verified with Pillar 2 (Microstructure & Order Flow) and Pillar 4 (Portfolio Engineering).
@@ -811,7 +812,7 @@ Before any Scenario in Module 04 can authorize a spot decision, all four circuit
 
 <a id="mod_05__the_4-quadrant_spot_cvd_vs_perp_cvd_matrix_pillar_2"></a>
 
-# [09/47] SOURCE: MOD_05_—_The_4-Quadrant_Spot_CVD_vs._Perp_CVD_Matrix_(Pillar_2)
+# [09/48] SOURCE: MOD_05_—_The_4-Quadrant_Spot_CVD_vs._Perp_CVD_Matrix_(Pillar_2)
 
 # PROJECT CORTEX-BTC — MODULE 05: THE 4-QUADRANT SPOT CVD VS. PERPETUAL CVD MATRIX
 **Waterfall Tier:** Pillar 2 (Microstructure, Order Flow & Path Geometry) cross-verified with Pillar 3 (Derivatives) and Pillar 4 (Portfolio Engineering).
@@ -929,7 +930,7 @@ risk_parameters:
 
 <a id="mod_06__passive_limit_absorption_vs_market_taker_exhaustion_"></a>
 
-# [10/47] SOURCE: MOD_06_—_Passive_Limit_Absorption_vs._Market_Taker_Exhaustion_(
+# [10/48] SOURCE: MOD_06_—_Passive_Limit_Absorption_vs._Market_Taker_Exhaustion_(
 
 # PROJECT CORTEX-BTC — MODULE 06: PASSIVE LIMIT ABSORPTION VS. MARKET TAKER EXHAUSTION
 **Waterfall Tier:** Pillar 2 (Microstructure, Order Flow & Path Geometry) cross-verified with Pillar 4 (Portfolio Engineering).
@@ -1048,7 +1049,7 @@ risk_parameters:
 
 <a id="mod_07__domestic_fiat_gateways___spot_etfs_vs_offshore_flows_"></a>
 
-# [11/47] SOURCE: MOD_07_—_Domestic_Fiat_Gateways___Spot_ETFs_vs._Offshore_Flows_
+# [11/48] SOURCE: MOD_07_—_Domestic_Fiat_Gateways___Spot_ETFs_vs._Offshore_Flows_
 
 # PROJECT CORTEX-BTC — MODULE 07: DOMESTIC FIAT GATEWAYS (USD) & SPOT ETFS VS. OFFSHORE PERP/USDT FLOWS
 **Waterfall Tier:** Pillar 2 (Microstructure & Order Flow) integrated with Pillar 5 (Institutional & On-Chain Flows).
@@ -1163,7 +1164,7 @@ risk_parameters:
 
 <a id="mod_08__rough_path_signatures_i__price-volume_levy_signed_area"></a>
 
-# [12/47] SOURCE: MOD_08_—_Rough_Path_Signatures_I__Price-Volume_Levy_Signed_Area
+# [12/48] SOURCE: MOD_08_—_Rough_Path_Signatures_I__Price-Volume_Levy_Signed_Area
 
 # PROJECT CORTEX-BTC — MODULE 08: ROUGH PATH SIGNATURES I — PRICE-VOLUME LÉVY SIGNED AREA (A_P,V)
 **Waterfall Tier:** Pillar 2 (Microstructure, Order Flow & Path Geometry) cross-verified with Pillar 1 (Macro Permissions) and Pillar 4 (Portfolio Engineering).
@@ -1287,7 +1288,7 @@ Before any Scenario in Module 08 can authorize a spot order, all four circuit br
 
 <a id="mod_09__rough_path_signatures_ii__spot_cvd-oi_levy_signed_area"></a>
 
-# [13/47] SOURCE: MOD_09_—_Rough_Path_Signatures_II__Spot_CVD-OI_Levy_Signed_Area
+# [13/48] SOURCE: MOD_09_—_Rough_Path_Signatures_II__Spot_CVD-OI_Levy_Signed_Area
 
 # PROJECT CORTEX-BTC — MODULE 09: ROUGH PATH SIGNATURES II — SPOT CVD–OPEN INTEREST LÉVY SIGNED AREA (A_CVD,OI)
 **Waterfall Tier:** Pillar 2 & Pillar 3 Bridge (Joint Path Geometry of Unleveraged Spot Flow vs. Leveraged Derivatives Creation) cross-verified with Pillar 4 (Portfolio Engineering).
@@ -1408,7 +1409,7 @@ Before any Scenario in Module 09 can authorize a spot order, all four circuit br
 
 <a id="mod_10__rough_path_signatures_iii__multi-horizon_alignment_pi"></a>
 
-# [14/47] SOURCE: MOD_10_—_Rough_Path_Signatures_III__Multi-Horizon_Alignment_(Pi
+# [14/48] SOURCE: MOD_10_—_Rough_Path_Signatures_III__Multi-Horizon_Alignment_(Pi
 
 # PROJECT CORTEX-BTC — MODULE 10: ROUGH PATH SIGNATURES III — MULTI-HORIZON ALIGNMENT (1H TACTICAL VS. 4H/1D STRUCTURAL)
 **Waterfall Tier:** Pillar 2 (Microstructure, Order Flow & Path Geometry) cross-verified with Pillar 1 (Macro Permissions) and Pillar 4 (Portfolio Engineering).
@@ -1542,7 +1543,7 @@ Before any Scenario in Module 10 can authorize capital deployment, all four circ
 
 <a id="mod_11__volume_profile_structural_topology_pillar_2"></a>
 
-# [15/47] SOURCE: MOD_11_—_Volume_Profile_Structural_Topology_(Pillar_2)
+# [15/48] SOURCE: MOD_11_—_Volume_Profile_Structural_Topology_(Pillar_2)
 
 # PROJECT CORTEX-BTC — MODULE 11: VOLUME PROFILE STRUCTURAL TOPOLOGY (VAH, VAL, POC & LVN)
 **Waterfall Tier:** Pillar 2 (Microstructure, Order Flow & Auction Market Theory) cross-verified with Pillar 1 (Macro Permissions) and Pillar 4 (Portfolio Engineering).
@@ -1667,7 +1668,7 @@ Before any Scenario in Module 11 can authorize a spot order, all four circuit br
 
 <a id="mod_12__garman-klass_volatility_squeeze___fan_expansion_pilla"></a>
 
-# [16/47] SOURCE: MOD_12_—_Garman-Klass_Volatility_Squeeze___Fan_Expansion_(Pilla
+# [16/48] SOURCE: MOD_12_—_Garman-Klass_Volatility_Squeeze___Fan_Expansion_(Pilla
 
 # PROJECT CORTEX-BTC — MODULE 12: GARMAN-KLASS (OHLC) VOLATILITY SQUEEZE & FAN EXPANSION
 **Waterfall Tier:** Pillar 2 & Pillar 4 Bridge (Range-Based Volatility Estimator, Regime Birth & Stop-Distance Calibration) cross-verified with Pillar 1 (Macro Permissions).
@@ -1790,7 +1791,7 @@ Why **Garman-Klass (GK)** beats standard close-to-close volatility or Bollinger 
 
 <a id="mod_13__short-term_holder_sth_realized_price___mvrv_bands_p"></a>
 
-# [17/47] SOURCE: MOD_13_—_Short-Term_Holder_(STH)_Realized_Price___MVRV_Bands_(P
+# [17/48] SOURCE: MOD_13_—_Short-Term_Holder_(STH)_Realized_Price___MVRV_Bands_(P
 
 # PROJECT CORTEX-BTC — MODULE 13: SHORT-TERM HOLDER (STH) REALIZED PRICE & MVRV BANDS
 **Waterfall Tier:** Pillar 5 (On-Chain Cohorts & Sovereign Defense) cross-verified with Pillar 1 (Macro Permissions) and Pillar 4 (Portfolio Engineering).
@@ -1915,7 +1916,7 @@ Before any Scenario in Module 13 can authorize a spot decision, all four circuit
 
 <a id="mod_14__sopr_profit_loss_reset_cycles_pillar_5"></a>
 
-# [18/47] SOURCE: MOD_14_—_SOPR_Profit_Loss_Reset_Cycles_(Pillar_5)
+# [18/48] SOURCE: MOD_14_—_SOPR_Profit_Loss_Reset_Cycles_(Pillar_5)
 
 # PROJECT CORTEX-BTC — MODULE 14: SOPR (SPENT OUTPUT PROFIT RATIO) PROFIT/LOSS RESET CYCLES
 **Waterfall Tier:** Pillar 5 (On-Chain Cohorts & Realized Spending Behavior) cross-verified with Pillar 1 (Macro Permissions) and Pillar 4 (Portfolio Engineering).
@@ -2041,7 +2042,7 @@ While `MVRV` (`MOD 13`) measures *unrealized* profit/loss sitting in wallets, **
 
 <a id="mod_15__realized_cap_impulse___lth-to-sth_wealth_transfer_pil"></a>
 
-# [19/47] SOURCE: MOD_15_—_Realized_Cap_Impulse___LTH-to-STH_Wealth_Transfer_(Pil
+# [19/48] SOURCE: MOD_15_—_Realized_Cap_Impulse___LTH-to-STH_Wealth_Transfer_(Pil
 
 # PROJECT CORTEX-BTC — MODULE 15: REALIZED CAP IMPULSE & LTH-TO-STH WEALTH TRANSFER
 **Waterfall Tier:** Pillar 5 (On-Chain Cohorts, Capital Flows & Sovereign Defense) cross-verified with Pillar 1 (Macro Permissions) and Pillar 4 (Portfolio Engineering).
@@ -2164,7 +2165,7 @@ Realized Capitalization values every Bitcoin UTXO at the price it last moved on-
 
 <a id="mod_16__macro_liquidity_yields_dxy___stablecoin_dry_powder_"></a>
 
-# [20/47] SOURCE: MOD_16_—_Macro_Liquidity,_Yields,_DXY___Stablecoin_Dry_Powder_(
+# [20/48] SOURCE: MOD_16_—_Macro_Liquidity,_Yields,_DXY___Stablecoin_Dry_Powder_(
 
 # PROJECT CORTEX-BTC — MODULE 16: MACRO LIQUIDITY, SOVEREIGN YIELDS, DXY & STABLECOIN DRY POWDER
 **Waterfall Tier:** Pillar 1 (Master Macro Permissions & Regimes — Top Gate of the 5-Pillar Decision Waterfall).
@@ -2289,7 +2290,7 @@ risk_parameters:
 
 <a id="mod_17__200d_ma_secular_gates_index_rebalancings___session_ha"></a>
 
-# [21/47] SOURCE: MOD_17_—_200D_MA_Secular_Gates,_Index_Rebalancings___Session_Ha
+# [21/48] SOURCE: MOD_17_—_200D_MA_Secular_Gates,_Index_Rebalancings___Session_Ha
 
 # PROJECT CORTEX-BTC — MODULE 17: 200D MA SECULAR GATES, INDEX REBALANCINGS & SESSION HANDOFFS
 **Waterfall Tier:** Pillar 1 & Pillar 2 Bridge (Secular Trend Regime, Forced Institutional Calendar Flows & Intraday Session Microstructure) cross-verified with Pillar 4.
@@ -2410,7 +2411,7 @@ Before any Scenario in Module 17 can authorize capital deployment, all four circ
 
 <a id="mod_18__master_5-pillar_confluence_075__risk_sizing___exit_e"></a>
 
-# [22/47] SOURCE: MOD_18_—_Master_5-Pillar_Confluence,_0.75__Risk_Sizing___Exit_E
+# [22/48] SOURCE: MOD_18_—_Master_5-Pillar_Confluence,_0.75__Risk_Sizing___Exit_E
 
 # PROJECT CORTEX-BTC — MODULE 18: MASTER 5-PILLAR CONFLUENCE, 0.75% RISK SIZING ENGINE & TWO-STAGE EXIT PROTOCOL
 **Waterfall Tier:** Pillar 4 (Master Portfolio Engineering, Execution Synthesis & Sovereign Capital Defense — The Final Decision Compiler of Project CORTEX-BTC).
@@ -2557,7 +2558,7 @@ Whenever you feed live market telemetry into **Project CORTEX-BTC**, Gemini, Her
 
 <a id="mod_19__coinbase_premium_index_z-scores___venue_spreads_pilla"></a>
 
-# [23/47] SOURCE: MOD_19_—_Coinbase_Premium_Index_Z-Scores___Venue_Spreads_(Pilla
+# [23/48] SOURCE: MOD_19_—_Coinbase_Premium_Index_Z-Scores___Venue_Spreads_(Pilla
 
 # PROJECT CORTEX-BTC — MODULE 19: COINBASE PREMIUM INDEX Z-SCORES & DOMESTIC-OFFSHORE SPREADS
 **Waterfall Tier:** Pillar 2 & Pillar 5 Bridge (US Institutional Spot Demand vs. Offshore Retail/Perp Pricing) cross-verified with Pillar 1 (Macro Permissions) and Pillar 4 (Portfolio Engineering).
@@ -2675,7 +2676,7 @@ risk_parameters:
 
 <a id="mod_20__cme_futures_basis___weekend_gap_fill_topology_pillar_"></a>
 
-# [24/47] SOURCE: MOD_20_—_CME_Futures_Basis___Weekend_Gap_Fill_Topology_(Pillar_
+# [24/48] SOURCE: MOD_20_—_CME_Futures_Basis___Weekend_Gap_Fill_Topology_(Pillar_
 
 # PROJECT CORTEX-BTC — MODULE 20: CME FUTURES BASIS & WEEKEND GAP FILL TOPOLOGY
 **Waterfall Tier:** Pillar 2 & Pillar 3 Bridge (Regulated Institutional Term Structure & Friday-to-Sunday Settlement Gaps) cross-verified with Pillar 4 (Portfolio Engineering).
@@ -2796,7 +2797,7 @@ risk_parameters:
 
 <a id="mod_21__algorithmic_twap_vwap_accumulation_footprints_vs_spoo"></a>
 
-# [25/47] SOURCE: MOD_21_—_Algorithmic_TWAP_VWAP_Accumulation_Footprints_vs._Spoo
+# [25/48] SOURCE: MOD_21_—_Algorithmic_TWAP_VWAP_Accumulation_Footprints_vs._Spoo
 
 # PROJECT CORTEX-BTC — MODULE 21: ALGORITHMIC TWAP/VWAP ACCUMULATION FOOTPRINTS VS. SPOOFED LIQUIDITY
 **Waterfall Tier:** Pillar 2 (Microstructure, Order-Book Forensics & Institutional Execution Algorithms) cross-verified with Pillar 1 (Macro Permissions) and Pillar 4 (Portfolio Engineering).
@@ -2918,7 +2919,7 @@ risk_parameters:
 
 <a id="mod_22__net_fed_liquidity_impulse_fed_balance_sheet_-_tga_-_r"></a>
 
-# [26/47] SOURCE: MOD_22_—_Net_Fed_Liquidity_Impulse_(Fed_Balance_Sheet_-_TGA_-_R
+# [26/48] SOURCE: MOD_22_—_Net_Fed_Liquidity_Impulse_(Fed_Balance_Sheet_-_TGA_-_R
 
 # PROJECT CORTEX-BTC — MODULE 22: NET FED LIQUIDITY IMPULSE (FED BALANCE SHEET − TGA − RRP)
 **Waterfall Tier:** Pillar 1 (Master Macro Liquidity Plumbing — Leading Dollar Reserve Impulse) cross-verified with Pillar 4 (Portfolio Engineering) and Pillar 5 (Sovereign Defense).
@@ -3035,7 +3036,7 @@ Why **Net Fed Liquidity (`WALCL − TGA − RRP`)** is the master plumbing gauge
 
 <a id="mod_23__move_index_bond_volatility___high-yield_credit_sprea"></a>
 
-# [27/47] SOURCE: MOD_23_—_MOVE_Index_(Bond_Volatility)___High-Yield_Credit_Sprea
+# [27/48] SOURCE: MOD_23_—_MOVE_Index_(Bond_Volatility)___High-Yield_Credit_Sprea
 
 # PROJECT CORTEX-BTC — MODULE 23: MOVE INDEX (BOND VOLATILITY) & HIGH-YIELD CREDIT SPREAD BREAKERS
 **Waterfall Tier:** Pillar 1 (Fixed-Income Systemic Stress & Cross-Asset Margin Risk Early-Warning Radar) cross-verified with Pillar 4 (Portfolio Engineering).
@@ -3152,7 +3153,7 @@ Why **MOVE Index** and **High-Yield (Junk) Credit Spreads** act as Bitcoin's sys
 
 <a id="mod_24__usd-jpy_sovereign_carry-trade_unwind___boj_alerts_pil"></a>
 
-# [28/47] SOURCE: MOD_24_—_USD-JPY_Sovereign_Carry-Trade_Unwind___BOJ_Alerts_(Pil
+# [28/48] SOURCE: MOD_24_—_USD-JPY_Sovereign_Carry-Trade_Unwind___BOJ_Alerts_(Pil
 
 # PROJECT CORTEX-BTC — MODULE 24: USD/JPY SOVEREIGN CARRY-TRADE UNWIND & BOJ INTERVENTION ALERTS
 **Waterfall Tier:** Pillar 1 (Global FX Liquidity & Cross-Asset Leverage Carry-Trade Breaker) cross-verified with Pillar 4 (Portfolio Engineering).
@@ -3267,7 +3268,7 @@ Why **USD/JPY** is one of the most dangerous hidden liquidation triggers for Bit
 
 <a id="mod_25__dealer_gamma_exposure_gex___zero-gamma_flip_mechanic"></a>
 
-# [29/47] SOURCE: MOD_25_—_Dealer_Gamma_Exposure_(GEX)___Zero-Gamma_Flip_Mechanic
+# [29/48] SOURCE: MOD_25_—_Dealer_Gamma_Exposure_(GEX)___Zero-Gamma_Flip_Mechanic
 
 # PROJECT CORTEX-BTC — MODULE 25: DEALER GAMMA EXPOSURE (GEX) & ZERO-GAMMA FLIP MECHANICS
 **Waterfall Tier:** Pillar 2 & Pillar 3 Bridge (Options Market-Maker Delta-Hedging Flows & Volatility Amplification) cross-verified with Pillar 4 (Portfolio Engineering).
@@ -3390,7 +3391,7 @@ Why **Dealer Gamma Exposure (GEX)** governs whether breakouts stick or mean-reve
 
 <a id="mod_26__deribit___cme_monthly-quarterly_opex_max_pain_gravity_"></a>
 
-# [30/47] SOURCE: MOD_26_—_Deribit___CME_Monthly-Quarterly_OpEx_Max_Pain_Gravity_
+# [30/48] SOURCE: MOD_26_—_Deribit___CME_Monthly-Quarterly_OpEx_Max_Pain_Gravity_
 
 # PROJECT CORTEX-BTC — MODULE 26: DERIBIT & CME MONTHLY/QUARTERLY OPEX MAX PAIN GRAVITY
 **Waterfall Tier:** Pillar 3 (Derivatives Expiration Calendar, Strike Pinning & Post-Expiry Volatility Release) cross-verified with Pillar 1 (Macro) and Pillar 4 (Portfolio Engineering).
@@ -3506,7 +3507,7 @@ risk_parameters:
 
 <a id="mod_27__25-delta_implied_volatility_skew___dvol_term_structure"></a>
 
-# [31/47] SOURCE: MOD_27_—_25-Delta_Implied_Volatility_Skew___DVOL_Term_Structure
+# [31/48] SOURCE: MOD_27_—_25-Delta_Implied_Volatility_Skew___DVOL_Term_Structure
 
 # PROJECT CORTEX-BTC — MODULE 27: 25-DELTA IMPLIED VOLATILITY SKEW & DVOL TERM STRUCTURE EXTREMES
 **Waterfall Tier:** Pillar 3 (Options Fear/Greed Pricing, Tail-Risk Hedging Extremes & Volatility Term Structure) cross-verified with Pillar 1 (Macro) and Pillar 4 (Portfolio Engineering).
@@ -3625,7 +3626,7 @@ risk_parameters:
 
 <a id="mod_28__live_autopsy___black_swan_circuit_breaker_engine_tier"></a>
 
-# [32/47] SOURCE: MOD_28_—_Live_Autopsy___Black_Swan_Circuit_Breaker_Engine_(Tier
+# [32/48] SOURCE: MOD_28_—_Live_Autopsy___Black_Swan_Circuit_Breaker_Engine_(Tier
 
 # PROJECT CORTEX-BTC — MODULE 28: LIVE AUTOPSY & BLACK SWAN CIRCUIT BREAKER ENGINE (TIER D)
 **Waterfall Tier:** Tier D Continuous Epistemic Memory & Post-Trade/Black-Swan Codification Protocol (Governs All Future Modules `MOD 29+` and Entries `#108+`).
@@ -3726,7 +3727,7 @@ proposed_new_rule: "IF [Exact Telemetry Condition A] -> THEN [Mechanical Outcome
 
 <a id="mod_29__equity_multiple_compression_energy_shocks___high-beta"></a>
 
-# [33/47] SOURCE: MOD_29_—_Equity_Multiple_Compression,_Energy_Shocks___High-Beta
+# [33/48] SOURCE: MOD_29_—_Equity_Multiple_Compression,_Energy_Shocks___High-Beta
 
 # PROJECT CORTEX-BTC — MODULE 29: EQUITY MULTIPLE COMPRESSION, ENERGY SHOCKS & HIGH-BETA CONTAGION
 **Waterfall Tier:** Pillar 1 (Cross-Asset Valuation Denominator, Energy Cost-Push Inflation & Tech/AI Credit Contagion) cross-verified with Pillar 4 (Portfolio Engineering).
@@ -3836,7 +3837,7 @@ risk_parameters:
 
 <a id="mod_30__pcf3_order_flow_engine___10_deterministic_configuratio"></a>
 
-# [34/47] SOURCE: MOD_30_—_PCF3_Order_Flow_Engine___10_Deterministic_Configuratio
+# [34/48] SOURCE: MOD_30_—_PCF3_Order_Flow_Engine___10_Deterministic_Configuratio
 
 # PROJECT CORTEX-BTC — MODULE 30: PCF3 ORDER FLOW ENGINE & 10 DETERMINISTIC CONFIGURATIONS (A–J)
 **Waterfall Tier:** Pillar 2 & Pillar 3 Rapid Synthesis Matrix (12-Variable Telemetry Classifier & Configurations `A` through `J`) cross-verified with Pillar 1 (Macro) and Pillar 4 (Portfolio Engineering).
@@ -3921,7 +3922,7 @@ risk_parameters:
 
 <a id="mod_31__institutional_capital_defense_matrix_icdm_100-pt_frag"></a>
 
-# [35/47] SOURCE: MOD_31_—_Institutional_Capital_Defense_Matrix_(ICDM_100-Pt_Frag
+# [35/48] SOURCE: MOD_31_—_Institutional_Capital_Defense_Matrix_(ICDM_100-Pt_Frag
 
 # PROJECT CORTEX-BTC — MODULE 31: INSTITUTIONAL CAPITAL DEFENSE MATRIX (ICDM 100-POINT FRAGILITY SCALE)
 **Waterfall Tier:** Cross-Pillar Quantitative Crash-Risk Scoring Rubric (0–100 Point Deterministic Fragility Gauge) governing Pillar 4 Capital Allocation.
@@ -4033,7 +4034,7 @@ Applying the **ICDM 100-Point Fragility Scale** to today's live market demonstra
 
 <a id="mod_32__exchange_solvency_multiplier_m_solv___sovereign_mult"></a>
 
-# [36/47] SOURCE: MOD_32_—_Exchange_Solvency_Multiplier_(M_solv)___Sovereign_Mult
+# [36/48] SOURCE: MOD_32_—_Exchange_Solvency_Multiplier_(M_solv)___Sovereign_Mult
 
 # PROJECT CORTEX-BTC — MODULE 32: EXCHANGE SOLVENCY MULTIPLIER (M_SOLV) & SOVEREIGN MULTI-SIG CUSTODY ARCHITECTURE
 **Waterfall Tier:** Pillar 5 & Tier D (Quantitative Exchange Exploit Containment Routing & Generational Multi-Signature Cold Storage Protocol).
@@ -4144,7 +4145,7 @@ risk_parameters:
 
 <a id="mod_33__unified_5-regime_master_radar_and_state-transition_eng"></a>
 
-# [37/47] SOURCE: MOD_33_—_Unified_5-Regime_Master_Radar_and_State-Transition_Eng
+# [37/48] SOURCE: MOD_33_—_Unified_5-Regime_Master_Radar_and_State-Transition_Eng
 
 # PROJECT CORTEX-BTC — MODULE 33: UNIFIED 5-REGIME MASTER RADAR & STATE-TRANSITION ENGINE
 **Waterfall Tier:** Supreme Macro-Structural Regime Classifier (Sitting above Pillars 1–5 to govern active execution protocols and route tactical Configs A–J).
@@ -4222,7 +4223,7 @@ risk_parameters:
 
 <a id="mod_34__aegis-3__3-stage_impulse_defense___anti-capitulation_s"></a>
 
-# [38/47] SOURCE: MOD_34_—_AEGIS-3__3-Stage_Impulse_Defense___Anti-Capitulation_S
+# [38/48] SOURCE: MOD_34_—_AEGIS-3__3-Stage_Impulse_Defense___Anti-Capitulation_S
 
 # PROJECT CORTEX-BTC — MODULE 34: AEGIS-3 (ASYMMETRIC EXPOSURE & GEOPOLITICAL/IMPULSE SHIELD)
 **Waterfall Tier:** Pillar 2 & Pillar 4 Real-Time Impulse Defense & Anti-Capitulation Execution Engine (Upstream 1m–5m/1H–4H Shield).
@@ -4342,7 +4343,7 @@ risk_parameters:
 
 <a id="mod_35__liquidation_heatmap_distance_rule___pull_score_engine_"></a>
 
-# [39/47] SOURCE: MOD_35_—_Liquidation_Heatmap_Distance_Rule___Pull_Score_Engine_
+# [39/48] SOURCE: MOD_35_—_Liquidation_Heatmap_Distance_Rule___Pull_Score_Engine_
 
 # PROJECT CORTEX-BTC — MODULE 35: LIQUIDATION HEATMAP DISTANCE RULE & PULL SCORE ENGINE
 **Waterfall Tier:** Pillar 2 & Pillar 3 Quantitative Liquidity-Target & Permission Engine (Ranking Competing Upper vs. Lower Liquidation Magnets).
@@ -4451,7 +4452,7 @@ risk_parameters:
 
 <a id="mod_36__telemetry_trust_staleness_sla___determinism_attestati"></a>
 
-# [40/47] SOURCE: MOD_36_—_Telemetry_Trust,_Staleness_SLA___Determinism_Attestati
+# [40/48] SOURCE: MOD_36_—_Telemetry_Trust,_Staleness_SLA___Determinism_Attestati
 
 # PROJECT CORTEX-BTC — MODULE 36: TELEMETRY TRUST, STALENESS SLA & DETERMINISM ATTESTATION
 **Waterfall Tier:** Tier D Supreme Control-Plane Gate (Sits *above* `MOD 33` Master Regime Radar and `MOD 18` Sizing Engine to enforce fail-closed data integrity, cross-venue price quorum, cron heartbeat verification, and bit-for-bit replay determinism).
@@ -4560,7 +4561,7 @@ risk_parameters:
 
 <a id="mod_37__executable_liquidity_net-30r_slippage___equity-curve"></a>
 
-# [41/47] SOURCE: MOD_37_—_Executable_Liquidity,_Net-3.0R_Slippage___Equity-Curve
+# [41/48] SOURCE: MOD_37_—_Executable_Liquidity,_Net-3.0R_Slippage___Equity-Curve
 
 # PROJECT CORTEX-BTC — MODULE 37: EXECUTABLE LIQUIDITY, NET-3.0R SLIPPAGE & EQUITY-CURVE GOVERNOR
 **Waterfall Tier:** Pillar 4 & Tier D Control-Plane Execution & Portfolio-Heat Governor (Verifies L2 executable depth, post-cost `Net R >= 3.0`, stressed stop slippage, and temporal drawdown caps).
@@ -4677,7 +4678,7 @@ risk_parameters:
 
 <a id="mod_38__etf_primary-market_settlement___brrny_fix-window_engin"></a>
 
-# [42/47] SOURCE: MOD_38_—_ETF_Primary-Market_Settlement___BRRNY_Fix-Window_Engin
+# [42/48] SOURCE: MOD_38_—_ETF_Primary-Market_Settlement___BRRNY_Fix-Window_Engin
 
 # PROJECT CORTEX-BTC — MODULE 38: ETF PRIMARY-MARKET SETTLEMENT & BRRNY FIX-WINDOW ENGINE
 **Waterfall Tier:** Pillar 2 & Pillar 5 Institutional Settlement Mechanics Engine (Extends `MOD 07` by separating intraday creation/redemption arbitrage during the `15:00–16:00 NY` BRRNY fix window from `T+1` lagged flow tables and in-kind vs. cash AP delivery).
@@ -4786,7 +4787,7 @@ risk_parameters:
 
 <a id="mod_39__exchange_supply_activation___aged-utxo_dormancy_engine"></a>
 
-# [43/47] SOURCE: MOD_39_—_Exchange_Supply_Activation___Aged-UTXO_Dormancy_Engine
+# [43/48] SOURCE: MOD_39_—_Exchange_Supply_Activation___Aged-UTXO_Dormancy_Engine
 
 # PROJECT CORTEX-BTC — MODULE 39: EXCHANGE SUPPLY ACTIVATION & AGED-UTXO DORMANCY ENGINE
 **Waterfall Tier:** Pillar 5 On-Chain Supply-Activation Engine (Tracks dormant/aged UTXO spending and entity-adjusted BTC migration onto exchange-controlled infrastructure *before* realized spot selling prints).
@@ -4897,7 +4898,7 @@ risk_parameters:
 
 <a id="mod_40__miner_treasury_stress___hashprice_economics_engine_pi"></a>
 
-# [44/47] SOURCE: MOD_40_—_Miner_Treasury_Stress___Hashprice_Economics_Engine_(Pi
+# [44/48] SOURCE: MOD_40_—_Miner_Treasury_Stress___Hashprice_Economics_Engine_(Pi
 
 # PROJECT CORTEX-BTC — MODULE 40: MINER TREASURY STRESS & HASHPRICE ECONOMICS ENGINE
 **Waterfall Tier:** Pillar 5 Structural Supply-Side Economics Engine (Detects deteriorating miner unit revenue via `Hashprice`, network difficulty retarget pressure, fee-share compression, and corroborated miner-to-exchange transfers).
@@ -5010,7 +5011,7 @@ risk_parameters:
 
 <a id="mod_41__secular_cycle_ath_cluster_first-week_flush_rule_1__"></a>
 
-# [45/47] SOURCE: MOD_41_—_Secular_Cycle_ATH_Cluster,_First-Week_Flush_(Rule_1)__
+# [45/48] SOURCE: MOD_41_—_Secular_Cycle_ATH_Cluster,_First-Week_Flush_(Rule_1)__
 
 # PROJECT CORTEX-BTC — MODULE 41: SECULAR CYCLE ATH CLUSTER, FIRST-WEEK FLUSH (RULE 1) & FLAT DOUBLE-TOP (+4% RULE 3) EXIT ENGINE
 **Waterfall Tier:** Pillar 1 & Pillar 5 Secular Cycle Top & Sovereign Distribution Architecture (Governs multi-year bull-cycle harvest, post-ATH leverage flush survival, and bear-market drawdown defense).
@@ -5146,7 +5147,7 @@ risk_parameters:
 
 <a id="mod_411__secular_ath_operational_field_runbook___countdown_ch"></a>
 
-# [46/47] SOURCE: MOD_41.1_—_Secular_ATH_Operational_Field_Runbook___Countdown_Ch
+# [46/48] SOURCE: MOD_41.1_—_Secular_ATH_Operational_Field_Runbook___Countdown_Ch
 
 # PROJECT CORTEX-BTC — MODULE 41.1: SECULAR ATH OPERATIONAL FIELD RUNBOOK & COUNTDOWN CHECKLIST
 **Waterfall Tier:** Pillar 1 and Pillar 5 Operational Execution Protocol (Sitting directly below Module 41 as the active, single-page field-ready cockpit for live cycle distribution, post-ATH leverage flushes, and bear drawdown defense).
@@ -5247,7 +5248,7 @@ Based on empirical diminishing returns across cycles (compressing from `3.49x` i
 
 <a id="mod_42__classical_structural_shapes___liquidity-pool_authentic"></a>
 
-# [47/47] SOURCE: MOD_42_—_Classical_Structural_Shapes___Liquidity-Pool_Authentic
+# [47/48] SOURCE: MOD_42_—_Classical_Structural_Shapes___Liquidity-Pool_Authentic
 
 # PROJECT CORTEX-BTC — MODULE 42: CLASSICAL STRUCTURAL SHAPES & LIQUIDITY-POOL AUTHENTICATION ENGINE
 **Waterfall Tier:** Pillar 2 (Microstructure, Order Flow & Path Geometry) integrated with Pillar 1 (Macro) and Pillar 4 (Portfolio Engineering).
@@ -5366,3 +5367,109 @@ Before any Scenario in Module 42 can authorize a spot decision, all four circuit
 
 
 ---
+
+<a id="mod_43__algorithmic_fibonacci_confluence___harmonic_impulse_me"></a>
+
+# [48/48] SOURCE: MOD_43_Algorithmic_Fibonacci_Confluence_and_Harmonic_Impulse_Measurement
+
+# PROJECT CORTEX-BTC — MODULE 43: ALGORITHMIC FIBONACCI CONFLUENCE & HARMONIC IMPULSE MEASUREMENT
+
+**Waterfall Tier:** Pillar 2 (Microstructure & Path Geometry) and Pillar 3 (Execution Matrix).  
+**Empirical Benchmark Anchor:** Replaces subjective retail technical analysis (arbitrary wave counting and discretionary Fibonacci drawing) with strict algorithmic anchors. Fibonacci retracements are mapped exclusively from deterministic Lookback Extremes (e.g., 90D Absolute High to 90D Absolute Low). Wave theory is digitized into Average True Range (ATR) harmonic impulses paired with a ZigZag algorithm.
+
+---
+
+## 1. Machine-Readable State & Routing Block (Python / Hermes / NotebookLM Index)
+
+```yaml
+module_id: "MOD_43"
+entry_type: "CONDITIONAL_SIGNAL_UNIT"
+waterfall_pillar: "PILLAR_2_PATH_GEOMETRY"
+title: "Algorithmic Fibonacci Confluence & Harmonic Impulse Measurement"
+
+# ALGORITHMIC ANCHORS
+computational_parameters:
+  fibonacci_anchors:
+    tactical_lookback: "Rolling 30-Day Absolute High to 30-Day Absolute Low"
+    structural_lookback: "Rolling 90-Day Absolute High to 90-Day Absolute Low"
+    secular_lookback: "Cycle ATH to Cycle Bear Low (or First-Week Flush Wick)"
+  valid_retracement_ratios: [0.382, 0.500, 0.618, 0.786]
+  valid_extension_ratios: [1.272, 1.618, 2.618]
+  wave_measurement_engine:
+    algorithm: "ZigZag (Depth: 5%, Deviation: 5%) paired with 14-period ATR"
+    impulse_definition: "Unidirectional thrust >= 2.0 ATR without a counter-close > 1.0 ATR"
+
+# ANTI-TRAP CIRCUIT BREAKERS
+circuit_breakers:
+  CB_01_NO_SUBJECTIVE_ANCHORS: "Never draw Fibonacci levels from intermediate swing highs/lows. Anchors must be the absolute extremes of the defined deterministic lookback period."
+  CB_02_THE_ISOLATION_BAN: "A Fibonacci level (e.g., 0.618) has zero causal power alone. It MUST fall within 1% of a Volume Profile node (VAH/VAL/POC) and show Limit-Bid Absorption (MOD 06A) to be actionable."
+  CB_03_ATR_WAVE_REPLACEMENT: "Never use subjective Elliott Wave nomenclature (Wave 1-5, A-B-C). Use 'Harmonic Impulse Leg 1, 2, 3' defined strictly by ATR expansion/contraction limits."
+  CB_04_MACRO_TREND_FILTER: "Never buy a 0.618 retracement if Pillar 1 Macro Regime is RISK_OFF_100_CASH or ICDM >= 60. Wait for the 0.786 or a Wyckoff Spring sweep."
+
+# RISK & SIZING CONSTANTS (PILLAR 4)
+risk_parameters:
+  max_portfolio_risk_pct: 0.75
+  leverage_permitted: 1.0 # Strict Unleveraged Spot Only
+  stop_loss_placement: "1.0 ATR below the confluent Fib/Volume node"
+```
+
+---
+
+## 2. Protective Circuit Breakers (Mandatory Pre-Execution Filters)
+
+Before any Fibonacci or Harmonic Impulse signal can authorize a spot decision, all four circuit breakers must pass:
+
+* **Circuit Breaker 1 — No Subjective Anchors (`CB-01`):** Python exclusively dictates the Fib pulls. It queries the 30D or 90D high/low and calculates the sequence. Manual, human-drawn levels adjusting to fit a narrative are blocked.
+* **Circuit Breaker 2 — The Isolation Ban (`CB-02`):** A `.618` Golden Ratio means nothing if the order book is empty. The calculated Fib level must intersect within `1%` of a dense Volume Profile node (`MOD 11`) AND exhibit live passive absorption (`MOD 06A`) on the 15m footprint.
+* **Circuit Breaker 3 — ATR Wave Replacement (`CB-03`):** Ban "Elliott Wave" guessing. An impulse is only recognized if the ZigZag algorithm records a move `>= 2.0 ATR` without a single daily/4H close retracing `> 1.0 ATR`.
+* **Circuit Breaker 4 — Macro Trend Filter (`CB-04`):** Deep retracements (`.786`) are for bear-market loading; shallow retracements (`.382` / `.500`) are for secular bull continuations. Apply the exact level appropriate to the active `MOD 33` Radar regime.
+
+---
+
+## 3. Core Conditional Signal Units (`Condition A -> Outcome B -> Rule C`)
+
+### CSU-43A: Golden Confluence Retracement (The "0.618 + POC" Strike)
+* **Trigger Condition A (The Telemetry Scan):**
+  1. Python computes the tactical 30D or structural 90D Absolute High-to-Low Fibonacci grid.
+  2. Price retraces to the `.500` or `.618` ratio.
+  3. **Authentication:** The `.618` level sits within `1%` of the **Volume Profile POC or VAL**.
+  4. **Order Flow:** 15m Domestic USD Spot CVD prints positive divergence (`MOD 05A`) and Rough Path `A_P,V >= +1.5 Z`.
+* **Observed Outcome B (The Mechanical Trajectory):**
+  * **Sovereign Macro Lens:** High-frequency algorithms and institutional TWAP engines are front-running the Golden Ratio because it perfectly overlaps with a historical heavy-volume liquidity pool.
+  * **Probable Trajectory:** Asymmetric mean-reversion bounce in the direction of the primary macro trend.
+* **Execution Rule C (The Non-Negotiable Action):**
+  * **Entry Trigger:** Execute **Unleveraged Spot Long** precisely at the confluence band.
+  * **Risk:** Cap at `0.75%`, with a hard stop `1.0 ATR` below the `.618` support.
+
+### CSU-43B: Harmonic Impulse Measurement (The "Wave 3" ATR Thrust)
+* **Trigger Condition A (The Telemetry Scan):**
+  1. Following a consolidation or CSU-43A bounce, price initiates a unidirectional thrust.
+  2. **Authentication:** The thrust exceeds **2.0 ATR** (14-period) over consecutive 4H/1D candles without a counter-close exceeding `1.0 ATR`.
+  3. Spot CVD and Perp CVD are aligned positive (`Quad 1`).
+* **Observed Outcome B (The Mechanical Trajectory):**
+  * **Sovereign Macro Lens:** A true, algorithmic "Wave 3" equivalent. Pure momentum expansion fueled by spot accumulation and short-covering.
+  * **Probable Trajectory:** Continued upward price discovery until momentum curvature (`A_P,V`) flattens and funding overheats.
+* **Execution Rule C (The Non-Negotiable Action):**
+  * **Action:** DO NOT sell into the thrust. Trail stop-losses tightly (`1.5 ATR` behind price) and wait for the `MOD 12A` Garman-Klass volatility expansion to peak. Execute Stage 1 profit taking (50%) when the thrust hits the `1.272` Fibonacci Extension.
+
+### CSU-43C: Deep Discount Liquidation Trap (The "0.786 / 0.886" Sweep)
+* **Trigger Condition A (The Telemetry Scan):**
+  1. Price slices through the `.618` support, triggering mass retail stop-losses.
+  2. Price wicks into the **.786 or .886 Fibonacci Retracement**.
+  3. **Authentication:** Massive OI wipeout (`MOD 03A`), negative funding, and heavy 15m limit-bid absorption at the `.786`.
+* **Observed Outcome B (The Mechanical Trajectory):**
+  * **Sovereign Macro Lens:** The "Wave 2" or deep mid-cycle shakeout (equivalent to the `-30%` to `-55%` drop mapped in `MOD 41`). Institutions swept the `.618` liquidity pool to fill orders at the deeper `.786` discount.
+* **Execution Rule C (The Non-Negotiable Action):**
+  * **Action:** Deploy sovereign multi-sig accumulation tranches (`MOD 18D`) or maximum `0.75%` Spot Swing allocation on the V-shaped reclaim of the `.786`.
+
+---
+
+## 4. Dynamic Regime Mutation Lookup Matrix (`M1` through `M5`)
+
+| Mutation ID | Initial State | Telemetry Mutation Observed (`Condition A'`) | Mechanical Meaning (`Outcome B'`) | Mandatory Execution Override (`Rule C'`) |
+| :--- | :--- | :--- | :--- | :--- |
+| **M1: Dead-Cat Bounce** | `CSU-43A` (.618 Retrace) | Price bounces off the `.618`, but the bounce fails to exceed `1.0 ATR` before turning lower on negative USD Spot CVD. | Failed impulsive structure (A-B-C flat correction); sellers are still in control. | **Enforce 100% Cash Lock**; stop-loss triggered on breakdown. |
+| **M2: Extension Blow-Off** | `CSU-43B` (ATR Thrust) | Price blasts through the `1.618` extension and approaches the `2.618` extension with extreme funding and peaking OI. | Terminal impulse (Wave 5 exhaustion); market is heavily over-leveraged. | **Execute Stage 2 Full Profit Exit.** Arm `MOD 41` Rule 1 countdown. |
+| **M3: Choppy Consolidation** | Any | ZigZag records multiple direction changes `< 1.0 ATR`. No clear structural extremes are set. | Complex corrective wave; market is searching for liquidity. | **Hold Cash / Do Not Re-calculate Fibs.** Wait for a clean `>= 2.0 ATR` impulse to anchor a new sequence. |
+| **M4: The 0.382 Secular Hold** | Minor Retracement | Price corrects but refuses to dip below the `.382` Fib. Spot CVD remains highly positive throughout the shallow dip. | Extreme bullish strength; sellers cannot force a mean reversion. | Enter **0.75% Risk Spot Long** on the breakout of the local high; trailing stop at the `.382`. |
+| **M5: Offshore-Only Confluence** | `CSU-43A` (.618 Retrace) | Price hits the `.618` and POC, but limit-bid absorption is strictly on Binance USDT (offshore) with zero USD Spot CVD. | Weak structural foundation; high risk of support failure. | **Circuit Breaker 2 Tripped: Reject Signal.** Stand down and maintain 100% Cash Lock. |
