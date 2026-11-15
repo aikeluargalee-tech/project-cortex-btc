@@ -1,8 +1,8 @@
-# Project CoreTex BTC Brain (CORTEX-BTC V5.0) — MASTER QUANTITATIVE SYSTEM RULEBOOK
+# Project CoreTex BTC Brain (CORTEX-BTC V6.0) — MASTER QUANTITATIVE SYSTEM RULEBOOK
 
 **Full-Stack Sovereign Quantitative Architecture & Execution Engine**  
 *Compiled: November 2026 Live Master Integration*  
-*Total System Sources Included: 59 Complete Sources (00–00E Core Architecture & MOD 01–53 Quantitative Modules)*
+*Total System Sources Included: 61 Complete Sources (00–00E Core Architecture & MOD 01–55 Quantitative Modules)*
 
 ---
 
@@ -10,66 +10,68 @@
 
 ### I. Core Architecture, Charters & Master Registries (00–00E)
 - [PROJECT CORTEX-BTC: THE SOVEREIGN BITCOIN BRAIN MATRIX](#project-cortex-btc-the-sovereign-bitcoin-brain-matrix)
-- [PROJECT CORTEX-BTC — V2.0 FULL-STACK MASTER INDEX (MODULES 01–28+)](#project-cortex-btc-—-v20-full-stack-master-index-modules-01–28)
-- [PROJECT CORTEX-BTC — 00C: HISTORICAL INTELLIGENCE REGISTRY (ENTRIES #1–#37), 9-YEAR CYCLE LAWS & EXECUTION INVARIANTS](#project-cortex-btc-—-00c-historical-intelligence-registry-entries-1–37-9-year-cycle-laws--execution-invariants)
-- [PROJECT CORTEX-BTC — 00D: COMPLETE 36-SOURCE MASTER DIRECTORY (MOD 01–33)](#project-cortex-btc-—-00d-complete-36-source-master-directory-mod-01–33)
-- [PROJECT CORETEX BTC BRAIN — COMPLETE 58-SOURCE MASTER DIRECTORY (v3.2)](#project-coretex-btc-brain-—-complete-58-source-master-directory-v32)
+- [PROJECT CORTEX-BTC — V2.0 FULL-STACK MASTER INDEX (MODULES 01–28+)](#project-cortex-btc--v20-full-stack-master-index-modules-0128)
+- [PROJECT CORTEX-BTC — 00C: HISTORICAL INTELLIGENCE REGISTRY (ENTRIES #1–#37), 9-YEAR CYCLE LAWS & EXECUTION INVARIANTS](#project-cortex-btc--00c-historical-intelligence-registry-entries-137-9-year-cycle-laws--execution-invariants)
+- [PROJECT CORTEX-BTC — 00D: COMPLETE 36-SOURCE MASTER DIRECTORY (MOD 01–33)](#project-cortex-btc--00d-complete-36-source-master-directory-mod-0133)
+- [PROJECT CORETEX BTC BRAIN — COMPLETE 61-SOURCE MASTER DIRECTORY (v6.0)](#project-coretex-btc-brain--complete-61-source-master-directory-v60)
 
-### II. Quantitative Modules & Control-Plane Engines (MOD 01–53)
-- [PROJECT CORTEX-BTC — MODULE 01: RISING OPEN INTEREST + EXTREME NEGATIVE PERPETUAL BASIS](#project-cortex-btc-—-module-01-rising-open-interest--extreme-negative-perpetual-basis)
-- [PROJECT CORTEX-BTC — MODULE 02: RISING OPEN INTEREST + HIGH POSITIVE PERPETUAL BASIS](#project-cortex-btc-—-module-02-rising-open-interest--high-positive-perpetual-basis)
-- [PROJECT CORTEX-BTC — MODULE 03: DELEVERAGING FLUSHES & OPEN INTEREST RESET MECHANICS](#project-cortex-btc-—-module-03-deleveraging-flushes--open-interest-reset-mechanics)
-- [PROJECT CORTEX-BTC — MODULE 04: FUNDING RATE VELOCITY & PRICE DIVERGENCE MATRIX](#project-cortex-btc-—-module-04-funding-rate-velocity--price-divergence-matrix)
-- [PROJECT CORTEX-BTC — MODULE 05: THE 4-QUADRANT SPOT CVD VS. PERPETUAL CVD MATRIX](#project-cortex-btc-—-module-05-the-4-quadrant-spot-cvd-vs-perpetual-cvd-matrix)
-- [PROJECT CORTEX-BTC — MODULE 06: PASSIVE LIMIT ABSORPTION VS. MARKET TAKER EXHAUSTION](#project-cortex-btc-—-module-06-passive-limit-absorption-vs-market-taker-exhaustion)
-- [PROJECT CORTEX-BTC — MODULE 07: DOMESTIC FIAT GATEWAYS (USD) & SPOT ETFS VS. OFFSHORE PERP/USDT FLOWS](#project-cortex-btc-—-module-07-domestic-fiat-gateways-usd--spot-etfs-vs-offshore-perpusdt-flows)
-- [PROJECT CORTEX-BTC — MODULE 08: ROUGH PATH SIGNATURES I — PRICE-VOLUME LÉVY SIGNED AREA (A_P,V)](#project-cortex-btc-—-module-08-rough-path-signatures-i-—-price-volume-lévy-signed-area-a_pv)
-- [PROJECT CORTEX-BTC — MODULE 09: ROUGH PATH SIGNATURES II — SPOT CVD–OPEN INTEREST LÉVY SIGNED AREA (A_CVD,OI)](#project-cortex-btc-—-module-09-rough-path-signatures-ii-—-spot-cvd–open-interest-lévy-signed-area-a_cvdoi)
-- [PROJECT CORTEX-BTC — MODULE 10: ROUGH PATH SIGNATURES III — MULTI-HORIZON ALIGNMENT (1H TACTICAL VS. 4H/1D STRUCTURAL)](#project-cortex-btc-—-module-10-rough-path-signatures-iii-—-multi-horizon-alignment-1h-tactical-vs-4h1d-structural)
-- [PROJECT CORTEX-BTC — MODULE 11: VOLUME PROFILE STRUCTURAL TOPOLOGY (VAH, VAL, POC & LVN)](#project-cortex-btc-—-module-11-volume-profile-structural-topology-vah-val-poc--lvn)
-- [PROJECT CORTEX-BTC — MODULE 12: GARMAN-KLASS (OHLC) VOLATILITY SQUEEZE & FAN EXPANSION](#project-cortex-btc-—-module-12-garman-klass-ohlc-volatility-squeeze--fan-expansion)
-- [PROJECT CORTEX-BTC — MODULE 13: SHORT-TERM HOLDER (STH) REALIZED PRICE & MVRV BANDS](#project-cortex-btc-—-module-13-short-term-holder-sth-realized-price--mvrv-bands)
-- [PROJECT CORTEX-BTC — MODULE 14: SOPR (SPENT OUTPUT PROFIT RATIO) PROFIT/LOSS RESET CYCLES](#project-cortex-btc-—-module-14-sopr-spent-output-profit-ratio-profitloss-reset-cycles)
-- [PROJECT CORTEX-BTC — MODULE 15: REALIZED CAP IMPULSE & LTH-TO-STH WEALTH TRANSFER](#project-cortex-btc-—-module-15-realized-cap-impulse--lth-to-sth-wealth-transfer)
-- [PROJECT CORTEX-BTC — MODULE 16: MACRO LIQUIDITY, SOVEREIGN YIELDS, DXY & STABLECOIN DRY POWDER](#project-cortex-btc-—-module-16-macro-liquidity-sovereign-yields-dxy--stablecoin-dry-powder)
-- [PROJECT CORTEX-BTC — MODULE 17: 200D MA SECULAR GATES, INDEX REBALANCINGS & SESSION HANDOFFS](#project-cortex-btc-—-module-17-200d-ma-secular-gates-index-rebalancings--session-handoffs)
-- [PROJECT CORTEX-BTC — MODULE 18: MASTER 5-PILLAR CONFLUENCE, 0.75% RISK SIZING ENGINE & TWO-STAGE EXIT PROTOCOL](#project-cortex-btc-—-module-18-master-5-pillar-confluence-075-risk-sizing-engine--two-stage-exit-protocol)
-- [PROJECT CORTEX-BTC — MODULE 19: COINBASE PREMIUM INDEX Z-SCORES & DOMESTIC-OFFSHORE SPREADS](#project-cortex-btc-—-module-19-coinbase-premium-index-z-scores--domestic-offshore-spreads)
-- [PROJECT CORTEX-BTC — MODULE 20: CME FUTURES BASIS & WEEKEND GAP FILL TOPOLOGY](#project-cortex-btc-—-module-20-cme-futures-basis--weekend-gap-fill-topology)
-- [PROJECT CORTEX-BTC — MODULE 21: ALGORITHMIC TWAP/VWAP ACCUMULATION FOOTPRINTS VS. SPOOFED LIQUIDITY](#project-cortex-btc-—-module-21-algorithmic-twapvwap-accumulation-footprints-vs-spoofed-liquidity)
-- [PROJECT CORTEX-BTC — MODULE 22: NET FED LIQUIDITY IMPULSE (FED BALANCE SHEET − TGA − RRP)](#project-cortex-btc-—-module-22-net-fed-liquidity-impulse-fed-balance-sheet-−-tga-−-rrp)
-- [PROJECT CORTEX-BTC — MODULE 23: MOVE INDEX (BOND VOLATILITY) & HIGH-YIELD CREDIT SPREAD BREAKERS](#project-cortex-btc-—-module-23-move-index-bond-volatility--high-yield-credit-spread-breakers)
-- [PROJECT CORTEX-BTC — MODULE 24: USD/JPY SOVEREIGN CARRY-TRADE UNWIND & BOJ INTERVENTION ALERTS](#project-cortex-btc-—-module-24-usdjpy-sovereign-carry-trade-unwind--boj-intervention-alerts)
-- [PROJECT CORTEX-BTC — MODULE 25: DEALER GAMMA EXPOSURE (GEX) & ZERO-GAMMA FLIP MECHANICS](#project-cortex-btc-—-module-25-dealer-gamma-exposure-gex--zero-gamma-flip-mechanics)
-- [PROJECT CORTEX-BTC — MODULE 26: DERIBIT & CME MONTHLY/QUARTERLY OPEX MAX PAIN GRAVITY](#project-cortex-btc-—-module-26-deribit--cme-monthlyquarterly-opex-max-pain-gravity)
-- [PROJECT CORTEX-BTC — MODULE 27: 25-DELTA IMPLIED VOLATILITY SKEW & DVOL TERM STRUCTURE EXTREMES](#project-cortex-btc-—-module-27-25-delta-implied-volatility-skew--dvol-term-structure-extremes)
-- [PROJECT CORTEX-BTC — MODULE 28: LIVE AUTOPSY & BLACK SWAN CIRCUIT BREAKER ENGINE (TIER D)](#project-cortex-btc-—-module-28-live-autopsy--black-swan-circuit-breaker-engine-tier-d)
-- [PROJECT CORTEX-BTC — MODULE 29: EQUITY MULTIPLE COMPRESSION, ENERGY SHOCKS & HIGH-BETA CONTAGION](#project-cortex-btc-—-module-29-equity-multiple-compression-energy-shocks--high-beta-contagion)
-- [PROJECT CORTEX-BTC — MODULE 30: PCF3 ORDER FLOW ENGINE & 10 DETERMINISTIC CONFIGURATIONS (A–J)](#project-cortex-btc-—-module-30-pcf3-order-flow-engine--10-deterministic-configurations-a–j)
-- [PROJECT CORTEX-BTC — MODULE 31: INSTITUTIONAL CAPITAL DEFENSE MATRIX (ICDM 100-POINT FRAGILITY SCALE)](#project-cortex-btc-—-module-31-institutional-capital-defense-matrix-icdm-100-point-fragility-scale)
-- [PROJECT CORTEX-BTC — MODULE 32: EXCHANGE SOLVENCY MULTIPLIER (M_SOLV) & SOVEREIGN MULTI-SIG CUSTODY ARCHITECTURE](#project-cortex-btc-—-module-32-exchange-solvency-multiplier-m_solv--sovereign-multi-sig-custody-architecture)
-- [PROJECT CORTEX-BTC — MODULE 33: UNIFIED 5-REGIME MASTER RADAR & STATE-TRANSITION ENGINE](#project-cortex-btc-—-module-33-unified-5-regime-master-radar--state-transition-engine)
-- [PROJECT CORTEX-BTC — MODULE 34: AEGIS-3 (ASYMMETRIC EXPOSURE & GEOPOLITICAL/IMPULSE SHIELD)](#project-cortex-btc-—-module-34-aegis-3-asymmetric-exposure--geopoliticalimpulse-shield)
-- [PROJECT CORTEX-BTC — MODULE 35: LIQUIDATION HEATMAP DISTANCE RULE & PULL SCORE ENGINE](#project-cortex-btc-—-module-35-liquidation-heatmap-distance-rule--pull-score-engine)
-- [PROJECT CORTEX-BTC — MODULE 36: TELEMETRY TRUST, STALENESS SLA & DETERMINISM ATTESTATION](#project-cortex-btc-—-module-36-telemetry-trust-staleness-sla--determinism-attestation)
-- [PROJECT CORTEX-BTC — MODULE 37: EXECUTABLE LIQUIDITY, NET-3.0R SLIPPAGE & EQUITY-CURVE GOVERNOR](#project-cortex-btc-—-module-37-executable-liquidity-net-30r-slippage--equity-curve-governor)
-- [PROJECT CORTEX-BTC — MODULE 38: ETF PRIMARY-MARKET SETTLEMENT & BRRNY FIX-WINDOW ENGINE](#project-cortex-btc-—-module-38-etf-primary-market-settlement--brrny-fix-window-engine)
-- [PROJECT CORTEX-BTC — MODULE 39: EXCHANGE SUPPLY ACTIVATION & AGED-UTXO DORMANCY ENGINE](#project-cortex-btc-—-module-39-exchange-supply-activation--aged-utxo-dormancy-engine)
-- [PROJECT CORTEX-BTC — MODULE 40: MINER TREASURY STRESS & HASHPRICE ECONOMICS ENGINE](#project-cortex-btc-—-module-40-miner-treasury-stress--hashprice-economics-engine)
-- [MOD 41 — Secular Cycle ATH Cluster, First-Week Flush (Rule 1) & Flat Double-Top (+4% Rule 3) Exit Engine (Pillar 1 & 5)](#mod-41-—-secular-cycle-ath-cluster-first-week-flush-rule-1--flat-double-top-4-rule-3-exit-engine-pillar-1--5)
-- [MOD 41.1 — Secular ATH Operational Field Runbook & Countdown Checklist (Pillar 1 & 5)](#mod-411-—-secular-ath-operational-field-runbook--countdown-checklist-pillar-1--5)
-- [MOD 42 — Classical Structural Shapes & Liquidity-Pool Authentication Engine (Pillar 2)](#mod-42-—-classical-structural-shapes--liquidity-pool-authentication-engine-pillar-2)
-- [PROJECT CORTEX-BTC — MODULE 43: ALGORITHMIC FIBONACCI CONFLUENCE & HARMONIC IMPULSE MEASUREMENT](#project-cortex-btc-—-module-43-algorithmic-fibonacci-confluence--harmonic-impulse-measurement)
-- [PROJECT CORTEX-BTC — MODULE 44: MEGA-IPO CAPITAL VACUUMS & INDEX REBALANCE LIQUIDITY DRAINS](#project-cortex-btc-—-module-44-mega-ipo-capital-vacuums--index-rebalance-liquidity-drains)
-- [PROJECT CORTEX-BTC — MODULE 45: EXECUTIVE BOTTOM-LINE HUD & MOBILE PRESENTATION PROTOCOL](#project-cortex-btc-—-module-45-executive-bottom-line-hud--mobile-presentation-protocol)
-- [PROJECT CORTEX-BTC — MODULE 46: BLOCK 1,050,000 (APRIL 2028) SECULAR HORIZON & SOVEREIGN BARBELL ANCHOR](#project-cortex-btc-—-module-46-block-1050000-april-2028-secular-horizon--sovereign-barbell-anchor)
-- [PROJECT CORETEX BTC BRAIN — MODULE 47: CORPORATE & SOVEREIGN TREASURY VELOCITY (mNAV & PROXY FLYWHEEL)](#project-coretex-btc-brain-—-module-47-corporate--sovereign-treasury-velocity-mnav--proxy-flywheel)
-- [PROJECT CORETEX BTC BRAIN — MODULE 48: STABLECOIN SUPPLY RATIO (SSR), USDT.D & NET MINT/BURN VELOCITY](#project-coretex-btc-brain-—-module-48-stablecoin-supply-ratio-ssr-usdtd--net-mintburn-velocity)
-- [PROJECT CORETEX BTC BRAIN — MODULE 49: ROLLING CROSS-ASSET CORRELATION & DECOUPLING MATRIX (BTC VS. NDX / GOLD / DXY)](#project-coretex-btc-brain-—-module-49-rolling-cross-asset-correlation--decoupling-matrix-btc-vs-ndx--gold--dxy)
-- [PROJECT CORETEX BTC BRAIN — MODULE 50: WEEKEND THIN-LIQUIDITY, UNSETTLED CME CLEARING & SUNDAY 22:00 UTC RE-OPEN PROTOCOL](#project-coretex-btc-brain-—-module-50-weekend-thin-liquidity-unsettled-cme-clearing--sunday-2200-utc-re-open-protocol)
-- [PROJECT CORETEX BTC BRAIN — MODULE 51: EXTREME CASCADE MICROSTRUCTURE, BASIS BLOWOUTS & STAGGERED LIMIT EXECUTION](#project-coretex-btc-brain-—-module-51-extreme-cascade-microstructure-basis-blowouts--staggered-limit-execution)
-- [PROJECT CORETEX BTC BRAIN — MODULE 52: ROLLING 30-TRADE EXPECTANCY AUDIT & PARAMETER DRIFT GOVERNOR](#project-coretex-btc-brain-—-module-52-rolling-30-trade-expectancy-audit--parameter-drift-governor)
-- [PROJECT CORTEX-BTC — MODULE 53: HAWKES POINT PROCESSES, JUMP-DIFFUSION DE-NOISING & TRANSFER ENTROPY CAPITAL ROTATION ENGINE](#project-cortex-btc-—-module-53-hawkes-point-processes-jump-diffusion-de-noising--transfer-entropy-capital-rotation-engine)
+### II. Quantitative Modules & Control-Plane Engines (MOD 01–55)
+- [PROJECT CORTEX-BTC — MODULE 01: RISING OPEN INTEREST + EXTREME NEGATIVE PERPETUAL BASIS](#project-cortex-btc--module-01-rising-open-interest--extreme-negative-perpetual-basis)
+- [PROJECT CORTEX-BTC — MODULE 02: RISING OPEN INTEREST + HIGH POSITIVE PERPETUAL BASIS](#project-cortex-btc--module-02-rising-open-interest--high-positive-perpetual-basis)
+- [PROJECT CORTEX-BTC — MODULE 03: DELEVERAGING FLUSHES & OPEN INTEREST RESET MECHANICS](#project-cortex-btc--module-03-deleveraging-flushes--open-interest-reset-mechanics)
+- [PROJECT CORTEX-BTC — MODULE 04: FUNDING RATE VELOCITY & PRICE DIVERGENCE MATRIX](#project-cortex-btc--module-04-funding-rate-velocity--price-divergence-matrix)
+- [PROJECT CORTEX-BTC — MODULE 05: THE 4-QUADRANT SPOT CVD VS. PERPETUAL CVD MATRIX](#project-cortex-btc--module-05-the-4-quadrant-spot-cvd-vs-perpetual-cvd-matrix)
+- [PROJECT CORTEX-BTC — MODULE 06: PASSIVE LIMIT ABSORPTION VS. MARKET TAKER EXHAUSTION](#project-cortex-btc--module-06-passive-limit-absorption-vs-market-taker-exhaustion)
+- [PROJECT CORTEX-BTC — MODULE 07: DOMESTIC FIAT GATEWAYS (USD) & SPOT ETFS VS. OFFSHORE PERP/USDT FLOWS](#project-cortex-btc--module-07-domestic-fiat-gateways-usd--spot-etfs-vs-offshore-perpusdt-flows)
+- [PROJECT CORTEX-BTC — MODULE 08: ROUGH PATH SIGNATURES I — PRICE-VOLUME LÉVY SIGNED AREA (A_P,V)](#project-cortex-btc--module-08-rough-path-signatures-i--price-volume-lévy-signed-area-apv)
+- [PROJECT CORTEX-BTC — MODULE 09: ROUGH PATH SIGNATURES II — SPOT CVD–OPEN INTEREST LÉVY SIGNED AREA (A_CVD,OI)](#project-cortex-btc--module-09-rough-path-signatures-ii--spot-cvdopen-interest-lévy-signed-area-acvdoi)
+- [PROJECT CORTEX-BTC — MODULE 10: ROUGH PATH SIGNATURES III — MULTI-HORIZON ALIGNMENT (1H TACTICAL VS. 4H/1D STRUCTURAL)](#project-cortex-btc--module-10-rough-path-signatures-iii--multi-horizon-alignment-1h-tactical-vs-4h1d-structural)
+- [PROJECT CORTEX-BTC — MODULE 11: VOLUME PROFILE STRUCTURAL TOPOLOGY (VAH, VAL, POC & LVN)](#project-cortex-btc--module-11-volume-profile-structural-topology-vah-val-poc--lvn)
+- [PROJECT CORTEX-BTC — MODULE 12: GARMAN-KLASS (OHLC) VOLATILITY SQUEEZE & FAN EXPANSION](#project-cortex-btc--module-12-garman-klass-ohlc-volatility-squeeze--fan-expansion)
+- [PROJECT CORTEX-BTC — MODULE 13: SHORT-TERM HOLDER (STH) REALIZED PRICE & MVRV BANDS](#project-cortex-btc--module-13-short-term-holder-sth-realized-price--mvrv-bands)
+- [PROJECT CORTEX-BTC — MODULE 14: SOPR (SPENT OUTPUT PROFIT RATIO) PROFIT/LOSS RESET CYCLES](#project-cortex-btc--module-14-sopr-spent-output-profit-ratio-profitloss-reset-cycles)
+- [PROJECT CORTEX-BTC — MODULE 15: REALIZED CAP IMPULSE & LTH-TO-STH WEALTH TRANSFER](#project-cortex-btc--module-15-realized-cap-impulse--lth-to-sth-wealth-transfer)
+- [PROJECT CORTEX-BTC — MODULE 16: MACRO LIQUIDITY, SOVEREIGN YIELDS, DXY & STABLECOIN DRY POWDER](#project-cortex-btc--module-16-macro-liquidity-sovereign-yields-dxy--stablecoin-dry-powder)
+- [PROJECT CORTEX-BTC — MODULE 17: 200D MA SECULAR GATES, INDEX REBALANCINGS & SESSION HANDOFFS](#project-cortex-btc--module-17-200d-ma-secular-gates-index-rebalancings--session-handoffs)
+- [PROJECT CORTEX-BTC — MODULE 18: MASTER 5-PILLAR CONFLUENCE, 0.75% RISK SIZING ENGINE & TWO-STAGE EXIT PROTOCOL](#project-cortex-btc--module-18-master-5-pillar-confluence-075-risk-sizing-engine--two-stage-exit-protocol)
+- [PROJECT CORTEX-BTC — MODULE 19: COINBASE PREMIUM INDEX Z-SCORES & DOMESTIC-OFFSHORE SPREADS](#project-cortex-btc--module-19-coinbase-premium-index-z-scores--domestic-offshore-spreads)
+- [PROJECT CORTEX-BTC — MODULE 20: CME FUTURES BASIS & WEEKEND GAP FILL TOPOLOGY](#project-cortex-btc--module-20-cme-futures-basis--weekend-gap-fill-topology)
+- [PROJECT CORTEX-BTC — MODULE 21: ALGORITHMIC TWAP/VWAP ACCUMULATION FOOTPRINTS VS. SPOOFED LIQUIDITY](#project-cortex-btc--module-21-algorithmic-twapvwap-accumulation-footprints-vs-spoofed-liquidity)
+- [PROJECT CORTEX-BTC — MODULE 22: NET FED LIQUIDITY IMPULSE (FED BALANCE SHEET − TGA − RRP)](#project-cortex-btc--module-22-net-fed-liquidity-impulse-fed-balance-sheet--tga--rrp)
+- [PROJECT CORTEX-BTC — MODULE 23: MOVE INDEX (BOND VOLATILITY) & HIGH-YIELD CREDIT SPREAD BREAKERS](#project-cortex-btc--module-23-move-index-bond-volatility--high-yield-credit-spread-breakers)
+- [PROJECT CORTEX-BTC — MODULE 24: USD/JPY SOVEREIGN CARRY-TRADE UNWIND & BOJ INTERVENTION ALERTS](#project-cortex-btc--module-24-usdjpy-sovereign-carry-trade-unwind--boj-intervention-alerts)
+- [PROJECT CORTEX-BTC — MODULE 25: DEALER GAMMA EXPOSURE (GEX) & ZERO-GAMMA FLIP MECHANICS](#project-cortex-btc--module-25-dealer-gamma-exposure-gex--zero-gamma-flip-mechanics)
+- [PROJECT CORTEX-BTC — MODULE 26: DERIBIT & CME MONTHLY/QUARTERLY OPEX MAX PAIN GRAVITY](#project-cortex-btc--module-26-deribit--cme-monthlyquarterly-opex-max-pain-gravity)
+- [PROJECT CORTEX-BTC — MODULE 27: 25-DELTA IMPLIED VOLATILITY SKEW & DVOL TERM STRUCTURE EXTREMES](#project-cortex-btc--module-27-25-delta-implied-volatility-skew--dvol-term-structure-extremes)
+- [PROJECT CORTEX-BTC — MODULE 28: LIVE AUTOPSY & BLACK SWAN CIRCUIT BREAKER ENGINE (TIER D)](#project-cortex-btc--module-28-live-autopsy--black-swan-circuit-breaker-engine-tier-d)
+- [PROJECT CORTEX-BTC — MODULE 29: EQUITY MULTIPLE COMPRESSION, ENERGY SHOCKS & HIGH-BETA CONTAGION](#project-cortex-btc--module-29-equity-multiple-compression-energy-shocks--high-beta-contagion)
+- [PROJECT CORTEX-BTC — MODULE 30: PCF3 ORDER FLOW ENGINE & 10 DETERMINISTIC CONFIGURATIONS (A–J)](#project-cortex-btc--module-30-pcf3-order-flow-engine--10-deterministic-configurations-aj)
+- [PROJECT CORTEX-BTC — MODULE 31: INSTITUTIONAL CAPITAL DEFENSE MATRIX (ICDM 100-POINT FRAGILITY SCALE)](#project-cortex-btc--module-31-institutional-capital-defense-matrix-icdm-100-point-fragility-scale)
+- [PROJECT CORTEX-BTC — MODULE 32: EXCHANGE SOLVENCY MULTIPLIER (M_SOLV) & SOVEREIGN MULTI-SIG CUSTODY ARCHITECTURE](#project-cortex-btc--module-32-exchange-solvency-multiplier-msolv--sovereign-multi-sig-custody-architecture)
+- [PROJECT CORTEX-BTC — MODULE 33: UNIFIED 5-REGIME MASTER RADAR & STATE-TRANSITION ENGINE](#project-cortex-btc--module-33-unified-5-regime-master-radar--state-transition-engine)
+- [PROJECT CORTEX-BTC — MODULE 34: AEGIS-3 (ASYMMETRIC EXPOSURE & GEOPOLITICAL/IMPULSE SHIELD)](#project-cortex-btc--module-34-aegis-3-asymmetric-exposure--geopoliticalimpulse-shield)
+- [PROJECT CORTEX-BTC — MODULE 35: LIQUIDATION HEATMAP DISTANCE RULE & PULL SCORE ENGINE](#project-cortex-btc--module-35-liquidation-heatmap-distance-rule--pull-score-engine)
+- [PROJECT CORTEX-BTC — MODULE 36: TELEMETRY TRUST, STALENESS SLA & DETERMINISM ATTESTATION](#project-cortex-btc--module-36-telemetry-trust-staleness-sla--determinism-attestation)
+- [PROJECT CORTEX-BTC — MODULE 37: EXECUTABLE LIQUIDITY, NET-3.0R SLIPPAGE & EQUITY-CURVE GOVERNOR](#project-cortex-btc--module-37-executable-liquidity-net-30r-slippage--equity-curve-governor)
+- [PROJECT CORTEX-BTC — MODULE 38: ETF PRIMARY-MARKET SETTLEMENT & BRRNY FIX-WINDOW ENGINE](#project-cortex-btc--module-38-etf-primary-market-settlement--brrny-fix-window-engine)
+- [PROJECT CORTEX-BTC — MODULE 39: EXCHANGE SUPPLY ACTIVATION & AGED-UTXO DORMANCY ENGINE](#project-cortex-btc--module-39-exchange-supply-activation--aged-utxo-dormancy-engine)
+- [PROJECT CORTEX-BTC — MODULE 40: MINER TREASURY STRESS & HASHPRICE ECONOMICS ENGINE](#project-cortex-btc--module-40-miner-treasury-stress--hashprice-economics-engine)
+- [MOD 41 — Secular Cycle ATH Cluster, First-Week Flush (Rule 1) & Flat Double-Top (+4% Rule 3) Exit Engine (Pillar 1 & 5)](#mod-41--secular-cycle-ath-cluster-first-week-flush-rule-1--flat-double-top-4-rule-3-exit-engine-pillar-1--5)
+- [MOD 41.1 — Secular ATH Operational Field Runbook & Countdown Checklist (Pillar 1 & 5)](#mod-411--secular-ath-operational-field-runbook--countdown-checklist-pillar-1--5)
+- [MOD 42 — Classical Structural Shapes & Liquidity-Pool Authentication Engine (Pillar 2)](#mod-42--classical-structural-shapes--liquidity-pool-authentication-engine-pillar-2)
+- [PROJECT CORTEX-BTC — MODULE 43: ALGORITHMIC FIBONACCI CONFLUENCE & HARMONIC IMPULSE MEASUREMENT](#project-cortex-btc--module-43-algorithmic-fibonacci-confluence--harmonic-impulse-measurement)
+- [PROJECT CORTEX-BTC — MODULE 44: MEGA-IPO CAPITAL VACUUMS & INDEX REBALANCE LIQUIDITY DRAINS](#project-cortex-btc--module-44-mega-ipo-capital-vacuums--index-rebalance-liquidity-drains)
+- [PROJECT CORTEX-BTC — MODULE 45: EXECUTIVE BOTTOM-LINE HUD & MOBILE PRESENTATION PROTOCOL](#project-cortex-btc--module-45-executive-bottom-line-hud--mobile-presentation-protocol)
+- [PROJECT CORTEX-BTC — MODULE 46: BLOCK 1,050,000 (APRIL 2028) SECULAR HORIZON & SOVEREIGN BARBELL ANCHOR](#project-cortex-btc--module-46-block-1050000-april-2028-secular-horizon--sovereign-barbell-anchor)
+- [PROJECT CORETEX BTC BRAIN — MODULE 47: CORPORATE & SOVEREIGN TREASURY VELOCITY (mNAV & PROXY FLYWHEEL)](#project-coretex-btc-brain--module-47-corporate--sovereign-treasury-velocity-mnav--proxy-flywheel)
+- [PROJECT CORETEX BTC BRAIN — MODULE 48: STABLECOIN SUPPLY RATIO (SSR), USDT.D & NET MINT/BURN VELOCITY](#project-coretex-btc-brain--module-48-stablecoin-supply-ratio-ssr-usdtd--net-mintburn-velocity)
+- [PROJECT CORETEX BTC BRAIN — MODULE 49: ROLLING CROSS-ASSET CORRELATION & DECOUPLING MATRIX (BTC VS. NDX / GOLD / DXY)](#project-coretex-btc-brain--module-49-rolling-cross-asset-correlation--decoupling-matrix-btc-vs-ndx--gold--dxy)
+- [PROJECT CORETEX BTC BRAIN — MODULE 50: WEEKEND THIN-LIQUIDITY, UNSETTLED CME CLEARING & SUNDAY 22:00 UTC RE-OPEN PROTOCOL](#project-coretex-btc-brain--module-50-weekend-thin-liquidity-unsettled-cme-clearing--sunday-2200-utc-re-open-protocol)
+- [PROJECT CORETEX BTC BRAIN — MODULE 51: EXTREME CASCADE MICROSTRUCTURE, BASIS BLOWOUTS & STAGGERED LIMIT EXECUTION](#project-coretex-btc-brain--module-51-extreme-cascade-microstructure-basis-blowouts--staggered-limit-execution)
+- [PROJECT CORETEX BTC BRAIN — MODULE 52: ROLLING 30-TRADE EXPECTANCY AUDIT & PARAMETER DRIFT GOVERNOR](#project-coretex-btc-brain--module-52-rolling-30-trade-expectancy-audit--parameter-drift-governor)
+- [PROJECT CORTEX-BTC — MODULE 53: HAWKES POINT PROCESSES, JUMP-DIFFUSION DE-NOISING & TRANSFER ENTROPY CAPITAL ROTATION ENGINE](#project-cortex-btc--module-53-hawkes-point-processes-jump-diffusion-de-noising--transfer-entropy-capital-rotation-engine)
+- [PROJECT CORTEX-BTC — MODULE 54: MULTI-TIMEFRAME ALGORITHMIC MARKET STRUCTURE, KLINE LOOKBACK CONTRACT & UI EXPLAINABILITY SCHEMA](#project-cortex-btc--module-54-multi-timeframe-algorithmic-market-structure-kline-lookback-contract--ui-explainability-schema)
+- [PROJECT CORTEX-BTC — MODULE 55: DUAL-STAGE DISRUPTION TELEMETRY & RECOVERY RADAR ENGINE](#project-cortex-btc--module-55-dual-stage-disruption-telemetry--recovery-radar-engine)
 
 ---
 
@@ -150,6 +152,7 @@ Most market participants fail not because they lack charts or news feeds, but be
 * **MOD 16 (Pillar 1):** Macro Liquidity, Sovereign Yields, DXY & Stablecoin Dry Powder (100% Cash vs. Risk-On Gate)
 * **MOD 17 (Pillar 1 & 2):** 200D MA Secular Gates, Index Rebalancings & Session Handoffs (Asia / London / NY)
 * **MOD 18 (Pillar 4):** Master 5-Pillar Confluence, 0.75% Risk Sizing Engine & Two-Stage Exit Protocol
+
 ---
 
 # PROJECT CORTEX-BTC — V2.0 FULL-STACK MASTER INDEX (MODULES 01–28+)
@@ -200,6 +203,7 @@ Most market participants fail not because they lack charts or news feeds, but be
 ### Pillar 4 & Tier D: Master Decision Compiler & Continuous Compounding Engine
 * **`MOD 18`:** Master 5-Pillar Confluence, `0.75%` Risk Sizing Engine & Two-Stage Exit Protocol
 * **`MOD 28` *(Tier D)*:** Live Autopsy & Black Swan Circuit Breaker Engine (`MOD 29+ Generator`)
+
 ---
 
 # PROJECT CORTEX-BTC — 00C: HISTORICAL INTELLIGENCE REGISTRY (ENTRIES #1–#37), 9-YEAR CYCLE LAWS & EXECUTION INVARIANTS
@@ -237,6 +241,7 @@ To prevent premature entries and poor reward-to-risk setups during `MOD 11` (Vol
   * `Stop_Distance = Entry_Price - Hard_Invalidation_Wick_Low`
   * `Target_1 = Range Point of Control (POC)` | `Target_2 = Value Area High (VAH)`
   * **Hard Gate:** If `(Target_2 - Entry_Price) / Stop_Distance < 3.0`, **PASS UNCONDITIONALLY** (insufficient asymmetric payoff).
+
 ---
 
 # PROJECT CORTEX-BTC — 00D: COMPLETE 36-SOURCE MASTER DIRECTORY (MOD 01–33)
@@ -296,97 +301,89 @@ To prevent premature entries and poor reward-to-risk setups during `MOD 11` (Vol
 * **`MOD 18` — Master 5-Pillar Confluence, 0.75% Risk Sizing & Exit Engine**
 * **`MOD 28` — Live Autopsy & Black Swan Circuit Breaker Engine**
 * **`MOD 31` — Institutional Capital Defense Matrix (ICDM 100-Pt Fragility Scale)**
----
-
-# PROJECT CORETEX BTC BRAIN — COMPLETE 58-SOURCE MASTER DIRECTORY (v3.2)
-**Status:** Full-Stack Quantitative & Sovereign Barbell Rulebook (`00`–`00E` + `MOD 01`–`MOD 52`, including `MOD 41.1`) — **58 Sources Total — 100% Codified, Indexed & Ready for Live VPS / Hermes / GitHub Operations**.
-**Governing Invariants:** Strict `1.0x` Unleveraged Spot Only (`BTC` & `USDT`/`USD`), `<= 0.75%` Max Portfolio Risk per Trade (`0.375%` `GATE_AMBER` / `0.00%` `GATE_RED` `100% Cash Lock`), `Net R >= 3.0` Post-Slippage Requirement, Fail-Closed `DATA UNAVAILABLE` Honesty (`MOD 36`), and Air-Gapped Barbell Custody (`Sleeve A` Tactical Swing vs. `Sleeve B` `2-of-3` Dual-Jurisdiction Multi-Sig Cold Storage).
 
 ---
 
-## 1. Governance, Indices & Historical Invariants (5 Sources)
-* **`00` — Project CORTEX-BTC: Charter, 5-Pillar Waterfall & 18-Module Index** *(Foundational constitution, 5-pillar veto hierarchy, and core invariants)*
-* **`00B` — Project CORTEX-BTC V2.0 Full-Stack Master Index (`MOD 01–28+`)** *(Tier A–D institutional expansion architecture)*
-* **`00C` — Historical Registry (`Entries #1–#37`), 9-Year Cycle Laws & `3R` Bar-Count Rules** *(Empirical multi-cycle memory and bar-count verification)*
-* **`00D` — Project CORTEX-BTC Complete 44-Source Master Directory (`MOD 01–40`)** *(v3.0 control-plane baseline directory)*
-* **`00E` — Project CoreTex BTC Brain Complete 58-Source Master Directory (`v3.2`, `MOD 01–52`)** *(Current unified production directory)*
+# PROJECT CORETEX BTC BRAIN — COMPLETE 61-SOURCE MASTER DIRECTORY (v6.0)
 
----
+**Status:** Full-Stack Quantitative & Sovereign Barbell Rulebook (00–00E + MOD 01–MOD 55, including MOD 41.1) — **61 Sources Total — 100% Codified, Indexed & Ready for Live VPS / Hermes / GitHub Operations**.
+**Governing Invariants:** Strict 1.0x Unleveraged Spot Only (BTC & USDT/USD), <= 0.75% Max Portfolio Risk per Trade (0.375% GATE_AMBER / 0.00% GATE_RED 100% Cash Lock), Net R >= 3.0 Post-Slippage Requirement, Fail-Closed DATA UNAVAILABLE Honesty (MOD 36), and Air-Gapped Barbell Custody (Sleeve A Tactical Swing vs. Sleeve B 2-of-3 Dual-Jurisdiction Multi-Sig Cold Storage).
 
-## 2. Tier D Control-Plane, Supreme Radar & Mobile HUD (6 Sources)
-* **`MOD 28` — Live Autopsy & Black Swan Circuit Breaker Engine** *(Continuous learning protocol generating new `MOD` rules from live incidents)*
-* **`MOD 31` — Institutional Capital Defense Matrix (`ICDM` 100-Pt Fragility Scale)** *(Composite systemic stress scoring across Pillars 1–5)*
-* **`MOD 33` — Unified 5-Regime Master Radar and State-Transition Engine** *(Top-level classifier routing `PCF3` Configs `A–J` across Regimes `1–5`)*
-* **`MOD 36` — Telemetry Trust, Staleness SLA & Determinism Attestation** *(Fail-closed `UNKNOWN` gate, `DATA UNAVAILABLE` honesty, 3-venue price quorum, SHA-256 replay determinism)*
-* **`MOD 45` — Executive Bottom-Line HUD & Mobile Presentation Protocol** *(Mobile-first Telegram Templates `45A` Bottom-Line HUD, `45B` Hourly Heartbeat, `45C` Strike Alert)*
-* **`MOD 52` — Rolling 30-Trade Expectancy Audit & Parameter Drift Governor** *(Realized vs. modeled `Net R` audit, anti-curve-fitting `N >= 30` law, and single-config quarantine)*
+#### 1. Governance, Indices & Historical Invariants (5 Sources)
+*   **00** — Project CORTEX-BTC: Charter, 5-Pillar Waterfall & 18-Module Index
+*   **00B** — Project CORTEX-BTC V2.0 Full-Stack Master Index (MOD 01–28+)
+*   **00C** — Historical Registry (Entries #1–#37), 9-Year Cycle Laws & 3R Bar-Count Rules
+*   **00D** — Project CORTEX-BTC Complete 44-Source Master Directory (MOD 01–40)
+*   **00E** — Project CoreTex BTC Brain Complete 61-Source Master Directory (v6.0, MOD 01–55)
 
----
+#### 2. Tier D Control-Plane, Supreme Radar & Mobile HUD (6 Sources)
+*   **MOD 28** — Live Autopsy & Black Swan Circuit Breaker Engine
+*   **MOD 31** — Institutional Capital Defense Matrix (ICDM 100-Pt Fragility Scale)
+*   **MOD 33** — Unified 5-Regime Master Radar and State-Transition Engine
+*   **MOD 36** — Telemetry Trust, Staleness SLA & Determinism Attestation
+*   **MOD 45** — Executive Bottom-Line HUD & Mobile Presentation Protocol
+*   **MOD 52** — Rolling 30-Trade Expectancy Audit & Parameter Drift Governor
 
-## 3. Pillar 1 — Macro Liquidity Plumbing, Cross-Asset Gates & Secular Horizon (10 Sources)
-* **`MOD 16` — Macro Liquidity, Yields, DXY & Stablecoin Dry Powder** *(Core upstream `GATE_GREEN` / `AMBER` / `RED` permission filter)*
-* **`MOD 17` — 200D MA Secular Gates, Index Rebalancings & Session Handoffs** *(Asia / London / NY handoffs and secular moving average regime gates)*
-* **`MOD 22` — Net Fed Liquidity Impulse (`WALCL - TGA - RRP`)** *(Central bank balance-sheet liquidity injection/drain tracking)*
-* **`MOD 23` — MOVE Index (Bond Volatility) & High-Yield Credit Spread Breakers** *(Treasury collateral haircut and credit-stress circuit breakers)*
-* **`MOD 24` — USD-JPY Sovereign Carry-Trade Unwind & BOJ Alerts** *(Global yen-carry deleveraging shock detection)*
-* **`MOD 29` — Equity Multiple Compression, Energy Shocks & High-Beta Contagion** *(Discount-rate compression, `$100+` oil shocks, and `SOX`/`NDX` contagion)*
-* **`MOD 44` — Mega-IPO Capital Vacuums & Index Rebalance Liquidity Drains** *(`$25B+` Mega-IPO subscription/escrow drains & `$5B+` passive index deletions)*
-* **`MOD 46` — Block `1,050,000` (April 2028) Secular Horizon & Sovereign Barbell Anchor** *(Epoch 5 supply-cut anchor, Apr–Oct 2029 peak window, and `Sleeve A` vs. `Sleeve B` firewall)*
-* **`MOD 47` — Corporate & Sovereign Treasury Velocity (`mNAV` & Proxy Flywheel)** *(Listed treasury `mNAV` ATM flywheel vs. `< 1.10x` buyback pivot & sovereign reserve triggers)*
-* **`MOD 49` — Rolling Cross-Asset Correlation & Decoupling Matrix (`BTC` vs. `NDX` / `Gold` / `DXY`)** *(`30D/90D` equity lockstep veto, `DXY 103.50` resistance guard, and false-decoupling protection)*
+#### 3. Pillar 1 — Macro Liquidity Plumbing, Cross-Asset Gates & Secular Horizon (10 Sources)
+*   **MOD 16** — Macro Liquidity, Yields, DXY & Stablecoin Dry Powder
+*   **MOD 17** — 200D MA Secular Gates, Index Rebalancings & Session Handoffs
+*   **MOD 22** — Net Fed Liquidity Impulse (WALCL - TGA - RRP)
+*   **MOD 23** — MOVE Index (Bond Volatility) & High-Yield Credit Spread Breakers
+*   **MOD 24** — USD-JPY Sovereign Carry-Trade Unwind & BOJ Alerts
+*   **MOD 29** — Equity Multiple Compression, Energy Shocks & High-Beta Contagion
+*   **MOD 44** — Mega-IPO Capital Vacuums & Index Rebalance Liquidity Drains
+*   **MOD 46** — Block 1,050,000 (April 2028) Secular Horizon & Sovereign Barbell Anchor
+*   **MOD 47** — Corporate & Sovereign Treasury Velocity (mNAV & Proxy Flywheel)
+*   **MOD 49** — Rolling Cross-Asset Correlation & Decoupling Matrix (BTC vs. NDX / Gold / DXY)
 
----
+#### 4. Pillar 2 — Microstructure, Order Flow, Rough Path Signatures & Chart Geometry (20 Sources)
+*   **MOD 05** — The 4-Quadrant Spot CVD vs. Perp CVD Matrix
+*   **MOD 06** — Passive Limit Absorption vs. Market Taker Exhaustion
+*   **MOD 07** — Domestic Fiat Gateways & Spot ETFs vs. Offshore Flows
+*   **MOD 08** — Rough Path Signatures I: Price-Volume Lévy Signed Area (A_P,V)
+*   **MOD 09** — Rough Path Signatures II: Spot CVD-OI Lévy Signed Area (A_CVD,OI)
+*   **MOD 10** — Rough Path Signatures III: Multi-Horizon Alignment (1H vs. 4H/1D)
+*   **MOD 11** — Volume Profile Structural Topology (VAH / POC / VAL)
+*   **MOD 12** — Garman-Klass Volatility Squeeze & Fan Expansion
+*   **MOD 19** — Coinbase Premium Index Z-Scores & Venue Spreads
+*   **MOD 20** — CME Futures Basis & Weekend Gap Fill Topology
+*   **MOD 21** — Algorithmic TWAP/VWAP Accumulation Footprints vs. Spoofing
+*   **MOD 30** — PCF3 Order Flow Engine & 10 Deterministic Configurations (A–J)
+*   **MOD 34** — AEGIS-3: 3-Stage Impulse Defense & Anti-Capitulation Sell-Freeze
+*   **MOD 35** — Liquidation Heatmap Distance Rule & Pull Score Engine
+*   **MOD 42** — Classical Structural Shapes & Liquidity-Pool Authentication
+*   **MOD 43** — Algorithmic Fibonacci Confluence & Harmonic Impulse Measurement
+*   **MOD 50** — Weekend Thin-Liquidity, Unsettled CME Clearing & Sunday 22:00 UTC Protocol
+*   **MOD 53** — Hawkes Point Processes, Jump-Diffusion De-Noising & Transfer Entropy Engine
+*   **MOD 54** — Multi-Timeframe Algorithmic Market Structure & Kline Lookback Contract
+*   **MOD 55** — Dual-Stage Disruption Telemetry & Recovery Radar Engine
 
-## 4. Pillar 2 — Microstructure, Order Flow, Rough Path Signatures & Chart Geometry (17 Sources)
-* **`MOD 05` — The 4-Quadrant Spot CVD vs. Perp CVD Matrix** *(Spot-led vs. leverage-led divergence classification)*
-* **`MOD 06` — Passive Limit Absorption vs. Market Taker Exhaustion** *(Iceberg bid/ask absorption vs. aggressive taker depletion)*
-* **`MOD 07` — Domestic Fiat Gateways & Spot ETFs vs. Offshore Flows** *(US institutional USD/ETF flows vs. offshore USDT derivatives)*
-* **`MOD 08` — Rough Path Signatures I: Price-Volume Lévy Signed Area (`A_P,V`)** *(Order-2 geometric path signature of price-volume lead/lag)*
-* **`MOD 09` — Rough Path Signatures II: Spot CVD-OI Lévy Signed Area (`A_CVD,OI`)** *(Geometric coupling between spot accumulation and open interest)*
-* **`MOD 10` — Rough Path Signatures III: Multi-Horizon Alignment (`1H` vs. `4H/1D`)** *(Fractal signature alignment and half-life expiration rules)*
-* **`MOD 11` — Volume Profile Structural Topology (`VAH` / `POC` / `VAL`)** *(Auction Market Theory value-area acceptance and rejection)*
-* **`MOD 12` — Garman-Klass Volatility Squeeze & Fan Expansion** *(Range-based volatility compression and directional expansion)*
-* **`MOD 19` — Coinbase Premium Index Z-Scores & Venue Spreads** *(US institutional vs. global retail venue spread z-scores)*
-* **`MOD 20` — CME Futures Basis & Weekend Gap Fill Topology** *(Institutional term-structure basis and weekend gap mechanics)*
-* **`MOD 21` — Algorithmic TWAP/VWAP Accumulation Footprints vs. Spoofing** *(Time-sliced institutional execution vs. L2 order-book spoofs)*
-* **`MOD 30` — `PCF3` Order Flow Engine & 10 Deterministic Configurations (`A–J`)** *(Exact state-machine entry blueprints across Regimes `1–5`)*
-* **`MOD 34` — `AEGIS-3`: 3-Stage Impulse Defense & Anti-Capitulation Sell-Freeze** *(Multi-leg cascade defense preventing panic bottom-selling)*
-* **`MOD 35` — Liquidation Heatmap Distance Rule & Pull Score Engine** *(Magnetic liquidation pool proximity and sweep probability)*
-* **`MOD 42` — Classical Structural Shapes & Liquidity-Pool Authentication** *(Wyckoff springs, double bottoms/tops, and H&S authenticated by order flow)*
-* **`MOD 43` — Algorithmic Fibonacci Confluence & Harmonic Impulse Measurement** *(Anchor-validated Fib retracement/extension clusters)*
-* **`MOD 50` — Weekend Thin-Liquidity, Unsettled CME Clearing & Sunday `22:00 UTC` Re-Open Protocol** *(Weekend L2 depth haircut, unsettled CME clearing filter, and Monday NY open gate)*
+#### 5. Pillar 3 — Derivatives Leverage, Options Skew & Cascade Mechanics (8 Sources)
+*   **MOD 01** — Rising OI + Extreme Negative Perp Basis
+*   **MOD 02** — Rising OI + High Positive Basis
+*   **MOD 03** — Deleveraging Flushes & OI Reset Mechanics
+*   **MOD 04** — Funding Rate Velocity & Price Divergence Matrix
+*   **MOD 25** — Dealer Gamma Exposure (GEX) & Zero-Gamma Flip Mechanics
+*   **MOD 26** — Deribit & CME Monthly-Quarterly OpEx Max Pain Gravity
+*   **MOD 27** — 25-Delta Implied Volatility Skew & DVOL Term Structure Extremes
+*   **MOD 51** — Extreme Cascade Microstructure, Basis Blowouts & Staggered Limit Execution
 
----
+#### 6. Pillar 4 — Master Decision Compiler, Sizing & Slippage Governor (2 Sources)
+*   **MOD 18** — Master 5-Pillar Confluence, 0.75% Risk Sizing & Two-Stage Exit Engine
+*   **MOD 37** — Executable Liquidity, Net-3.0R Slippage & Equity-Curve Governor
 
-## 5. Pillar 3 — Derivatives Leverage, Options Skew & Cascade Mechanics (8 Sources)
-* **`MOD 01` — Rising OI + Extreme Negative Perp Basis** *(Short-squeeze fuel and crowded downside positioning)*
-* **`MOD 02` — Rising OI + High Positive Basis** *(Overheated long leverage and bull-trap vulnerability)*
-* **`MOD 03` — Deleveraging Flushes & OI Reset Mechanics** *(Forced liquidation cascades and post-flush OI reset detection)*
-* **`MOD 04` — Funding Rate Velocity & Price Divergence Matrix** *(Rate-of-change funding extremes vs. spot price action)*
-* **`MOD 25` — Dealer Gamma Exposure (`GEX`) & Zero-Gamma Flip Mechanics** *(Option dealer hedging amplification vs. pinning)*
-* **`MOD 26` — Deribit & CME Monthly-Quarterly OpEx Max Pain Gravity** *(Expiration pinning and post-OpEx volatility release)*
-* **`MOD 27` — 25-Delta Implied Volatility Skew & `DVOL` Term Structure Extremes** *(Tail-risk put/call skew and term-structure inversions)*
-* **`MOD 51` — Extreme Cascade Microstructure, Basis Blowouts & Staggered Limit Execution** *(`$750M+` cascade 4H cooldown, `<= -10%` basis recovery, and 3-rung passive limit ladder)*
+#### 7. Pillar 5 — On-Chain Cohorts, Stablecoins, ETFs, Solvency & Secular Exits (10 Sources)
+*   **MOD 13** — Short-Term Holder (STH) Realized Price & MVRV Bands
+*   **MOD 14** — SOPR Profit/Loss Reset Cycles
+*   **MOD 15** — Realized Cap Impulse & LTH-to-STH Wealth Transfer
+*   **MOD 32** — Exchange Solvency Multiplier (M_solv) & Sovereign Multi-Sig Custody
+*   **MOD 38** — ETF Primary-Market Settlement & BRRNY Fix-Window Engine
+*   **MOD 39** — Exchange Supply Activation & Aged-UTXO Dormancy Engine
+*   **MOD 40** — Miner Treasury Stress & Hashprice Economics Engine
+*   **MOD 41** — Secular Cycle ATH Cluster, First-Week Flush (Rule 1) & Flat Double-Top (+4% Rule 3) Exit Engine
+*   **MOD 41.1** — Secular ATH Operational Field Runbook & Countdown Checklist
+*   **MOD 48** — Stablecoin Supply Ratio (SSR), USDT.D & Net Mint/Burn Velocity
 
----
-
-## 6. Pillar 4 — Master Decision Compiler, Sizing & Slippage Governor (2 Sources)
-* **`MOD 18` — Master 5-Pillar Confluence, `0.75%` Risk Sizing & Two-Stage Exit Engine** *(Waterfall compiler, `0.75%` max equity risk cap, `50% / 50%` Stage 1 & Stage 2 exit engine)*
-* **`MOD 37` — Executable Liquidity, `Net-3.0R` Slippage & Equity-Curve Governor** *(L2 book impact, post-fee `Net R >= 3.0`, and `-1.50%` daily / `-3.00%` weekly loss locks)*
-
----
-
-## 7. Pillar 5 — On-Chain Cohorts, Stablecoins, ETFs, Solvency & Secular Exits (10 Sources)
-* **`MOD 13` — Short-Term Holder (`STH`) Realized Price & `MVRV` Bands** *(Cost-basis support/resistance and capitulation/euphoria bands)*
-* **`MOD 14` — `SOPR` Profit/Loss Reset Cycles** *(Spent Output Profit Ratio bull-market resets and capitulation curls)*
-* **`MOD 15` — Realized Cap Impulse & `LTH`-to-`STH` Wealth Transfer** *(Net capital inflow velocity and cohort distribution cycles)*
-* **`MOD 32` — Exchange Solvency Multiplier (`M_solv`) & Sovereign Multi-Sig Custody** *(Insurance-fund solvency math and `2-of-3` Malaysia/Indonesia cold storage)*
-* **`MOD 38` — ETF Primary-Market Settlement & `BRRNY` Fix-Window Engine** *(`15:00 ET / 20:00 UTC` fix-window AP flows and `T+1` creation/redemption)*
-* **`MOD 39` — Exchange Supply Activation & Aged-UTXO Dormancy Engine** *(Whale exchange deposits vs. cold-storage sweeps and old-coin revival)*
-* **`MOD 40` — Miner Treasury Stress & Hashprice Economics Engine** *(Hashprice compression, difficulty retargets, and miner capitulation bottoms)*
-* **`MOD 41` — Secular Cycle ATH Cluster, First-Week Flush (`Rule 1`) & Flat Double-Top (`+4% Rule 3`) Exit Engine** *(Laddered `4 x 5%` ATH distribution and `-10.0%` daily UTC hard exit)*
-* **`MOD 41.1` — Secular ATH Operational Field Runbook & Countdown Checklist** *(Step-by-step execution checklist during secular cycle peak windows)*
-* **`MOD 48` — Stablecoin Supply Ratio (`SSR`), `USDT.D` & Net Mint/Burn Velocity** *(7D/30D `USDT + USDC` mint/burn velocity, `SSR` denominator filter, and `$0.992` de-peg lock)*
 ---
 
 # PROJECT CORTEX-BTC — MODULE 01: RISING OPEN INTEREST + EXTREME NEGATIVE PERPETUAL BASIS
@@ -504,6 +501,7 @@ Before any Scenario in Module 01 can authorize a spot entry, all four circuit br
 | **M6: Premature Basis Flip** | `CSU-01A` / `01B` (Range Chop) | Price has **not** broken out, OI remains elevated, yet Basis/Funding flips **positive** mid-range. | Perp traders have flipped net long inside the chop before any short squeeze occurred—eliminating short-squeeze fuel. | **Cancel Bullish Squeeze Bias.** High OI + positive basis inside a stagnant range increases downside long-flush vulnerability. |
 | **M7: Offshore Spoof Divergence** | `CSU-01A` (False Signal) | Aggregate Spot CVD or OI rises on **offshore USDT venues**, while **Coinbase USD Spot CVD**, **CME OI (-15%)**, and **Spot ETF netflows (-$299.8M)** are negative. | Offshore tether churn and retail dip-borrowing are masking domestic institutional exit. | **Circuit Breaker 2 Tripped: DO NOT ENTER.** Treat setup as `CSU-01B` (Downside Correction Risk) until USD gateways turn positive. |
 | **M8: Post-Flush V-Bottom Reclaim** | `M4` (Long Cascade) | After a **> 8%** OI flush, price sweeps a major HTF liquidity low, reclaims VAL on the 15m chart, Basis stays deeply negative, and **USD Spot CVD surges**. | Weak leveraged longs have been wiped out; late panic shorts at the bottom are now trapped by institutional spot buyers. | **Authorize Spot Long Entry** under the **0.75% Risk Formula**, placing the invalidation stop below the capitulation wick low. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 02: RISING OPEN INTEREST + HIGH POSITIVE PERPETUAL BASIS
@@ -622,6 +620,7 @@ Before any Scenario in Module 02 can authorize a spot action, all four circuit b
 | **M6: Offshore-Only Pump Trap** | `CSU-02A` (False Signal) | Binance/Bybit/OKX OI and funding spike while **CME OI falls** and **Coinbase USD Spot CVD is negative**. | Leveraged offshore speculation without US institutional spot backing. | **Circuit Breaker 2 Tripped: Abort Long Bias.** Treat as `CSU-02B` (Trap). |
 | **M7: Arbitrage Unwind Pressure** | `CSU-02C` (Cash-and-Carry) | Basis compresses rapidly toward `0.00%` alongside **US Spot ETF net outflows** (`e.g., -$299.8M`) and falling CME OI. | Institutional arbitrage desks are closing short futures and selling underlying spot ETFs simultaneously. | **Maintain 100% Cash Lock.** Spot ETF selling creates sustained headwind until outflows halt. |
 | **M8: Post-Flush Basis Reset Reclaim** | `M4` (Long Cascade) | After a sharp long liquidation flush wipes out excess OI (`-8% to -17%`), funding resets to `<= +0.005%` and **USD Spot CVD steps in** at HTF VAL. | Excess leverage has been purged; market structure is clean again for unleveraged spot accumulation. | Transition to **Module 03 (`CSU-03A`)** and evaluate `0.75% Risk` Spot Long entry upon 15m VAL reclaim. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 03: DELEVERAGING FLUSHES & OPEN INTEREST RESET MECHANICS
@@ -738,6 +737,7 @@ Before any Scenario in Module 03 can authorize a spot entry after a flush, all f
 | **M6: Multi-Week Reset Completion** | `CSU-03D` (Time Bleed) | Total OI reaches a multi-month low (`-15% to -20%` off peak), Spot ETF outflows flip to net inflows, and price reclaims 200D MA / HTF POC. | Full macro-derivatives reset complete; structural bull regime is re-initializing. | **Authorize Full Tier-1 Spot Swing Allocation** (capped at `0.75%` stop risk per entry). |
 | **M7: Contagion / Solvency Shock** | Any Flush State | OI drops `> -20%` alongside stablecoin de-pegging, extreme negative basis (`< -0.15%`), and widening credit/yield stress (Pillar 1 breach). | Systemic market-structure shock rather than routine leverage cleanup. | **Pillar 1 Override: Lock 100% Cash & Verify Sovereign Cold-Storage Custody.** |
 | **M8: Silent Spot Divergence** | `CSU-03D` (Time Bleed) | Price makes a marginal lower low on declining OI, while **Domestic USD Spot CVD prints a clear higher low** (bullish divergence). | Institutional spot buyers are quietly absorbing the final trickle of forced/voluntary sellers. | Prepare `0.75% Risk` Spot Long entry upon 15m/1H Developing POC reclaim. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 04: FUNDING RATE VELOCITY & PRICE DIVERGENCE MATRIX
@@ -854,6 +854,7 @@ Before any Scenario in Module 04 can authorize a spot decision, all four circuit
 | **M6: Funding-Neutral Trend** | `CSU-04A` (Disbelief Rally) | Price climbs steadily for weeks while funding remains pinned in the **`+0.005% to +0.010%`** baseline band and USD Spot CVD rises smoothly. | Ideal institutional accumulation trend—zero leverage excess and steady spot demand. | **Maintain Core Spot Swing Position**; trail stops smoothly below 4H Volume Profile VALs. |
 | **M7: Arbitrage Basis Compression** | `CSU-04C` (Carry Bleed) | Perpetual funding drops to `0.000%` alongside dated futures basis compressing below `+4% APR` and **US Spot ETF outflows**. | Institutional cash-and-carry desks are unwinding long spot / short futures spreads. | **Maintain 100% Cash Lock** until ETF outflows stabilize and basis stops compressing. |
 | **M8: Double-Divergence Bottom** | `CSU-04D` (Panic Inflection) | Price prints a marginally lower low, but **8h funding prints a higher low** (less negative) while **Domestic USD Spot CVD prints a higher low**. | Aggressive short-selling pressure is exhausting itself while domestic spot absorption strengthens. | **High-Conviction Reversal Signal:** Execute `0.75% Risk` Spot Long upon 15m/1H VAH reclaim. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 05: THE 4-QUADRANT SPOT CVD VS. PERPETUAL CVD MATRIX
@@ -965,6 +966,7 @@ risk_parameters:
 | **M6: Offshore USDT Fakeout** | `CSU-05D` (Quad 4) | Binance USDT Spot CVD turns positive on a bounce, while Coinbase USD Spot CVD and Perp CVD remain negative. | Offshore tether market-maker rotation is painting a false spot bounce while fiat gateways continue selling. | **CB-02 Active: Ignore Bounce.** Keep 100% Cash Lock until Coinbase USD Spot CVD turns positive. |
 | **M7: Spot Taker Exhaustion** | `CSU-05B` (Quad 2) | USD Spot CVD surges to a `+3.0 Z-score` climax at HTF resistance, but price fails to break VAH and prints a shooting-star wick. | Even unleveraged spot takers have run into a massive institutional limit sell wall (`Module 06`). | **Take 50%–100% Tactical Profits** unless price reclaims the wick high within 2 candles. |
 | **M8: Session Handoff Flip** | `CSU-05C` (Asia/London) | Asia/London sessions print Quad 3 (Perp-led bounce), then at 09:30 EST (NY Open) Coinbase USD Spot CVD surges positive and takes the lead. | US institutional spot inflows validated and rescued an initially fragile overnight perp move. | **Upgrade from Standby to `CSU-05B`** — permit tactical entry if 1H VAH holds after first 60 minutes of NY open. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 06: PASSIVE LIMIT ABSORPTION VS. MARKET TAKER EXHAUSTION
@@ -1077,6 +1079,7 @@ risk_parameters:
 | **M6: Dual-Sided Compression Pin** | `CSU-06A` + `06B` | Both upper wicks and lower wicks show high-volume absorption within a `< 1.5%` price band around the POC. | Market makers (or options gamma dealers) are absorbing takers on both sides to pin price ahead of settlement. | **Standby in 100% Cash** (or hold existing position untouched) until one side of the compression pin breaks with displacement. |
 | **M7: Perp Absorption vs. Spot Dump** | `CSU-06B` (Ceiling) | Price stalls at resistance as Perp CVD is positive (`+$500M`), while Coinbase USD Spot CVD is negative (`-$80M`). | Unleveraged spot institutions are the passive ask wall capping leveraged perpetual buyers. | **High-Conviction Exit Signal:** Close 100% of spot swing exposure ahead of the inevitable perp long unwind. |
 | **M8: Retest of Trapped Footprint Node** | `CSU-06D` (Climax) | After a V-bottom absorption reversal, price pulls back on low volume (`E_d` low) to retest the exact price level of the prior trapped-seller footprint cluster. | Former trapped shorts are defending/covering at breakeven while passive spot bids reload at the same node. | **High-Probability Secondary Entry / Add** (keeping total combined position risk strictly `<= 0.75%` of portfolio equity). |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 07: DOMESTIC FIAT GATEWAYS (USD) & SPOT ETFS VS. OFFSHORE PERP/USDT FLOWS
@@ -1185,6 +1188,7 @@ risk_parameters:
 | **M6: USDT Minting Without USD Bid** | `CSU-07B` (Divergence) | Tether mints `$1B+` USDT offshore and Binance USDT Spot CVD ticks up, but Coinbase USD Spot CVD remains deeply negative. | Offshore market-maker inventory replenishment has not translated into US institutional demand. | **Maintain 100% Cash Lock** until Domestic USD gateways confirm. |
 | **M7: Friday Afternoon ETF Taper** | `CSU-07A` (Uptrend) | After strong Mon–Thu ETF inflows, Friday after 14:00 EST sees Coinbase USD Spot CVD flatten while offshore Perp OI surges into the weekend. | Institutional desks have closed books for the week, leaving the weekend tape exposed to thin offshore leverage chop. | **Tighten Trailing Stops or Take Partial Stage 1 Profits** before Friday 16:00 EST close if Perp Basis is overheated. |
 | **M8: Full Global Venue Alignment** | `CSU-07A` (Expansion) | Coinbase USD Spot CVD, US Spot ETFs (`+$400M+`), CME OI, and Offshore Spot/Perp CVD all turn strongly positive simultaneously above 1D VAH. | Rare global institutional + retail synchronized expansion regime. | **Hold Core Spot Swing Position** with wide structural trailing stop behind the 1D Volume Profile VAL. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 08: ROUGH PATH SIGNATURES I — PRICE-VOLUME LÉVY SIGNED AREA (A_P,V)
@@ -1302,6 +1306,7 @@ Before any Scenario in Module 08 can authorize a spot order, all four circuit br
 | **M6: Capitulation Volume Inflection** | `CSU-08D` (Markdown) | After a `-2.5 Z` vacuum drop, a massive volume spike hits at HTF support while price stops falling, flipping **`A_P,V` sharply upward toward `0.0`**. | Panic sellers just dumped into a major institutional limit bid wall at the lows. | Lift active crash freeze; monitor 15m footprint for `CSU-08C` / `MOD 03` V-bottom reclaim. |
 | **M7: Offshore Volume Spoof** | `CSU-08A` (False Signal) | Aggregate `A_P,V` reads `+1.8 Z` due to offshore USDT volume spike, but **USD-only `A_P,V` is negative (`< -0.5 Z`)**. | Offshore wash volume is masking weak domestic spot participation. | **Circuit Breaker 2 Tripped: Abort Long Entry.** Lock 100% Cash. |
 | **M8: Multi-Timeframe Signature Resonance** | `CSU-08A` (1H Markup) | Both **1H `A_P,V` (`>= +1.5 Z`)** and **4H `A_P,V` (`>= +1.5 Z`)** align positively above 4H VAH. | Fractal institutional volume leadership across tactical and structural horizons. | **Authorize Full `0.75% Risk` Spot Swing Allocation** with extended Stage 2 trailing target. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 09: ROUGH PATH SIGNATURES II — SPOT CVD–OPEN INTEREST LÉVY SIGNED AREA (A_CVD,OI)
@@ -1416,6 +1421,7 @@ Before any Scenario in Module 09 can authorize a spot order, all four circuit br
 | **M6: Double-Negative Capitulation** | `CSU-09D` (Markdown) | Both `S^(CVD)` and `S^(OI)` drop at `> 2.5 Z-score` simultaneously as price breaks multi-week support. | Simultaneous spot ETF redemption and futures liquidation cascade. | **Circuit Breaker 3 Freeze:** Hold 100% Cash until both slopes flatten for `>= 4 hours`. |
 | **M7: Offshore-Domestic Path Divergence** | `CSU-09A` (False Signal) | Offshore USDT `A_CVD,OI` reads `+1.6 Z`, while **Coinbase/Kraken USD `A_CVD,OI` reads `-1.5 Z`**. | Offshore tether flow is masking domestic institutional distribution. | **Circuit Breaker 2 Tripped: Reject Signal.** Lock 100% Cash. |
 | **M8: Full 3D Signature Alignment** | `CSU-09A` + `MOD 08` | Both **`A_P,V >= +1.5 Z`** (MOD 08) and **`A_CVD,OI >= +1.5 Z`** (MOD 09) fire simultaneously on 1H and 4H. | Volume leads price AND domestic spot leads leverage—maximum structural purity. | **Highest-Conviction Swing Trigger:** Deploy full `0.75% Risk` Spot allocation. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 10: ROUGH PATH SIGNATURES III — MULTI-HORIZON ALIGNMENT (1H TACTICAL VS. 4H/1D STRUCTURAL)
@@ -1543,6 +1549,7 @@ Before any Scenario in Module 10 can authorize capital deployment, all four circ
 | **M6: 15m-1H-4H Squeeze Cascade** | `CSU-10B` (Dip Buy) | From 4H VAL support, 15m, 1H, and 4H signatures all spike above `+1.5 Z` simultaneously with short liquidations (`MOD 01`). | Synchronized multi-timeframe squeeze ignition. | Hold full `0.75% Risk` position; execute Stage 1 exit only after perp basis crosses `0.00%`. |
 | **M7: False 4H Breakout (1H Divergence)** | `CSU-10A` (False Signal) | Price pokes above 4H VAH, but **1H `A_CVD,OI` is steeply negative (`< -1.5 Z`)** (offshore perps chasing while USD spot sells). | Intraday order flow is contradicting the 4H candle breakout ("look-above-and-fail"). | **Block Entry / Tighten Stop to 1H VAL.** |
 | **M8: Weekend Thin-Horizon Distortion** | Any State (Sat–Sun) | 1H signature spikes on low weekend liquidity while CME/ETF venues are closed (`1D volume < 30th percentile`). | Illiquid weekend path distortion prone to Sunday-night CME open mean reversion. | **Ignore Weekend 1H Breakout Signals; wait for Monday NY session confirmation (`MOD 17`).** |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 11: VOLUME PROFILE STRUCTURAL TOPOLOGY (VAH, VAL, POC & LVN)
@@ -1661,6 +1668,7 @@ Before any Scenario in Module 11 can authorize a spot order, all four circuit br
 | **M6: Naked POC (nPOC) Magnet Hit** | Any Trend Leg | Price traverses an LVN and hits an untouched historical **Naked POC (`nPOC`)** with `A_P,V` climaxing (`> +2.5 Z`). | Untested historical high-volume liquidity pool triggers automatic institutional profit-taking/rebalancing. | **Execute Stage 1 (50%) or Stage 2 (100%) Profit Exit** directly into the `nPOC` touch. |
 | **M7: Triple-Drive Exhaustion at VAH** | `CSU-11A` (Rotation to VAH) | Price tests VAH three times with progressively **lower USD Spot CVD** and shrinking volume on each push. | Buying pressure is exhausted at the upper boundary of value; sellers are absorbing. | **Close Remaining Spot Long at VAH**; do not wait for a breakout. |
 | **M8: Composite Range Expansion** | `CSU-11D` (HVN Chop) | After days of tight POC balance, price sweeps VAL (`CSU-11A`), reclaims POC, and breaks VAH (`CSU-11B`) in one session. | Classic "outside-day" auction expansion following volatility compression. | Execute `CSU-11A` at VAL, bank 50% at POC, and trail remaining 50% through VAH breakout. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 12: GARMAN-KLASS (OHLC) VOLATILITY SQUEEZE & FAN EXPANSION
@@ -1777,6 +1785,7 @@ Why **Garman-Klass (GK)** beats standard close-to-close volatility or Bollinger 
 | **M6: Macro Shock Volatility Regime** | Any State | GK volatility spikes `>= 95th percentile` triggered by US 10Y yield spike (`> 5.10%`) or CPI/FOMC shock (Pillar 1 breach). | Exogenous macro repricing event; historical technical bands temporarily lose containment. | **Pillar 1 Override: Lock 100% Cash** until macro volatility settles below 60th percentile. |
 | **M7: Multi-Day Inside-Day Coil** | `<= 15th pct` Squeeze | Three consecutive daily candles print narrower ranges (`GK < 10th percentile`) right below a major HTF VAH / 200D MA. | Maximum coiling energy at a secular inflection point. | Set automated alerts on VAH breakout + USD Spot CVD; prepare full `0.75% Risk` deployment. |
 | **M8: Weekend Low-GK Drift** | Sat–Sun Session | GK volatility drops to `< 5th percentile` over weekend with zero institutional flow. | Artificial weekend illiquidity—not a true structural squeeze. | **Ignore Weekend GK Readings** until Sunday 22:00 UTC / Monday Asia-NY handoff (`MOD 17`). |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 13: SHORT-TERM HOLDER (STH) REALIZED PRICE & MVRV BANDS
@@ -1895,6 +1904,7 @@ Before any Scenario in Module 13 can authorize a spot decision, all four circuit
 | **M6: Mid-Bull Band Walk** | `CSU-13A` (Uptrend) | Price rides steadily between `STH-MVRV = 1.08` and `1.22` for weeks with steady US Spot ETF inflows and neutral funding. | Healthy institutional bull expansion without speculative blow-off excess. | **Hold Core Spot Swing Position**; trail stops beneath 4H VALs. |
 | **M7: Double-Top MVRV Divergence** | `CSU-13C` (Overheated) | Price makes a marginal higher high, but **`STH-MVRV` prints a lower high** (because rapid churn raised the STH cost basis near the top). | Average buyer cost basis is now dangerously close to spot price—tiny dip puts everyone underwater. | **Execute Immediate 100% Profit Exit.** Extreme fragility warning. |
 | **M8: Sovereign Cold-Storage Tranche** | `CSU-13D` (Deep Discount) | `STH-MVRV <= 0.82` coincides with `200W MA` / Realized Price touch and Pillar 1 macro stabilization. | Generational sovereign accumulation window. | Execute tactical `0.75% Risk` swing entry AND allocate sovereign cold-storage capital (`MOD 18`). |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 14: SOPR (SPENT OUTPUT PROFIT RATIO) PROFIT/LOSS RESET CYCLES
@@ -2014,6 +2024,7 @@ While `MVRV` (`MOD 13`) measures *unrealized* profit/loss sitting in wallets, **
 | **M6: LTH Capitulation Contagion** | `CSU-14D` (Severe Crash) | Both `STH-SOPR < 0.94` AND **`LTH-SOPR < 0.95`** (veteran holders selling at a loss on heavy volume). | Rare macro bear-market bottom capitulation (`cycle floor territory`), but extreme short-term volatility. | Stand down until `LTH-SOPR` reclaims `1.00`, then initiate sovereign cold-storage accumulation. |
 | **M7: SOPR Bearish Divergence** | `CSU-14C` (Uptrend) | Price makes a higher high, but **`aSOPR` makes a sharp lower high** while USD Spot CVD flattens. | Fewer coins are able to realize profits on new highs—upside momentum is thinning out. | **Execute Stage 1 (50%) Profit Exit**; tighten trailing stop on remainder to 1H VAL. |
 | **M8: Double-Bottom SOPR Curl** | `CSU-14D` (Capitulation) | Price makes a lower low (`e.g., $71.2K -> $68.0K`), while **`STH-SOPR` prints a higher low (`0.95 -> 0.975`)** with USD Spot CVD absorption. | Marginal loss-realization pressure is shrinking rapidly into the second sweep. | **Authorize `0.75% Risk` Spot Long** upon 15m/1H VAL reclaim. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 15: REALIZED CAP IMPULSE & LTH-TO-STH WEALTH TRANSFER
@@ -2130,6 +2141,7 @@ Realized Capitalization values every Bitcoin UTXO at the price it last moved on-
 | **M6: Retail FOMO Transfer Peak** | `CSU-15B` (Top Zone) | `< 10 BTC` retail cohort balances surge vertically while `100–10,000 BTC` and LTH cohorts dump aggressively. | Final stage of bull-cycle wealth transfer from smart money to late retail. | **Strict 100% Cash Lock on Swing Book**; block all FOMO entries. |
 | **M7: Custodial Migration False Alarm** | `CSU-15A` (False Drop) | Raw exchange reserves appear to jump `+30,000 BTC`, but on-chain forensics show internal Coinbase/Binance cold-wallet reshuffle with zero USD Spot CVD selling. | Accounting/custody artifact rather than actual sell-side deposit flow. | **Ignore Raw Exchange Spike**; rely on Domestic USD Spot CVD (`MOD 05/07`) for truth. |
 | **M8: Sovereign Multi-Sig Audit Trigger** | Any Major Regime Shift | Portfolio cash/BTC ratio shifts significantly (`> 25%` rebalance) or exchange counterparty stress emerges. | Operational custody hygiene check required under Pillar 5 sovereign defense. | Verify cold-storage multi-sig quorum and keep active exchange balance strictly limited to tactical swing margin. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 16: MACRO LIQUIDITY, SOVEREIGN YIELDS, DXY & STABLECOIN DRY POWDER
@@ -2248,6 +2260,7 @@ risk_parameters:
 | **M6: Sovereign Credit / MOVE Spike** | Any State | Bond market volatility (**MOVE Index**) spikes above `130+` alongside widening High-Yield credit spreads. | Systemic fixed-income stress—institutions liquidate all liquid assets (including BTC) for cash. | **Emergency `GATE_RED_100_CASH_LOCK`.** Zero exceptions until MOVE normalizes. |
 | **M7: Stablecoin De-Peg Contagion** | Any State | A top-3 stablecoin (`USDT` or `USDC`) trades below **`$0.992`** for `> 2 hours` on major spot pairs. | Settlement-rail solvency scare causing artificial BTC/USDT premium spikes. | **Halt All Execution (`100% Cash / Cold-Storage Audit`).** Never mistake a de-peg pump for a bull breakout. |
 | **M8: Macro-Micro Harmonic Alignment** | `GATE_GREEN` + `MOD 08/09` | Pillar 1 is `GATE_GREEN` (`10Y ↓, DXY ↓, Stablecoins ↑`) AND Pillar 2/3 print `CSU-08A / 09A` spot-led breakout. | Rare full-stack macro + microstructure alignment across all 5 Pillars. | **Deploy Full `0.75% Risk` Spot Swing Allocation** with maximum confidence. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 17: 200D MA SECULAR GATES, INDEX REBALANCINGS & SESSION HANDOFFS
@@ -2362,6 +2375,7 @@ Before any Scenario in Module 17 can authorize capital deployment, all four circ
 | **M6: Post-Index-Rebalance Relief** | `CSU-17D` (Stand-Down) | Forced index selling deadline passes (e.g., market close on rebalancing day), selling volume vanishes, and **USD Spot CVD steps in**. | Artificial forced seller is completely removed from the order book. | Lift `CB-03` stand-down; evaluate `0.375%–0.75%` Spot Long on 15m/1H VAH reclaim. |
 | **M7: 200-Week MA Sovereign Floor** | Deep Bear Drawdown | Price touches or sweeps the **200-Week Moving Average** (`historically ultimate cycle floor`) alongside `STH-MVRV <= 0.82`. | Multi-year generational valuation floor. | Initiate sovereign cold-storage accumulation tranches (`MOD 18`) once 1D/4H USD Spot CVD stabilizes. |
 | **M8: NY Close Institutional Dump** | Intraday Uptrend | Price holds strong all day, then in the final hour (`20:00–21:00 UTC` NY close), massive spot selling hits to fulfill daily ETF redemptions. | Authorized Participants (APs) executing end-of-day ETF redemption basket sales. | **Tighten Stops Before `20:00 UTC`** whenever preliminary ETF flow trackers signal heavy net outflows. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 18: MASTER 5-PILLAR CONFLUENCE, 0.75% RISK SIZING ENGINE & TWO-STAGE EXIT PROTOCOL
@@ -2502,6 +2516,7 @@ Whenever you feed live market telemetry into **Project CORTEX-BTC**, Gemini, Her
 | **M6: Amber-to-Green Mid-Trade Promotion** | Active `0.375%` `CSU-18B` | Price reclaims `200D MA` and `STH RP` while Pillar 1 upgrades from **`GATE_AMBER` to `GATE_GREEN`**. | Counter-trend bounce has graduated into a full secular bull trend. | Hold runner for full swing targets; optionally add a second `0.375%` tranche on `200D MA` retest. |
 | **M7: Exchange Counterparty Alert** | Active Exchange Balance | Withdrawal delays, proof-of-reserve anomalies, or stablecoin de-peg (`< $0.992`) detected on any venue. | Systemic custody risk overrides all chart setups. | **Immediate Withdrawal to Multi-Sig Cold Storage**; halt trading until venue solvency is verified. |
 | **M8: Daily Telemetry Scan Protocol** | Routine Daily Ops | User or Hermes daemon feeds daily/on-demand telemetry packet into **Project CORTEX-BTC**. | Standard daily inference execution. | Run **Step 1 -> Step 5 Waterfall**, cite exact `MOD` & `CSU` codes, verify Circuit Breakers, and output deterministic Verdict. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 19: COINBASE PREMIUM INDEX Z-SCORES & DOMESTIC-OFFSHORE SPREADS
@@ -2613,6 +2628,7 @@ risk_parameters:
 | **M6: USDT De-Peg Mirage** | Any State | Raw `CPI_pct` jumps to `+0.30%`, but `USDT/USD` is trading at `$0.997` (adjusted `CPI_pct` is `0.00%`). | Stablecoin discount masquerading as Coinbase spot demand. | **Circuit Breaker 2 Tripped: Ignore Raw Spread.** |
 | **M7: ETF Creation Surge Sync** | `CSU-19A` (Uptrend) | Sustained `+0.06% to +0.12%` `CPI_pct` during `14:00–20:00 UTC` paired with `> $300M` daily US Spot ETF inflows. | Institutional TWAP accumulation wave running across multiple sessions. | **Hold Core Swing Runner (`Stage 2`)**; trail stop beneath 4H VAL. |
 | **M8: Friday Close Premium Fade** | Friday `19:00–21:00 UTC` | `CPI_pct` turns negative into the Friday equity close after a strong week. | Pre-weekend institutional risk reduction / profit-taking before CME closes. | **Bank Stage 1 (50%) Profit** ahead of weekend thin liquidity (`MOD 20`). |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 20: CME FUTURES BASIS & WEEKEND GAP FILL TOPOLOGY
@@ -2727,6 +2743,7 @@ risk_parameters:
 | **M6: CME-Offshore Basis Arbitrage Squeeze** | `CSU-20C` (CME Strong) | CME basis jumps to `+14% APR` while offshore perp basis stays negative (`-0.03%`, `MOD 01`). | Regulated US institutions are bullish while offshore retail is heavily short—explosive arbitrage/squeeze setup. | **High-Conviction `0.75% Risk` Spot Long** upon 1H VAH reclaim with USD Spot CVD. |
 | **M7: Quarter-End CME Roll Turbulence** | Final 48h of Mar/Jun/Sep/Dec | Massive volume spikes in CME calendar spreads with erratic intraday basis prints. | Mechanical quarterly contract roll—not organic directional flow. | **Circuit Breaker 3 Tripped:** Suspend CME basis signals until the new front-month contract becomes lead. |
 | **M8: Post-Flush CME OI Bottom** | `CSU-20D` (Unwind) | After a `-15%+` CME OI drop, CME OI turns upward for `3 consecutive sessions` with rising basis and positive ETF flows. | Regulated institutional capital has finished de-risking and is re-entering long. | Upgrade institutional posture; authorize `0.75% Risk` Spot Swing deployment. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 21: ALGORITHMIC TWAP/VWAP ACCUMULATION FOOTPRINTS VS. SPOOFED LIQUIDITY
@@ -2842,6 +2859,7 @@ risk_parameters:
 | **M6: Round-Number Psychological Magnet** | Any Intraday Move | Massive clusters of resting orders sit at major round figures (`$70,000`, `$68,000`, `$65,000`) with heavy footprint battles. | Institutional option strikes (`MOD 25/26`) and psychological liquidity pools converge. | Never place stops *at* round numbers; place stops `0.5%–1.0%` *beyond* the round-number sweep zone. |
 | **M7: Offshore Wash-TWAP Filter** | `CSU-21A` (False Signal) | Offshore USDT exchanges show rhythmic small trades, but **Coinbase/Kraken USD Spot CVD is flat/negative**. | Offshore volume-bot churn—zero real institutional accumulation. | **Circuit Breaker 2 Tripped: Ignore Signal.** Lock 100% Cash. |
 | **M8: End-of-Day MOC / ETF Basket Spike** | `20:45–21:00 UTC` | Sudden volume surge in the final 15 minutes of US equity trading pushing price sharply away from Session VWAP. | Market-on-Close (MOC) institutional rebalancing / ETF share creation settlement. | Wait 15 minutes after `21:00 UTC` to verify whether Asia session accepts or fades the MOC move. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 22: NET FED LIQUIDITY IMPULSE (FED BALANCE SHEET − TGA − RRP)
@@ -2952,6 +2970,7 @@ Why **Net Fed Liquidity (`WALCL − TGA − RRP`)** is the master plumbing gauge
 | **M6: Repo / SOFR Funding Spike** | Any State | Overnight SOFR spikes `>= +15 bps` above the Fed Funds upper bound (dollar funding stress in repo markets). | Acute collateral/cash shortage in the banking system—institutions liquidate risk assets for cash. | **Immediate `GATE_RED_100_CASH_LOCK`** until repo rates normalize. |
 | **M7: Stablecoin Lag Catch-Up** | `CSU-22A` (Fed Inj.) | Net Fed Liquidity turns positive (`+$100B`), and 2–3 weeks later **USDC + USDT 30D supply flips from negative to `+1.5%`**. | Dollar liquidity injection has officially transmitted into crypto-native settlement rails. | **Confirm `GATE_GREEN_FULL_RISK` (`0.75%`)**; maximum green light for spot swing deployment. |
 | **M8: Thursday H.4.1 Surprise Revision** | Weekly Thursday `20:30 UTC` | Weekly Fed H.4.1 release shows unexpected `-$80B+` drop in bank reserves alongside breaking 4H VAL. | Confirms hidden liquidity tightening behind weak price action. | **Enforce 100% Cash Lock**; reject weekend relief bounces. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 23: MOVE INDEX (BOND VOLATILITY) & HIGH-YIELD CREDIT SPREAD BREAKERS
@@ -3062,6 +3081,7 @@ Why **MOVE Index** and **High-Yield (Junk) Credit Spreads** act as Bitcoin's sys
 | **M6: Sovereign Debt Ceiling / Shutdown Standoff** | Any State | T-Bill yields at specific maturity dates spike (`kink in T-bill curve`) alongside MOVE surge. | Technical default/plumbing anxiety creating acute cash hoarding. | **Enforce 100% Cash Lock** until legislative resolution clears the T-bill kink. |
 | **M7: BTC-Gold Safe-Haven Decoupling** | `CSU-23B` / `23C` | MOVE spikes above `115` due to fiscal deficit fears, **yet Bitcoin rises alongside Gold** with positive Domestic USD Spot CVD (`> +0.10%` Coinbase Premium). | Rare sovereign-debt-flight regime where BTC trades as digital gold rather than tech beta. | **Allow Half-Size (`0.375%`) Spot Long** *only* if 4H VAH holds AND Coinbase Premium is strongly positive. |
 | **M8: Friday Bond Close Stabilization** | Friday `20:00 UTC` | After a volatile week, 10Y yields settle lower and MOVE closes near weekly lows on Friday afternoon. | Removes weekend macro overhang heading into Asian/crypto weekend sessions. | Clear `CB-01` weekend macro caution; evaluate Sunday/Monday `MOD 20` gap setups normally. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 24: USD/JPY SOVEREIGN CARRY-TRADE UNWIND & BOJ INTERVENTION ALERTS
@@ -3170,6 +3190,7 @@ Why **USD/JPY** is one of the most dangerous hidden liquidation triggers for Bit
 | **M6: 160.00 Clean Breakout Without Intervention** | `CSU-24B` (`160.00`) | `USD/JPY` breaks above `160.50` and holds for 5 days with zero intervention, **AND** `MOVE < 85` + US Spot ETFs have strong inflows. | Market absorbed the psychological level smoothly without liquidity stress. | Relax `CSU-24B` caution slightly, but keep stops disciplined against sudden intervention. |
 | **M7: Weekend FX Gap Risk** | Friday `20:00 UTC` (`USD/JPY ~160`) | `USD/JPY` closes Friday right at `160.00` ahead of weekend G7/BOJ commentary. | High probability of a Sunday `22:00 UTC` FX gap spilling into crypto open. | **Bank Stage 1 (50%) Profit Before Friday Close**; avoid holding full size over weekend. |
 | **M8: BTC Sovereign Hedge Divergence** | `CSU-24C` (FX Turmoil) | `USD/JPY` and fiat currencies experience severe volatility, **yet Coinbase Premium (`MOD 19`) surges `> +0.10%` and BTC breaks 4H VAH**. | Investors fleeing fiat currency instability into hard sovereign monetary assets (BTC/Gold). | **Authorize `0.375%–0.75%` Spot Long** *only* upon confirmed 4H VAH acceptance + positive USD Spot CVD. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 25: DEALER GAMMA EXPOSURE (GEX) & ZERO-GAMMA FLIP MECHANICS
@@ -3286,6 +3307,7 @@ Why **Dealer Gamma Exposure (GEX)** governs whether breakouts stick or mean-reve
 | **M6: 0DTE / Front-Expiry Gamma Spike** | `< 24h` to Expiry | Front-expiry gamma concentration surges (`gamma spikes as time-to-expiry -> 0`), causing violent intraday ping-pong around a single strike. | Extreme short-dated gamma pinning (`MOD 26`). | **Avoid Intraday Breakout Trades** within 12 hours of major Friday `08:00 UTC` expiry. |
 | **M7: Multi-Venue Flip Divergence** | Any State | Deribit-only Zero-Gamma Flip sits at `$75,000`, while 5-exchange composite flip sits at `$76,500` due to offshore retail call/put skew. | Zone between `$75,000` and `$76,500` is a transitional neutral-gamma buffer. | Require full clearance above the **higher composite flip** before assuming full Positive Gamma stability. |
 | **M8: Negative Gamma + Negative Basis Sync** | `MOD 25C` + `MOD 01` | Spot is in Negative Gamma (`< Flip`) AND perpetual basis is deeply negative (`< -0.04%`) with surging OI. | Maximum two-way explosive fragility: breakdown triggers cascading flushes, while VAL reclaim triggers violent squeeze. | Strictly obey `MOD 03A` + `CSU-25B` reclaim trigger—zero guessing before reclaim confirms. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 26: DERIBIT & CME MONTHLY/QUARTERLY OPEX MAX PAIN GRAVITY
@@ -3395,6 +3417,7 @@ risk_parameters:
 | **M6: Post-OpEx DVOL Collapse** | Friday `08:00 UTC` Settlement | Implied volatility (`DVOL`) drops sharply post-expiry while spot sits dead flat inside a tiny `0.8%` weekend range. | Post-expiry volatility crush (`vol sellers dominating`); next big move waits for Monday NY. | **Hold 100% Cash Over Weekend**; arm `MOD 12A` volatility squeeze breakout alerts for Monday. |
 | **M7: Overhang Relief Rally** | `CSU-26D` -> Post-OpEx | Price bled into Friday OpEx due to heavy put hedging; the moment `08:00 UTC` passes, put hedges expire, dealers buy back short futures, and **USD Spot CVD steps in**. | Removal of put-hedging overhang triggers an immediate mechanical relief bounce. | Evaluate `0.375%–0.75% Risk` Spot Long upon 15m/1H VAL reclaim post-`08:00 UTC`. |
 | **M8: New-Month Call Wall Magnet Shift** | Post-OpEx Monday | Newly dominant monthly expiry shows massive Call OI building `$10K–$15K` above spot with positive Coinbase Premium. | Institutional positioning for next upside leg is actively establishing. | Align `Stage 2` swing profit targets with the new dominant Call Wall strike. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 27: 25-DELTA IMPLIED VOLATILITY SKEW & DVOL TERM STRUCTURE EXTREMES
@@ -3507,6 +3530,7 @@ risk_parameters:
 | **M6: Term Structure Re-Steepening** | `CSU-27A` (Backwardation) | Front-month IV drops back below 90D IV (`Term Structure flips from Backwardation back to Contango`) while price holds above 4H VAL. | Acute crisis regime has officially transitioned back into normal market functioning. | Upgrade risk permission; trail remaining `Stage 2` swing runner confidently. |
 | **M7: Whale Put-Spread Floor** | Downside Correction | Large block trades on Deribit sell downside puts (`e.g., $65K–$68K puts`) while buying upside calls (`Risk Reversal reversal`), flattening `Skew_25D`. | Institutional desks are underwriting a hard floor and positioning for a rebound. | Confirm with Domestic USD Spot CVD (`MOD 19`); prepare `0.75% Risk` Spot Long on VAL reclaim. |
 | **M8: Weekend IV Decay Trap** | Friday `16:00 UTC` -> Sun | Market makers mark down weekend IV (`apparent DVOL dip`), creating a false sense of calm before Sunday `22:00 UTC` reopen. | Artificial weekend volatility markdown (`calendar decay`), not structural calm. | Do not treat Saturday DVOL dips as `M1` Vanna bullish signals; wait for Monday NY session. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 28: LIVE AUTOPSY & BLACK SWAN CIRCUIT BREAKER ENGINE (TIER D)
@@ -3601,6 +3625,7 @@ existing_modules_active: "[Which MOD 01-27 signals were firing before the move?]
 blind_spot_identified: "[What did the existing modules miss or misclassify?]"
 proposed_new_rule: "IF [Exact Telemetry Condition A] -> THEN [Mechanical Outcome B] -> ENFORCE [Action Rule C + Risk Cap]"
 ```
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 29: EQUITY MULTIPLE COMPRESSION, ENERGY SHOCKS & HIGH-BETA CONTAGION
@@ -3704,6 +3729,7 @@ risk_parameters:
 | **M6: Sovereign Fiscal Dominance Pivot** | `CSU-29A` (Multiple Comp.) | Central bank cuts rates or injects liquidity *despite* sticky 3%+ inflation to stabilize Treasury markets. | Real yields plunge (`negative real rate impulse`)—explosive monetary debasement tailwind. | **Lock `GATE_GREEN_FULL_RISK` (`0.75%`)**; maximize Stage 2 trend runners. |
 | **M7: Earnings-Beat Bull Trap** | `CSU-29A` (Range Chop) | Mega-cap tech beats earnings, BTC spikes to range VAH on offshore perps, but **Coinbase Premium stays negative**. | Classic multiple-compression bull trap (`Entry #36`). | **Block Breakout Entry; Lock 100% Cash.** |
 | **M8: Global Equity Circuit Breaker** | `CSU-29B` (Contagion) | Major Asian/European index (`KOSPI`, `Nikkei`) triggers emergency trading halts (`-7%+` crash). | Global margin call wave will hit US open (`13:30 UTC`). | **Hold 100% Cash Through NY Open (`13:30–16:00 UTC`)**; evaluate only after NY dust settles. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 30: PCF3 ORDER FLOW ENGINE & 10 DETERMINISTIC CONFIGURATIONS (A–J)
@@ -3782,6 +3808,7 @@ risk_parameters:
 | **2. Synthetic Leverage Rally** | Flat / Falling | **Spiking Upward** | **Expanding Rapidly** | **Liquidity Trap (`CONFIG_B/D`):** Prone to violent long flushes back to VWAP. Do not chase. |
 | **3. Spot Absorption / Capitulation Wick** | **Flattening / Curling Up** | **Dumping Hard** | **Plummeting (Liqs)** | **Highest-EV Reversal (`CONFIG_F/J`):** Enter spot long strictly *after* liquidation cascade halts and VWAP/VAL reclaims. |
 | **4. Structural Spot Bleed** | **Drifting Downward** | Flat / Chopping | Compressed / Declining | **Cash Preservation (`CONFIG_I`):** Zero bounce sustainability until organic USD spot bids step in. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 31: INSTITUTIONAL CAPITAL DEFENSE MATRIX (ICDM 100-POINT FRAGILITY SCALE)
@@ -3887,6 +3914,7 @@ Applying the **ICDM 100-Point Fragility Scale** to today's live market demonstra
 | **M6: Stealth Score Creep** | `CSU-31A` (`Score 24`) | Price is still making marginal highs, **but ICDM Score creeps from `24` up to `44`** (Coinbase Premium inverting + BBO bid skew dropping). | Hidden deterioration beneath calm surface price (`divergent fragility`). | **Bank Stage 1 (50%) Profit** and tighten stops ahead of visible price breakdown. |
 | **M7: Data-Absence Conservative Penalty** | Daily Telemetry Scan | One or more ICDM sub-metrics are temporarily unavailable in the live feed. | Under zero-hallucination rules, missing telemetry cannot be assumed bullish (`0 pts`). | Assign **50% neutral-caution points** to any missing sub-metric until verified data arrives. |
 | **M8: Daily ICDM Audit Logging** | Routine Daily Ops | Compute exact `0–100` ICDM score alongside `MOD 18` Waterfall every session. | Tracks directional fragility velocity (`Delta_ICDM` 24H/7D) in addition to static score. | If `ICDM` rises by **`+15 points` in 48 hours**, automatically reduce risk tier by one level. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 32: EXCHANGE SOLVENCY MULTIPLIER (M_SOLV) & SOVEREIGN MULTI-SIG CUSTODY ARCHITECTURE
@@ -3991,6 +4019,7 @@ risk_parameters:
 | **M6: Travel Mode / Mobile-Only OpSec** | Traveling Without Laptop | Operating exclusively via smartphone (Galaxy A55) across mobile networks/hotels. | Elevated phishing, SIM-swap, and physical-device exposure while traveling. | Enforce **72-Hour Operational Wall**—zero cold-storage multi-sig signing transactions permitted while traveling. |
 | **M7: Post-Contagion Regulatory Overreach** | `CSU-32B` + `7–14 Days` | Following a major exchange collapse, regulators announce emergency stablecoin or exchange restrictions. | Secondary policy shock extending `ICDM` fragility (`MOD 31`). | Require `ICDM Score < 55` + `200D MA` / `4H VAH` reclaim before deploying swing capital. |
 | **M8: Barbell Rebalance Trigger** | Quarter-End / Major Rally | Tactical swing account grows `> 20%` above baseline allocation after a successful bull run. | Excess risk capital sitting on exchange venues. | Sweep excess profits into **2-of-3 Dual-Jurisdiction Cold Storage (`CSU-32C`)** to lock in generational wealth. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 33: UNIFIED 5-REGIME MASTER RADAR & STATE-TRANSITION ENGINE
@@ -4062,6 +4091,7 @@ risk_parameters:
 | **`TR-04`** | `REGIME_1` $\rightarrow$ `REGIME_3` | Real 10Y yields spike `> +15 bps`, `MOVE` crosses above `90`, or `ICDM Score` rises above `36` while Spot holds near `STH Realized Price`. | Immediately cuts max risk per trade in half (`0.75% -> 0.375%`) and disables breakout entries. |
 | **`TR-05`** | `REGIME_1/2/3` $\rightarrow$ `REGIME_4` | `ICDM Score >= 60`, `Spot` loses `200D MA` + `Zero-Gamma Flip`, or `USD/JPY` / `MOVE` triggers an emergency Pillar 1 macro shock. | **Immediate Kill-Switch:** Exit open swings at market and lock **100% Cash**. |
 | **`TR-06`** | `REGIME_5` $\rightarrow$ `REGIME_4` *(Failed Bottom)* | Reclaim fails: price closes `4+` consecutive 1H bars below sweep support (`00C`) and `USD Spot CVD` rolls back negative. | Hard stop triggered (`-0.375%` max loss); re-lock **100% Cash** immediately. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 34: AEGIS-3 (ASYMMETRIC EXPOSURE & GEOPOLITICAL/IMPULSE SHIELD)
@@ -4175,6 +4205,7 @@ risk_parameters:
 | **M6: Session Handoff Vulnerability** | `0.55 <= SFI < 0.70` | Approaching `23:00 UTC (07:00 MYT)` Asian thin-liquidity window with dense long liquidations `< 2%` below spot. | Overnight Asian desks have thin bid depth to defend psychological shelves. | **Treat as `SFI >= 0.70` (`PRE_TRIM`)** ahead of the `23:00 UTC` session handoff. |
 | **M7: NLP Wire False Alarm** | `PRE_TRIM` Watch | Wire NLP flags escalation keywords, **but `Z_r > -1.2` and Spot CVD remains flat/positive** for 30 minutes. | Market ignored the headline; order flow refuses to break down. | **Do Not Fire `Stage 2` Exit;** require dual confirmation (`Velocity + Flow`). |
 | **M8: Post-Cascade Re-Entry Abort** | `RECOVERY_GATE` | Liquidations decay `< 25%`, **but rebound lacks USD Spot CVD** (perp-only dead-cat bounce with rising OI). | Leverage is reloading prematurely without real spot accumulation (`MOD 03 M3`). | **Block Re-Entry Tranches;** remain in cash until genuine spot CVD steps in. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 35: LIQUIDATION HEATMAP DISTANCE RULE & PULL SCORE ENGINE
@@ -4277,6 +4308,7 @@ risk_parameters:
 | **M6: Crowd Flip Mid-Range** | `CSU-35C` (Chop) | While price chops mid-range, **funding plunges to `-0.025%` and OI jumps `+6%`** (aggressive short buildup at range lows). | Positioning skewed heavily short; upside Pull Score + Permission now align. | **Upgrade to `CSU-35B` Watch;** prepare `MOD 11A` VAL reclaim long trigger. |
 | **M7: Multi-Model Heatmap Divergence** | Daily Mapping | CoinGlass Model 1 (`high leverage`) shows a nearby cluster, while Model 2/3 (`low leverage`) shows the true heavy shelf `3%` deeper. | High-leverage bucket is decoy fuel; true institutional liquidation wall sits at the Model 2/3 shelf. | **Anchor Invalidation Stop Beneath the Deeper Model 2/3 Shelf** (`minus 0.6%` buffer). |
 | **M8: Morning Distance Worksheet Audit** | Daily `08:00 MYT` Scan | Compute `Distance %` and `Pull Score` for nearest 2 upper & 2 lower magnets alongside `MOD 31` ICDM score. | Prevents narrative bias ("inevitable pump") by quantifying exact ATR & percentage energy cost. | **Enforce Distance Rule 1:** Always plan around the higher Pull Score side unless a catalyst fires. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 36: TELEMETRY TRUST, STALENESS SLA & DETERMINISM ATTESTATION
@@ -4379,6 +4411,7 @@ risk_parameters:
 | **M6: Local VPS / Mobile Clock Drift** | `GREEN` | System clock drifts `> 2000 ms` from UTC NTP reference. | Candle-close timestamps (`1H / 4H` bar-count rules in `00C`) could misalign across exchanges. | Trigger `AMBER` clock-sync warning; block bar-close entries until NTP sync restores `< 500 ms`. |
 | **M7: Schema Adapter Unmapped Key Spike** | `GREEN` | `cortex_schema_adapter.py` reports `> 5` newly unmapped critical keys after an upstream API schema change. | Upstream vendor changed JSON field names silently. | **Flip to `UNKNOWN` (`Schema Drift Halt`)** until `KEY_ALIAS_MAP` is updated and unit-tested. |
 | **M8: Clean Audit Trail Attestation** | Routine Cycle | Every cycle writes immutable `(input_hash, ruleset_hash, verdict_hash)` to Git history. | Guarantees 100% walk-forward backtest fidelity without look-ahead bias. | Archive `as_of_timestamp_utc` alongside `publication_timestamp_utc` for all delayed macro/ETF prints. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 37: EXECUTABLE LIQUIDITY, NET-3.0R SLIPPAGE & EQUITY-CURVE GOVERNOR
@@ -4489,6 +4522,7 @@ risk_parameters:
 | **M6: Stressed Stop Gap Adjustment** | Active Open Swing | Weekend or macro volatility doubles Garman-Klass APR (`MOD 12 M5`), increasing expected stop-out slippage. | Historical 20 bps stop-slippage buffer is now too narrow for live volatility. | **Recompute `R_stressed` with `2.0x` slippage buffer**; trim partial exposure if `R_stressed` exceeds `0.90%`. |
 | **M7: Fee-Tier / Zero-Fee Pair Shift** | Routine Audit | Execution venue changes maker/taker fee schedule on `BTC/USD` or `BTC/USDT`. | Roundtrip transaction cost changes `Net_R` threshold calculations. | Update `roundtrip_fee_bps` constant in `btc_config.json` before next live entry evaluation. |
 | **M8: Post-Cooldown Half-Risk Ramp** | Exiting `7-Day` Weekly Lock | 7-day cooldown and `MOD 28` autopsy complete cleanly. | Re-entering live markets after a `-3.0%` drawdown requires controlled re-acclimation. | **Cap First 5 Post-Cooldown Trades at `0.375%` Risk** (`Half-Risk`) before restoring full `0.75%` ceiling. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 38: ETF PRIMARY-MARKET SETTLEMENT & BRRNY FIX-WINDOW ENGINE
@@ -4591,6 +4625,7 @@ risk_parameters:
 | **M6: Post-In-Kind Regime Coefficient Drift** | Quarterly Calibration | Rolling 60-day regression of `Farside_Flow` vs. `Same_Day_Spot_Return` drops `> 2 sigma` below 2024 cash-only baseline. | In-kind ETP arbitrage permanently dampened spot-impact-per-dollar of reported ETF flows. | **Down-weight Raw Flow Magnitude by 50%** in `MOD 07`; rely primarily on `Coinbase Premium + USD Spot CVD`. |
 | **M7: Pre-Market Gap Arbitrage Trap** | `13:30 UTC` NY Open | BTC rallies `+3%` overnight in Asia, causing ETFs to gap up at `09:30 ET` with a `-18 bps` discount to live spot. | US equity open is pricing ETF shares *below* overnight spot—APs will sell spot to arbitrage the gap. | **Block NY Open Chasing (`09:30–10:15 ET`)**; wait for spot and ETF iNAV to converge first. |
 | **M8: Issuer Holdings File Delay (`UNKNOWN`)** | Overnight Audit | Custodian/issuer fails to publish updated `BTC_per_share` or shares-outstanding file by `08:00 MYT`. | `iNAV` denominator cannot be verified cleanly (`MOD 36`). | Tag `MOD_38_STATE = UNKNOWN` until issuer basket file updates; do not extrapolate prior-day shares. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 39: EXCHANGE SUPPLY ACTIVATION & AGED-UTXO DORMANCY ENGINE
@@ -4695,6 +4730,7 @@ risk_parameters:
 | **M6: Multi-Week Exchange Balance Trend Flip** | `CSU-39B` (Supply Sink) | After 60 days of declining exchange balances, 30D exchange reserve change flips from **`-2.5%` to `+1.5%`** while price stalls below 200D MA. | Multi-month accumulation regime has transitioned into net exchange distribution. | **Downgrade `MOD_39_STATE` from `GREEN` to `AMBER`**; tighten trailing stops on open swings. |
 | **M7: Stablecoin + BTC Simultaneous Inflow** | `REGIME_2 / 5` | Both `BTC` and `> $500M` in fresh `USDC/USDT` enter spot exchanges simultaneously while `USD Spot CVD` rises. | Fresh stablecoin buying power matches incoming BTC supply (`balanced liquidity expansion`). | **Neutralize Supply Veto;** allow `MOD 30` order flow to arbitrate direction. |
 | **M8: On-Chain Indexer Lag (`> 6 Blocks`)** | Routine Scan | Primary on-chain API lags Bitcoin chain tip by `> 6 blocks` (`~60+ min`). | Recent exchange deposit bursts may not yet appear in the JSON feed. | Tag `MOD_39_STATE = UNKNOWN` (`MOD 36`) during high-volatility cascades until indexer catches tip. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 40: MINER TREASURY STRESS & HASHPRICE ECONOMICS ENGINE
@@ -4801,6 +4837,7 @@ risk_parameters:
 | **M6: Ordinal / Inscription / Settlement Fee Spike** | `CSU-40C` (Low Price) | On-chain congestion pushes transaction fees to `> 25%` of block rewards, lifting `Hashprice` out of the bottom decile. | Fee revenue windfall temporarily rescues miner cash flows without needing BTC price appreciation. | Downgrade stress from `CSU-40A` back to `GREEN / NEUTRAL`. |
 | **M7: Pre-Retarget Block-Pace Acceleration** | Routine Scan | `mempool.space` shows block intervals averaging `< 8.5 min`, projecting a `+7%+` upward difficulty jump in `< 48 hours`. | Upcoming difficulty spike will compress `BTC Hashprice` by `~7%` upon retarget. | Flag upcoming margin compression in daily HUD if `USD Hashprice` is already `< 25th pct`. |
 | **M8: Hashprice / Mempool Feed Outage** | Routine Scan | `mempool.space` or Hashrate Index API fails SLA (`MOD 36`). | Missing secondary supply-side telemetry. | Tag `MOD_40_STATE = UNKNOWN` (advisory only—never freeze core execution solely on miner API lag). |
+
 ---
 
 # MOD 41 — Secular Cycle ATH Cluster, First-Week Flush (Rule 1) & Flat Double-Top (+4% Rule 3) Exit Engine (Pillar 1 & 5)
@@ -4936,6 +4973,7 @@ risk_parameters:
 | **M6: Mini Intra-Cluster Double Top (`< 45d`)** | Inside Active ATH Cluster | Two peaks separated by `14–45` days with `+2%` to `+5%` overshoot followed by a `-10%` close (e.g., Dec 2017 `$16.65k -> $17.99k`). | Tactical intra-cluster distribution wave (`-20%` to `-35%` pullback risk). | **Exit tactical swing position (`MOD 18`) into 100% Cash;** preserve core long-term holdings unless macro cycle Peak 2 triggers. |
 | **M7: Record OI Without Spot Follow-Through at ATH** | Day 0 New ATH | Price pokes `+1%` to `+2%` above prior ATH on surging offshore Perp OI (`MOD 02B`) while Coinbase Premium (`MOD 19C`) is negative and US ETFs show outflows. | Classic synthetic/retail ATH trap—highest probability of an immediate Day 3–5 Rule 1 crash. | **Front-Run Rule 1:** Take profits immediately at the marginal new high before the `-10%` close hits. |
 | **M8: Post-Bear Secular Reclaim (`> $126,200`)** | `CSU-41D` -> New Cycle | Following the 2026 bear bottom and April 2028 Halving cycle, Bitcoin breaks decisively above `$126,200` on Pillar 1 `GATE_GREEN` and positive US ETF inflows. | New secular bull discovery cycle initiated; activates Swing 1 harvest targets (`$172k–$180k` / `$230k–$250k`). | **Arm `MOD 41` Swing 1 laddered sell zones** and reset ATH cluster tracker to Cluster A. |
+
 ---
 
 # MOD 41.1 — Secular ATH Operational Field Runbook & Countdown Checklist (Pillar 1 & 5)
@@ -5040,6 +5078,7 @@ Based on empirical diminishing returns across cycles (compressing from `3.49x` i
 | **M6: Intra-Cluster Mini Double Top** | Two minor peaks separated by 14 to 45 days with `+2%` to `+5%` overshoot followed by a `-10%` close. | Local tactical distribution wave with `-20%` to `-35%` correction risk. | Exit short-term tactical swing positions into 100% cash; preserve long-term macro holdings. |
 | **M7: Synthetic Leverage ATH Trap** | Price breaks out `+1%` to `+2%` on surging perpetual Open Interest while Coinbase Premium is negative. | Retail-driven fakeout with high probability of severe liquidation. | Front-run Rule 1 by taking profits immediately into marginal highs prior to daily close confirmation. |
 | **M8: Secular Cycle Reclaim** | Price decisively reclaims and holds above `$126,200` with Pillar 1 Macro Gate Green and ETF net inflows. | Post-bear secular recovery confirmed; transition to new cycle expansion. | Reset ATH tracker to Cluster A and arm Swing 1 distribution targets (`$172,000–$180,000` / `$230,000–$250,000`). |
+
 ---
 
 # MOD 42 — Classical Structural Shapes & Liquidity-Pool Authentication Engine (Pillar 2)
@@ -5163,6 +5202,7 @@ Before any Scenario in Module 42 can authorize a spot decision, all four circuit
 | **M6: Cup & Handle Accumulation** | `CSU-42B` (U-Shape Recovery) | Price forms a rounded "Cup" recovery, followed by a tight "Handle" consolidation near VAH with steady USD Spot CVD. | Sustained institutional accumulation; overhead supply is being absorbed smoothly. | **Authorize `0.75% Risk` Spot Long** on Handle VAH breakout. |
 | **M7: Offshore-Only Shape Breakout** | `CSU-42D` (Flag Breakout) | Bull Flag breaks upward on Binance USDT volume, but Coinbase USD Spot CVD remains negative. | Breakout lacks real spot backing; high probability of a head-fake. | **Circuit Breaker 2 Tripped: Reject Signal.** Lock 100% Cash. |
 | **M8: Structural Shape Resonance** | Multi-Timeframe | 1H Double Bottom aligns perfectly with 4H Inverse Head & Shoulders and 1D Rising Trendline support. | Fractal institutional accumulation across tactical and structural horizons. | **Highest-Conviction Swing Trigger:** Deploy full `0.75% Risk` Spot allocation on neckline/VAH reclaim. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 43: ALGORITHMIC FIBONACCI CONFLUENCE & HARMONIC IMPULSE MEASUREMENT
@@ -5266,6 +5306,7 @@ Before any Fibonacci or Harmonic Impulse signal can authorize a spot decision, a
 | **M3: Choppy Consolidation** | Any | ZigZag records multiple direction changes `< 1.0 ATR`. No clear structural extremes are set. | Complex corrective wave; market is searching for liquidity. | **Hold Cash / Do Not Re-calculate Fibs.** Wait for a clean `>= 2.0 ATR` impulse to anchor a new sequence. |
 | **M4: The 0.382 Secular Hold** | Minor Retracement | Price corrects but refuses to dip below the `.382` Fib. Spot CVD remains highly positive throughout the shallow dip. | Extreme bullish strength; sellers cannot force a mean reversion. | Enter **0.75% Risk Spot Long** on the breakout of the local high; trailing stop at the `.382`. |
 | **M5: Offshore-Only Confluence** | `CSU-43A` (.618 Retrace) | Price hits the `.618` and POC, but limit-bid absorption is strictly on Binance USDT (offshore) with zero USD Spot CVD. | Weak structural foundation; high risk of support failure. | **Circuit Breaker 2 Tripped: Reject Signal.** Stand down and maintain 100% Cash Lock. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 44: MEGA-IPO CAPITAL VACUUMS & INDEX REBALANCE LIQUIDITY DRAINS
@@ -5375,6 +5416,7 @@ risk_parameters:
 | **M6: Non-Crypto Mega-IPO Without ETF Outflows** | Calendar Alert (`>= $25B` IPO) | A major industrial/energy IPO launches (`>= $25B`), **but** US Spot BTC ETFs show zero outflow streak and `A_P,V` remains positive. | The IPO is drawing capital from value/industrial equities rather than crypto risk pools. | **Ignore Calendar Alert (`CB-02`);** execute baseline `MOD 33` radar signals. |
 | **M7: Year-End Tax-Loss + Rebalance Compression** | Nov–Dec Rebalance Window | November 30 MSCI deletion is immediately followed by December institutional tax-loss harvesting on underwater ETF positions. | Year-end balance-sheet window dressing extends sideways accumulation before Q1 inflows. | **Size Entries at `0.375%` (`GATE_AMBER`)** until January ETF inflows confirm full `0.75%` risk. |
 | **M8: Hermes Calendar Pre-Emptive Flag** | `T-35d` Before Event | Hermes Agent scans upcoming SEC S-1 filings / MSCI quarterly review announcements and detects an upcoming `>= $25B` IPO or `>= $5B` proxy deletion. | Early-warning visibility before mainstream retail traders notice the liquidity drain. | **Publish `MOD 44` Alert on Telegram HUD** and tighten Stage 1 profit-taking thresholds on open longs. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 45: EXECUTIVE BOTTOM-LINE HUD & MOBILE PRESENTATION PROTOCOL
@@ -5565,6 +5607,7 @@ VERDICT: <EXECUTION_COMMAND>
 | **M4: Missing / Stale Feed (`MOD 36`)** | Any Active Scan | An exchange API or ETF tracker lags beyond SLA or returns missing fields. | Telemetry integrity is degraded (`UNKNOWN` state). | Print **`DATA UNAVAILABLE`** on affected bullet(s) and enforce `100% CASH LOCK`. |
 | **M5: Screenshot / Chart Audit Request** | User Uploads Chart | User shares a TradingView or Coinglass screenshot asking for a verdict. | Visual pattern (`MOD 42/43`) must be graded against live order-flow rules. | Audit chart shapes under `MOD 42/43`, then summarize strictly inside **Template 45A**. |
 | **M6: Multi-Asset / Altcoin Noise Attempt** | Out-of-Scope Query | Incoming feed or prompt includes altcoin liquidations or non-BTC trade ideas. | Violates Project CORTEX-BTC strict `BTC-USD 1.0x Spot Only` charter. | Strip altcoin execution recommendations; keep HUD locked exclusively on **BTC spot**. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 46: BLOCK 1,050,000 (APRIL 2028) SECULAR HORIZON & SOVEREIGN BARBELL ANCHOR
@@ -5677,6 +5720,7 @@ risk_parameters:
 | **M4: Deep Sub-Halving-Price Capitulation** | `CSU-46A` (`2026–2027` Bear) | Macro contagion (`MOD 29` / `MOD 44`) drives BTC `15%–25%` *below* the `$64,000` 2024 halving price (`~$48,000–$55,000`) alongside `LTH-SOPR < 1.0`. | Extreme generational discount below the previous halving's cost/valuation floor. | **Accelerate `Sleeve B` Sovereign Cold-Storage Tranches (`CSU-18D`)** once ETF outflows stop. |
 | **M5: Short-Term Anchor Drift Warning** | Any Bear/Chop Week | Operator or external commentary anchors decisions to "last week's candle" or "last month's high" instead of `Block 1,050,000` vs. current discount. | Recency bias threatening premature capitulation at multi-year value floors. | **Print Horizon Reminder in `MOD 45` HUD:** *"Anchor = Block 1,050,000 (Apr 2028) vs. Today; Sleeve A Cash Lock protects timing, Sleeve B accumulates value."* |
 | **M6: Sovereign Custody OpSec Gate** | Executing `CSU-46A` Tranche | Operator is traveling without laptop access (`Galaxy A55` only) when a Sovereign Cold-Storage tranche triggers. | Elevated mobile/network OpSec risk during multi-sig UTXO settlement (`MOD 32 M6`). | Accumulate on regulated USD Spot exchange first; **enforce `72-Hour Operational Wall`** until back at secure desktop quorum. |
+
 ---
 
 # PROJECT CORETEX BTC BRAIN — MODULE 47: CORPORATE & SOVEREIGN TREASURY VELOCITY (mNAV & PROXY FLYWHEEL)
@@ -5787,6 +5831,7 @@ risk_parameters:
 | **M6: Treasury-to-Treasury M&A Consolidation** | `CSU-47B` (`mNAV < 0.80x`) | A higher-`mNAV` treasury company acquires a distressed `< 0.75x mNAV` peer via stock swap. | Keeps BTC locked in corporate custody rather than hitting public spot order books. | **Neutralize Contagion Fear;** maintain baseline `MOD 33` radar posture. |
 | **M7: ATM Announcement Fade Trap** | Intraday Rally | Treasury announces `$500M` BTC purchase on Monday morning, price spikes `+2%` into `4H VAH`, then `USD Spot CVD` turns negative as APs/arbs sell into the news. | Purchase already occurred via OTC the prior week; Monday's news is retail FOMO liquidity. | **Never Chase Monday 8-K Announcements;** wait for `4H VAL/POC` pullback retest. |
 | **M8: `mNAV` Data Feed Lag (`MOD 36`)** | Routine Scan | Treasury dashboard API lags > 24H during a rapid `+/- 10%` BTC move. | Stale `mNAV` denominator distorts premium/discount reading. | Tag `MOD_47_STATE = UNKNOWN` (`MOD 36`); rely on live `MOD 07` ETF flows + `USD Spot CVD`. |
+
 ---
 
 # PROJECT CORETEX BTC BRAIN — MODULE 48: STABLECOIN SUPPLY RATIO (SSR), USDT.D & NET MINT/BURN VELOCITY
@@ -5894,6 +5939,7 @@ risk_parameters:
 | **M6: `USDT` / `USDC` Peg Stress (`<= $0.992`)** | Any Active State | Either `USDT` or `USDC` trades at or below **`$0.992`** for `> 2 hours` on major USD pairs, causing `BTC/USDT` to spike artificially above `BTC/USD`. | Settlement-rail solvency scare creating synthetic `BTC/USDT` premium distortion (`MOD 16 M7`). | **Immediate `100% CASH LOCK` & Venue Audit (`MOD 32`);** ban buying `BTC/USDT` de-peg spikes. |
 | **M7: `SSR` Compression Without Exchange Inflows** | `CSU-48B` Watch | `SSR` hits `-2.0 Z`, **but** 7-day `USDT + USDC` supply is still falling (`-$2B/wk`) and exchange stablecoin reserves are shrinking (`CB-01`). | Pure denominator effect from falling BTC price—no real dry powder is stepping in yet. | **Maintain `100% CASH LOCK`;** reject premature bottom-fishing (`MOD 45 CB-02`). |
 | **M8: Stablecoin API / DefiLlama Feed Lag (`MOD 36`)** | Routine Scan | Primary stablecoin supply or `SSR` endpoint lags `> 24H` during high volatility. | Stale denominator/numerator data (`UNKNOWN` state). | Tag `MOD_48_STATE = UNKNOWN` (`MOD 36`); rely on live `MOD 05` USD Spot CVD + `MOD 07` ETF flows. |
+
 ---
 
 # PROJECT CORETEX BTC BRAIN — MODULE 49: ROLLING CROSS-ASSET CORRELATION & DECOUPLING MATRIX (BTC VS. NDX / GOLD / DXY)
@@ -6001,6 +6047,7 @@ risk_parameters:
 | **M6: Weekend Crypto Rally Without `NDX` Confirmation** | Saturday–Sunday Session | `BTC` pumps `+3%` over the weekend on offshore perps while `NDX` futures are closed and `Corr_NDX_30D >= +0.65`. | Unconfirmed weekend move vulnerable to Sunday `22:00 UTC` / Monday `13:30 UTC` equity gap alignment. | **Cap Risk / Wait for Monday NY Open Confirmation (`MOD 17 M3`)** before full sizing. |
 | **M7: Sovereign Bond Yield Spike (`10Y > 5.25%`)** | Any Active State | US 10Y Treasury yield surges above `5.25%` (`MOD 16`), pushing `Corr(BTC, 10Y_Yield)_30D <= -0.60` and dragging both `NDX` and `BTC` lower. | Discount-rate shock is the root driver across all risk assets (`MOD 29`). | **Enforce `GATE_RED` (`100% Cash Lock`)** until 10Y yields peak and roll over (`MOD 16 M1`). |
 | **M8: Macro Cross-Asset Feed Lag (`MOD 36`)** | Routine Scan | `NDX`, `XAU`, or `DXY` daily close feed lags `> 24H` over holidays/weekends. | Correlation denominator/numerator temporarily static. | Tag `MOD_49_STATE = UNKNOWN` (`MOD 36`); govern entries via live `MOD 05` USD Spot CVD + `MOD 07` ETF flows. |
+
 ---
 
 # PROJECT CORETEX BTC BRAIN — MODULE 50: WEEKEND THIN-LIQUIDITY, UNSETTLED CME CLEARING & SUNDAY 22:00 UTC RE-OPEN PROTOCOL
@@ -6089,6 +6136,7 @@ risk_parameters:
 | **M6: High-Correlation `NDX` Futures Open (`MOD 49`)** | Sun `22:00 UTC` | `Corr(BTC, NDX)_30D >= +0.65` and `NQ` futures gap down `> -1.5%` at Sunday `22:00 UTC` open. | **Enforce `MOD 49 CB-02` Contagion Lock** immediately. |
 | **M7: Weekend Whale Cold-Storage Sweep (`MOD 39`)** | Sat–Sun Session | Large spot buyers withdraw `> 5,000 BTC` off Coinbase/Kraken into cold storage over the weekend despite thin volume. | **Flag Bullish Accumulation Watch;** execute upon Monday NY Open confirmation. |
 | **M8: Weekend Stablecoin De-Peg Scare (`MOD 48`)** | Sat–Sun Session | Thin weekend liquidity causes brief `USDT/USDC` wick to `$0.993` that recovers within `< 30 mins`. | **Pause `60 mins` to verify peg stability** before resuming normal radar monitoring. |
+
 ---
 
 # PROJECT CORETEX BTC BRAIN — MODULE 51: EXTREME CASCADE MICROSTRUCTURE, BASIS BLOWOUTS & STAGGERED LIMIT EXECUTION
@@ -6178,6 +6226,7 @@ risk_parameters:
 | **M6: L2 Book Depth Remains `< 40%` Median Post-Cooldown** | `T+4H` Post-Cascade | Market makers fail to return after 4 hours, leaving `1%` L2 depth `< 40%` of 30D median (`MOD 37`). | **Halve Maximum Position Size (`0.375%` cap)** to prevent exit slippage (`MOD 37`). |
 | **M7: Stablecoin De-Peg Triggered Cascade (`MOD 48 M6`)** | `CSU-51A` | Cascade was triggered by `USDT` or `USDC` de-pegging `<= $0.992`. | **Lock `100% Cash` & Audit Venue Solvency (`MOD 32`);** ban trading until peg restores `>= $0.997` for `6H`. |
 | **M8: CoinGlass / Exchange Liquidation API Lag (`MOD 36`)** | Live Volatility | Liquidation aggregator lags during extreme API rate-limiting. | Infer cascade severity directly from **3-venue 1H price drop (`<= -5%`) + exchange OI delta (`<= -8%`)** (`MOD 36`). |
+
 ---
 
 # PROJECT CORETEX BTC BRAIN — MODULE 52: ROLLING 30-TRADE EXPECTANCY AUDIT & PARAMETER DRIFT GOVERNOR
@@ -6269,6 +6318,7 @@ risk_parameters:
 | **M6: Sovereign Vault (`Sleeve B`) Firewall Audit** | Monthly Review | Monthly check confirms `0` tactical swing stop-outs touched `Sleeve B` `2-of-3` cold storage (`MOD 46 CB-04`). | **Certify `BARBELL_INTEGRITY = PASS`** on monthly `MOD 45` HUD report. |
 | **M7: Rulebook Commit & Checksum Verification (`MOD 36`)** | Every Git Sync | New module (`MOD 47–52`) is pushed to `origin/main` via Google Antigravity. | **Record SHA-256 Commit Hash in `trade_audit_ledger.json`** to link every trade to its exact rulebook version. |
 | **M8: Audit Ledger Missing / Corrupted (`MOD 36`)** | Pre-Trade Check | `trade_audit_ledger.json` fails JSON schema validation on VPS. | **Fail-Closed to `0.375%` (`GATE_AMBER`)** until ledger is restored from GitHub backup. |
+
 ---
 
 # PROJECT CORTEX-BTC — MODULE 53: HAWKES POINT PROCESSES, JUMP-DIFFUSION DE-NOISING & TRANSFER ENTROPY CAPITAL ROTATION ENGINE
@@ -6387,3 +6437,167 @@ Before any trade signal can be authorized under this engine, all four circuit br
 | **M3: False Rotation Flush** | CSU-53B (Rotation Confirmed) | 2 days of ETF inflows occur, but Day 3 reverses with extreme negative Coinbase Premium (MOD 19C) and stablecoin supply contracts. | Premature institutional rotation false-alarm; liquidity withdrawal resumes. | **Freeze New Spot Entries.**  Hold existing spot inventory; cancel pending resting bids above deep structural support. |
 | **M4: Hawkes Parabolic Blow-Off** | CSU-53C (Active Trend) | 4H price candle exceeds  **3.5x ATR**  while 8h perp funding blows out  **> +0.05%**  and OI surges to 99th percentile extremes. | Terminal Hawkes branching explosion (self-exciting buying frenzy nearing leverage exhaustion). | **Initiate Stage 1 Profit Taking (50%).**  Tighten trailing stops to 1.0 ATR; arm MOD 41 Rule 1 ATH Countdown. |
 | **M5: Macro Decoupling Divergence** | CSU-53A (Trap/Chop) | Equities (QQQ/SPY) crash on macro shocks, but BTC absorbs sell pressure with rising Coinbase Premium and flat Spot CVD. | Bitcoin demonstrating sovereign monetary decoupling and capital flight absorption (MOD 49). | **Override Suction Status.**  Authorize defensive spot scaling at major historical volume nodes (MOD 11). |
+
+---
+
+# PROJECT CORTEX-BTC — MODULE 54: MULTI-TIMEFRAME ALGORITHMIC MARKET STRUCTURE, KLINE LOOKBACK CONTRACT & UI EXPLAINABILITY SCHEMA
+
+**Waterfall Tier:** Pillar 2 (Microstructure & Path Geometry) integrated directly with Tier D (Control-Plane Trust & Output Rendering).
+**Empirical Benchmark Anchor:** Fills the deterministic gap between visual classical shapes (MOD 42) and raw exchange data (MOD 36). Establishes absolute mathematical floors for candlestick lookbacks to guarantee indicator stabilization (ATR, VWAP, S/R), enforces strict 3-venue quorum on all fractal pivots, and formats the output string for the *BTC Magnet Monitor* UI to prevent subjective chart interpretation.
+
+---
+
+#### 1. Machine-Readable State & Routing Block (Python / Hermes / NotebookLM Index)
+
+```yaml
+module_id: "MOD_54"
+entry_type: "CONTROL_PLANE_DATA_CONTRACT_AND_STRUCTURAL_CLASSIFIER"
+waterfall_pillar: "PILLAR_2_AND_TIER_D_BRIDGE"
+title: "Multi-Timeframe Algorithmic Market Structure & Kline Lookback Contract"
+
+# KLINE FETCH & WARM-UP CONTRACT (FAIL-CLOSED)
+kline_fetch_parameters:
+  1D_daily_lookback_floor: 500 # Supports 200D MA (MOD 17) & 90D Structural Fibs (MOD 43)
+  4H_lookback_floor: 600 # 100 days total: Covers 90D Structural limit + 60-bar ATR(14) warm-up
+  1H_lookback_floor: 500 # ~20.8 days: Supports tactical VAH/VAL and multi-day POC shifts
+  enforcement_action: "If API returns < floor, trigger MOD 36 DATA UNAVAILABLE (UNKNOWN) and lock 100% Cash."
+
+# ALGORITHMIC FRACTAL MARKET STRUCTURE (HH/HL/LH/LL)
+fractal_pivot_parameters:
+  left_bars: 5
+  right_bars: 5
+  bos_authentication_gate: "Domestic USD Spot CVD (MOD 07) MUST align with the directional break."
+  bar_close_confirmation_requirement: "4+ consecutive closes on 1H OR 2+ consecutive closes on 4H (per MOD 00C)."
+
+# UI EXPLAINABILITY & HERMES TELEGRAM SCHEMA
+ui_explainability_schema:
+  required_json_keys: ["timeframe", "current_state", "latest_confirmed_pivot", "bos_status", "classification_reason"]
+  classification_reason_template: "{timeframe} {state}: Confirmed {pivot_type} at ${price} followed by {close_count} closes {direction} {previous_pivot} with {cvd_state} USD Spot CVD."
+```
+
+---
+
+#### 2. Protective Circuit Breakers (Mandatory Pre-Execution Filters)
+
+*   **Circuit Breaker 1 — The Single-Venue Ban (CB-01):** Fractal pivots (Swing High/Low) and Break of Structure (BOS) levels are highly susceptible to offshore scam-wicks. Pivot arrays must be computed using the **3-venue USD/USDT spot quorum** (MOD 36). If cross-venue dispersion exceeds `35 bps`, freeze BOS logic.
+*   **Circuit Breaker 2 — Unauthenticated BOS Ban (CB-02):** A raw pivot break is merely a candidate sweep. It cannot be classified as a valid structural BOS unless authenticated by **both** bar-count close discipline (4+ 1H closes or 2+ 4H closes) **and** aligned Domestic USD Spot CVD. Unauthenticated breaks default to MOD 11 / MOD 42 Liquidity Sweeps.
+*   **Circuit Breaker 3 — Indicator Initialization Drift Ban (CB-03):** Never compute `ATR(14)`, `VWAP`, or Volume Profile `POC` on truncated datasets. The engine must ingest the full `500/600/500` kline block into memory to stabilize recursive moving averages before emitting the live metric to the waterfall.
+
+---
+
+#### 3. Core Conditional Signal Units (Condition A -> Outcome B -> Rule C)
+
+##### CSU-54A: Authenticated Bullish Break of Structure (BOS)
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. Python detects a local `leftBars=5, rightBars=5` Swing High pivot.
+    2. Price breaches the pivot and confirms with **2+ consecutive 4H closes** (or 4+ 1H closes).
+    3. **Authentication:** Domestic USD Spot CVD surges positively alongside the break, and the 600-kline 4H array confirms no missing data.
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Microstructure Lens:** Spot-driven absorption of overhead supply. The break is mathematically clean across venues and backed by actual fiat inflows.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** Update structural state to `BULLISH`. Format `classification_reason` for Hermes UI. Pass execution clearance to MOD 18 (authorizing up to **0.75% Spot Risk** on the subsequent VAH/VWAP pullback).
+
+##### CSU-54B: Authenticated Bearish Break of Structure (BOS)
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. Price breaches a confirmed Swing Low (HL) and prints **2+ consecutive 4H closes** below it.
+    2. **Authentication:** Quad 4 alignment (MOD 05) or negative Domestic USD Spot CVD confirms the markdown is real spot distribution, not just leveraged long flushing.
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Microstructure Lens:** Institutional fiat off-ramping. The support floor has been permanently broken on the primary timeframe.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** Update structural state to `BEARISH`. Format `classification_reason` for Hermes UI. **Enforce 100% Cash Lock** (MOD 33). Evaluate shorts only if building a separate dual-inventory module, otherwise zero exposure.
+
+##### CSU-54C: Truncated / Stale Kline Fetch (Fail-Closed)
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. The `btc_data_fetcher.py` queries the Binance/Coinbase API, but the payload returns `490` klines on the 1D, or `200` klines on the 4H due to a pagination error or API rate-limit.
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Control-Plane Lens:** Data ingestion is mathematically compromised. Any subsequent ATR, VWAP, or Swing pivot calculation will carry initialization drift, risking false triggers.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** Discard the array. Emit **MOD 36 UNKNOWN (DATA UNAVAILABLE)**. Lock portfolio to 100% Cash until the next top-of-hour cron sequence successfully validates the `500/600/500` contract.
+
+---
+
+#### 4. Dynamic Regime Mutation Lookup Matrix (M1 through M3)
+
+| Mutation ID | Initial State | Telemetry Mutation Observed (Condition A') | Mechanical Meaning (Outcome B') | Mandatory Execution Override (Rule C') |
+| :--- | :--- | :--- | :--- | :--- |
+| **M1: Unconfirmed Liquidity Sweep** | CSU-54A / 54B Attempt | Price breaches the `5/5` pivot but immediately snaps back, failing to print the required 1H/4H closes, OR Spot CVD diverges against the break. | Trap engineered to trigger retail breakout algorithms. The prior structure holds. | **Revert to Prior Structure.** Treat strictly as a MOD 11A VAL Spring or MOD 11C VAH Look-Above-and-Fail. |
+| **M2: Timeframe Structural Conflict** | Routine Scan | `1H` prints a confirmed Bullish BOS, but the `4H` and `1D` remain structurally Bearish. | Tactical counter-trend bounce within a macro downtrend. | **Apply MOD 33 / MOD 18 Gate:** Cap all spot entries at `0.375%` risk until the `4H` timeframe structurally aligns with the `1H`. |
+| **M3: Anchor Decoupling** | Active Uptrend | Price prints a new `HH`, but VWAP/POC migrates downwards due to heavy off-book OTC settlement. | Surface price is rising, but core institutional value is actively lowering. | **Halt Breakout Entries.** Hold existing spot swings but tighten trailing stops to the nearest algorithmic pivot. |
+
+---
+
+# PROJECT CORTEX-BTC — MODULE 55: DUAL-STAGE DISRUPTION TELEMETRY & RECOVERY RADAR ENGINE
+
+**Waterfall Tier:** Pillar 2 & Pillar 3 Bridge (Microstructure & Derivatives Fragility).
+**Empirical Benchmark Anchor:** Bridges the stateless cloud-based "Tell Tale Candle" (Stage 1: 5m/15m spot shock alarm) with the stateful local "BTC Liquidation Flush Detector" (Stage 2: 4H post-flush stabilization radar). Replaces standalone execution logic with pure read-only forensic telemetry, ensuring zero trade signal contamination.
+
+---
+
+#### 1. Machine-Readable State & Routing Block (Python / Hermes / NotebookLM Index)
+
+```yaml
+module_id: "MOD_55"
+entry_type: "CONTROL_PLANE_TELEMETRY_ENGINE"
+waterfall_pillar: "PILLAR_2_AND_3_BRIDGE"
+title: "Dual-Stage Disruption Telemetry & Recovery Radar Engine"
+
+# TELEMETRY BOUNDARIES & BASELINES
+telemetry_parameters:
+  stage_1_tell_tale_candle:
+    execution: "Stateless Cloud (GitHub Actions cron */15)"
+    timeframes: ["5m", "15m"]
+    triggers:
+      relvol_min: 5.0
+      body_range_min: 0.65
+      direction: "bearish (red)"
+  stage_2_liquidation_radar:
+    execution: "Stateful Local (Binance USDⓈ-M WebSocket + SQLite)"
+    baseline_warmup_fallback_usd: 30000000
+    baseline_30d_median_required: true
+    thresholds:
+      elevated_flush: ">= 1.5x daily baseline"
+      extreme_flush: ">= 2.0x daily baseline"
+
+# OUTPUT CONTRACT
+output_contract:
+  execution_authority: "ZERO_TRADE_SIGNALS_GUARANTEED"
+  integration_target: "Feeds MOD 33 (Master Radar) to evaluate Regime 5 transition"
+```
+
+---
+
+#### 2. Protective Circuit Breakers (Mandatory Pre-Execution Filters)
+
+*   **Circuit Breaker 1 — Zero Trade Signals Invariant (CB-01):** The output of this module is strictly *read-only telemetry*. A `STABILISATION CONFIRMED` state from Stage 2 is a **necessary, but not sufficient** condition for execution. It must feed into **MOD 33 (Unified 5-Regime Master Radar)** to transition out of `TRAP & CHOP`, requiring full MOD 18 waterfall clearance.
+*   **Circuit Breaker 2 — Fail-Closed Baseline Warm-Up (CB-02):** The local SQLite WAL requires 30 UTC days to establish a valid median baseline. During warm-up, it transparently falls back to a `$30,000,000` daily baseline. If the WebSocket disconnects and misses >90 minutes of data, it emits `TRUST_DEGRADED` (UNKNOWN), tripping the **MOD 36** circuit breaker and enforcing a **100% Cash Lock**.
+*   **Circuit Breaker 3 — The Single-Venue Limitation Ban (CB-03):** The `!forceOrder@arr` stream monitors Binance only. A `STABILISATION CONFIRMED` flag must be cross-verified by **MOD 07 (Domestic USD Spot CVD)** before any capital is deployed to ensure offshore derivatives aren't trapping the system.
+*   **Circuit Breaker 4 — Hawkes Process Intersection (CB-04):** Stage 1 Tell Tale Candle spikes serve as early-warning precursors to **MOD 53 Hawkes Point Processes**. If Stage 1 fires, it immediately activates the **MOD 53 CB-01 8-hour cooling freeze**, physically blocking breakdown chasing before the Stage 2 radar begins its 4H stabilization scan.
+
+---
+
+#### 3. Core Conditional Signal Units (Condition A -> Outcome B -> Rule C)
+
+##### CSU-55A: Stage 1 Cloud Shock Detection (Tell Tale Candle Detonation)
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. The GitHub Actions cloud monitor detects simultaneous `5m` and `15m` bearish candles with relative volume `>= 5.0x` and body-to-range ratio `>= 0.65`.
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Microstructure Lens:** An abnormal, high-velocity downside impulse has breached normal auction parameters. Liquidation cascades are likely initiating.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** Push Telegram/Discord `DISRUPTION FLAG` alert. Immediately trigger the **MOD 53 8-Hour Hawkes Cooling Freeze**. Halt all automated breakout entries.
+
+##### CSU-55B: Stage 2 Local Stabilization Confirmed (Liquidation Radar)
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. The local SQLite radar registers an `ELEVATED` (>= 1.5x) or `EXTREME` (>= 2.0x) flush.
+    2. Post-flush 4H structure sequentially confirms: Halted lower lows -> Higher low formed -> Structure break -> Spot volume expansion.
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Microstructure Lens:** The forced selling cascade has fully exhausted its leverage fuel, and early spot buyers are forming a structural floor.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** Emit `STABILISATION CONFIRMED`. Pass state to **MOD 33** to unlock Regime 5 (Capitulation Exhaustion & Reset) evaluation, contingent on MOD 07 Domestic USD Spot CVD verification.
+
+##### CSU-55C: Stage 2 Baseline Trust Degraded (Fail-Closed)
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. Local daemon experiences a WebSocket outage, system crash, or network failure resulting in >90 minutes of missing `!forceOrder@arr` data.
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Control-Plane Lens:** The engine is blind to internal leverage states and cannot accurately gauge flush magnitude or baseline adherence.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** Emit `TRUST_DEGRADED`. Trigger **MOD 36 UNKNOWN (DATA UNAVAILABLE)**. Lock portfolio to 100% Cash until the database is rebuilt or gracefully re-baselines.
