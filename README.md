@@ -1,8 +1,8 @@
-# Project CoreTex BTC Brain (v3.0) — The Sovereign Bitcoin Brain Matrix
+# Project CoreTex BTC Brain (v4.0) — The Sovereign Bitcoin Brain Matrix
 
 > **Build in Peace. Scan in War. Never re-learn a market lesson at a financial loss.**
 
-Deterministic, zero-dependency Python 3 decision engine and **48-source quantitative rulebook vault** (`00`–`00D` + `MOD 01`–`MOD 43`) for **1.0x unleveraged Bitcoin (BTC) spot swing trading** and **secular cycle wealth preservation**, anchored to **Malaysia Time (`MYT / UTC+8`)**.
+Deterministic, zero-dependency Python 3 decision engine and **51-source quantitative rulebook vault** (`00`–`00D` + `MOD 01`–`MOD 46`) for **1.0x unleveraged Bitcoin (BTC) spot swing trading** and **secular cycle wealth preservation**, anchored to **Malaysia Time (`MYT / UTC+8`)**.
 
 ---
 
@@ -27,7 +27,7 @@ Deterministic, zero-dependency Python 3 decision engine and **48-source quantita
 | **Live Snapshots** | [`btc_metrics_latest.json`](btc_metrics_latest.json), [`cortex_verdict_latest.json`](cortex_verdict_latest.json) | Latest hourly market telemetry and deterministic verdict written by GitHub Actions. |
 | **Hourly Cron** | [`.github/workflows/btc_fetcher_cron.yml`](.github/workflows/btc_fetcher_cron.yml) | Runs hourly at `:05` UTC (`workflow_dispatch` also enabled) using `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` secrets. |
 | **Agent Skills** | [`SKILL.md`](SKILL.md), [`.hermes/skills/project-cortex-btc/SKILL.md`](.hermes/skills/project-cortex-btc/SKILL.md) | Standardized `agentskills.io` / Hermes Agent operator skill definitions. |
-| **Knowledge Vault** | [`rulebook/`](rulebook/) | Complete 48-source Markdown rulebook (`00`–`00D`, `MOD 01`–`MOD 43`) + compiled [`PROJECT_CORTEX-BTC_Master_System-v3.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v3.md). |
+| **Knowledge Vault** | [`rulebook/`](rulebook/) | Complete 51-source Markdown rulebook (`00`–`00D`, `MOD 01`–`MOD 46`) + compiled [`PROJECT_CORTEX-BTC_Master_System-v4.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v4.md). |
 
 ---
 
@@ -47,9 +47,9 @@ gh workflow run btc_fetcher_cron.yml
 
 ---
 
-## Rulebook Vault (`rulebook/`) — 48 Sources + Master System v3
+## Rulebook Vault (`rulebook/`) — 51 Sources + Master System v4
 
-- **Compiled Unified Rulebook (V3.0):** [`PROJECT_CORTEX-BTC_Master_System-v3.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v3.md)
+- **Compiled Unified Rulebook (V4.0):** [`PROJECT_CORTEX-BTC_Master_System-v4.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v4.md)
 
 ### Core Architecture, Indices & Historical Invariants (`00`–`00D`)
 - [`00`](rulebook/00_Charter_5_Pillar_Waterfall_and_Master_Architecture.md) — Charter, 5-Pillar Waterfall & Master Architecture
@@ -57,9 +57,9 @@ gh workflow run btc_fetcher_cron.yml
 - [`00C`](rulebook/00C_Historical_Intelligence_Registry_and_Cycle_Laws.md) — Historical Intelligence Registry & 9-Year Cycle Laws
 - [`00D`](rulebook/00D_Complete_Source_Master_Directory.md) — Core Directory Reference
 
-### Quantitative Execution Modules (`MOD 01`–`MOD 43`)
+### Quantitative Execution Modules (`MOD 01`–`MOD 46`)
 <details>
-<summary>Expand all 44 module files (MOD 01 – MOD 43)</summary>
+<summary>Expand all 47 module files (MOD 01 – MOD 46)</summary>
 
 - [`MOD 01`](rulebook/MOD_01_Rising_Open_Interest_Extreme_Negative_Perpetual_Basis.md) — Rising Open Interest + Extreme Negative Perpetual Basis
 - [`MOD 02`](rulebook/MOD_02_Rising_Open_Interest_High_Positive_Perpetual_Basis.md) — Rising Open Interest + High Positive Perpetual Basis
@@ -105,5 +105,8 @@ gh workflow run btc_fetcher_cron.yml
 - [`MOD 41.1`](rulebook/MOD_41.1_Secular_ATH_Operational_Field_Runbook_and_Countdown_Checklist.md) — Secular ATH Operational Field Runbook & 10-Day Countdown Checklist
 - [`MOD 42`](rulebook/MOD_42_Classical_Structural_Shapes_and_Liquidity_Pool_Authentication.md) — Classical Structural Shapes & Liquidity-Pool Authentication Engine
 - [`MOD 43`](rulebook/MOD_43_Algorithmic_Fibonacci_Confluence_and_Harmonic_Impulse_Measurement.md) — Algorithmic Fibonacci Confluence & Harmonic Impulse Measurement
+- [`MOD 44`](rulebook/MOD_44_Mega_IPO_Capital_Vacuums_and_Index_Rebalance_Liquidity_Drains.md) — Mega-IPO Capital Vacuums & Index Rebalance Liquidity Drains
+- [`MOD 45`](rulebook/MOD_45_Executive_Bottom_Line_HUD_and_Mobile_Presentation_Protocol.md) — Executive Bottom-Line HUD & Mobile Presentation Protocol
+- [`MOD 46`](rulebook/MOD_46_Block_1050000_April_2028_Secular_Horizon_and_Sovereign_Barbell_Anchor.md) — Block 1,050,000 (April 2028) Secular Horizon & Sovereign Barbell Anchor
 
 </details>
