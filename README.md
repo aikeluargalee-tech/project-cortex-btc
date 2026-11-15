@@ -1,8 +1,8 @@
-# Project CoreTex BTC Brain (v4.0) — The Sovereign Bitcoin Brain Matrix
+# Project CoreTex BTC Brain (v5.0) — The Sovereign Bitcoin Brain Matrix
 
 > **Build in Peace. Scan in War. Never re-learn a market lesson at a financial loss.**
 
-Deterministic, zero-dependency Python 3 decision engine and **51-source quantitative rulebook vault** (`00`–`00D` + `MOD 01`–`MOD 46`) for **1.0x unleveraged Bitcoin (BTC) spot swing trading** and **secular cycle wealth preservation**, anchored to **Malaysia Time (`MYT / UTC+8`)**.
+Deterministic, zero-dependency Python 3 decision engine and **59-source quantitative rulebook vault** (`00`–`00E` + `MOD 01`–`MOD 53`) for **1.0x unleveraged Bitcoin (BTC) spot swing trading** and **secular cycle wealth preservation**, anchored to **Malaysia Time (`MYT / UTC+8`)**.
 
 ---
 
@@ -27,7 +27,7 @@ Deterministic, zero-dependency Python 3 decision engine and **51-source quantita
 | **Live Snapshots** | [`btc_metrics_latest.json`](btc_metrics_latest.json), [`cortex_verdict_latest.json`](cortex_verdict_latest.json) | Latest hourly market telemetry and deterministic verdict written by GitHub Actions. |
 | **Hourly Cron** | [`.github/workflows/btc_fetcher_cron.yml`](.github/workflows/btc_fetcher_cron.yml) | Runs hourly at `:05` UTC (`workflow_dispatch` also enabled) using `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` secrets. |
 | **Agent Skills** | [`SKILL.md`](SKILL.md), [`.hermes/skills/project-cortex-btc/SKILL.md`](.hermes/skills/project-cortex-btc/SKILL.md) | Standardized `agentskills.io` / Hermes Agent operator skill definitions. |
-| **Knowledge Vault** | [`rulebook/`](rulebook/) | Complete 51-source Markdown rulebook (`00`–`00D`, `MOD 01`–`MOD 46`) + compiled [`PROJECT_CORTEX-BTC_Master_System-v4.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v4.md). |
+| **Knowledge Vault** | [`rulebook/`](rulebook/) | Complete 59-source Markdown rulebook (`00`–`00E`, `MOD 01`–`MOD 53`) + compiled [`PROJECT_CORTEX-BTC_Master_System-v5.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v5.md). |
 
 ---
 
@@ -47,19 +47,20 @@ gh workflow run btc_fetcher_cron.yml
 
 ---
 
-## Rulebook Vault (`rulebook/`) — 51 Sources + Master System v4
+## Rulebook Vault (`rulebook/`) — 59 Sources + Master System v5
 
-- **Compiled Unified Rulebook (V4.0):** [`PROJECT_CORTEX-BTC_Master_System-v4.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v4.md)
+- **Compiled Unified Rulebook (V5.0):** [`PROJECT_CORTEX-BTC_Master_System-v5.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v5.md)
 
-### Core Architecture, Indices & Historical Invariants (`00`–`00D`)
+### Core Architecture, Indices & Historical Invariants (`00`–`00E`)
 - [`00`](rulebook/00_Charter_5_Pillar_Waterfall_and_Master_Architecture.md) — Charter, 5-Pillar Waterfall & Master Architecture
 - [`00B`](rulebook/00B_Full_Stack_Master_Index.md) — V2.0 Full-Stack Master Index
 - [`00C`](rulebook/00C_Historical_Intelligence_Registry_and_Cycle_Laws.md) — Historical Intelligence Registry & 9-Year Cycle Laws
-- [`00D`](rulebook/00D_Complete_Source_Master_Directory.md) — Core Directory Reference
+- [`00D`](rulebook/00D_Complete_Source_Master_Directory.md) — Core Directory Reference (V3.0 / MOD 01–33)
+- [`00E`](rulebook/00E_Complete_58_Source_Master_Directory.md) — Complete 58-Source Master Directory (v3.2 / MOD 01–52)
 
-### Quantitative Execution Modules (`MOD 01`–`MOD 46`)
+### Quantitative Execution Modules (`MOD 01`–`MOD 53`)
 <details>
-<summary>Expand all 47 module files (MOD 01 – MOD 46)</summary>
+<summary>Expand all 54 module files (MOD 01 – MOD 53)</summary>
 
 - [`MOD 01`](rulebook/MOD_01_Rising_Open_Interest_Extreme_Negative_Perpetual_Basis.md) — Rising Open Interest + Extreme Negative Perpetual Basis
 - [`MOD 02`](rulebook/MOD_02_Rising_Open_Interest_High_Positive_Perpetual_Basis.md) — Rising Open Interest + High Positive Perpetual Basis
@@ -108,5 +109,12 @@ gh workflow run btc_fetcher_cron.yml
 - [`MOD 44`](rulebook/MOD_44_Mega_IPO_Capital_Vacuums_and_Index_Rebalance_Liquidity_Drains.md) — Mega-IPO Capital Vacuums & Index Rebalance Liquidity Drains
 - [`MOD 45`](rulebook/MOD_45_Executive_Bottom_Line_HUD_and_Mobile_Presentation_Protocol.md) — Executive Bottom-Line HUD & Mobile Presentation Protocol
 - [`MOD 46`](rulebook/MOD_46_Block_1050000_April_2028_Secular_Horizon_and_Sovereign_Barbell_Anchor.md) — Block 1,050,000 (April 2028) Secular Horizon & Sovereign Barbell Anchor
+- [`MOD 47`](rulebook/MOD_47_Corporate_and_Sovereign_Treasury_Velocity.md) — Corporate & Sovereign Treasury Velocity (mNAV & Proxy Flywheel)
+- [`MOD 48`](rulebook/MOD_48_Stablecoin_Supply_Ratio_and_Net_Mint_Burn_Velocity.md) — Stablecoin Supply Ratio (SSR), USDT.D & Net Mint/Burn Velocity
+- [`MOD 49`](rulebook/MOD_49_Rolling_Cross_Asset_Correlation_and_Decoupling_Matrix.md) — Rolling Cross-Asset Correlation & Decoupling Matrix (BTC vs. NDX / Gold / DXY)
+- [`MOD 50`](rulebook/MOD_50_Weekend_Thin_Liquidity_Unsettled_CME_and_Sunday_Reopen.md) — Weekend Thin-Liquidity, Unsettled CME Clearing & Sunday Re-Open Protocol
+- [`MOD 51`](rulebook/MOD_51_Extreme_Cascade_Microstructure_Basis_Blowouts_and_Staggered_Limits.md) — Extreme Cascade Microstructure, Basis Blowouts & Staggered Limit Execution
+- [`MOD 52`](rulebook/MOD_52_Rolling_30_Trade_Expectancy_Audit_and_Parameter_Drift_Governor.md) — Rolling 30-Trade Expectancy Audit & Parameter Drift Governor
+- [`MOD 53`](rulebook/MOD_53_Hawkes_Point_Processes_Jump_Diffusion_and_Transfer_Entropy.md) — Hawkes Point Processes, Jump-Diffusion De-Noising & Transfer Entropy Capital Rotation
 
 </details>
