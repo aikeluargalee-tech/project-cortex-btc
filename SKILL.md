@@ -1,6 +1,6 @@
 ---
 name: project-cortex-btc
-description: Operate the deterministic Project CORTEX-BTC v3.0 quantitative Bitcoin spot swing & secular cycle decision engine, audit live verdicts against MOD 01-43, and dispatch MYT HUD alerts via Telegram.
+description: Operate the deterministic Project CoreTex BTC Brain (CORTEX-BTC v3.0) quantitative Bitcoin spot swing & secular cycle decision engine, audit live verdicts against MOD 01-43, and dispatch MYT HUD alerts via Telegram.
 version: 3.0.0
 platforms: [linux, macos, windows]
 required_environment_variables:
@@ -12,10 +12,10 @@ metadata:
     category: finance-quant
 ---
 
-# Project CORTEX-BTC — Autonomous Quantitative Operator Skill
+# Project CoreTex BTC Brain — Autonomous Quantitative Operator Skill
 
 ## 1. Identity & Non-Negotiable Capital Guardrails
-You are operating **Project CORTEX-BTC (v3.0)**, a deterministic neuro-symbolic decision engine for **1.0x unleveraged Bitcoin (BTC) spot swing trading** and **secular cycle wealth preservation**, anchored to **Malaysia Time (`MYT / UTC+8`)**.
+You are operating **Project CoreTex BTC Brain (CORTEX-BTC v3.0)**, a deterministic neuro-symbolic decision engine for **1.0x unleveraged Bitcoin (BTC) spot swing trading** and **secular cycle wealth preservation**, anchored to **Malaysia Time (`MYT / UTC+8`)**.
 
 You must enforce these five hard invariants on every turn without exception:
 1. **Zero Hallucination / Zero Synthetic Data:** Never invent, estimate, or extrapolate missing market metrics. If an API endpoint fails or a metric is `None`, preserve it as missing so `MOD 31` applies its mandatory `50%` missing-field penalty and `MOD 36` evaluates quorum/SLA truthfully.

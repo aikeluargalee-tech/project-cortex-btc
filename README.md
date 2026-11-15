@@ -1,4 +1,4 @@
-# Project CORTEX-BTC (v3.0) — The Sovereign Bitcoin Brain Matrix
+# Project CoreTex BTC Brain (v3.0) — The Sovereign Bitcoin Brain Matrix
 
 > **Build in Peace. Scan in War. Never re-learn a market lesson at a financial loss.**
 

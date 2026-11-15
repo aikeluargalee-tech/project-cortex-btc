@@ -1,4 +1,4 @@
-# PROJECT CORTEX-BTC: FULL QUANTITATIVE RULEBOOK & MASTER ARCHITECTURE (V3.0)
+# Project CoreTex BTC Brain (CORTEX-BTC V3.0): FULL QUANTITATIVE RULEBOOK & MASTER ARCHITECTURE
 **System Status:** Operational Control-Plane & 5-Pillar Deterministic Execution Stack
 **Coverage:** Complete 48-Source Core Architecture, Modules MOD 01–43, and Operational Field Runbooks
 **Compiled Archive:** Release V3.0 (Master Backup)
