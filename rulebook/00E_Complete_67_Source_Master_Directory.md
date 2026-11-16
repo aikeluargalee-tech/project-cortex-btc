@@ -1,24 +1,26 @@
-# PROJECT CORETEX BTC BRAIN — COMPLETE 61-SOURCE MASTER DIRECTORY (v6.0)
+# PROJECT CORETEX BTC BRAIN — COMPLETE 67-SOURCE MASTER DIRECTORY (v7.0)
 
-**Status:** Full-Stack Quantitative & Sovereign Barbell Rulebook (00–00E + MOD 01–MOD 55, including MOD 41.1) — **61 Sources Total — 100% Codified, Indexed & Ready for Live VPS / Hermes / GitHub Operations**.
-**Governing Invariants:** Strict 1.0x Unleveraged Spot Only (BTC & USDT/USD), <= 0.75% Max Portfolio Risk per Trade (0.375% GATE_AMBER / 0.00% GATE_RED 100% Cash Lock), Net R >= 3.0 Post-Slippage Requirement, Fail-Closed DATA UNAVAILABLE Honesty (MOD 36), and Air-Gapped Barbell Custody (Sleeve A Tactical Swing vs. Sleeve B 2-of-3 Dual-Jurisdiction Multi-Sig Cold Storage).
+**Status:** Full-Stack Quantitative & Sovereign Barbell Rulebook (00–00E + MOD 01–MOD 61, including MOD 41.1) — **67 Sources Total — 100% Codified, Indexed & Ready for Live VPS / Hermes / GitHub Operations**.
+**Governing Invariants:** Strict 1.0x Unleveraged Spot Only (BTC & USDT/USD), <= 0.75% Max Portfolio Risk per Trade (0.375% GATE_AMBER / 0.00% GATE_RED 100% Cash Lock), Net R >= 3.0 Post-Slippage Requirement, Fail-Closed DATA UNAVAILABLE Honesty (MOD 36), Deterministic Precedence Arbitration (MOD 60), and Air-Gapped Barbell Custody (Sleeve A Tactical Swing vs. Sleeve B 2-of-3 Dual-Jurisdiction Multi-Sig Cold Storage).
 
 #### 1. Governance, Indices & Historical Invariants (5 Sources)
 *   **00** — Project CORTEX-BTC: Charter, 5-Pillar Waterfall & 18-Module Index
 *   **00B** — Project CORTEX-BTC V2.0 Full-Stack Master Index (MOD 01–28+)
-*   **00C** — Historical Registry (Entries #1–#37), 9-Year Cycle Laws & 3R Bar-Count Rules
+*   **00C** — Historical Registry (Entries #1–#38), 9-Year Cycle Laws & 3R Bar-Count Rules
 *   **00D** — Project CORTEX-BTC Complete 44-Source Master Directory (MOD 01–40)
-*   **00E** — Project CoreTex BTC Brain Complete 61-Source Master Directory (v6.0, MOD 01–55)
+*   **00E** — Project CoreTex BTC Brain Complete 67-Source Master Directory (v7.0, MOD 01–61)
 
-#### 2. Tier D Control-Plane, Supreme Radar & Mobile HUD (6 Sources)
+#### 2. Tier D Control-Plane, Supreme Radar & Mobile HUD (8 Sources)
 *   **MOD 28** — Live Autopsy & Black Swan Circuit Breaker Engine
 *   **MOD 31** — Institutional Capital Defense Matrix (ICDM 100-Pt Fragility Scale)
 *   **MOD 33** — Unified 5-Regime Master Radar and State-Transition Engine
 *   **MOD 36** — Telemetry Trust, Staleness SLA & Determinism Attestation
 *   **MOD 45** — Executive Bottom-Line HUD & Mobile Presentation Protocol
 *   **MOD 52** — Rolling 30-Trade Expectancy Audit & Parameter Drift Governor
+*   **MOD 60** — Intra-Pillar Conflict Resolution, Veto Precedence & Deadlock Arbiter Matrix
+*   **MOD 61** — Data Hub Ingestion, Hygiene Gate & Desk-Lite Verdict Compilation Protocol
 
-#### 3. Pillar 1 — Macro Liquidity Plumbing, Cross-Asset Gates & Secular Horizon (10 Sources)
+#### 3. Pillar 1 — Macro Liquidity Plumbing, Cross-Asset Gates & Secular Horizon (12 Sources)
 *   **MOD 16** — Macro Liquidity, Yields, DXY & Stablecoin Dry Powder
 *   **MOD 17** — 200D MA Secular Gates, Index Rebalancings & Session Handoffs
 *   **MOD 22** — Net Fed Liquidity Impulse (WALCL - TGA - RRP)
@@ -29,8 +31,10 @@
 *   **MOD 46** — Block 1,050,000 (April 2028) Secular Horizon & Sovereign Barbell Anchor
 *   **MOD 47** — Corporate & Sovereign Treasury Velocity (mNAV & Proxy Flywheel)
 *   **MOD 49** — Rolling Cross-Asset Correlation & Decoupling Matrix (BTC vs. NDX / Gold / DXY)
+*   **MOD 56** — Secular Cycle Anatomy, Diminishing Returns & Anti-Narrative Discipline *(Reference-Only Context)*
+*   **MOD 58** — Macro Event & Economic Release Trinity Protocol (72-Hour FOMC, SEP Dot Plot, CPI, Core PCE & NFP Gate)
 
-#### 4. Pillar 2 — Microstructure, Order Flow, Rough Path Signatures & Chart Geometry (20 Sources)
+#### 4. Pillar 2 — Microstructure, Order Flow, Rough Path Signatures & Chart Geometry (21 Sources)
 *   **MOD 05** — The 4-Quadrant Spot CVD vs. Perp CVD Matrix
 *   **MOD 06** — Passive Limit Absorption vs. Market Taker Exhaustion
 *   **MOD 07** — Domestic Fiat Gateways & Spot ETFs vs. Offshore Flows
@@ -51,6 +55,7 @@
 *   **MOD 53** — Hawkes Point Processes, Jump-Diffusion De-Noising & Transfer Entropy Engine
 *   **MOD 54** — Multi-Timeframe Algorithmic Market Structure & Kline Lookback Contract
 *   **MOD 55** — Dual-Stage Disruption Telemetry & Recovery Radar Engine
+*   **MOD 57** — Intraday & Calendar Volatility Regime, DST Session Clock & Empirical Stop-Calibration Engine
 
 #### 5. Pillar 3 — Derivatives Leverage, Options Skew & Cascade Mechanics (8 Sources)
 *   **MOD 01** — Rising OI + Extreme Negative Perp Basis
@@ -66,7 +71,7 @@
 *   **MOD 18** — Master 5-Pillar Confluence, 0.75% Risk Sizing & Two-Stage Exit Engine
 *   **MOD 37** — Executable Liquidity, Net-3.0R Slippage & Equity-Curve Governor
 
-#### 7. Pillar 5 — On-Chain Cohorts, Stablecoins, ETFs, Solvency & Secular Exits (10 Sources)
+#### 7. Pillar 5 — On-Chain Cohorts, Stablecoins, ETFs, Solvency & Secular Exits (11 Sources)
 *   **MOD 13** — Short-Term Holder (STH) Realized Price & MVRV Bands
 *   **MOD 14** — SOPR Profit/Loss Reset Cycles
 *   **MOD 15** — Realized Cap Impulse & LTH-to-STH Wealth Transfer
@@ -77,3 +82,4 @@
 *   **MOD 41** — Secular Cycle ATH Cluster, First-Week Flush (Rule 1) & Flat Double-Top (+4% Rule 3) Exit Engine
 *   **MOD 41.1** — Secular ATH Operational Field Runbook & Countdown Checklist
 *   **MOD 48** — Stablecoin Supply Ratio (SSR), USDT.D & Net Mint/Burn Velocity
+*   **MOD 59** — Long-Term Holder (LTH) Cost Basis, True Market Mean & Secular Floor Matrix
