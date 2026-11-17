@@ -1,6 +1,6 @@
-# PROJECT CORETEX BTC BRAIN — 00F: COMPLETE 70-SOURCE MASTER DIRECTORY (v10)
+# PROJECT CORETEX BTC BRAIN — 00F: COMPLETE 71-SOURCE MASTER DIRECTORY (v11)
 
-**Status:** Full-Stack Quantitative, Operational Execution & Sovereign Barbell Rulebook (`00`–`00F` + `MOD 01`–`MOD 62`, including `MOD 18.1` & `MOD 41.1`) — **70 Sources Total — 100% Codified, Indexed & Ready for Live VPS / Hermes / GitHub Operations**.
+**Status:** Full-Stack Quantitative, Operational Execution & Sovereign Barbell Rulebook (`00`–`00F` + `MOD 01`–`MOD 63`, including `MOD 18.1` & `MOD 41.1`) — **71 Sources Total — 100% Codified, Indexed & Ready for Live VPS / Hermes / GitHub Operations**.
 **Governing Invariants:** Strict `1.0x` Unleveraged Spot Only (BTC & USDT/USD), `<= 0.75%` Max Portfolio Risk per Trade (`0.375%` `GATE_AMBER` / `0.00%` `GATE_RED` `100% Cash Lock`), `Net R >= 3.0` Post-Slippage Requirement (`MOD 37`), Fail-Closed `DATA UNAVAILABLE` Honesty (`MOD 36`), Deterministic Precedence Arbitration (`MOD 60`), Air-Gapped Barbell Custody (`Sleeve A` 20% Tactical Dual-Inventory Sleeve: 10% BTC / 10% USDT vs. `Sleeve B` 80% 2-of-3 Dual-Jurisdiction Multi-Sig Cold Storage), and Human Operator Final Execution Authorization (`MOD 62`).
 
 ---
@@ -11,7 +11,7 @@
 * **`00C`** — Historical Registry (Entries #1–#38), 9-Year Cycle Laws & 3R Bar-Count Rules
 * **`00D`** — Project CORTEX-BTC Complete 44-Source Master Directory (MOD 01–40)
 * **`00E`** — Project CoreTex BTC Brain Complete 67-Source Master Directory (v7.0, MOD 01–61)
-* **`00F`** — Project CoreTex BTC Brain Complete 70-Source Master Directory (v10, MOD 01–62)
+* **`00F`** — Project CoreTex BTC Brain Complete 71-Source Master Directory (v11, MOD 01–63)
 
 ---
 
@@ -80,11 +80,12 @@
 
 ---
 
-## 6. Pillar 4 — Master Decision Compiler, Sizing, Slippage & Dual-Inventory Execution (4 Sources)
+## 6. Pillar 4 — Master Decision Compiler, Sizing, Slippage & Dual-Inventory Execution (5 Sources)
 * **`MOD 18`** — Master 5-Pillar Confluence, 0.75% Risk Sizing & Two-Stage Exit Engine
 * **`MOD 18.1`** — Pre-Flight Go/No-Go Checklist & Anti-Knife Protocol
 * **`MOD 37`** — Executable Liquidity, Net-3.0R Slippage & Equity-Curve Governor
 * **`MOD 62`** — Dual-Inventory Bidirectional Swing Engine (DIBSE v2.0 — Portfolio Allocation Controller, Loop A/B Ledgers & Order Lifecycle)
+* **`MOD 63`** — CORTEX-RHYME Empirical Derivatives State-Space Analogue & Expectancy Engine
 
 ---
 
