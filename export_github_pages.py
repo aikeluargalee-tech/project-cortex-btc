@@ -152,34 +152,55 @@ function esc(v) {
   return String(v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
-function render(s) {
+function formatMytNow() {
+  const now = new Date();
+  const fmt = new Intl.DateTimeFormat('sv-SE', {
+    timeZone: 'Asia/Kuala_Lumpur',
+    year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false
+  });
+  return fmt.format(now) + ' MYT (UTC+8)';
+}
+
+function render(s, liveSpot = null) {
   const b = s.banner;
+  const mktMs = Date.parse(b.market_ts_utc);
+  const ageMin = Number.isFinite(mktMs) ? Math.max(0, Math.round((Date.now() - mktMs) / 60000)) : null;
+  const ageLabel = ageMin === null ? 'AGE: UNKNOWN' : (ageMin > 90 ? `STALE (${ageMin}m > 90m)` : `FRESH (${ageMin}m)`);
+  const ageCls = ageMin === null || ageMin > 90 ? 'b-red' : 'b-green';
+
   document.getElementById('tsLine').textContent =
-    `Market Event: ${b.market_ts_myt} | Exported: ${b.exported_at_myt} (UTC: ${b.exported_at_utc})`;
+    `Pipeline Snapshot: ${b.market_ts_myt} | Page Exported: ${b.exported_at_myt}`;
 
   const integCls = b.data_integrity === 'VERIFIED' ? 'b-green' :
     (['UNAVAILABLE','STALE','CONFLICTING'].includes(b.data_integrity) ? 'b-red' : 'b-warn');
   const spotTxt = typeof b.spot_price_usdt === 'number'
     ? '$' + b.spot_price_usdt.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})
     : b.spot_price_usdt;
+  const liveTxt = liveSpot && typeof liveSpot.price === 'number'
+    ? '$' + liveSpot.price.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})
+    : 'CHECKING...';
 
   document.getElementById('badges').innerHTML = `
     <span class="badge b-blue">${esc(b.instrument)}</span>
     <span class="badge b-warn">${esc(b.validation_status)}</span>
-    <span class="badge b-muted">${esc(b.view_mode)}</span>
+    <span class="badge ${ageCls}">SNAPSHOT: ${esc(ageLabel)}</span>
     <span class="badge ${integCls}">DATA: ${esc(b.data_integrity)}</span>
-    <span class="badge b-green">BTC: ${esc(spotTxt)}</span>
+    <span class="badge b-green">LIVE SPOT: ${esc(liveTxt)}</span>
   `;
 
   const lv = s.legacy_matrix_summary || {};
   const spotChg = lv.price_change_pct_24h !== null && lv.price_change_pct_24h !== undefined
     ? `${lv.price_change_pct_24h >= 0 ? '+' : ''}${Number(lv.price_change_pct_24h).toFixed(2)}%`
     : 'DATA UNAVAILABLE';
+  const liveChg = liveSpot && typeof liveSpot.chgPct === 'number'
+    ? `${liveSpot.chgPct >= 0 ? '+' : ''}${liveSpot.chgPct.toFixed(2)}%`
+    : '';
 
   document.getElementById('summaryTiles').innerHTML = `
-    <div class="tile"><div class="tile-k">Spot BTC/USDT (24h)</div><div class="tile-v">${esc(spotTxt)} <span class="muted" style="font-size:12px;">(${esc(spotChg)})</span></div></div>
-    <div class="tile"><div class="tile-k">MOD 33 Regime / MOD 31 ICDM</div><div class="tile-v" style="font-size:13px;">${esc(lv.regime_id || 'DATA UNAVAILABLE')} | ICDM ${esc(lv.icdm_score ?? 'N/A')}</div></div>
-    <div class="tile"><div class="tile-k">Legacy Matrix Action / Net R</div><div class="tile-v" style="font-size:13px;">${esc(lv.verdict_action || 'DATA UNAVAILABLE')} | ${esc(lv.net_r ?? 'N/A')}R</div></div>
+    <div class="tile"><div class="tile-k">Live Binance Spot (Browser)</div><div class="tile-v">${esc(liveTxt)} <span class="muted" style="font-size:12px;">${esc(liveChg)}</span></div><div class="muted mono" style="font-size:10px; margin-top:3px;">${esc(liveSpot ? liveSpot.timeMyt : '')}</div></div>
+    <div class="tile"><div class="tile-k">Pipeline Spot / Regime</div><div class="tile-v" style="font-size:14px;">${esc(spotTxt)} (${esc(spotChg)})</div><div class="muted mono" style="font-size:11px; margin-top:3px;">${esc(lv.regime_id || 'DATA UNAVAILABLE')} | ICDM ${esc(lv.icdm_score ?? 'N/A')}</div></div>
+    <div class="tile"><div class="tile-k">Legacy Matrix Action / Net R</div><div class="tile-v" style="font-size:14px;">${esc(lv.verdict_action || 'DATA UNAVAILABLE')} | ${esc(lv.net_r ?? 'N/A')}R</div><div class="muted mono" style="font-size:11px; margin-top:3px;">Snapshot Age: ${esc(ageLabel)}</div></div>
   `;
 
   document.getElementById('publicNotice').textContent = s.public_notice;
@@ -219,16 +240,32 @@ function render(s) {
   `).join('');
 }
 
+async function fetchLiveBinanceSpot() {
+  try {
+    const r = await fetch('https://data-api.binance.vision/api/v3/ticker/24hr?symbol=BTCUSDT', { cache: 'no-store' });
+    if (!r.ok) return null;
+    const d = await r.json();
+    const px = parseFloat(d.lastPrice);
+    const chg = parseFloat(d.priceChangePercent);
+    if (!Number.isFinite(px)) return null;
+    return { price: px, chgPct: Number.isFinite(chg) ? chg : null, timeMyt: formatMytNow() };
+  } catch (e) {
+    return null;
+  }
+}
+
 async function loadLatest() {
+  let stateObj = null;
   try {
     const resp = await fetch('./market_state.json?ts=' + Date.now(), { cache: 'no-store' });
-    if (resp.ok) {
-      render(await resp.json());
-      return;
-    }
+    if (resp.ok) stateObj = await resp.json();
   } catch (e) {}
-  const raw = document.getElementById('fallback-state').textContent;
-  render(JSON.parse(raw));
+  if (!stateObj) {
+    stateObj = JSON.parse(document.getElementById('fallback-state').textContent);
+  }
+  render(stateObj, null);
+  const live = await fetchLiveBinanceSpot();
+  if (live) render(stateObj, live);
 }
 
 loadLatest();

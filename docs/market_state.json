@@ -7,8 +7,8 @@
     "spot_price_usdt": 64581.27,
     "market_ts_utc": "2026-11-17T02:25:15Z",
     "market_ts_myt": "2026-11-17 10:25:15 MYT (UTC+8)",
-    "exported_at_utc": "2026-11-17T04:44:29Z",
-    "exported_at_myt": "2026-11-17 12:44:29 MYT (UTC+8)",
+    "exported_at_utc": "2026-11-17T04:55:07Z",
+    "exported_at_myt": "2026-11-17 12:55:07 MYT (UTC+8)",
     "data_integrity": "PARTIALLY VERIFIED"
   },
   "public_notice": "Read-only market telemetry view exported by GitHub Actions. No portfolio balances, private keys, or manual order records are stored or published here. All strategy outputs remain UNVALIDATED; manual execution only.",
@@ -23,11 +23,11 @@
     "compiled_at_myt": "2026-11-17 10:25:20 MYT"
   },
   "module_a": {
-    "assessment_id": "MODA-AEE93F8C8AC3",
+    "assessment_id": "MODA-EAC42D196CE6",
     "module_name": "MODULE_A_ACCUMULATION",
     "setup_id": "SETUP-A-2026-11-17",
     "timestamp_utc": "2026-11-17T02:25:15Z",
-    "market_snapshot_id": "MKT-55A8DE682690",
+    "market_snapshot_id": "MKT-E142E7C54331",
     "config_version": 1,
     "state": "WATCH",
     "directional_signal": "WAIT",
@@ -163,11 +163,11 @@
     "interpretation_summary": "Module A state=WATCH, signal=WAIT (2 pass, 1 fail, 3 unavailable, 2 unconfigured)."
   },
   "module_b": {
-    "assessment_id": "MODB-4D8EC0D6C682",
+    "assessment_id": "MODB-B2F461AAE90F",
     "module_name": "MODULE_B_DISTRIBUTION",
     "setup_id": "SETUP-B-2026-11-17",
     "timestamp_utc": "2026-11-17T02:25:15Z",
-    "market_snapshot_id": "MKT-55A8DE682690",
+    "market_snapshot_id": "MKT-E142E7C54331",
     "config_version": 1,
     "state": "WATCH",
     "directional_signal": "WAIT",
