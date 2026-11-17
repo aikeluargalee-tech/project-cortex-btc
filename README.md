@@ -1,8 +1,8 @@
-# Project CoreTex BTC Brain (v9) — The Sovereign Bitcoin Brain Matrix
+# Project CoreTex BTC Brain (v10) — The Sovereign Bitcoin Brain Matrix
 
 > **Build in Peace. Scan in War. Never re-learn a market lesson at a financial loss.**
 
-Deterministic, zero-dependency Python 3 decision engine and **69-source quantitative rulebook vault** (`00`–`00F` + `MOD 01`–`MOD 62`, including `MOD 41.1`) for **1.0x unleveraged Bitcoin (BTC) spot swing trading** and **secular cycle wealth preservation**, anchored to **Malaysia Time (`MYT / UTC+8`)**.
+Deterministic, zero-dependency Python 3 decision engine and **70-source quantitative rulebook vault** (`00`–`00F` + `MOD 01`–`MOD 62`, including `MOD 18.1` & `MOD 41.1`) for **1.0x unleveraged Bitcoin (BTC) spot swing trading** and **secular cycle wealth preservation**, anchored to **Malaysia Time (`MYT / UTC+8`)**.
 
 ---
 
@@ -27,7 +27,7 @@ Deterministic, zero-dependency Python 3 decision engine and **69-source quantita
 | **Live Snapshots** | [`btc_metrics_latest.json`](btc_metrics_latest.json), [`cortex_verdict_latest.json`](cortex_verdict_latest.json) | Latest hourly market telemetry and deterministic verdict written by GitHub Actions. |
 | **Hourly Cron** | [`.github/workflows/btc_fetcher_cron.yml`](.github/workflows/btc_fetcher_cron.yml) | Runs hourly at `:05` UTC (`workflow_dispatch` also enabled) using `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` secrets. |
 | **Agent Skills** | [`SKILL.md`](SKILL.md), [`.hermes/skills/project-cortex-btc/SKILL.md`](.hermes/skills/project-cortex-btc/SKILL.md) | Standardized `agentskills.io` / Hermes Agent operator skill definitions. |
-| **Knowledge Vault** | [`rulebook/`](rulebook/) | Complete 69-source Markdown rulebook (`00`–`00F`, `MOD 01`–`MOD 62`) + compiled [`PROJECT_CORTEX-BTC_Master_System-v9.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v9.md). |
+| **Knowledge Vault** | [`rulebook/`](rulebook/) | Complete 70-source Markdown rulebook (`00`–`00F`, `MOD 01`–`MOD 62`) + compiled [`PROJECT_CORTEX-BTC_Master_System-v10.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v10.md). |
 
 ---
 
@@ -47,9 +47,9 @@ gh workflow run btc_fetcher_cron.yml
 
 ---
 
-## Rulebook Vault (`rulebook/`) — 69 Sources + Master System v9
+## Rulebook Vault (`rulebook/`) — 70 Sources + Master System v10
 
-- **Compiled Unified Rulebook (V9.0):** [`PROJECT_CORTEX-BTC_Master_System-v9.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v9.md)
+- **Compiled Unified Rulebook (V10.0):** [`PROJECT_CORTEX-BTC_Master_System-v10.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v10.md)
 
 ### Core Architecture, Indices & Historical Invariants (`00`–`00F`)
 - [`00`](rulebook/00_Charter_5_Pillar_Waterfall_and_Master_Architecture.md) — Charter, 5-Pillar Waterfall & Master Architecture
@@ -57,11 +57,11 @@ gh workflow run btc_fetcher_cron.yml
 - [`00C`](rulebook/00C_Historical_Intelligence_Registry_and_Cycle_Laws.md) — Historical Intelligence Registry (Entries #1–#38) & 9-Year Cycle Laws
 - [`00D`](rulebook/00D_Complete_Source_Master_Directory.md) — Core Directory Reference (V3.0 / MOD 01–33)
 - [`00E`](rulebook/00E_Complete_67_Source_Master_Directory.md) — Complete 67-Source Master Directory (v7.0 / MOD 01–61)
-- [`00F`](rulebook/00F_Complete_69_Source_Master_Directory.md) — Complete 69-Source Master Directory (v9 / MOD 01–62)
+- [`00F`](rulebook/00F_Complete_70_Source_Master_Directory.md) — Complete 70-Source Master Directory (v10 / MOD 01–62)
 
 ### Quantitative Execution Modules (`MOD 01`–`MOD 62`)
 <details>
-<summary>Expand all 63 module files (MOD 01 – MOD 62)</summary>
+<summary>Expand all 64 module files (MOD 01 – MOD 62)</summary>
 
 - [`MOD 01`](rulebook/MOD_01_Rising_Open_Interest_Extreme_Negative_Perpetual_Basis.md) — Rising Open Interest + Extreme Negative Perpetual Basis
 - [`MOD 02`](rulebook/MOD_02_Rising_Open_Interest_High_Positive_Perpetual_Basis.md) — Rising Open Interest + High Positive Perpetual Basis
@@ -81,6 +81,7 @@ gh workflow run btc_fetcher_cron.yml
 - [`MOD 16`](rulebook/MOD_16_Macro_Liquidity_Sovereign_Yields_DXY_And_Stablecoin_Dry_Powder.md) — Macro Liquidity, Sovereign Yields, DXY & Stablecoin Dry Powder
 - [`MOD 17`](rulebook/MOD_17_200D_MA_Secular_Gates_Index_Rebalancings_and_Session_Handoffs.md) — 200D MA Secular Gates, Index Rebalancings & Session Handoffs
 - [`MOD 18`](rulebook/MOD_18_Master_5_Pillar_Confluence_0.75_Risk_Sizing_Engine_And_Two_Stage_Exit_Protocol.md) — Master 5-Pillar Confluence, 0.75% Risk Sizing & Exit Protocol
+- [`MOD 18.1`](rulebook/MOD_18.1_Pre_Flight_Go_No_Go_Checklist_and_Anti_Knife_Protocol.md) — Pre-Flight Go/No-Go Checklist & Anti-Knife Protocol
 - [`MOD 19`](rulebook/MOD_19_Coinbase_Premium_Index_Z_Scores_And_Domestic_Offshore_Spreads.md) — Coinbase Premium Index Z-Scores & Domestic-Offshore Spreads
 - [`MOD 20`](rulebook/MOD_20_CME_Futures_Basis_And_Weekend_Gap_Fill_Topology.md) — CME Futures Basis & Weekend Gap Fill Topology
 - [`MOD 21`](rulebook/MOD_21_Algorithmic_TWAP_VWAP_Accumulation_Footprints_vs_Spoofed_Liquidity.md) — Algorithmic TWAP/VWAP Accumulation vs. Spoofed Liquidity

@@ -1,8 +1,8 @@
-# Project CoreTex BTC Brain (CORTEX-BTC V9.0) — MASTER QUANTITATIVE SYSTEM RULEBOOK
+# Project CoreTex BTC Brain (CORTEX-BTC V10.0) — MASTER QUANTITATIVE SYSTEM RULEBOOK
 
 **Full-Stack Sovereign Quantitative Architecture & Execution Engine**  
-*Compiled: November 2026 Live Master Integration (V9.0)*  
-*Total System Sources Included: 69 Complete Sources (`00`–`00F` Core Architecture & `MOD 01`–`MOD 62` Quantitative Modules, including `MOD 41.1`)*
+*Compiled: November 2026 Live Master Integration (V10.0)*  
+*Total System Sources Included: 70 Complete Sources (`00`–`00F` Core Architecture & `MOD 01`–`MOD 62` Quantitative Modules, including `MOD 18.1` & `MOD 41.1`)*
 
 ---
 
@@ -14,7 +14,7 @@
 - [PROJECT CORTEX-BTC — 00C: HISTORICAL INTELLIGENCE REGISTRY (ENTRIES #1–#38), 9-YEAR CYCLE LAWS & EXECUTION INVARIANTS](#project-cortex-btc--00c-historical-intelligence-registry-entries-138-9-year-cycle-laws--execution-invariants)
 - [PROJECT CORTEX-BTC — 00D: COMPLETE 36-SOURCE MASTER DIRECTORY (MOD 01–33)](#project-cortex-btc--00d-complete-36-source-master-directory-mod-0133)
 - [PROJECT CORETEX BTC BRAIN — COMPLETE 67-SOURCE MASTER DIRECTORY (v7.0)](#project-coretex-btc-brain--complete-67-source-master-directory-v70)
-- [PROJECT CORETEX BTC BRAIN — 00F: COMPLETE 69-SOURCE MASTER DIRECTORY (v9)](#project-coretex-btc-brain--00f-complete-69-source-master-directory-v9)
+- [PROJECT CORETEX BTC BRAIN — 00F: COMPLETE 70-SOURCE MASTER DIRECTORY (v10)](#project-coretex-btc-brain--00f-complete-70-source-master-directory-v10)
 
 ### II. Quantitative Modules & Control-Plane Engines (MOD 01–62)
 - [PROJECT CORTEX-BTC — MODULE 01: RISING OPEN INTEREST + EXTREME NEGATIVE PERPETUAL BASIS](#project-cortex-btc--module-01-rising-open-interest--extreme-negative-perpetual-basis)
@@ -24,8 +24,8 @@
 - [PROJECT CORTEX-BTC — MODULE 05: THE 4-QUADRANT SPOT CVD VS. PERPETUAL CVD MATRIX](#project-cortex-btc--module-05-the-4-quadrant-spot-cvd-vs-perpetual-cvd-matrix)
 - [PROJECT CORTEX-BTC — MODULE 06: PASSIVE LIMIT ABSORPTION VS. MARKET TAKER EXHAUSTION](#project-cortex-btc--module-06-passive-limit-absorption-vs-market-taker-exhaustion)
 - [PROJECT CORTEX-BTC — MODULE 07: DOMESTIC FIAT GATEWAYS (USD) & SPOT ETFS VS. OFFSHORE PERP/USDT FLOWS](#project-cortex-btc--module-07-domestic-fiat-gateways-usd--spot-etfs-vs-offshore-perpusdt-flows)
-- [PROJECT CORTEX-BTC — MODULE 08: ROUGH PATH SIGNATURES I — PRICE-VOLUME LÉVY SIGNED AREA (A_P,V)](#project-cortex-btc--module-08-rough-path-signatures-i--price-volume-lévy-signed-area-apv)
-- [PROJECT CORTEX-BTC — MODULE 09: ROUGH PATH SIGNATURES II — SPOT CVD–OPEN INTEREST LÉVY SIGNED AREA (A_CVD,OI)](#project-cortex-btc--module-09-rough-path-signatures-ii--spot-cvdopen-interest-lévy-signed-area-acvdoi)
+- [PROJECT CORTEX-BTC — MODULE 08: ROUGH PATH SIGNATURES I — PRICE-VOLUME LÉVY SIGNED AREA (A_P,V)](#project-cortex-btc--module-08-rough-path-signatures-i--price-volume-lévy-signed-area-a_pv)
+- [PROJECT CORTEX-BTC — MODULE 09: ROUGH PATH SIGNATURES II — SPOT CVD–OPEN INTEREST LÉVY SIGNED AREA (A_CVD,OI)](#project-cortex-btc--module-09-rough-path-signatures-ii--spot-cvdopen-interest-lévy-signed-area-a_cvdoi)
 - [PROJECT CORTEX-BTC — MODULE 10: ROUGH PATH SIGNATURES III — MULTI-HORIZON ALIGNMENT (1H TACTICAL VS. 4H/1D STRUCTURAL)](#project-cortex-btc--module-10-rough-path-signatures-iii--multi-horizon-alignment-1h-tactical-vs-4h1d-structural)
 - [PROJECT CORTEX-BTC — MODULE 11: VOLUME PROFILE STRUCTURAL TOPOLOGY (VAH, VAL, POC & LVN)](#project-cortex-btc--module-11-volume-profile-structural-topology-vah-val-poc--lvn)
 - [PROJECT CORTEX-BTC — MODULE 12: GARMAN-KLASS (OHLC) VOLATILITY SQUEEZE & FAN EXPANSION](#project-cortex-btc--module-12-garman-klass-ohlc-volatility-squeeze--fan-expansion)
@@ -35,6 +35,7 @@
 - [PROJECT CORTEX-BTC — MODULE 16: MACRO LIQUIDITY, SOVEREIGN YIELDS, DXY & STABLECOIN DRY POWDER](#project-cortex-btc--module-16-macro-liquidity-sovereign-yields-dxy--stablecoin-dry-powder)
 - [PROJECT CORTEX-BTC — MODULE 17: 200D MA SECULAR GATES, INDEX REBALANCINGS & SESSION HANDOFFS](#project-cortex-btc--module-17-200d-ma-secular-gates-index-rebalancings--session-handoffs)
 - [PROJECT CORTEX-BTC — MODULE 18: MASTER 5-PILLAR CONFLUENCE, 0.75% RISK SIZING ENGINE & TWO-STAGE EXIT PROTOCOL](#project-cortex-btc--module-18-master-5-pillar-confluence-075-risk-sizing-engine--two-stage-exit-protocol)
+- [PROJECT CORTEX-BTC — MODULE 18.1: PRE-FLIGHT GO/NO-GO CHECKLIST & ANTI-KNIFE PROTOCOL](#project-cortex-btc--module-181-pre-flight-gono-go-checklist--anti-knife-protocol)
 - [PROJECT CORTEX-BTC — MODULE 19: COINBASE PREMIUM INDEX Z-SCORES & DOMESTIC-OFFSHORE SPREADS](#project-cortex-btc--module-19-coinbase-premium-index-z-scores--domestic-offshore-spreads)
 - [PROJECT CORTEX-BTC — MODULE 20: CME FUTURES BASIS & WEEKEND GAP FILL TOPOLOGY](#project-cortex-btc--module-20-cme-futures-basis--weekend-gap-fill-topology)
 - [PROJECT CORTEX-BTC — MODULE 21: ALGORITHMIC TWAP/VWAP ACCUMULATION FOOTPRINTS VS. SPOOFED LIQUIDITY](#project-cortex-btc--module-21-algorithmic-twapvwap-accumulation-footprints-vs-spoofed-liquidity)
@@ -48,7 +49,7 @@
 - [PROJECT CORTEX-BTC — MODULE 29: EQUITY MULTIPLE COMPRESSION, ENERGY SHOCKS & HIGH-BETA CONTAGION](#project-cortex-btc--module-29-equity-multiple-compression-energy-shocks--high-beta-contagion)
 - [PROJECT CORTEX-BTC — MODULE 30: PCF3 ORDER FLOW ENGINE & 10 DETERMINISTIC CONFIGURATIONS (A–J)](#project-cortex-btc--module-30-pcf3-order-flow-engine--10-deterministic-configurations-aj)
 - [PROJECT CORTEX-BTC — MODULE 31: INSTITUTIONAL CAPITAL DEFENSE MATRIX (ICDM 100-POINT FRAGILITY SCALE)](#project-cortex-btc--module-31-institutional-capital-defense-matrix-icdm-100-point-fragility-scale)
-- [PROJECT CORTEX-BTC — MODULE 32: EXCHANGE SOLVENCY MULTIPLIER (M_SOLV) & SOVEREIGN MULTI-SIG CUSTODY ARCHITECTURE](#project-cortex-btc--module-32-exchange-solvency-multiplier-msolv--sovereign-multi-sig-custody-architecture)
+- [PROJECT CORTEX-BTC — MODULE 32: EXCHANGE SOLVENCY MULTIPLIER (M_SOLV) & SOVEREIGN MULTI-SIG CUSTODY ARCHITECTURE](#project-cortex-btc--module-32-exchange-solvency-multiplier-m_solv--sovereign-multi-sig-custody-architecture)
 - [PROJECT CORTEX-BTC — MODULE 33: UNIFIED 5-REGIME MASTER RADAR & STATE-TRANSITION ENGINE](#project-cortex-btc--module-33-unified-5-regime-master-radar--state-transition-engine)
 - [PROJECT CORTEX-BTC — MODULE 34: AEGIS-3 (ASYMMETRIC EXPOSURE & GEOPOLITICAL/IMPULSE SHIELD)](#project-cortex-btc--module-34-aegis-3-asymmetric-exposure--geopoliticalimpulse-shield)
 - [PROJECT CORTEX-BTC — MODULE 35: LIQUIDATION HEATMAP DISTANCE RULE & PULL SCORE ENGINE](#project-cortex-btc--module-35-liquidation-heatmap-distance-rule--pull-score-engine)
@@ -82,7 +83,6 @@
 - [PROJECT CORTEX-BTC — MODULE 62: DUAL-INVENTORY BIDIRECTIONAL SWING ENGINE (DIBSE v2.0)](#project-cortex-btc--module-62-dual-inventory-bidirectional-swing-engine-dibse-v20)
 
 ---
-
 # PROJECT CORTEX-BTC: THE SOVEREIGN BITCOIN BRAIN MATRIX
 **Architectural Charter, Mission Manifesto & Operational Blueprint (v1.0)**
 
@@ -414,9 +414,9 @@ To prevent premature entries and poor reward-to-risk setups during `MOD 11` (Vol
 
 ---
 
-# PROJECT CORETEX BTC BRAIN — 00F: COMPLETE 69-SOURCE MASTER DIRECTORY (v9)
+# PROJECT CORETEX BTC BRAIN — 00F: COMPLETE 70-SOURCE MASTER DIRECTORY (v10)
 
-**Status:** Full-Stack Quantitative, Operational Execution & Sovereign Barbell Rulebook (`00`–`00F` + `MOD 01`–`MOD 62`, including `MOD 41.1`) — **69 Sources Total — 100% Codified, Indexed & Ready for Live VPS / Hermes / GitHub Operations**.
+**Status:** Full-Stack Quantitative, Operational Execution & Sovereign Barbell Rulebook (`00`–`00F` + `MOD 01`–`MOD 62`, including `MOD 18.1` & `MOD 41.1`) — **70 Sources Total — 100% Codified, Indexed & Ready for Live VPS / Hermes / GitHub Operations**.
 **Governing Invariants:** Strict `1.0x` Unleveraged Spot Only (BTC & USDT/USD), `<= 0.75%` Max Portfolio Risk per Trade (`0.375%` `GATE_AMBER` / `0.00%` `GATE_RED` `100% Cash Lock`), `Net R >= 3.0` Post-Slippage Requirement (`MOD 37`), Fail-Closed `DATA UNAVAILABLE` Honesty (`MOD 36`), Deterministic Precedence Arbitration (`MOD 60`), Air-Gapped Barbell Custody (`Sleeve A` 20% Tactical Dual-Inventory Sleeve: 10% BTC / 10% USDT vs. `Sleeve B` 80% 2-of-3 Dual-Jurisdiction Multi-Sig Cold Storage), and Human Operator Final Execution Authorization (`MOD 62`).
 
 ---
@@ -427,7 +427,7 @@ To prevent premature entries and poor reward-to-risk setups during `MOD 11` (Vol
 * **`00C`** — Historical Registry (Entries #1–#38), 9-Year Cycle Laws & 3R Bar-Count Rules
 * **`00D`** — Project CORTEX-BTC Complete 44-Source Master Directory (MOD 01–40)
 * **`00E`** — Project CoreTex BTC Brain Complete 67-Source Master Directory (v7.0, MOD 01–61)
-* **`00F`** — Project CoreTex BTC Brain Complete 69-Source Master Directory (v9, MOD 01–62)
+* **`00F`** — Project CoreTex BTC Brain Complete 70-Source Master Directory (v10, MOD 01–62)
 
 ---
 
@@ -496,8 +496,9 @@ To prevent premature entries and poor reward-to-risk setups during `MOD 11` (Vol
 
 ---
 
-## 6. Pillar 4 — Master Decision Compiler, Sizing, Slippage & Dual-Inventory Execution (3 Sources)
+## 6. Pillar 4 — Master Decision Compiler, Sizing, Slippage & Dual-Inventory Execution (4 Sources)
 * **`MOD 18`** — Master 5-Pillar Confluence, 0.75% Risk Sizing & Two-Stage Exit Engine
+* **`MOD 18.1`** — Pre-Flight Go/No-Go Checklist & Anti-Knife Protocol
 * **`MOD 37`** — Executable Liquidity, Net-3.0R Slippage & Equity-Curve Governor
 * **`MOD 62`** — Dual-Inventory Bidirectional Swing Engine (DIBSE v2.0 — Portfolio Allocation Controller, Loop A/B Ledgers & Order Lifecycle)
 
@@ -2648,6 +2649,70 @@ Whenever you feed live market telemetry into **Project CORTEX-BTC**, Gemini, Her
 | **M6: Amber-to-Green Mid-Trade Promotion** | Active `0.375%` `CSU-18B` | Price reclaims `200D MA` and `STH RP` while Pillar 1 upgrades from **`GATE_AMBER` to `GATE_GREEN`**. | Counter-trend bounce has graduated into a full secular bull trend. | Hold runner for full swing targets; optionally add a second `0.375%` tranche on `200D MA` retest. |
 | **M7: Exchange Counterparty Alert** | Active Exchange Balance | Withdrawal delays, proof-of-reserve anomalies, or stablecoin de-peg (`< $0.992`) detected on any venue. | Systemic custody risk overrides all chart setups. | **Immediate Withdrawal to Multi-Sig Cold Storage**; halt trading until venue solvency is verified. |
 | **M8: Daily Telemetry Scan Protocol** | Routine Daily Ops | User or Hermes daemon feeds daily/on-demand telemetry packet into **Project CORTEX-BTC**. | Standard daily inference execution. | Run **Step 1 -> Step 5 Waterfall**, cite exact `MOD` & `CSU` codes, verify Circuit Breakers, and output deterministic Verdict. |
+
+---
+
+# PROJECT CORTEX-BTC — MODULE 18.1: PRE-FLIGHT GO/NO-GO CHECKLIST & ANTI-KNIFE PROTOCOL
+
+**Waterfall Tier:** Pillar 2 (Microstructure & Order Flow Execution) & Pillar 3 (Derivatives Microstructure & Positioning) / Operational Execution Runbook
+**Parent Framework:** Extension to MOD 18 (Master 5-Pillar Confluence & Risk Sizing) & MOD 62 (DIBSE v2.0 Operational Runbook)
+**Governing Principle:** Binary Go/No-Go Gatekeeper before authorizing any Spot Buy order. A single "NO" enforces 100% Cash Lock.
+
+---
+
+## 1. Machine-Readable State & Routing Block
+
+```yaml
+module_id: "MOD_18.1"
+entry_type: "OPERATIONAL_EXECUTION_RUNBOOK"
+waterfall_pillar: "PILLAR_2_MICROSTRUCTURE_AND_PILLAR_3_DERIVATIVES"
+title: "Pre-Flight Go/No-Go Checklist & Anti-Knife Protocol"
+governing_rule: "BINARY_EXECUTION_GATEKEEPER"
+failure_modes: 4
+checklist_items: 10
+veto_rule: "SINGLE_NO_ENFORCES_100_PERCENT_CASH"
+```
+
+---
+
+## 2. Four Falling-Knife Failure Modes to Avoid
+
+1. **Pre-Close Limit Catching**
+   - *Rule:* Never rest passive limit buy orders inside a descending liquidation cluster.
+   - *Mechanism:* If spot bids pull back or thin out, price slices straight through resting bids without bouncing.
+   - *Enforcement:* Always wait for the official 15-minute bar to close before evaluating absorption or entry.
+
+2. **Coordinated Spot Bleed**
+   - *Rule:* If Spot CVD drops at the same steep trajectory as Futures CVD, real spot holders (ETFs, treasuries, whales) are actively distributing float.
+   - *Mechanism:* Absence of domestic/fiat passive absorption means there is no sovereign bid of last resort.
+   - *Enforcement:* Cancel all long setups immediately until Spot CVD flattens or reverses.
+
+3. **Rising Open Interest Breakdowns**
+   - *Rule:* If price flushes lower while Open Interest increases ($+\Delta\text{OI}$), aggressive momentum short sellers are opening fresh directional positions rather than exhausted longs liquidating.
+   - *Mechanism:* Structural markdown driven by new capital, invalidating capitulation reset assumptions.
+   - *Enforcement:* Stand down completely.
+
+4. **Intra-Candle VAH Wick Rejections**
+   - *Rule:* Price poking above Value Area High ($\text{VAH}$) mid-candle and closing back below it is overhead supply absorption, not a structural reclaim.
+   - *Mechanism:* Classic "look-above-and-fail" auction failure trapping premature breakout buyers.
+   - *Enforcement:* Only an official 15-minute candle close strictly above $\text{VAH}$ authorizes structural confirmation and entry.
+
+---
+
+## 3. Pre-Flight Go/No-Go Checklist (10 Checkpoints)
+
+*Before executing any spot buy order, verify all 10 checkpoints. A single "NO" strictly enforces remaining in 100% Cash:*
+
+1. **HTF Confluence:** Is price interacting with a verified 200D MA, 50W SMA, Bull Market Band, or multi-week High Volume Node (HVN)?
+2. **Liquidity Sweep:** Did price sweep a visible 24-hour liquidation cluster below structural support?
+3. **CVD Decoupling:** Did Futures CVD plunge while Spot CVD remained flat or positive?
+4. **Volume Climax:** Did the sweep candle print $\ge 3.0\times$ average 15-minute volume?
+5. **Margin Contraction:** Did Open Interest contract ($-\Delta\text{OI}$) during the sweep candle, confirming leverage reset?
+6. **Absorption Footprint:** Did the Point of Control (POC) form in the lower 35% of the bar with an explicit lower rejection wick?
+7. **Confirmed VAH Reclaim:** Did a subsequent 15-minute candle close strictly above the sweep bar's $\text{VAH}$?
+8. **Hard Stop Defined:** Is $P_{\text{stop}}$ anchored cleanly beneath the exact sweep wick low (zero mental stops)?
+9. **Risk Shield Sized:** Is maximum dollar loss capped at $\le 0.75\%$ of total portfolio equity with zero leverage ($1.0\times$ spot only)?
+10. **Empirical Telemetry:** Are all values verified directly from live exchange feeds rather than unverified estimates (Fail-Closed)?
 
 ---
 
