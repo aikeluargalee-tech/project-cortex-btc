@@ -1,8 +1,8 @@
-# Project CoreTex BTC Brain (v7.0) — The Sovereign Bitcoin Brain Matrix
+# Project CoreTex BTC Brain (v9) — The Sovereign Bitcoin Brain Matrix
 
 > **Build in Peace. Scan in War. Never re-learn a market lesson at a financial loss.**
 
-Deterministic, zero-dependency Python 3 decision engine and **67-source quantitative rulebook vault** (`00`–`00E` + `MOD 01`–`MOD 61`) for **1.0x unleveraged Bitcoin (BTC) spot swing trading** and **secular cycle wealth preservation**, anchored to **Malaysia Time (`MYT / UTC+8`)**.
+Deterministic, zero-dependency Python 3 decision engine and **69-source quantitative rulebook vault** (`00`–`00F` + `MOD 01`–`MOD 62`, including `MOD 41.1`) for **1.0x unleveraged Bitcoin (BTC) spot swing trading** and **secular cycle wealth preservation**, anchored to **Malaysia Time (`MYT / UTC+8`)**.
 
 ---
 
@@ -27,7 +27,7 @@ Deterministic, zero-dependency Python 3 decision engine and **67-source quantita
 | **Live Snapshots** | [`btc_metrics_latest.json`](btc_metrics_latest.json), [`cortex_verdict_latest.json`](cortex_verdict_latest.json) | Latest hourly market telemetry and deterministic verdict written by GitHub Actions. |
 | **Hourly Cron** | [`.github/workflows/btc_fetcher_cron.yml`](.github/workflows/btc_fetcher_cron.yml) | Runs hourly at `:05` UTC (`workflow_dispatch` also enabled) using `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` secrets. |
 | **Agent Skills** | [`SKILL.md`](SKILL.md), [`.hermes/skills/project-cortex-btc/SKILL.md`](.hermes/skills/project-cortex-btc/SKILL.md) | Standardized `agentskills.io` / Hermes Agent operator skill definitions. |
-| **Knowledge Vault** | [`rulebook/`](rulebook/) | Complete 67-source Markdown rulebook (`00`–`00E`, `MOD 01`–`MOD 61`) + compiled [`PROJECT_CORTEX-BTC_Master_System-v7.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v7.md). |
+| **Knowledge Vault** | [`rulebook/`](rulebook/) | Complete 69-source Markdown rulebook (`00`–`00F`, `MOD 01`–`MOD 62`) + compiled [`PROJECT_CORTEX-BTC_Master_System-v9.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v9.md). |
 
 ---
 
@@ -47,20 +47,21 @@ gh workflow run btc_fetcher_cron.yml
 
 ---
 
-## Rulebook Vault (`rulebook/`) — 67 Sources + Master System v7
+## Rulebook Vault (`rulebook/`) — 69 Sources + Master System v9
 
-- **Compiled Unified Rulebook (V7.0):** [`PROJECT_CORTEX-BTC_Master_System-v7.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v7.md)
+- **Compiled Unified Rulebook (V9.0):** [`PROJECT_CORTEX-BTC_Master_System-v9.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v9.md)
 
-### Core Architecture, Indices & Historical Invariants (`00`–`00E`)
+### Core Architecture, Indices & Historical Invariants (`00`–`00F`)
 - [`00`](rulebook/00_Charter_5_Pillar_Waterfall_and_Master_Architecture.md) — Charter, 5-Pillar Waterfall & Master Architecture
 - [`00B`](rulebook/00B_Full_Stack_Master_Index.md) — V2.0 Full-Stack Master Index
 - [`00C`](rulebook/00C_Historical_Intelligence_Registry_and_Cycle_Laws.md) — Historical Intelligence Registry (Entries #1–#38) & 9-Year Cycle Laws
 - [`00D`](rulebook/00D_Complete_Source_Master_Directory.md) — Core Directory Reference (V3.0 / MOD 01–33)
 - [`00E`](rulebook/00E_Complete_67_Source_Master_Directory.md) — Complete 67-Source Master Directory (v7.0 / MOD 01–61)
+- [`00F`](rulebook/00F_Complete_69_Source_Master_Directory.md) — Complete 69-Source Master Directory (v9 / MOD 01–62)
 
-### Quantitative Execution Modules (`MOD 01`–`MOD 61`)
+### Quantitative Execution Modules (`MOD 01`–`MOD 62`)
 <details>
-<summary>Expand all 62 module files (MOD 01 – MOD 61)</summary>
+<summary>Expand all 63 module files (MOD 01 – MOD 62)</summary>
 
 - [`MOD 01`](rulebook/MOD_01_Rising_Open_Interest_Extreme_Negative_Perpetual_Basis.md) — Rising Open Interest + Extreme Negative Perpetual Basis
 - [`MOD 02`](rulebook/MOD_02_Rising_Open_Interest_High_Positive_Perpetual_Basis.md) — Rising Open Interest + High Positive Perpetual Basis
@@ -124,5 +125,6 @@ gh workflow run btc_fetcher_cron.yml
 - [`MOD 59`](rulebook/MOD_59_Long_Term_Holder_LTH_Cost_Basis_True_Market_Mean_and_Secular_Floor_Matrix.md) — Long-Term Holder (LTH) Cost Basis, True Market Mean & Secular Floor Matrix
 - [`MOD 60`](rulebook/MOD_60_Intra_Pillar_Conflict_Resolution_Veto_Precedence_and_Deadlock_Arbiter_Matrix.md) — Intra-Pillar Conflict Resolution, Veto Precedence & Deadlock Arbiter Matrix
 - [`MOD 61`](rulebook/MOD_61_Data_Hub_Ingestion_Hygiene_Gate_and_Desk_Lite_Verdict_Compilation_Protocol.md) — Data Hub Ingestion, Hygiene Gate & Desk-Lite Verdict Compilation Protocol
+- [`MOD 62`](rulebook/MOD_62_Dual_Inventory_Bidirectional_Swing_Engine_DIBSE_v2.md) — Dual-Inventory Bidirectional Swing Engine (DIBSE v2.0)
 
 </details>
