@@ -11,6 +11,9 @@ __pycache__/
 *.pem
 *.key
 
+# Local runtime portfolio ledger, config & audit state (never publish)
+data/
+
 # Editor & OS artifacts
 .DS_Store
 Thumbs.db
