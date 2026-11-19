@@ -1,8 +1,8 @@
-# Project CoreTex BTC Brain (v12) — The Sovereign Bitcoin Brain Matrix
+# Project CoreTex BTC Brain (v13) — The Sovereign Bitcoin Brain Matrix
 
 > **Build in Peace. Scan in War. Never re-learn a market lesson at a financial loss.**
 
-Deterministic, zero-dependency Python 3 decision engine and **78-source quantitative rulebook vault** (`00`–`00F` + `MOD 01`–`MOD 65`, including `MOD 18.1`, `MOD 18.2`, `MOD 31.1`, `MOD 41.1`, `MOD 41.2`, `MOD 64.1` & `MOD 65.1`) for **1.0x unleveraged Bitcoin (BTC) spot swing trading** and **secular cycle wealth preservation**, anchored to **Malaysia Time (`MYT / UTC+8`)**.
+Deterministic, zero-dependency Python 3 decision engine and **79-source quantitative rulebook vault** (`00`–`00F` + `MOD 01`–`MOD 66`, including `MOD 18.1`, `MOD 18.2`, `MOD 31.1`, `MOD 41.1`, `MOD 41.2`, `MOD 64.1` & `MOD 65.1`) for **1.0x unleveraged Bitcoin (BTC) spot swing trading** and **secular cycle wealth preservation**, anchored to **Malaysia Time (`MYT / UTC+8`)**.
 
 ---
 
@@ -27,7 +27,7 @@ Deterministic, zero-dependency Python 3 decision engine and **78-source quantita
 | **Live Snapshots** | [`btc_metrics_latest.json`](btc_metrics_latest.json), [`cortex_verdict_latest.json`](cortex_verdict_latest.json) | Latest hourly market telemetry and deterministic verdict written by GitHub Actions. |
 | **Hourly Cron** | [`.github/workflows/btc_fetcher_cron.yml`](.github/workflows/btc_fetcher_cron.yml) | Runs hourly at `:05` UTC (`workflow_dispatch` also enabled) using `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` secrets. |
 | **Agent Skills** | [`SKILL.md`](SKILL.md), [`.hermes/skills/project-cortex-btc/SKILL.md`](.hermes/skills/project-cortex-btc/SKILL.md) | Standardized `agentskills.io` / Hermes Agent operator skill definitions. |
-| **Knowledge Vault** | [`rulebook/`](rulebook/) | Complete 78-source Markdown rulebook (`00`–`00F`, `MOD 01`–`MOD 65`) + compiled [`PROJECT_CORTEX-BTC_Master_System-v12.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v12.md). |
+| **Knowledge Vault** | [`rulebook/`](rulebook/) | Complete 79-source Markdown rulebook (`00`–`00F`, `MOD 01`–`MOD 66`) + compiled [`PROJECT_CORTEX-BTC_Master_System-v13.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v13.md). |
 
 ---
 
@@ -47,9 +47,9 @@ gh workflow run btc_fetcher_cron.yml
 
 ---
 
-## Rulebook Vault (`rulebook/`) — 78 Sources + Master System v12
+## Rulebook Vault (`rulebook/`) — 79 Sources + Master System v13
 
-- **Compiled Unified Rulebook (V12.0):** [`PROJECT_CORTEX-BTC_Master_System-v12.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v12.md)
+- **Compiled Unified Rulebook (V13.0):** [`PROJECT_CORTEX-BTC_Master_System-v13.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v13.md)
 
 ### Core Architecture, Indices & Historical Invariants (`00`–`00F`)
 - [`00`](rulebook/00_Charter_5_Pillar_Waterfall_and_Master_Architecture.md) — Charter, 5-Pillar Waterfall & Master Architecture
@@ -57,11 +57,11 @@ gh workflow run btc_fetcher_cron.yml
 - [`00C`](rulebook/00C_Historical_Intelligence_Registry_and_Cycle_Laws.md) — Historical Intelligence Registry (Entries #1–#38) & 9-Year Cycle Laws
 - [`00D`](rulebook/00D_Complete_Source_Master_Directory.md) — Core Directory Reference (V3.0 / MOD 01–33)
 - [`00E`](rulebook/00E_Complete_67_Source_Master_Directory.md) — Complete 67-Source Master Directory (v7.0 / MOD 01–61)
-- [`00F`](rulebook/00F_Complete_78_Source_Master_Directory.md) — Complete 78-Source Master Directory (v12 / MOD 01–65)
+- [`00F`](rulebook/00F_Complete_79_Source_Master_Directory.md) — Complete 79-Source Master Directory (v13 / MOD 01–66)
 
-### Quantitative Execution Modules (`MOD 01`–`MOD 65`)
+### Quantitative Execution Modules (`MOD 01`–`MOD 66`)
 <details>
-<summary>Expand all 72 module files (MOD 01 – MOD 65)</summary>
+<summary>Expand all 73 module files (MOD 01 – MOD 66)</summary>
 
 - [`MOD 01`](rulebook/MOD_01_Rising_Open_Interest_Extreme_Negative_Perpetual_Basis.md) — Rising Open Interest + Extreme Negative Perpetual Basis
 - [`MOD 02`](rulebook/MOD_02_Rising_Open_Interest_High_Positive_Perpetual_Basis.md) — Rising Open Interest + High Positive Perpetual Basis
@@ -135,5 +135,6 @@ gh workflow run btc_fetcher_cron.yml
 - [`MOD 64.1`](rulebook/MOD_64.1_Live_Macro_ETF_Regime_Briefing_2026_11_19.md) — Live Macro ETF Regime Briefing (2026-11-19)
 - [`MOD 65`](rulebook/MOD_65_Media_De_Noising_Narrative_Triage_and_Signal_Hygiene_Protocol.md) — Media De-Noising, Narrative Triage & Signal Hygiene Protocol
 - [`MOD 65.1`](rulebook/MOD_65.1_Live_YouTube_Transcript_Triage_Audit_2026_11_19.md) — Live YouTube Transcript Triage Audit (2026-11-19)
+- [`MOD 66`](rulebook/MOD_66_Multi_Layer_Timeframe_Synthesis_and_4_Step_Entry_Architecture.md) — Multi-Layer Timeframe Synthesis & 4-Step Entry Architecture
 
 </details>

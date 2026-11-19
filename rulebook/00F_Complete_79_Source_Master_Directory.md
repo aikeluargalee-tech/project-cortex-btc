@@ -1,6 +1,6 @@
-# PROJECT CORETEX BTC BRAIN — 00F: COMPLETE 78-SOURCE MASTER DIRECTORY (v12)
+# PROJECT CORETEX BTC BRAIN — 00F: COMPLETE 79-SOURCE MASTER DIRECTORY (v13)
 
-**Status:** Full-Stack Quantitative, Operational Execution & Sovereign Barbell Rulebook (`00`–`00F` + `MOD 01`–`MOD 65`, including `MOD 18.1`, `MOD 18.2`, `MOD 31.1`, `MOD 41.1`, `MOD 41.2`, `MOD 64.1` & `MOD 65.1`) — **78 Sources Total — 100% Codified, Indexed & Ready for Live VPS / Hermes / GitHub Operations**.
+**Status:** Full-Stack Quantitative, Operational Execution & Sovereign Barbell Rulebook (`00`–`00F` + `MOD 01`–`MOD 66`, including `MOD 18.1`, `MOD 18.2`, `MOD 31.1`, `MOD 41.1`, `MOD 41.2`, `MOD 64.1` & `MOD 65.1`) — **79 Sources Total — 100% Codified, Indexed & Ready for Live VPS / Hermes / GitHub Operations**.
 **Governing Invariants:** Strict `1.0x` Unleveraged Spot Only (BTC & USDT/USD), `<= 0.75%` Max Portfolio Risk per Trade (`0.375%` `GATE_AMBER` / `0.00%` `GATE_RED` `100% Cash Lock`), `Net R >= 3.0` Post-Slippage Requirement (`MOD 37`), Fail-Closed `DATA UNAVAILABLE` Honesty (`MOD 36`), Deterministic Precedence Arbitration (`MOD 60`), Air-Gapped Barbell Custody (`Sleeve A` 20% Tactical Dual-Inventory Sleeve: 10% BTC / 10% USDT vs. `Sleeve B` 80% 2-of-3 Dual-Jurisdiction Multi-Sig Cold Storage), and Human Operator Final Execution Authorization (`MOD 62`).
 
 ---
@@ -11,11 +11,11 @@
 * **`00C`** — Historical Registry (Entries #1–#38), 9-Year Cycle Laws & 3R Bar-Count Rules
 * **`00D`** — Project CORTEX-BTC Complete 44-Source Master Directory (MOD 01–40)
 * **`00E`** — Project CoreTex BTC Brain Complete 67-Source Master Directory (v7.0, MOD 01–61)
-* **`00F`** — Project CoreTex BTC Brain Complete 78-Source Master Directory (v12, MOD 01–65)
+* **`00F`** — Project CoreTex BTC Brain Complete 79-Source Master Directory (v13, MOD 01–66)
 
 ---
 
-## 2. Tier D Control-Plane, Supreme Radar & Mobile HUD (11 Sources)
+## 2. Tier D Control-Plane, Supreme Radar & Mobile HUD (12 Sources)
 * **`MOD 28`** — Live Autopsy & Black Swan Circuit Breaker Engine
 * **`MOD 31`** — Institutional Capital Defense Matrix (ICDM 100-Pt Fragility Scale)
 * **`MOD 31.1`** — Live ICDM Fragility Field Audit (2026-11-19)
@@ -27,6 +27,7 @@
 * **`MOD 61`** — Data Hub Ingestion, Hygiene Gate & Desk-Lite Verdict Compilation Protocol
 * **`MOD 65`** — Media De-Noising, Narrative Triage & Signal Hygiene Protocol
 * **`MOD 65.1`** — Live YouTube Transcript Triage Audit (2026-11-19)
+* **`MOD 66`** — Multi-Layer Timeframe Synthesis & 4-Step Entry Architecture
 
 ---
 
