@@ -1,6 +1,6 @@
-# PROJECT CORETEX BTC BRAIN — 00F: COMPLETE 71-SOURCE MASTER DIRECTORY (v11)
+# PROJECT CORETEX BTC BRAIN — 00F: COMPLETE 78-SOURCE MASTER DIRECTORY (v12)
 
-**Status:** Full-Stack Quantitative, Operational Execution & Sovereign Barbell Rulebook (`00`–`00F` + `MOD 01`–`MOD 63`, including `MOD 18.1` & `MOD 41.1`) — **71 Sources Total — 100% Codified, Indexed & Ready for Live VPS / Hermes / GitHub Operations**.
+**Status:** Full-Stack Quantitative, Operational Execution & Sovereign Barbell Rulebook (`00`–`00F` + `MOD 01`–`MOD 65`, including `MOD 18.1`, `MOD 18.2`, `MOD 31.1`, `MOD 41.1`, `MOD 41.2`, `MOD 64.1` & `MOD 65.1`) — **78 Sources Total — 100% Codified, Indexed & Ready for Live VPS / Hermes / GitHub Operations**.
 **Governing Invariants:** Strict `1.0x` Unleveraged Spot Only (BTC & USDT/USD), `<= 0.75%` Max Portfolio Risk per Trade (`0.375%` `GATE_AMBER` / `0.00%` `GATE_RED` `100% Cash Lock`), `Net R >= 3.0` Post-Slippage Requirement (`MOD 37`), Fail-Closed `DATA UNAVAILABLE` Honesty (`MOD 36`), Deterministic Precedence Arbitration (`MOD 60`), Air-Gapped Barbell Custody (`Sleeve A` 20% Tactical Dual-Inventory Sleeve: 10% BTC / 10% USDT vs. `Sleeve B` 80% 2-of-3 Dual-Jurisdiction Multi-Sig Cold Storage), and Human Operator Final Execution Authorization (`MOD 62`).
 
 ---
@@ -11,23 +11,26 @@
 * **`00C`** — Historical Registry (Entries #1–#38), 9-Year Cycle Laws & 3R Bar-Count Rules
 * **`00D`** — Project CORTEX-BTC Complete 44-Source Master Directory (MOD 01–40)
 * **`00E`** — Project CoreTex BTC Brain Complete 67-Source Master Directory (v7.0, MOD 01–61)
-* **`00F`** — Project CoreTex BTC Brain Complete 71-Source Master Directory (v11, MOD 01–63)
+* **`00F`** — Project CoreTex BTC Brain Complete 78-Source Master Directory (v12, MOD 01–65)
 
 ---
 
-## 2. Tier D Control-Plane, Supreme Radar & Mobile HUD (8 Sources)
+## 2. Tier D Control-Plane, Supreme Radar & Mobile HUD (11 Sources)
 * **`MOD 28`** — Live Autopsy & Black Swan Circuit Breaker Engine
 * **`MOD 31`** — Institutional Capital Defense Matrix (ICDM 100-Pt Fragility Scale)
+* **`MOD 31.1`** — Live ICDM Fragility Field Audit (2026-11-19)
 * **`MOD 33`** — Unified 5-Regime Master Radar and State-Transition Engine
 * **`MOD 36`** — Telemetry Trust, Staleness SLA & Determinism Attestation
 * **`MOD 45`** — Executive Bottom-Line HUD & Mobile Presentation Protocol
 * **`MOD 52`** — Rolling 30-Trade Expectancy Audit & Parameter Drift Governor
 * **`MOD 60`** — Intra-Pillar Conflict Resolution, Veto Precedence & Deadlock Arbiter Matrix
 * **`MOD 61`** — Data Hub Ingestion, Hygiene Gate & Desk-Lite Verdict Compilation Protocol
+* **`MOD 65`** — Media De-Noising, Narrative Triage & Signal Hygiene Protocol
+* **`MOD 65.1`** — Live YouTube Transcript Triage Audit (2026-11-19)
 
 ---
 
-## 3. Pillar 1 — Macro Liquidity Plumbing, Cross-Asset Gates & Secular Horizon (12 Sources)
+## 3. Pillar 1 — Macro Liquidity Plumbing, Cross-Asset Gates & Secular Horizon (14 Sources)
 * **`MOD 16`** — Macro Liquidity, Yields, DXY & Stablecoin Dry Powder
 * **`MOD 17`** — 200D MA Secular Gates, Index Rebalancings & Session Handoffs
 * **`MOD 22`** — Net Fed Liquidity Impulse (WALCL − TGA − RRP)
@@ -40,6 +43,8 @@
 * **`MOD 49`** — Rolling Cross-Asset Correlation & Decoupling Matrix (BTC vs. NDX / Gold / DXY)
 * **`MOD 56`** — Secular Cycle Anatomy, Diminishing Returns & Anti-Narrative Discipline *(Reference-Only Context)*
 * **`MOD 58`** — Macro Event & Economic Release Trinity Protocol (72-Hour FOMC, SEP Dot Plot, CPI, Core PCE & NFP Gate)
+* **`MOD 64`** — AI Debt Plumbing, Shadow Private Credit & Fed Stability Gate
+* **`MOD 64.1`** — Live Macro ETF Regime Briefing (2026-11-19)
 
 ---
 
@@ -80,16 +85,17 @@
 
 ---
 
-## 6. Pillar 4 — Master Decision Compiler, Sizing, Slippage & Dual-Inventory Execution (5 Sources)
+## 6. Pillar 4 — Master Decision Compiler, Sizing, Slippage & Dual-Inventory Execution (6 Sources)
 * **`MOD 18`** — Master 5-Pillar Confluence, 0.75% Risk Sizing & Two-Stage Exit Engine
 * **`MOD 18.1`** — Pre-Flight Go/No-Go Checklist & Anti-Knife Protocol
+* **`MOD 18.2`** — Reading a Falling Market Without a Forecast
 * **`MOD 37`** — Executable Liquidity, Net-3.0R Slippage & Equity-Curve Governor
 * **`MOD 62`** — Dual-Inventory Bidirectional Swing Engine (DIBSE v2.0 — Portfolio Allocation Controller, Loop A/B Ledgers & Order Lifecycle)
 * **`MOD 63`** — CORTEX-RHYME Empirical Derivatives State-Space Analogue & Expectancy Engine
 
 ---
 
-## 7. Pillar 5 — On-Chain Cohorts, Stablecoins, ETFs, Solvency & Secular Exits (11 Sources)
+## 7. Pillar 5 — On-Chain Cohorts, Stablecoins, ETFs, Solvency & Secular Exits (12 Sources)
 * **`MOD 13`** — Short-Term Holder (STH) Realized Price & MVRV Bands
 * **`MOD 14`** — SOPR Profit/Loss Reset Cycles
 * **`MOD 15`** — Realized Cap Impulse & LTH-to-STH Wealth Transfer
@@ -99,5 +105,6 @@
 * **`MOD 40`** — Miner Treasury Stress & Hashprice Economics Engine
 * **`MOD 41`** — Secular Cycle ATH Cluster, First-Week Flush (Rule 1) & Flat Double-Top (+4% Rule 3) Exit Engine
 * **`MOD 41.1`** — Secular ATH Operational Field Runbook & Countdown Checklist
+* **`MOD 41.2`** — Two-Swing Harvest Roadmap, Diminishing Multiples & Secular Shakeout Engine
 * **`MOD 48`** — Stablecoin Supply Ratio (SSR), USDT.D & Net Mint/Burn Velocity
 * **`MOD 59`** — Long-Term Holder (LTH) Cost Basis, True Market Mean & Secular Floor Matrix

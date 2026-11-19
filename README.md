@@ -1,8 +1,8 @@
-# Project CoreTex BTC Brain (v11) — The Sovereign Bitcoin Brain Matrix
+# Project CoreTex BTC Brain (v12) — The Sovereign Bitcoin Brain Matrix
 
 > **Build in Peace. Scan in War. Never re-learn a market lesson at a financial loss.**
 
-Deterministic, zero-dependency Python 3 decision engine and **71-source quantitative rulebook vault** (`00`–`00F` + `MOD 01`–`MOD 63`, including `MOD 18.1` & `MOD 41.1`) for **1.0x unleveraged Bitcoin (BTC) spot swing trading** and **secular cycle wealth preservation**, anchored to **Malaysia Time (`MYT / UTC+8`)**.
+Deterministic, zero-dependency Python 3 decision engine and **78-source quantitative rulebook vault** (`00`–`00F` + `MOD 01`–`MOD 65`, including `MOD 18.1`, `MOD 18.2`, `MOD 31.1`, `MOD 41.1`, `MOD 41.2`, `MOD 64.1` & `MOD 65.1`) for **1.0x unleveraged Bitcoin (BTC) spot swing trading** and **secular cycle wealth preservation**, anchored to **Malaysia Time (`MYT / UTC+8`)**.
 
 ---
 
@@ -27,7 +27,7 @@ Deterministic, zero-dependency Python 3 decision engine and **71-source quantita
 | **Live Snapshots** | [`btc_metrics_latest.json`](btc_metrics_latest.json), [`cortex_verdict_latest.json`](cortex_verdict_latest.json) | Latest hourly market telemetry and deterministic verdict written by GitHub Actions. |
 | **Hourly Cron** | [`.github/workflows/btc_fetcher_cron.yml`](.github/workflows/btc_fetcher_cron.yml) | Runs hourly at `:05` UTC (`workflow_dispatch` also enabled) using `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` secrets. |
 | **Agent Skills** | [`SKILL.md`](SKILL.md), [`.hermes/skills/project-cortex-btc/SKILL.md`](.hermes/skills/project-cortex-btc/SKILL.md) | Standardized `agentskills.io` / Hermes Agent operator skill definitions. |
-| **Knowledge Vault** | [`rulebook/`](rulebook/) | Complete 71-source Markdown rulebook (`00`–`00F`, `MOD 01`–`MOD 63`) + compiled [`PROJECT_CORTEX-BTC_Master_System-v11.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v11.md). |
+| **Knowledge Vault** | [`rulebook/`](rulebook/) | Complete 78-source Markdown rulebook (`00`–`00F`, `MOD 01`–`MOD 65`) + compiled [`PROJECT_CORTEX-BTC_Master_System-v12.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v12.md). |
 
 ---
 
@@ -47,9 +47,9 @@ gh workflow run btc_fetcher_cron.yml
 
 ---
 
-## Rulebook Vault (`rulebook/`) — 71 Sources + Master System v11
+## Rulebook Vault (`rulebook/`) — 78 Sources + Master System v12
 
-- **Compiled Unified Rulebook (V11.0):** [`PROJECT_CORTEX-BTC_Master_System-v11.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v11.md)
+- **Compiled Unified Rulebook (V12.0):** [`PROJECT_CORTEX-BTC_Master_System-v12.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v12.md)
 
 ### Core Architecture, Indices & Historical Invariants (`00`–`00F`)
 - [`00`](rulebook/00_Charter_5_Pillar_Waterfall_and_Master_Architecture.md) — Charter, 5-Pillar Waterfall & Master Architecture
@@ -57,11 +57,11 @@ gh workflow run btc_fetcher_cron.yml
 - [`00C`](rulebook/00C_Historical_Intelligence_Registry_and_Cycle_Laws.md) — Historical Intelligence Registry (Entries #1–#38) & 9-Year Cycle Laws
 - [`00D`](rulebook/00D_Complete_Source_Master_Directory.md) — Core Directory Reference (V3.0 / MOD 01–33)
 - [`00E`](rulebook/00E_Complete_67_Source_Master_Directory.md) — Complete 67-Source Master Directory (v7.0 / MOD 01–61)
-- [`00F`](rulebook/00F_Complete_71_Source_Master_Directory.md) — Complete 71-Source Master Directory (v11 / MOD 01–63)
+- [`00F`](rulebook/00F_Complete_78_Source_Master_Directory.md) — Complete 78-Source Master Directory (v12 / MOD 01–65)
 
-### Quantitative Execution Modules (`MOD 01`–`MOD 63`)
+### Quantitative Execution Modules (`MOD 01`–`MOD 65`)
 <details>
-<summary>Expand all 65 module files (MOD 01 – MOD 63)</summary>
+<summary>Expand all 72 module files (MOD 01 – MOD 65)</summary>
 
 - [`MOD 01`](rulebook/MOD_01_Rising_Open_Interest_Extreme_Negative_Perpetual_Basis.md) — Rising Open Interest + Extreme Negative Perpetual Basis
 - [`MOD 02`](rulebook/MOD_02_Rising_Open_Interest_High_Positive_Perpetual_Basis.md) — Rising Open Interest + High Positive Perpetual Basis
@@ -82,6 +82,7 @@ gh workflow run btc_fetcher_cron.yml
 - [`MOD 17`](rulebook/MOD_17_200D_MA_Secular_Gates_Index_Rebalancings_and_Session_Handoffs.md) — 200D MA Secular Gates, Index Rebalancings & Session Handoffs
 - [`MOD 18`](rulebook/MOD_18_Master_5_Pillar_Confluence_0.75_Risk_Sizing_Engine_And_Two_Stage_Exit_Protocol.md) — Master 5-Pillar Confluence, 0.75% Risk Sizing & Exit Protocol
 - [`MOD 18.1`](rulebook/MOD_18.1_Pre_Flight_Go_No_Go_Checklist_and_Anti_Knife_Protocol.md) — Pre-Flight Go/No-Go Checklist & Anti-Knife Protocol
+- [`MOD 18.2`](rulebook/MOD_18.2_Reading_a_Falling_Market_Without_a_Forecast.md) — Reading a Falling Market Without a Forecast
 - [`MOD 19`](rulebook/MOD_19_Coinbase_Premium_Index_Z_Scores_And_Domestic_Offshore_Spreads.md) — Coinbase Premium Index Z-Scores & Domestic-Offshore Spreads
 - [`MOD 20`](rulebook/MOD_20_CME_Futures_Basis_And_Weekend_Gap_Fill_Topology.md) — CME Futures Basis & Weekend Gap Fill Topology
 - [`MOD 21`](rulebook/MOD_21_Algorithmic_TWAP_VWAP_Accumulation_Footprints_vs_Spoofed_Liquidity.md) — Algorithmic TWAP/VWAP Accumulation vs. Spoofed Liquidity
@@ -95,6 +96,7 @@ gh workflow run btc_fetcher_cron.yml
 - [`MOD 29`](rulebook/MOD_29_Equity_Multiple_Compression_Energy_Shocks_And_High_Beta_Contagion.md) — Equity Multiple Compression, Energy Shocks & High-Beta Contagion
 - [`MOD 30`](rulebook/MOD_30_PCF3_Order_Flow_Engine_And_10_Deterministic_Configurations.md) — PCF3 Order Flow Engine & 10 Deterministic Configurations
 - [`MOD 31`](rulebook/MOD_31_Institutional_Capital_Defense_Matrix.md) — Institutional Capital Defense Matrix (ICDM 100-Pt Fragility Scale)
+- [`MOD 31.1`](rulebook/MOD_31.1_Live_ICDM_Fragility_Field_Audit_2026_11_19.md) — Live ICDM Fragility Field Audit (2026-11-19)
 - [`MOD 32`](rulebook/MOD_32_Exchange_Solvency_Multiplier_And_Sovereign_Multi_Sig_Custody_Architecture.md) — Exchange Solvency Multiplier & Sovereign Multi-Sig Custody
 - [`MOD 33`](rulebook/MOD_33_Unified_5_Regime_Master_Radar_And_State_Transition_Engine.md) — Unified 5-Regime Master Radar & State-Transition Engine
 - [`MOD 34`](rulebook/MOD_34_AEGIS_3_Impulse_Defense_and_Anti_Capitulation_Shield.md) — AEGIS-3: 3-Stage Impulse Defense & Anti-Capitulation Shield
@@ -106,6 +108,7 @@ gh workflow run btc_fetcher_cron.yml
 - [`MOD 40`](rulebook/MOD_40_Miner_Treasury_Stress_And_Hashprice_Economics_Engine.md) — Miner Treasury Stress & Hashprice Economics Engine
 - [`MOD 41`](rulebook/MOD_41_Secular_Cycle_ATH_Cluster_and_Double_Top_Exit_Engine.md) — Secular Cycle ATH Cluster, First-Week Flush & Flat Double-Top (`+4%`) Exit Engine
 - [`MOD 41.1`](rulebook/MOD_41.1_Secular_ATH_Operational_Field_Runbook_and_Countdown_Checklist.md) — Secular ATH Operational Field Runbook & 10-Day Countdown Checklist
+- [`MOD 41.2`](rulebook/MOD_41.2_Two_Swing_Harvest_Roadmap_Diminishing_Multiples_and_Secular_Shakeout_Engine.md) — Two-Swing Harvest Roadmap, Diminishing Multiples & Secular Shakeout Engine
 - [`MOD 42`](rulebook/MOD_42_Classical_Structural_Shapes_and_Liquidity_Pool_Authentication.md) — Classical Structural Shapes & Liquidity-Pool Authentication Engine
 - [`MOD 43`](rulebook/MOD_43_Algorithmic_Fibonacci_Confluence_and_Harmonic_Impulse_Measurement.md) — Algorithmic Fibonacci Confluence & Harmonic Impulse Measurement
 - [`MOD 44`](rulebook/MOD_44_Mega_IPO_Capital_Vacuums_and_Index_Rebalance_Liquidity_Drains.md) — Mega-IPO Capital Vacuums & Index Rebalance Liquidity Drains
@@ -128,5 +131,9 @@ gh workflow run btc_fetcher_cron.yml
 - [`MOD 61`](rulebook/MOD_61_Data_Hub_Ingestion_Hygiene_Gate_and_Desk_Lite_Verdict_Compilation_Protocol.md) — Data Hub Ingestion, Hygiene Gate & Desk-Lite Verdict Compilation Protocol
 - [`MOD 62`](rulebook/MOD_62_Dual_Inventory_Bidirectional_Swing_Engine_DIBSE_v2.md) — Dual-Inventory Bidirectional Swing Engine (DIBSE v2.0)
 - [`MOD 63`](rulebook/MOD_63_CORTEX_RHYME_Empirical_State_Space_Analogue_Engine.md) — CORTEX-RHYME Empirical Derivatives State-Space Analogue & Expectancy Engine
+- [`MOD 64`](rulebook/MOD_64_AI_Debt_Plumbing_Shadow_Private_Credit_and_Fed_Stability_Gate.md) — AI Debt Plumbing, Shadow Private Credit & Fed Stability Gate
+- [`MOD 64.1`](rulebook/MOD_64.1_Live_Macro_ETF_Regime_Briefing_2026_11_19.md) — Live Macro ETF Regime Briefing (2026-11-19)
+- [`MOD 65`](rulebook/MOD_65_Media_De_Noising_Narrative_Triage_and_Signal_Hygiene_Protocol.md) — Media De-Noising, Narrative Triage & Signal Hygiene Protocol
+- [`MOD 65.1`](rulebook/MOD_65.1_Live_YouTube_Transcript_Triage_Audit_2026_11_19.md) — Live YouTube Transcript Triage Audit (2026-11-19)
 
 </details>
