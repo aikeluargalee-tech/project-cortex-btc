@@ -26,6 +26,7 @@ distance_skew_thresholds:
 # PERMISSION-BEFORE-TARGET GATE (FALSIFYING THE LIQUIDITY-HUNT MYTH)
 permission_gate_requirements:
   - "Heatmap intensity is unitless model output (CoinGlass Docs), NEVER resting limit orders or a timetable"
+  - "Multi-year lookback heatmaps retain historical OI bands until swept even after voluntary exits (ghost-band artifact)"
   - "Upside short-liquidation magnet requires Squeeze Fuel (negative funding + OI stacked at lows) OR Spot CVD + Coinbase Premium >= 0"
   - "Downside long-liquidation magnet dominates whenever trend is down, funding >= 0, and OI rises into drops (Cascade Fuel)"
 
@@ -39,7 +40,7 @@ risk_parameters:
 
 ## 2. Protective Circuit Breakers (Heatmap Anti-Myth Governance)
 
-* **Circuit Breaker 1 — The Heatmap Category-Error Filter (`CB-01`):** Liquidation heatmaps (e.g., CoinGlass Models 1/2/3) display *model-estimated* liquidation concentrations, **not** resting order-book limit orders and **not** a schedule. Never treat bright overhead yellow bands as guaranteed upside magnets when spot flow and structure point down (empirical proof: Nov 6–13, 2026, where a bright `~$76.0k–$76.5k` week-old band sat untouched while BTC fell `-7%` to `$70.5k`).
+* **Circuit Breaker 1 — The Heatmap Category-Error Filter (`CB-01`):** Liquidation heatmaps (e.g., CoinGlass Models 1/2/3) display *model-estimated* liquidation concentrations, **not** resting order-book limit orders and **not** a schedule. On multi-year lookbacks (`1Y–2Y`), historical OI bands remain visually painted on the canvas until price trades through that level—even if traders voluntarily closed or rolled those positions months earlier (**multi-year ghost-band artifact**). Never treat bright overhead or distant multi-year yellow bands as guaranteed magnets when spot flow and nearer `Pull_Score` shelves govern structure (empirical proof: Nov 6–13, 2026, where a bright `~$76.0k–$76.5k` week-old band sat untouched while BTC fell `-7%` to `$70.5k`).
 * **Circuit Breaker 2 — Energy Cost & Intervening Friction Filter (`CB-02`):** Every `1%` price move requires net order-flow fuel and must clear intermediate structural shelves. A distant `$200M` cluster `+13%` (`~2.5 ATR`) away is far weaker in the near term than a `$32.5M` cluster `0.5%` (`< 0.3 ATR`) away.
 * **Circuit Breaker 3 — Permission Over Magnet (`CB-03`):** Direction is granted exclusively by **Structure + Spot/Perp CVD + Positioning (`Funding / OI`)**. Heatmaps only supply *conditional targets* once flow grants permission to travel in that direction.
 * **Circuit Breaker 4 — Never Buy Before the Nearer Downside Flush (`CB-04`):** When lower Pull Score exceeds upper Pull Score by `> 1.5x` and longs are crowded (`funding >= 0`, `top-trader L/S > 1.8`), never front-run an upside hunt; wait for the cheaper downside cluster to flush first.

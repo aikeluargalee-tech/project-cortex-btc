@@ -1,21 +1,23 @@
-# PROJECT CORETEX BTC BRAIN — 00F: COMPLETE 79-SOURCE MASTER DIRECTORY (v13)
+# PROJECT CORETEX BTC BRAIN — 00F: COMPLETE 84-SOURCE MASTER DIRECTORY (v14)
 
-**Status:** Full-Stack Quantitative, Operational Execution & Sovereign Barbell Rulebook (`00`–`00F` + `MOD 01`–`MOD 66`, including `MOD 18.1`, `MOD 18.2`, `MOD 31.1`, `MOD 41.1`, `MOD 41.2`, `MOD 64.1` & `MOD 65.1`) — **79 Sources Total — 100% Codified, Indexed & Ready for Live VPS / Hermes / GitHub Operations**.
+**Status:** Full-Stack Quantitative, Operational Execution & Sovereign Barbell Rulebook (`00`–`00F`, `00H`, `00J` + `MOD 01`–`MOD 67`, including `MOD 18.1`, `MOD 18.2`, `MOD 31.1`, `MOD 41.1`, `MOD 41.2`, `MOD 42.1`, `MOD 42.1.1`, `MOD 64.1` & `MOD 65.1`) — **84 Sources Total — 100% Codified, Indexed & Ready for Live VPS / Hermes / GitHub Operations**.
 **Governing Invariants:** Strict `1.0x` Unleveraged Spot Only (BTC & USDT/USD), `<= 0.75%` Max Portfolio Risk per Trade (`0.375%` `GATE_AMBER` / `0.00%` `GATE_RED` `100% Cash Lock`), `Net R >= 3.0` Post-Slippage Requirement (`MOD 37`), Fail-Closed `DATA UNAVAILABLE` Honesty (`MOD 36`), Deterministic Precedence Arbitration (`MOD 60`), Air-Gapped Barbell Custody (`Sleeve A` 20% Tactical Dual-Inventory Sleeve: 10% BTC / 10% USDT vs. `Sleeve B` 80% 2-of-3 Dual-Jurisdiction Multi-Sig Cold Storage), and Human Operator Final Execution Authorization (`MOD 62`).
 
 ---
 
-## 1. Governance, Indices & Historical Invariants (6 Sources)
+## 1. Governance, Indices, Historical Invariants & Living Ledgers (8 Sources)
 * **`00`** — Project CORTEX-BTC: Charter, 5-Pillar Waterfall & 18-Module Index
 * **`00B`** — Project CORTEX-BTC V2.0 Full-Stack Master Index (MOD 01–28+)
 * **`00C`** — Historical Registry (Entries #1–#38), 9-Year Cycle Laws & 3R Bar-Count Rules
 * **`00D`** — Project CORTEX-BTC Complete 44-Source Master Directory (MOD 01–40)
 * **`00E`** — Project CoreTex BTC Brain Complete 67-Source Master Directory (v7.0, MOD 01–61)
-* **`00F`** — Project CoreTex BTC Brain Complete 79-Source Master Directory (v13, MOD 01–66)
+* **`00F`** — Project CoreTex BTC Brain Complete 84-Source Master Directory (v14, MOD 01–67)
+* **`00H`** — Live Market Field Notes & Telemetry Ledger (Living Reference)
+* **`00J`** — Hardware Wallet Security, Custody Hardening & Firmware Audit Ledger
 
 ---
 
-## 2. Tier D Control-Plane, Supreme Radar & Mobile HUD (12 Sources)
+## 2. Tier D Control-Plane, Supreme Radar & Mobile HUD (13 Sources)
 * **`MOD 28`** — Live Autopsy & Black Swan Circuit Breaker Engine
 * **`MOD 31`** — Institutional Capital Defense Matrix (ICDM 100-Pt Fragility Scale)
 * **`MOD 31.1`** — Live ICDM Fragility Field Audit (2026-11-19)
@@ -28,6 +30,7 @@
 * **`MOD 65`** — Media De-Noising, Narrative Triage & Signal Hygiene Protocol
 * **`MOD 65.1`** — Live YouTube Transcript Triage Audit (2026-11-19)
 * **`MOD 66`** — Multi-Layer Timeframe Synthesis & 4-Step Entry Architecture
+* **`MOD 67`** — Non-Predictive If-Then Spot Execution Framework
 
 ---
 
@@ -49,7 +52,7 @@
 
 ---
 
-## 4. Pillar 2 — Microstructure, Order Flow, Rough Path Signatures & Chart Geometry (21 Sources)
+## 4. Pillar 2 — Microstructure, Order Flow, Rough Path Signatures & Chart Geometry (23 Sources)
 * **`MOD 05`** — The 4-Quadrant Spot CVD vs. Perp CVD Matrix
 * **`MOD 06`** — Passive Limit Absorption vs. Market Taker Exhaustion
 * **`MOD 07`** — Domestic Fiat Gateways & Spot ETFs vs. Offshore Flows
@@ -65,6 +68,8 @@
 * **`MOD 34`** — AEGIS-3: 3-Stage Impulse Defense & Anti-Capitulation Sell-Freeze
 * **`MOD 35`** — Liquidation Heatmap Distance Rule & Pull Score Engine
 * **`MOD 42`** — Classical Structural Shapes & Liquidity-Pool Authentication
+* **`MOD 42.1`** — The Symmetrical 11-Pattern Price Action & Microstructure Playbook
+* **`MOD 42.1.1`** — 4-Gate Bidirectional Spot Execution Playbook & Worked Field Walkthrough
 * **`MOD 43`** — Algorithmic Fibonacci Confluence & Harmonic Impulse Measurement
 * **`MOD 50`** — Weekend Thin-Liquidity, Unsettled CME Clearing & Sunday 22:00 UTC Protocol
 * **`MOD 53`** — Hawkes Point Processes, Jump-Diffusion De-Noising & Transfer Entropy Engine

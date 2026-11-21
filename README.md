@@ -1,8 +1,8 @@
-# Project CoreTex BTC Brain (v13) — The Sovereign Bitcoin Brain Matrix
+# Project CoreTex BTC Brain (v14) — The Sovereign Bitcoin Brain Matrix
 
 > **Build in Peace. Scan in War. Never re-learn a market lesson at a financial loss.**
 
-Deterministic, zero-dependency Python 3 decision engine and **79-source quantitative rulebook vault** (`00`–`00F` + `MOD 01`–`MOD 66`, including `MOD 18.1`, `MOD 18.2`, `MOD 31.1`, `MOD 41.1`, `MOD 41.2`, `MOD 64.1` & `MOD 65.1`) for **1.0x unleveraged Bitcoin (BTC) spot swing trading** and **secular cycle wealth preservation**, anchored to **Malaysia Time (`MYT / UTC+8`)**.
+Deterministic, zero-dependency Python 3 decision engine and **84-source quantitative rulebook vault** (`00`–`00F`, `00H`, `00J` + `MOD 01`–`MOD 67`, including `MOD 18.1`, `MOD 18.2`, `MOD 31.1`, `MOD 41.1`, `MOD 41.2`, `MOD 42.1`, `MOD 42.1.1`, `MOD 64.1` & `MOD 65.1`) for **1.0x unleveraged Bitcoin (BTC) spot swing trading** and **secular cycle wealth preservation**, anchored to **Malaysia Time (`MYT / UTC+8`)**.
 
 ---
 
@@ -27,7 +27,7 @@ Deterministic, zero-dependency Python 3 decision engine and **79-source quantita
 | **Live Snapshots** | [`btc_metrics_latest.json`](btc_metrics_latest.json), [`cortex_verdict_latest.json`](cortex_verdict_latest.json) | Latest hourly market telemetry and deterministic verdict written by GitHub Actions. |
 | **Hourly Cron** | [`.github/workflows/btc_fetcher_cron.yml`](.github/workflows/btc_fetcher_cron.yml) | Runs hourly at `:05` UTC (`workflow_dispatch` also enabled) using `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` secrets. |
 | **Agent Skills** | [`SKILL.md`](SKILL.md), [`.hermes/skills/project-cortex-btc/SKILL.md`](.hermes/skills/project-cortex-btc/SKILL.md) | Standardized `agentskills.io` / Hermes Agent operator skill definitions. |
-| **Knowledge Vault** | [`rulebook/`](rulebook/) | Complete 79-source Markdown rulebook (`00`–`00F`, `MOD 01`–`MOD 66`) + compiled [`PROJECT_CORTEX-BTC_Master_System-v13.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v13.md). |
+| **Knowledge Vault** | [`rulebook/`](rulebook/) | Complete 84-source Markdown rulebook (`00`–`00F`, `00H`, `00J`, `MOD 01`–`MOD 67`) + compiled [`PROJECT_CORTEX-BTC_Master_System-v14.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v14.md). |
 
 ---
 
@@ -47,21 +47,23 @@ gh workflow run btc_fetcher_cron.yml
 
 ---
 
-## Rulebook Vault (`rulebook/`) — 79 Sources + Master System v13
+## Rulebook Vault (`rulebook/`) — 84 Sources + Master System v14
 
-- **Compiled Unified Rulebook (V13.0):** [`PROJECT_CORTEX-BTC_Master_System-v13.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v13.md)
+- **Compiled Unified Rulebook (V14.0):** [`PROJECT_CORTEX-BTC_Master_System-v14.md`](rulebook/PROJECT_CORTEX-BTC_Master_System-v14.md)
 
-### Core Architecture, Indices & Historical Invariants (`00`–`00F`)
+### Core Architecture, Indices, Historical Invariants & Living Ledgers (`00`–`00J`)
 - [`00`](rulebook/00_Charter_5_Pillar_Waterfall_and_Master_Architecture.md) — Charter, 5-Pillar Waterfall & Master Architecture
 - [`00B`](rulebook/00B_Full_Stack_Master_Index.md) — V2.0 Full-Stack Master Index
 - [`00C`](rulebook/00C_Historical_Intelligence_Registry_and_Cycle_Laws.md) — Historical Intelligence Registry (Entries #1–#38) & 9-Year Cycle Laws
 - [`00D`](rulebook/00D_Complete_Source_Master_Directory.md) — Core Directory Reference (V3.0 / MOD 01–33)
 - [`00E`](rulebook/00E_Complete_67_Source_Master_Directory.md) — Complete 67-Source Master Directory (v7.0 / MOD 01–61)
-- [`00F`](rulebook/00F_Complete_79_Source_Master_Directory.md) — Complete 79-Source Master Directory (v13 / MOD 01–66)
+- [`00F`](rulebook/00F_Complete_84_Source_Master_Directory.md) — Complete 84-Source Master Directory (v14 / MOD 01–67)
+- [`00H`](rulebook/00H_Live_Market_Field_Notes_and_Telemetry_Ledger.md) — Live Market Field Notes & Telemetry Ledger (Living Reference)
+- [`00J`](rulebook/00J_Hardware_Wallet_Security_Custody_Hardening_and_Firmware_Audit_Ledger.md) — Hardware Wallet Security, Custody Hardening & Firmware Audit Ledger
 
-### Quantitative Execution Modules (`MOD 01`–`MOD 66`)
+### Quantitative Execution Modules (`MOD 01`–`MOD 67`)
 <details>
-<summary>Expand all 73 module files (MOD 01 – MOD 66)</summary>
+<summary>Expand all 76 module files (MOD 01 – MOD 67)</summary>
 
 - [`MOD 01`](rulebook/MOD_01_Rising_Open_Interest_Extreme_Negative_Perpetual_Basis.md) — Rising Open Interest + Extreme Negative Perpetual Basis
 - [`MOD 02`](rulebook/MOD_02_Rising_Open_Interest_High_Positive_Perpetual_Basis.md) — Rising Open Interest + High Positive Perpetual Basis
@@ -110,6 +112,8 @@ gh workflow run btc_fetcher_cron.yml
 - [`MOD 41.1`](rulebook/MOD_41.1_Secular_ATH_Operational_Field_Runbook_and_Countdown_Checklist.md) — Secular ATH Operational Field Runbook & 10-Day Countdown Checklist
 - [`MOD 41.2`](rulebook/MOD_41.2_Two_Swing_Harvest_Roadmap_Diminishing_Multiples_and_Secular_Shakeout_Engine.md) — Two-Swing Harvest Roadmap, Diminishing Multiples & Secular Shakeout Engine
 - [`MOD 42`](rulebook/MOD_42_Classical_Structural_Shapes_and_Liquidity_Pool_Authentication.md) — Classical Structural Shapes & Liquidity-Pool Authentication Engine
+- [`MOD 42.1`](rulebook/MOD_42.1_The_Symmetrical_11_Pattern_Price_Action_and_Microstructure_Playbook.md) — The Symmetrical 11-Pattern Price Action & Microstructure Playbook
+- [`MOD 42.1.1`](rulebook/MOD_42.1.1_4_Gate_Bidirectional_Spot_Execution_Playbook_and_Worked_Field_Walkthrough.md) — 4-Gate Bidirectional Spot Execution Playbook & Worked Field Walkthrough
 - [`MOD 43`](rulebook/MOD_43_Algorithmic_Fibonacci_Confluence_and_Harmonic_Impulse_Measurement.md) — Algorithmic Fibonacci Confluence & Harmonic Impulse Measurement
 - [`MOD 44`](rulebook/MOD_44_Mega_IPO_Capital_Vacuums_and_Index_Rebalance_Liquidity_Drains.md) — Mega-IPO Capital Vacuums & Index Rebalance Liquidity Drains
 - [`MOD 45`](rulebook/MOD_45_Executive_Bottom_Line_HUD_and_Mobile_Presentation_Protocol.md) — Executive Bottom-Line HUD & Mobile Presentation Protocol
@@ -136,5 +140,6 @@ gh workflow run btc_fetcher_cron.yml
 - [`MOD 65`](rulebook/MOD_65_Media_De_Noising_Narrative_Triage_and_Signal_Hygiene_Protocol.md) — Media De-Noising, Narrative Triage & Signal Hygiene Protocol
 - [`MOD 65.1`](rulebook/MOD_65.1_Live_YouTube_Transcript_Triage_Audit_2026_11_19.md) — Live YouTube Transcript Triage Audit (2026-11-19)
 - [`MOD 66`](rulebook/MOD_66_Multi_Layer_Timeframe_Synthesis_and_4_Step_Entry_Architecture.md) — Multi-Layer Timeframe Synthesis & 4-Step Entry Architecture
+- [`MOD 67`](rulebook/MOD_67_Non_Predictive_If_Then_Spot_Execution_Framework.md) — Non-Predictive If-Then Spot Execution Framework
 
 </details>
