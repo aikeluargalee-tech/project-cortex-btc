@@ -1,18 +1,18 @@
 {
   "engine_version": "CORTEX-BTC v3.0",
-  "compiled_at_utc": "2026-11-22T00:26:14Z",
-  "compiled_at_myt": "2026-11-22 08:26:14 MYT",
+  "compiled_at_utc": "2026-11-22T08:08:08Z",
+  "compiled_at_myt": "2026-11-22 16:08:08 MYT",
   "source_format": "mixed",
   "summary": {
     "verdict_action": "LOCKED_HALT",
     "execution_allowed": false,
-    "spot_usd": 60227.0,
+    "spot_usd": 59042.5,
     "trust_status": "TRUSTED",
-    "icdm_score": 41.83,
+    "icdm_score": 39.78,
     "fragility_band": "MODERATE",
     "regime_id": "R5_CAPITULATION_CRISIS",
     "pcf3_config": "J",
-    "net_r": 2.888,
+    "net_r": 2.893,
     "alloc_pct_1x": 0.0
   },
   "mod36_trust": {
@@ -20,7 +20,7 @@
     "trust_passed": true,
     "trust_status": "TRUSTED",
     "sla_max_min": 90.0,
-    "sla_age_min": 0.1,
+    "sla_age_min": 0.11,
     "sla_passed": true,
     "min_quorum": 3,
     "quorum_count": 5,
@@ -33,19 +33,19 @@
       "okx"
     ],
     "venue_prices": {
-      "binance": 60290.78,
-      "coinbase": 60160.2,
-      "coingecko": 60227.0,
-      "kraken": 60172.3,
-      "okx": 60293.7
+      "binance": 59158.19,
+      "coinbase": 59038.34,
+      "coingecko": 59007.0,
+      "kraken": 59042.5,
+      "okx": 59164.1
     },
-    "median_spot_usd": 60227.0,
-    "dispersion_bps": 11.09,
+    "median_spot_usd": 59042.5,
+    "dispersion_bps": 20.6,
     "gate_reasons": []
   },
   "mod31_icdm": {
     "module": "MOD 31",
-    "icdm_score": 41.83,
+    "icdm_score": 39.78,
     "fragility_band": "MODERATE",
     "confidence": "HIGH",
     "missing_penalty_value": 50.0,
@@ -54,26 +54,26 @@
     "missing_fields_ratio": 0.0,
     "missing_fields": [],
     "sub_scores": {
-      "volatility_stress": 59.02,
-      "derivatives_stress": 32.17,
-      "liquidity_flow_stress": 18.67,
-      "macro_onchain_stress": 57.06
+      "volatility_stress": 61.24,
+      "derivatives_stress": 27.21,
+      "liquidity_flow_stress": 12.89,
+      "macro_onchain_stress": 56.93
     },
     "factor_scores": {
-      "atr_pct": 73.02363636363637,
-      "realized_vol_7d_pct": 33.15879256368362,
-      "rsi14": 70.89091786279727,
-      "funding_rate_pct": 12.195,
-      "oi_change_24h_pct": 28.79233333333334,
-      "long_short_ratio": 55.53333333333334,
+      "atr_pct": 77.16081818181817,
+      "realized_vol_7d_pct": 32.009778563035816,
+      "rsi14": 74.54156455741317,
+      "funding_rate_pct": 2.445,
+      "oi_change_24h_pct": 26.497333333333337,
+      "long_short_ratio": 52.7,
       "spread_bps": 5.009,
       "depth_1pct_usd": 10.0,
-      "spot_cvd_24h_btc": 59.652356749999996,
+      "spot_cvd_24h_btc": 36.535853,
       "perp_cvd_24h_btc": 0.0,
       "vix": 70.75652173913045,
       "us10y_real_yield_pct": 96.66666666666667,
       "dxy": 49.75116666666668,
-      "mempool_fastest_fee_sat_vb": 11.066666666666666
+      "mempool_fastest_fee_sat_vb": 10.533333333333333
     }
   },
   "mod33_regime": {
@@ -85,7 +85,7 @@
     "above_sma50": false,
     "above_sma200": false,
     "rationale": [
-      "Spot < SMA200 with capitulation RSI (22.8)"
+      "Spot < SMA200 with capitulation RSI (21.3)"
     ]
   },
   "mod30_pcf3": {
@@ -96,7 +96,7 @@
     "risk_multiplier": 0.0,
     "stop_atr_mult": 1.5,
     "target_atr_mult": 4.5,
-    "range_position_45d": 0.171,
+    "range_position_45d": 0.131,
     "routing_reason": "R5 crisis regime without clean capitulation washout"
   },
   "mod37_risk": {
@@ -105,13 +105,13 @@
     "verdict_action": "LOCKED_HALT",
     "liquidity_status": "VERIFIED",
     "spread_bps": 0.0,
-    "slippage_bps": 2.04,
-    "estimated_cost_bps": 22.04,
-    "entry_usd": 60227.0,
-    "stop_usd": 55634.64,
-    "target_usd": 74004.07,
+    "slippage_bps": 2.03,
+    "estimated_cost_bps": 22.03,
+    "entry_usd": 59042.5,
+    "stop_usd": 54298.91,
+    "target_usd": 73273.26,
     "gross_r": 3.0,
-    "net_r": 2.888,
+    "net_r": 2.893,
     "min_net_r": 3.0,
     "net_r_passed": false,
     "open_portfolio_heat_pct": 0.0,
@@ -129,7 +129,7 @@
     "leverage_cap": 1.0,
     "equity_usd": 10000.0,
     "risk_budget_pct": 0.0,
-    "stop_distance_pct": 7.625,
+    "stop_distance_pct": 8.034,
     "recommended_alloc_pct": 0.0,
     "recommended_notional_usd": 0.0,
     "recommended_btc_qty": 0.0,
@@ -137,45 +137,45 @@
     "sizing_note": "Zero allocation: execution gate closed or stance non-long."
   },
   "canonical_telemetry": {
-    "timestamp_utc": "2026-11-22T00:26:08Z",
-    "as_of_myt": "2026-11-22 08:26:08 MYT",
+    "timestamp_utc": "2026-11-22T08:08:02Z",
+    "as_of_myt": "2026-11-22 16:08:02 MYT",
     "venue_prices": {
-      "binance": 60290.78,
-      "coinbase": 60160.2,
-      "coingecko": 60227.0,
-      "kraken": 60172.3,
-      "okx": 60293.7
+      "binance": 59158.19,
+      "coinbase": 59038.34,
+      "coingecko": 59007.0,
+      "kraken": 59042.5,
+      "okx": 59164.1
     },
     "venue_timestamps": {
-      "binance": "2026-11-22T00:26:08Z",
-      "coinbase": "2026-11-22T00:26:09Z",
-      "coingecko": "2026-11-22T00:25:17Z",
-      "kraken": "2026-11-22T00:26:08Z",
-      "okx": "2026-11-22T00:26:10Z"
+      "binance": "2026-11-22T08:08:03Z",
+      "coinbase": "2026-11-22T08:08:03Z",
+      "coingecko": "2026-11-22T08:07:42Z",
+      "kraken": "2026-11-22T08:08:02Z",
+      "okx": "2026-11-22T08:08:05Z"
     },
-    "spot_price": 60290.78,
+    "spot_price": 59158.19,
     "high_24h": 60996.0,
-    "low_24h": 55130.0,
-    "price_change_pct_24h": 2.139,
-    "volume_24h_usd": 2806331252.4233646,
-    "sma50": 76742.41619999998,
-    "sma200": 72379.95534999997,
-    "rsi14": 22.809622056495243,
-    "atr14": 3061.5714285714284,
-    "atr_pct": 5.078,
+    "low_24h": 57381.45,
+    "price_change_pct_24h": 2.243,
+    "volume_24h_usd": 1550971501.3256574,
+    "sma50": 76719.76439999999,
+    "sma200": 72374.29239999998,
+    "rsi14": 21.30641459400634,
+    "atr14": 3162.3921428571425,
+    "atr_pct": 5.3457,
     "range_high_45d": 84898.0,
     "range_low_45d": 55130.0,
-    "realized_vol_7d_pct": 44.52107447919442,
+    "realized_vol_7d_pct": 43.30447141968498,
     "spread_bps": 0.002,
-    "depth_1pct_usd": 12754935.37,
-    "oi_btc": 31515.069400000135,
-    "oi_change_24h_pct": -5.081,
-    "funding_rate_pct": -0.00313,
-    "long_short_ratio": 2.18,
-    "perp_cvd_24h_btc": 124654.86,
-    "spot_cvd_24h_btc": -3286.9809,
-    "mempool_fastest_fee_sat_vb": 2.0,
-    "mempool_vsize_bytes": 31162930.0,
+    "depth_1pct_usd": 15311542.93,
+    "oi_btc": 31697.479000000127,
+    "oi_change_24h_pct": -4.676,
+    "funding_rate_pct": 0.00337,
+    "long_short_ratio": 2.13,
+    "perp_cvd_24h_btc": 379349.32,
+    "spot_cvd_24h_btc": -204.7804,
+    "mempool_fastest_fee_sat_vb": 1.0,
+    "mempool_vsize_bytes": 29883650.0,
     "vix": 28.44,
     "us10y_yield_pct": 5.04,
     "us10y_real_yield_pct": 2.88,
@@ -186,5 +186,5 @@
     "weekly_pnl_pct": null,
     "open_portfolio_heat_pct": null
   },
-  "determinism_sha256": "432706cb96154d26546c1f92664a0cc701909c5f26d034d6035d9aa0af160b27"
+  "determinism_sha256": "1f581b008d2c785987c47a46fcf51934d95e4b913687bd94f5fd9e770186e929"
 }
