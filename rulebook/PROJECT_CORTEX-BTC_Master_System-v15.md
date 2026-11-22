@@ -1,624 +1,103 @@
-# Project CoreTex BTC Brain (CORTEX-BTC V14.0) — MASTER QUANTITATIVE SYSTEM RULEBOOK
+# Project CoreTex BTC Brain (CORTEX-BTC V15.0) — Master System Rulebook Compilation
 
-**Full-Stack Sovereign Quantitative Architecture & Execution Engine**  
-*Compiled: November 2026 Live Master Integration (V14.0)*  
-*Total System Sources Included: 84 Complete Sources (`00`–`00F`, `00H`, `00J` Core Architecture & Living Ledgers + `MOD 01`–`MOD 67` Quantitative Modules, including `MOD 18.1`, `MOD 18.2`, `MOD 31.1`, `MOD 41.1`, `MOD 41.2`, `MOD 42.1`, `MOD 42.1.1`, `MOD 64.1` & `MOD 65.1`)*
-
----
-
-## Master Table of Contents
-
-### I. Core Architecture, Charters, Master Registries & Living Ledgers (00–00J)
-- [PROJECT CORTEX-BTC — V2.0 FULL-STACK MASTER INDEX (MODULES 01–28+)](#project-cortex-btc--v20-full-stack-master-index-modules-0128)
-- [PROJECT CORTEX-BTC — 00C: HISTORICAL INTELLIGENCE REGISTRY (ENTRIES #1–#38), 9-YEAR CYCLE LAWS & EXECUTION INVARIANTS](#project-cortex-btc--00c-historical-intelligence-registry-entries-138-9-year-cycle-laws--execution-invariants)
-- [PROJECT CORTEX-BTC — 00D: COMPLETE 36-SOURCE MASTER DIRECTORY (MOD 01–33)](#project-cortex-btc--00d-complete-36-source-master-directory-mod-0133)
-- [PROJECT CORETEX BTC BRAIN — COMPLETE 67-SOURCE MASTER DIRECTORY (v7.0)](#project-coretex-btc-brain--complete-67-source-master-directory-v70)
-- [PROJECT CORETEX BTC BRAIN — 00F: COMPLETE 84-SOURCE MASTER DIRECTORY (v14)](#project-coretex-btc-brain--00f-complete-84-source-master-directory-v14)
-- [PROJECT CORTEX-BTC — 00H: LIVE MARKET FIELD NOTES & TELEMETRY LEDGER](#project-cortex-btc--00h-live-market-field-notes--telemetry-ledger)
-- [PROJECT CORTEX-BTC — 00J: HARDWARE WALLET SECURITY, CUSTODY HARDENING & FIRMWARE AUDIT LEDGER](#project-cortex-btc--00j-hardware-wallet-security-custody-hardening--firmware-audit-ledger)
-- [PROJECT CORTEX-BTC: THE SOVEREIGN BITCOIN BRAIN MATRIX](#project-cortex-btc-the-sovereign-bitcoin-brain-matrix)
-
-### II. Quantitative Modules & Control-Plane Engines (MOD 01–67)
-- [PROJECT CORTEX-BTC — MODULE 01: RISING OPEN INTEREST + EXTREME NEGATIVE PERPETUAL BASIS](#project-cortex-btc--module-01-rising-open-interest--extreme-negative-perpetual-basis)
-- [PROJECT CORTEX-BTC — MODULE 02: RISING OPEN INTEREST + HIGH POSITIVE PERPETUAL BASIS](#project-cortex-btc--module-02-rising-open-interest--high-positive-perpetual-basis)
-- [PROJECT CORTEX-BTC — MODULE 03: DELEVERAGING FLUSHES & OPEN INTEREST RESET MECHANICS](#project-cortex-btc--module-03-deleveraging-flushes--open-interest-reset-mechanics)
-- [PROJECT CORTEX-BTC — MODULE 04: FUNDING RATE VELOCITY & PRICE DIVERGENCE MATRIX](#project-cortex-btc--module-04-funding-rate-velocity--price-divergence-matrix)
-- [PROJECT CORTEX-BTC — MODULE 05: THE 4-QUADRANT SPOT CVD VS. PERPETUAL CVD MATRIX](#project-cortex-btc--module-05-the-4-quadrant-spot-cvd-vs-perpetual-cvd-matrix)
-- [PROJECT CORTEX-BTC — MODULE 06: PASSIVE LIMIT ABSORPTION VS. MARKET TAKER EXHAUSTION](#project-cortex-btc--module-06-passive-limit-absorption-vs-market-taker-exhaustion)
-- [PROJECT CORTEX-BTC — MODULE 07: DOMESTIC FIAT GATEWAYS (USD) & SPOT ETFS VS. OFFSHORE PERP/USDT FLOWS](#project-cortex-btc--module-07-domestic-fiat-gateways-usd--spot-etfs-vs-offshore-perpusdt-flows)
-- [PROJECT CORTEX-BTC — MODULE 08: ROUGH PATH SIGNATURES I — PRICE-VOLUME LÉVY SIGNED AREA (A_P,V)](#project-cortex-btc--module-08-rough-path-signatures-i--price-volume-lévy-signed-area-a_pv)
-- [PROJECT CORTEX-BTC — MODULE 09: ROUGH PATH SIGNATURES II — SPOT CVD–OPEN INTEREST LÉVY SIGNED AREA (A_CVD,OI)](#project-cortex-btc--module-09-rough-path-signatures-ii--spot-cvdopen-interest-lévy-signed-area-a_cvdoi)
-- [PROJECT CORTEX-BTC — MODULE 10: ROUGH PATH SIGNATURES III — MULTI-HORIZON ALIGNMENT (1H TACTICAL VS. 4H/1D STRUCTURAL)](#project-cortex-btc--module-10-rough-path-signatures-iii--multi-horizon-alignment-1h-tactical-vs-4h1d-structural)
-- [PROJECT CORTEX-BTC — MODULE 11: VOLUME PROFILE STRUCTURAL TOPOLOGY (VAH, VAL, POC & LVN)](#project-cortex-btc--module-11-volume-profile-structural-topology-vah-val-poc--lvn)
-- [PROJECT CORTEX-BTC — MODULE 12: GARMAN-KLASS (OHLC) VOLATILITY SQUEEZE & FAN EXPANSION](#project-cortex-btc--module-12-garman-klass-ohlc-volatility-squeeze--fan-expansion)
-- [PROJECT CORTEX-BTC — MODULE 13: SHORT-TERM HOLDER (STH) REALIZED PRICE & MVRV BANDS](#project-cortex-btc--module-13-short-term-holder-sth-realized-price--mvrv-bands)
-- [PROJECT CORTEX-BTC — MODULE 14: SOPR (SPENT OUTPUT PROFIT RATIO) PROFIT/LOSS RESET CYCLES](#project-cortex-btc--module-14-sopr-spent-output-profit-ratio-profitloss-reset-cycles)
-- [PROJECT CORTEX-BTC — MODULE 15: REALIZED CAP IMPULSE & LTH-TO-STH WEALTH TRANSFER](#project-cortex-btc--module-15-realized-cap-impulse--lth-to-sth-wealth-transfer)
-- [PROJECT CORTEX-BTC — MODULE 16: MACRO LIQUIDITY, SOVEREIGN YIELDS, DXY & STABLECOIN DRY POWDER](#project-cortex-btc--module-16-macro-liquidity-sovereign-yields-dxy--stablecoin-dry-powder)
-- [PROJECT CORTEX-BTC — MODULE 17: 200D MA SECULAR GATES, INDEX REBALANCINGS & SESSION HANDOFFS](#project-cortex-btc--module-17-200d-ma-secular-gates-index-rebalancings--session-handoffs)
-- [PROJECT CORTEX-BTC — MODULE 18: MASTER 5-PILLAR CONFLUENCE, 0.75% RISK SIZING ENGINE & TWO-STAGE EXIT PROTOCOL](#project-cortex-btc--module-18-master-5-pillar-confluence-075-risk-sizing-engine--two-stage-exit-protocol)
-- [PROJECT CORTEX-BTC — MODULE 18.1: PRE-FLIGHT GO/NO-GO CHECKLIST & ANTI-KNIFE PROTOCOL](#project-cortex-btc--module-181-pre-flight-gono-go-checklist--anti-knife-protocol)
-- [PROJECT CORTEX-BTC — MODULE 18.2: READING A FALLING MARKET WITHOUT A FORECAST](#project-cortex-btc--module-182-reading-a-falling-market-without-a-forecast)
-- [PROJECT CORTEX-BTC — MODULE 19: COINBASE PREMIUM INDEX Z-SCORES & DOMESTIC-OFFSHORE SPREADS](#project-cortex-btc--module-19-coinbase-premium-index-z-scores--domestic-offshore-spreads)
-- [PROJECT CORTEX-BTC — MODULE 20: CME FUTURES BASIS & WEEKEND GAP FILL TOPOLOGY](#project-cortex-btc--module-20-cme-futures-basis--weekend-gap-fill-topology)
-- [PROJECT CORTEX-BTC — MODULE 21: ALGORITHMIC TWAP/VWAP ACCUMULATION FOOTPRINTS VS. SPOOFED LIQUIDITY](#project-cortex-btc--module-21-algorithmic-twapvwap-accumulation-footprints-vs-spoofed-liquidity)
-- [PROJECT CORTEX-BTC — MODULE 22: NET FED LIQUIDITY IMPULSE (FED BALANCE SHEET − TGA − RRP)](#project-cortex-btc--module-22-net-fed-liquidity-impulse-fed-balance-sheet--tga--rrp)
-- [PROJECT CORTEX-BTC — MODULE 23: MOVE INDEX (BOND VOLATILITY) & HIGH-YIELD CREDIT SPREAD BREAKERS](#project-cortex-btc--module-23-move-index-bond-volatility--high-yield-credit-spread-breakers)
-- [PROJECT CORTEX-BTC — MODULE 24: USD/JPY SOVEREIGN CARRY-TRADE UNWIND & BOJ INTERVENTION ALERTS](#project-cortex-btc--module-24-usdjpy-sovereign-carry-trade-unwind--boj-intervention-alerts)
-- [PROJECT CORTEX-BTC — MODULE 25: DEALER GAMMA EXPOSURE (GEX) & ZERO-GAMMA FLIP MECHANICS](#project-cortex-btc--module-25-dealer-gamma-exposure-gex--zero-gamma-flip-mechanics)
-- [PROJECT CORTEX-BTC — MODULE 26: DERIBIT & CME MONTHLY/QUARTERLY OPEX MAX PAIN GRAVITY](#project-cortex-btc--module-26-deribit--cme-monthlyquarterly-opex-max-pain-gravity)
-- [PROJECT CORTEX-BTC — MODULE 27: 25-DELTA IMPLIED VOLATILITY SKEW & DVOL TERM STRUCTURE EXTREMES](#project-cortex-btc--module-27-25-delta-implied-volatility-skew--dvol-term-structure-extremes)
-- [PROJECT CORTEX-BTC — MODULE 28: LIVE AUTOPSY & BLACK SWAN CIRCUIT BREAKER ENGINE (TIER D)](#project-cortex-btc--module-28-live-autopsy--black-swan-circuit-breaker-engine-tier-d)
-- [PROJECT CORTEX-BTC — MODULE 29: EQUITY MULTIPLE COMPRESSION, ENERGY SHOCKS & HIGH-BETA CONTAGION](#project-cortex-btc--module-29-equity-multiple-compression-energy-shocks--high-beta-contagion)
-- [PROJECT CORTEX-BTC — MODULE 30: PCF3 ORDER FLOW ENGINE & 10 DETERMINISTIC CONFIGURATIONS (A–J)](#project-cortex-btc--module-30-pcf3-order-flow-engine--10-deterministic-configurations-aj)
-- [PROJECT CORTEX-BTC — MODULE 31: INSTITUTIONAL CAPITAL DEFENSE MATRIX (ICDM 100-POINT FRAGILITY SCALE)](#project-cortex-btc--module-31-institutional-capital-defense-matrix-icdm-100-point-fragility-scale)
-- [LIVE FRAGILITY AUDIT: MOD 31 (ICDM) + MOD 64 — 2026-11-19 (08:59 MYT / 00:59 UTC)](#live-fragility-audit-mod-31-icdm--mod-64--2026-11-19-0859-myt--0059-utc)
-- [PROJECT CORTEX-BTC — MODULE 32: EXCHANGE SOLVENCY MULTIPLIER (M_SOLV) & SOVEREIGN MULTI-SIG CUSTODY ARCHITECTURE](#project-cortex-btc--module-32-exchange-solvency-multiplier-m_solv--sovereign-multi-sig-custody-architecture)
-- [PROJECT CORTEX-BTC — MODULE 33: UNIFIED 5-REGIME MASTER RADAR & STATE-TRANSITION ENGINE](#project-cortex-btc--module-33-unified-5-regime-master-radar--state-transition-engine)
-- [PROJECT CORTEX-BTC — MODULE 34: AEGIS-3 (ASYMMETRIC EXPOSURE & GEOPOLITICAL/IMPULSE SHIELD)](#project-cortex-btc--module-34-aegis-3-asymmetric-exposure--geopoliticalimpulse-shield)
-- [PROJECT CORTEX-BTC — MODULE 35: LIQUIDATION HEATMAP DISTANCE RULE & PULL SCORE ENGINE](#project-cortex-btc--module-35-liquidation-heatmap-distance-rule--pull-score-engine)
-- [PROJECT CORTEX-BTC — MODULE 36: TELEMETRY TRUST, STALENESS SLA & DETERMINISM ATTESTATION](#project-cortex-btc--module-36-telemetry-trust-staleness-sla--determinism-attestation)
-- [PROJECT CORTEX-BTC — MODULE 37: EXECUTABLE LIQUIDITY, NET-3.0R SLIPPAGE & EQUITY-CURVE GOVERNOR](#project-cortex-btc--module-37-executable-liquidity-net-30r-slippage--equity-curve-governor)
-- [PROJECT CORTEX-BTC — MODULE 38: ETF PRIMARY-MARKET SETTLEMENT & BRRNY FIX-WINDOW ENGINE](#project-cortex-btc--module-38-etf-primary-market-settlement--brrny-fix-window-engine)
-- [PROJECT CORTEX-BTC — MODULE 39: EXCHANGE SUPPLY ACTIVATION & AGED-UTXO DORMANCY ENGINE](#project-cortex-btc--module-39-exchange-supply-activation--aged-utxo-dormancy-engine)
-- [PROJECT CORTEX-BTC — MODULE 40: MINER TREASURY STRESS & HASHPRICE ECONOMICS ENGINE](#project-cortex-btc--module-40-miner-treasury-stress--hashprice-economics-engine)
-- [MOD 41 — Secular Cycle ATH Cluster, First-Week Flush (Rule 1) & Flat Double-Top (+4% Rule 3) Exit Engine (Pillar 1 & 5)](#mod-41--secular-cycle-ath-cluster-first-week-flush-rule-1--flat-double-top-4-rule-3-exit-engine-pillar-1--5)
-- [MOD 41.1 — Secular ATH Operational Field Runbook & Countdown Checklist (Pillar 1 & 5)](#mod-411--secular-ath-operational-field-runbook--countdown-checklist-pillar-1--5)
-- [PROJECT CORTEX-BTC — MODULE 41.2: TWO-SWING HARVEST ROADMAP, DIMINISHING MULTIPLES & SECULAR SHAKEOUT ENGINE](#project-cortex-btc--module-412-two-swing-harvest-roadmap-diminishing-multiples--secular-shakeout-engine)
-- [MOD 42 — Classical Structural Shapes & Liquidity-Pool Authentication Engine (Pillar 2)](#mod-42--classical-structural-shapes--liquidity-pool-authentication-engine-pillar-2)
-- [PROJECT CORTEX-BTC — MODULE 42.1: THE SYMMETRICAL 11-PATTERN PRICE ACTION & MICROSTRUCTURE PLAYBOOK](#project-cortex-btc--module-421-the-symmetrical-11-pattern-price-action--microstructure-playbook)
-- [PROJECT CORTEX-BTC — MODULE 42.1.1: 4-GATE BIDIRECTIONAL SPOT EXECUTION PLAYBOOK & WORKED FIELD WALKTHROUGH](#project-cortex-btc--module-4211-4-gate-bidirectional-spot-execution-playbook--worked-field-walkthrough)
-- [PROJECT CORTEX-BTC — MODULE 43: ALGORITHMIC FIBONACCI CONFLUENCE & HARMONIC IMPULSE MEASUREMENT](#project-cortex-btc--module-43-algorithmic-fibonacci-confluence--harmonic-impulse-measurement)
-- [PROJECT CORTEX-BTC — MODULE 44: MEGA-IPO CAPITAL VACUUMS & INDEX REBALANCE LIQUIDITY DRAINS](#project-cortex-btc--module-44-mega-ipo-capital-vacuums--index-rebalance-liquidity-drains)
-- [PROJECT CORTEX-BTC — MODULE 45: EXECUTIVE BOTTOM-LINE HUD & MOBILE PRESENTATION PROTOCOL](#project-cortex-btc--module-45-executive-bottom-line-hud--mobile-presentation-protocol)
-- [PROJECT CORTEX-BTC — MODULE 46: BLOCK 1,050,000 (APRIL 2028) SECULAR HORIZON & SOVEREIGN BARBELL ANCHOR](#project-cortex-btc--module-46-block-1050000-april-2028-secular-horizon--sovereign-barbell-anchor)
-- [PROJECT CORETEX BTC BRAIN — MODULE 47: CORPORATE & SOVEREIGN TREASURY VELOCITY (mNAV & PROXY FLYWHEEL)](#project-coretex-btc-brain--module-47-corporate--sovereign-treasury-velocity-mnav--proxy-flywheel)
-- [PROJECT CORETEX BTC BRAIN — MODULE 48: STABLECOIN SUPPLY RATIO (SSR), USDT.D & NET MINT/BURN VELOCITY](#project-coretex-btc-brain--module-48-stablecoin-supply-ratio-ssr-usdtd--net-mintburn-velocity)
-- [PROJECT CORETEX BTC BRAIN — MODULE 49: ROLLING CROSS-ASSET CORRELATION & DECOUPLING MATRIX (BTC VS. NDX / GOLD / DXY)](#project-coretex-btc-brain--module-49-rolling-cross-asset-correlation--decoupling-matrix-btc-vs-ndx--gold--dxy)
-- [PROJECT CORETEX BTC BRAIN — MODULE 50: WEEKEND THIN-LIQUIDITY, UNSETTLED CME CLEARING & SUNDAY 22:00 UTC RE-OPEN PROTOCOL](#project-coretex-btc-brain--module-50-weekend-thin-liquidity-unsettled-cme-clearing--sunday-2200-utc-re-open-protocol)
-- [PROJECT CORETEX BTC BRAIN — MODULE 51: EXTREME CASCADE MICROSTRUCTURE, BASIS BLOWOUTS & STAGGERED LIMIT EXECUTION](#project-coretex-btc-brain--module-51-extreme-cascade-microstructure-basis-blowouts--staggered-limit-execution)
-- [PROJECT CORETEX BTC BRAIN — MODULE 52: ROLLING 30-TRADE EXPECTANCY AUDIT & PARAMETER DRIFT GOVERNOR](#project-coretex-btc-brain--module-52-rolling-30-trade-expectancy-audit--parameter-drift-governor)
-- [PROJECT CORTEX-BTC — MODULE 53: HAWKES POINT PROCESSES, JUMP-DIFFUSION DE-NOISING & TRANSFER ENTROPY CAPITAL ROTATION ENGINE](#project-cortex-btc--module-53-hawkes-point-processes-jump-diffusion-de-noising--transfer-entropy-capital-rotation-engine)
-- [PROJECT CORTEX-BTC — MODULE 54: MULTI-TIMEFRAME ALGORITHMIC MARKET STRUCTURE, KLINE LOOKBACK CONTRACT & UI EXPLAINABILITY SCHEMA](#project-cortex-btc--module-54-multi-timeframe-algorithmic-market-structure-kline-lookback-contract--ui-explainability-schema)
-- [PROJECT CORTEX-BTC — MODULE 55: DUAL-STAGE DISRUPTION TELEMETRY & RECOVERY RADAR ENGINE](#project-cortex-btc--module-55-dual-stage-disruption-telemetry--recovery-radar-engine)
-- [PROJECT CORETEX BTC BRAIN — MODULE 56: SECULAR CYCLE ANATOMY, DIMINISHING RETURNS & ANTI-NARRATIVE DISCIPLINE](#project-coretex-btc-brain--module-56-secular-cycle-anatomy-diminishing-returns--anti-narrative-discipline)
-- [PROJECT CORTEX-BTC BRAIN — MODULE 57: INTRADAY & CALENDAR VOLATILITY REGIME, DST SESSION CLOCK & EMPIRICAL STOP-CALIBRATION ENGINE](#project-cortex-btc-brain--module-57-intraday--calendar-volatility-regime-dst-session-clock--empirical-stop-calibration-engine)
-- [PROJECT CORETEX-BTC BRAIN — MODULE 58: MACRO EVENT & ECONOMIC RELEASE TRINITY PROTOCOL (72-HOUR FOMC, SEP DOT PLOT, CPI, CORE PCE & NFP GATE)](#project-coretex-btc-brain--module-58-macro-event--economic-release-trinity-protocol-72-hour-fomc-sep-dot-plot-cpi-core-pce--nfp-gate)
-- [PROJECT CORETEX-BTC BRAIN — MODULE 59: LONG-TERM HOLDER (LTH) COST BASIS, TRUE MARKET MEAN & SECULAR FLOOR MATRIX](#project-coretex-btc-brain--module-59-long-term-holder-lth-cost-basis-true-market-mean--secular-floor-matrix)
-- [PROJECT CORETEX-BTC BRAIN — MODULE 60: INTRA-PILLAR CONFLICT RESOLUTION, VETO PRECEDENCE & DEADLOCK ARBITER MATRIX](#project-coretex-btc-brain--module-60-intra-pillar-conflict-resolution-veto-precedence--deadlock-arbiter-matrix)
-- [PROJECT CORETEX-BTC BRAIN — MODULE 61: DATA HUB INGESTION, HYGIENE GATE & DESK-LITE VERDICT COMPILATION PROTOCOL](#project-coretex-btc-brain--module-61-data-hub-ingestion-hygiene-gate--desk-lite-verdict-compilation-protocol)
-- [PROJECT CORTEX-BTC — MODULE 62: DUAL-INVENTORY BIDIRECTIONAL SWING ENGINE (DIBSE v2.0)](#project-cortex-btc--module-62-dual-inventory-bidirectional-swing-engine-dibse-v20)
-- [PROJECT CORTEX-BTC — MODULE 63: CORTEX-RHYME EMPIRICAL DERIVATIVES STATE-SPACE ANALOGUE & EXPECTANCY ENGINE](#project-cortex-btc--module-63-cortex-rhyme-empirical-derivatives-state-space-analogue--expectancy-engine)
-- [PROJECT CORTEX-BTC — MODULE 64: AI DEBT PLUMBING, SHADOW PRIVATE CREDIT & FED STABILITY GATE](#project-cortex-btc--module-64-ai-debt-plumbing-shadow-private-credit--fed-stability-gate)
-- [Market Telemetry & Macro Regime Briefing — 2026-11-19 (08:15 MYT)](#market-telemetry--macro-regime-briefing--2026-11-19-0815-myt)
-- [PROJECT CORTEX-BTC — MODULE 65: MEDIA DE-NOISING, NARRATIVE TRIAGE & SIGNAL HYGIENE PROTOCOL](#project-cortex-btc--module-65-media-de-noising-narrative-triage--signal-hygiene-protocol)
-- [PROJECT CORTEX-BTC — MODULE 65.1: LIVE YOUTUBE TRANSCRIPT TRIAGE AUDIT (2026-11-19)](#project-cortex-btc--module-651-live-youtube-transcript-triage-audit-2026-11-19)
-- [PROJECT CORTEX-BTC — MODULE 66: MULTI-LAYER TIMEFRAME SYNTHESIS & 4-STEP ENTRY ARCHITECTURE](#project-cortex-btc--module-66-multi-layer-timeframe-synthesis--4-step-entry-architecture)
-- [PROJECT CORTEX-BTC — MODULE 67: NON-PREDICTIVE IF-THEN SPOT EXECUTION FRAMEWORK](#project-cortex-btc--module-67-non-predictive-if-then-spot-execution-framework)
-
----
-# PROJECT CORTEX-BTC — V2.0 FULL-STACK MASTER INDEX (MODULES 01–28+)
-**Status:** Full-Stack Core Kernel (`MOD 01–18`) + Institutional Expansion Packs (`Tier C: MOD 19–21`, `Tier B: MOD 22–24`, `Tier A: MOD 25–27`, `Tier D: MOD 28+`) **100% Built, Indexed & Operational**.
+> **Canonical Inventory:** `83 Complete Sources` (`6` Foundational Charters, Registries & Living Ledgers + `77` Quantitative Execution Modules `MOD 01`–`MOD 68.1`)  
+> **Mandate:** `1.0x` unleveraged BTC/USDT/USD Spot Only | `<= 0.75%` Max Portfolio Equity Risk (`0.375%` `GATE_AMBER` / `0.00%` `GATE_RED`) | `Net R >= 3.0` | Fail-Closed `MOD 36` Telemetry SLA | Anchored to `MYT (UTC+8)`
 
 ---
 
-## Complete 28-Module Decision Waterfall Directory
+## Table of Contents
 
-### Foundation & Governance
-* **`00` — Project CORTEX-BTC Charter, 5-Pillar Waterfall & Core Index**
-* **`00B` — V2.0 Full-Stack Master Index (MOD 01–28+)**
+### I. Foundational Charters, Registries & Living Ledgers (`00`–`00P` | 6 Sources)
+- [[01] 00 — Charter 5 Pillar Waterfall and Master Architecture](#01-00-charter-5-pillar-waterfall-and-master-architecture)
+- [[02] 00C — Historical Intelligence Registry and Cycle Laws](#02-00c-historical-intelligence-registry-and-cycle-laws)
+- [[03] 00C.1 — Historical Registry Entry 39 Nov 16 21 2026 Global Contagion Shock](#03-00c1-historical-registry-entry-39-nov-16-21-2026-global-contagion-shock)
+- [[04] 00H — Live Market Field Notes and Telemetry Ledger](#04-00h-live-market-field-notes-and-telemetry-ledger)
+- [[05] 00J — Hardware Wallet Security Custody Hardening and Firmware Audit Ledger](#05-00j-hardware-wallet-security-custody-hardening-and-firmware-audit-ledger)
+- [[06] 00P — Complete 83 Source Master Directory](#06-00p-complete-83-source-master-directory)
 
-### Pillar 1: Master Macro Permissions, Liquidity Plumbing & FX/Credit Breakers *(Supreme Gatekeeper)*
-* **`MOD 16`:** Macro Liquidity, Sovereign Yields, DXY & Stablecoin Dry Powder (`GATE_GREEN` / `GATE_AMBER` / `GATE_RED 100% Cash Lock`)
-* **`MOD 17`:** 200D MA Secular Gates, Index Rebalancings & Session Handoffs (`Asia / London / NY ETF Cash Open`)
-* **`MOD 22` *(Tier B)*:** Net Fed Liquidity Impulse (`Fed Balance Sheet WALCL - TGA - RRP`)
-* **`MOD 23` *(Tier B)*:** MOVE Index (Bond Volatility) & High-Yield Credit Spread Breakers
-* **`MOD 24` *(Tier B)*:** USD/JPY Sovereign Carry-Trade Unwind & BOJ Intervention Alerts
-
-### Pillar 2: Microstructure, Order Flow, Venue Spreads & Rough Path Geometry
-* **`MOD 05`:** The 4-Quadrant Spot CVD vs. Perp CVD Matrix
-* **`MOD 06`:** Passive Limit Absorption vs. Market Taker Exhaustion
-* **`MOD 07`:** Domestic Fiat Gateways (USD) & Spot ETFs vs. Offshore Flows
-* **`MOD 08`:** Rough Path Signatures I — Price–Volume Lévy Signed Area (`A_P,V`)
-* **`MOD 09`:** Rough Path Signatures II — Spot CVD–Open Interest Lévy Signed Area (`A_CVD,OI`)
-* **`MOD 10`:** Rough Path Signatures III — Multi-Horizon Alignment (`1H Tactical vs. 4H/1D Structural`)
-* **`MOD 11`:** Volume Profile Structural Topology (`15m/1H VAH, VAL, POC Reclaims & LVN Breakouts`)
-* **`MOD 12`:** Garman-Klass (OHLC) Volatility Squeeze & Fan Expansion (`Stop-Distance Calibration`)
-* **`MOD 19` *(Tier C)*:** Coinbase Premium Index Z-Scores & Domestic-Offshore Spreads
-* **`MOD 20` *(Tier C)*:** CME Futures Basis & Weekend Gap Fill Topology
-* **`MOD 21` *(Tier C)*:** Algorithmic TWAP/VWAP Accumulation Footprints vs. Spoofed Liquidity
-
-### Pillar 3: Derivatives Positioning, Market Fragility & Options Surface Mechanics
-* **`MOD 01`:** Rising OI + Extreme Negative Perp Basis (`The Coiled Spring`)
-* **`MOD 02`:** Rising OI + High Positive Basis (`Euphoric Leverage Crowding`)
-* **`MOD 03`:** Deleveraging Flushes & OI Reset Mechanics (`Partial vs. Full Wipeouts`)
-* **`MOD 04`:** Funding Rate Velocity & Price Divergence Matrix
-* **`MOD 25` *(Tier A)*:** Dealer Gamma Exposure (`GEX`) & Zero-Gamma Flip Mechanics
-* **`MOD 26` *(Tier A)*:** Deribit & CME Monthly/Quarterly OpEx Max Pain Gravity
-* **`MOD 27` *(Tier A)*:** 25-Delta Implied Volatility Skew & DVOL Term Structure Extremes
-
-### Pillar 5: On-Chain Cohorts & Sovereign Wealth Defense
-* **`MOD 13`:** Short-Term Holder (`STH`) Realized Price & MVRV Bands
-* **`MOD 14`:** SOPR (`aSOPR` & `STH-SOPR`) Profit/Loss Reset Cycles
-* **`MOD 15`:** Realized Cap Impulse & LTH-to-STH Wealth Transfer
-
-### Pillar 4 & Tier D: Master Decision Compiler & Continuous Compounding Engine
-* **`MOD 18`:** Master 5-Pillar Confluence, `0.75%` Risk Sizing Engine & Two-Stage Exit Protocol
-* **`MOD 28` *(Tier D)*:** Live Autopsy & Black Swan Circuit Breaker Engine (`MOD 29+ Generator`)
-
----
-
-# PROJECT CORTEX-BTC — 00C: HISTORICAL INTELLIGENCE REGISTRY (ENTRIES #1–#38), 9-YEAR CYCLE LAWS & EXECUTION INVARIANTS
-**Provenance:** Consolidated & deduplicated from Crypto & Macro Master Intelligence Log (Sources 00 & 04) plus live Q4 2026 empirical telemetry ledger (`Entry #38`) to preserve foundational historical lessons without duplicating `MOD 01–60`.
-
----
-
-#### 1. Foundational Cycle & Structural Laws (Entries #1–#34 Distilled)
-1. **9-Year Empirical Cycle Top Architecture (Entry #1):**
-   * Derived from 3,341 daily candles and 107 All-Time Highs: secular bull peaks require multi-pillar saturation across on-chain unrealized profit (MVRV), long-term holder distribution velocity, and macro liquidity peaks (Cluster B).
-2. **Primacy of Horizontal Liquidity Pools Over Lagging Geometric Charting (Entries #10 & #31):**
-   * Diagonal trendlines and lagging oscillators have zero causal force; institutional execution targets **horizontal resting liquidity pools** (equal highs/lows, Volume Profile VAH/VAL/POC, and liquidation clusters).
-3. **Q4 2026 vs. Q4 2018 Structural Macro Analogue (Entry #25):**
-   * Cost-push energy/tariff inflation shocks combined with restrictive central-bank policy force prolonged multiple compression and high-beta drawdowns until a clear Federal Reserve liquidity pivot occurs.
-4. **The 72-Hour Macro Trinity Gate (Entry #33):**
-   * Major scheduled macro prints (**FOMC, CPI, PCE, NFP**) create a 72-hour volatility distortion window (`T-24h` pre-positioning chop, `T-0` algorithmic whip, `T+24h` true institutional repricing — codified in `MOD 58`).
-5. **Permanent VPIN Exclusion Directive:**
-   * The Volume-Synchronized Probability of Toxicity (**VPIN**) model is permanently excluded from all scoring and execution engines in favor of **Rough Path Signatures (Order N <= 2 Lévy Signed Areas)** and **Domestic USD vs. Offshore USDT Spot CVD**.
-
----
-
-#### 2. Exact Microstructure Bar-Count & Asymmetry Invariants (From Source 04)
-To prevent premature entries and poor reward-to-risk setups during `MOD 11` (Volume Profile VAL/VAH sweeps), `MOD 54` (Algorithmic Market Structure BOS), and `MOD 18` execution:
-
-##### A. Timeframe Bar-Count Scaling Matrix (1H & 4H Spot Swing Calibration)
-| Execution Phase | 1H Spot Swing Calibration | 4H Spot Swing Calibration | Structural Disqualification (Mandatory Abort) |
-| :--- | :--- | :--- | :--- |
-| **Phase 1: Sweep & Reclaim Duration** | **1 to 3 completed 1H bars** below support before closing firmly back inside the range. | **1 to 2 completed 4H bars** (single long lower-wick hammer or 2-bar reversal) closing back inside range. | **True Breakdown Acceptance:** Price closes and holds below support for **4+ consecutive 1H bars** or **2+ consecutive 4H bars** (Lock 100% Cash). |
-| **Phase 2: Low-Volume Retest Window** | **2 to 6 completed 1H bars** after the reclaim candle closes (contracting sell volume + narrowing spreads). | **1 to 3 completed 4H bars** after the reclaim candle closes. | **Runaway V-Bottom:** Price rallies straight to mid-range POC without retesting, degrading R:R below 3:1 (Pass — Do Not Chase). |
-
-##### B. Minimum 3:1 Asymmetry Filter (`Net R >= 3.0` Law — `MOD 18` & `MOD 37`)
-* Before authorizing any unleveraged spot entry (`0.75%` or `0.375%` risk ceiling):
-  * `Stop_Distance = Entry_Price - Hard_Invalidation_Wick_Low`
-  * `Target_1 = Range Point of Control (POC)` | `Target_2 = Value Area High (VAH)`
-  * **Hard Gate:** If `(Target_2 - Entry_Price) / Stop_Distance < 3.0` post-slippage, **PASS UNCONDITIONALLY** (insufficient asymmetric payoff).
-
----
-
-#### 3. Post-v3.0 Live Empirical Incident Ledger (Entry #38)
-
-##### Entry #38 — November 2026 Q4 Drawdown, `$1.41B` Deleveraging Cascade & Stacked Anthropic IPO / MSCI Liquidity Vacuum (`Nov 9–15, 2026`)
-* **Event Window & Structural Regime:** `09 November 2026` to `15 November 2026` (`MOD 33: REGIME_4` — Liquidity Drain & Negative Gamma).
-* **Empirical Telemetry Verified:**
-  1. **Macro & Fixed-Income Drain (`Pillar 1` — `MOD 16`, `MOD 23`, `MOD 58`):** Hot October US CPI (`Nov 10, 2026`) propelled US 10-Year Treasury yields to **`5.129%`**, pushed the ICE BofA **MOVE Index** to **`92.44`**, and lifted **DXY** above **`103`** (`103.2`), while 30-day total stablecoin market cap contracted **`-$14.2B`** down to **`$285.592B`** (fastest contraction since June 2022).
-  2. **Stacked Mega-IPO & Passive Index Rebalance Vacuum (`MOD 44`):** Institutional liquidity suffered a dual calendar siphon: **Anthropic (`ANT`)** launched its mega-IPO roadshow (`825M` Class A shares at `$70–$78`, targeting up to **`$64.4B`** plus **`$26B`** strategic placement; pricing `Nov 18`, Nasdaq debut `Nov 19, 2026`), overlapping directly with **MSCI's November 2026 index review** removing corporate Bitcoin treasury proxies (**Strategy `MSTR`**, **Metaplanet**, **Upexi**, **IREN**) effective after the **`Nov 30, 2026`** close (`Dec 1` effective date).
-  3. **Institutional ETF & On-Chain Cost-Basis Breach (`Pillar 5` — `MOD 07`, `MOD 13`, `MOD 19`, `MOD 59`):** US Spot BTC ETFs logged a 7-day net outflow streak shedding **`~$2.35B`** across two weeks (`-$1.44B` over 5 days; `-$185.4M` single-day), while the **Coinbase Premium** remained inverted (`-0.13%` over `49` consecutive days). Spot sliced below Short-Term Holder Realized Price (**`$75,600–$75,771`**) and the Cointime-Weighted True Market Mean (**`~$77,500–$78,000`**), placing the `< 155-day` cohort underwater (`STH-MVRV ~ 0.90`).
-  4. **Derivatives Cascade & Thin-Weekend Sweep (`Pillar 2 & 3` — `MOD 03`, `MOD 50`, `MOD 51`, `MOD 53`):** Aggregate BTC futures Open Interest contracted **`~17%`** (`$10.6B -> $8.8B`) amid **`$1.41B`** in cumulative forced liquidations (`88%–92%` longs; `$819.62M` in a single 24h flush) and thinned order-book depth (`$72M`). On Sunday, **`Nov 15, 2026` (`01:44 UTC`)**, thin weekend liquidity (`MOD 50`) swept spot down to **`~$62,199–$62,268.50`** (`RM 254,408–254,784`) before rebounding `+4.2%` to **`~$64,800–$65,500`** (`RM 264,819–266,986`) while US Spot ETFs and Fedwire clearing remained closed.
-* **System Compilation & Arbitration Outcome (`MOD 18`, `MOD 31`, `MOD 60`):**
-  * **ICDM Fragility Score (`MOD 31`):** **`83 / 100 Points`** (`>= 60` systemic crash threshold; Vector 2 Liquidity Vacuum maxed at `25/25`).
-  * **Precedence Arbitration (`MOD 60`):** `Rank 1` (`MOD 44` stacked IPO/MSCI drain) + `Rank 2` (`ICDM 83` / `GATE_RED`) + `Rank 4` (`MOD 50` unsettled weekend gate) vetoed all counter-trend entries and enforced **`100% CASH LOCK` (`0.00%` tactical swing risk)** across Sleeve A while keeping Sleeve B (`2-of-3` multi-sig cold storage) air-gapped until ETF primary outflows halt (`MOD 59 CB-03`).
-* **Permanent Rulebook Modules Spawned:** Directly codified into **`MOD 44`** (Mega-IPO & Index Rebalance Vacuums), **`MOD 45`** (Executive Bottom-Line HUD), **`MOD 46`** (Block `1,050,000` Secular Barbell Anchor), **`MOD 50`** (Weekend Thin-Liquidity & Sunday `22:00 UTC` Protocol), **`MOD 53`** (Hawkes & Transfer Entropy), **`MOD 58`** (72-Hour Macro Trinity), **`MOD 59`** (LTH Cost Basis & True Market Mean), and **`MOD 60`** (7-Rank Veto Precedence Ladder).
+### II. Quantitative Execution Modules & Empirical Audits (`MOD 01`–`MOD 68.1` | 77 Sources)
+- [[07] MOD 01 — Rising Open Interest Extreme Negative Perpetual Basis](#07-mod-01-rising-open-interest-extreme-negative-perpetual-basis)
+- [[08] MOD 02 — Rising Open Interest High Positive Perpetual Basis](#08-mod-02-rising-open-interest-high-positive-perpetual-basis)
+- [[09] MOD 03 — Deleveraging Flushes And Open Interest Reset Mechanics](#09-mod-03-deleveraging-flushes-and-open-interest-reset-mechanics)
+- [[10] MOD 04 — Funding Rate Velocity And Price Divergence Matrix](#10-mod-04-funding-rate-velocity-and-price-divergence-matrix)
+- [[11] MOD 05 — The 4 Quadrant Spot CVD vs Perpetual CVD Matrix](#11-mod-05-the-4-quadrant-spot-cvd-vs-perpetual-cvd-matrix)
+- [[12] MOD 06 — Passive Limit Absorption vs Market Taker Exhaustion](#12-mod-06-passive-limit-absorption-vs-market-taker-exhaustion)
+- [[13] MOD 07 — Domestic Fiat Gateways and Spot ETFs vs Offshore Perp USDT Flows](#13-mod-07-domestic-fiat-gateways-and-spot-etfs-vs-offshore-perp-usdt-flows)
+- [[14] MOD 08 — Rough Path Signatures I Price Volume Levy Signed Area](#14-mod-08-rough-path-signatures-i-price-volume-levy-signed-area)
+- [[15] MOD 09 — Rough Path Signatures II Spot CVD Open Interest Levy Signed Area](#15-mod-09-rough-path-signatures-ii-spot-cvd-open-interest-levy-signed-area)
+- [[16] MOD 10 — Rough Path Signatures III Multi Horizon Alignment](#16-mod-10-rough-path-signatures-iii-multi-horizon-alignment)
+- [[17] MOD 11 — Volume Profile Structural Topology](#17-mod-11-volume-profile-structural-topology)
+- [[18] MOD 12 — Garman Klass Volatility Squeeze And Fan Expansion](#18-mod-12-garman-klass-volatility-squeeze-and-fan-expansion)
+- [[19] MOD 13 — Short Term Holder Realized Price And MVRV Bands](#19-mod-13-short-term-holder-realized-price-and-mvrv-bands)
+- [[20] MOD 14 — SOPR Profit Loss Reset Cycles](#20-mod-14-sopr-profit-loss-reset-cycles)
+- [[21] MOD 15 — Realized Cap Impulse And LTH To STH Wealth Transfer](#21-mod-15-realized-cap-impulse-and-lth-to-sth-wealth-transfer)
+- [[22] MOD 16 — Macro Liquidity Sovereign Yields DXY And Stablecoin Dry Powder](#22-mod-16-macro-liquidity-sovereign-yields-dxy-and-stablecoin-dry-powder)
+- [[23] MOD 17 — 200D MA Secular Gates Index Rebalancings and Session Handoffs](#23-mod-17-200d-ma-secular-gates-index-rebalancings-and-session-handoffs)
+- [[24] MOD 18 — Master 5 Pillar Confluence 0.75 Risk Sizing Engine And Two Stage Exit Protocol](#24-mod-18-master-5-pillar-confluence-075-risk-sizing-engine-and-two-stage-exit-protocol)
+- [[25] MOD 18.1 — Pre Flight Go No Go Checklist and Anti Knife Protocol](#25-mod-181-pre-flight-go-no-go-checklist-and-anti-knife-protocol)
+- [[26] MOD 18.2 — Reading a Falling Market Without a Forecast](#26-mod-182-reading-a-falling-market-without-a-forecast)
+- [[27] MOD 19 — Coinbase Premium Index Z Scores And Domestic Offshore Spreads](#27-mod-19-coinbase-premium-index-z-scores-and-domestic-offshore-spreads)
+- [[28] MOD 20 — CME Futures Basis And Weekend Gap Fill Topology](#28-mod-20-cme-futures-basis-and-weekend-gap-fill-topology)
+- [[29] MOD 21 — Algorithmic TWAP VWAP Accumulation Footprints vs Spoofed Liquidity](#29-mod-21-algorithmic-twap-vwap-accumulation-footprints-vs-spoofed-liquidity)
+- [[30] MOD 22 — Net Fed Liquidity Impulse](#30-mod-22-net-fed-liquidity-impulse)
+- [[31] MOD 23 — MOVE Index And High Yield Credit Spread Breakers](#31-mod-23-move-index-and-high-yield-credit-spread-breakers)
+- [[32] MOD 24 — USD JPY Sovereign Carry Trade Unwind And BOJ Intervention Alerts](#32-mod-24-usd-jpy-sovereign-carry-trade-unwind-and-boj-intervention-alerts)
+- [[33] MOD 25 — Dealer Gamma Exposure And Zero Gamma Flip Mechanics](#33-mod-25-dealer-gamma-exposure-and-zero-gamma-flip-mechanics)
+- [[34] MOD 26 — Deribit And CME Monthly Quarterly OPEX Max Pain Gravity](#34-mod-26-deribit-and-cme-monthly-quarterly-opex-max-pain-gravity)
+- [[35] MOD 27 — 25 Delta Implied Volatility Skew And DVOL Term Structure Extremes](#35-mod-27-25-delta-implied-volatility-skew-and-dvol-term-structure-extremes)
+- [[36] MOD 28 — Live Autopsy And Black Swan Circuit Breaker Engine](#36-mod-28-live-autopsy-and-black-swan-circuit-breaker-engine)
+- [[37] MOD 29 — Equity Multiple Compression Energy Shocks And High Beta Contagion](#37-mod-29-equity-multiple-compression-energy-shocks-and-high-beta-contagion)
+- [[38] MOD 30 — PCF3 Order Flow Engine And 10 Deterministic Configurations](#38-mod-30-pcf3-order-flow-engine-and-10-deterministic-configurations)
+- [[39] MOD 31 — Institutional Capital Defense Matrix](#39-mod-31-institutional-capital-defense-matrix)
+- [[40] MOD 31.1 — Live ICDM Fragility Field Audit 2026 11 19](#40-mod-311-live-icdm-fragility-field-audit-2026-11-19)
+- [[41] MOD 32 — Exchange Solvency Multiplier And Sovereign Multi Sig Custody Architecture](#41-mod-32-exchange-solvency-multiplier-and-sovereign-multi-sig-custody-architecture)
+- [[42] MOD 33 — Unified 5 Regime Master Radar And State Transition Engine](#42-mod-33-unified-5-regime-master-radar-and-state-transition-engine)
+- [[43] MOD 34 — AEGIS 3 Impulse Defense and Anti Capitulation Shield](#43-mod-34-aegis-3-impulse-defense-and-anti-capitulation-shield)
+- [[44] MOD 35 — Liquidation Heatmap Distance Rule And Pull Score Engine](#44-mod-35-liquidation-heatmap-distance-rule-and-pull-score-engine)
+- [[45] MOD 36 — Telemetry Trust Staleness SLA And Determinism Attestation](#45-mod-36-telemetry-trust-staleness-sla-and-determinism-attestation)
+- [[46] MOD 37 — Executable Liquidity Net 3.0R Slippage and Equity Curve Governor](#46-mod-37-executable-liquidity-net-30r-slippage-and-equity-curve-governor)
+- [[47] MOD 38 — ETF Primary Market Settlement And BRRNY Fix Window Engine](#47-mod-38-etf-primary-market-settlement-and-brrny-fix-window-engine)
+- [[48] MOD 39 — Exchange Supply Activation And Aged UTXO Dormancy Engine](#48-mod-39-exchange-supply-activation-and-aged-utxo-dormancy-engine)
+- [[49] MOD 40 — Miner Treasury Stress And Hashprice Economics Engine](#49-mod-40-miner-treasury-stress-and-hashprice-economics-engine)
+- [[50] MOD 41 — Secular Cycle ATH Cluster and Double Top Exit Engine](#50-mod-41-secular-cycle-ath-cluster-and-double-top-exit-engine)
+- [[51] MOD 41.1 — Secular ATH Operational Field Runbook and Countdown Checklist](#51-mod-411-secular-ath-operational-field-runbook-and-countdown-checklist)
+- [[52] MOD 41.2 — Two Swing Harvest Roadmap Diminishing Multiples and Secular Shakeout Engine](#52-mod-412-two-swing-harvest-roadmap-diminishing-multiples-and-secular-shakeout-engine)
+- [[53] MOD 42 — Classical Structural Shapes and Liquidity Pool Authentication](#53-mod-42-classical-structural-shapes-and-liquidity-pool-authentication)
+- [[54] MOD 42.1 — The Symmetrical 11 Pattern Price Action and Microstructure Playbook](#54-mod-421-the-symmetrical-11-pattern-price-action-and-microstructure-playbook)
+- [[55] MOD 42.1.1 — 4 Gate Bidirectional Spot Execution Playbook and Worked Field Walkthrough](#55-mod-4211-4-gate-bidirectional-spot-execution-playbook-and-worked-field-walkthrough)
+- [[56] MOD 43 — Algorithmic Fibonacci Confluence and Harmonic Impulse Measurement](#56-mod-43-algorithmic-fibonacci-confluence-and-harmonic-impulse-measurement)
+- [[57] MOD 44 — Mega IPO Capital Vacuums and Index Rebalance Liquidity Drains](#57-mod-44-mega-ipo-capital-vacuums-and-index-rebalance-liquidity-drains)
+- [[58] MOD 45 — Executive Bottom Line HUD and Mobile Presentation Protocol](#58-mod-45-executive-bottom-line-hud-and-mobile-presentation-protocol)
+- [[59] MOD 46 — Block 1050000 April 2028 Secular Horizon and Sovereign Barbell Anchor](#59-mod-46-block-1050000-april-2028-secular-horizon-and-sovereign-barbell-anchor)
+- [[60] MOD 47 — Corporate and Sovereign Treasury Velocity](#60-mod-47-corporate-and-sovereign-treasury-velocity)
+- [[61] MOD 48 — Stablecoin Supply Ratio and Net Mint Burn Velocity](#61-mod-48-stablecoin-supply-ratio-and-net-mint-burn-velocity)
+- [[62] MOD 49 — Rolling Cross Asset Correlation and Decoupling Matrix](#62-mod-49-rolling-cross-asset-correlation-and-decoupling-matrix)
+- [[63] MOD 50 — Weekend Thin Liquidity Unsettled CME and Sunday Reopen](#63-mod-50-weekend-thin-liquidity-unsettled-cme-and-sunday-reopen)
+- [[64] MOD 51 — Extreme Cascade Microstructure Basis Blowouts and Staggered Limits](#64-mod-51-extreme-cascade-microstructure-basis-blowouts-and-staggered-limits)
+- [[65] MOD 52 — Rolling 30 Trade Expectancy Audit and Parameter Drift Governor](#65-mod-52-rolling-30-trade-expectancy-audit-and-parameter-drift-governor)
+- [[66] MOD 53 — Hawkes Point Processes Jump Diffusion and Transfer Entropy](#66-mod-53-hawkes-point-processes-jump-diffusion-and-transfer-entropy)
+- [[67] MOD 54 — Multi Timeframe Algorithmic Market Structure and Kline Lookback Contract](#67-mod-54-multi-timeframe-algorithmic-market-structure-and-kline-lookback-contract)
+- [[68] MOD 55 — Dual Stage Disruption Telemetry and Recovery Radar Engine](#68-mod-55-dual-stage-disruption-telemetry-and-recovery-radar-engine)
+- [[69] MOD 56 — Secular Cycle Anatomy Diminishing Returns and Anti Narrative Discipline](#69-mod-56-secular-cycle-anatomy-diminishing-returns-and-anti-narrative-discipline)
+- [[70] MOD 57 — Intraday and Calendar Volatility Regime DST Session Clock and Stop Calibration](#70-mod-57-intraday-and-calendar-volatility-regime-dst-session-clock-and-stop-calibration)
+- [[71] MOD 58 — Macro Event and Economic Release Trinity Protocol 72H FOMC CPI PCE NFP Gate](#71-mod-58-macro-event-and-economic-release-trinity-protocol-72h-fomc-cpi-pce-nfp-gate)
+- [[72] MOD 59 — Long Term Holder LTH Cost Basis True Market Mean and Secular Floor Matrix](#72-mod-59-long-term-holder-lth-cost-basis-true-market-mean-and-secular-floor-matrix)
+- [[73] MOD 60 — Intra Pillar Conflict Resolution Veto Precedence and Deadlock Arbiter Matrix](#73-mod-60-intra-pillar-conflict-resolution-veto-precedence-and-deadlock-arbiter-matrix)
+- [[74] MOD 61 — Data Hub Ingestion Hygiene Gate and Desk Lite Verdict Compilation Protocol](#74-mod-61-data-hub-ingestion-hygiene-gate-and-desk-lite-verdict-compilation-protocol)
+- [[75] MOD 62 — Dual Inventory Bidirectional Swing Engine DIBSE v2](#75-mod-62-dual-inventory-bidirectional-swing-engine-dibse-v2)
+- [[76] MOD 63 — CORTEX RHYME Empirical State Space Analogue Engine](#76-mod-63-cortex-rhyme-empirical-state-space-analogue-engine)
+- [[77] MOD 64 — AI Debt Plumbing Shadow Private Credit and Fed Stability Gate](#77-mod-64-ai-debt-plumbing-shadow-private-credit-and-fed-stability-gate)
+- [[78] MOD 64.1 — Live Macro ETF Regime Briefing 2026 11 19](#78-mod-641-live-macro-etf-regime-briefing-2026-11-19)
+- [[79] MOD 65 — Media De Noising Narrative Triage and Signal Hygiene Protocol](#79-mod-65-media-de-noising-narrative-triage-and-signal-hygiene-protocol)
+- [[80] MOD 66 — Multi Layer Timeframe Synthesis and 4 Step Entry Architecture](#80-mod-66-multi-layer-timeframe-synthesis-and-4-step-entry-architecture)
+- [[81] MOD 67 — Non Predictive If Then Spot Execution Framework](#81-mod-67-non-predictive-if-then-spot-execution-framework)
+- [[82] MOD 68 — Derivatives Positioning Context Tail Only Funding Mechanics and Empirical Sample Hygiene](#82-mod-68-derivatives-positioning-context-tail-only-funding-mechanics-and-empirical-sample-hygiene)
+- [[83] MOD 68.1 — Empirical Regime x Funding x OI Decision Matrix 299 Week State Grid](#83-mod-681-empirical-regime-x-funding-x-oi-decision-matrix-299-week-state-grid)
 
 ---
 
-# PROJECT CORTEX-BTC — 00D: COMPLETE 36-SOURCE MASTER DIRECTORY (MOD 01–33)
-**Status:** Full-Stack Core Kernel (`MOD 01–18`) + Institutional Expansion Packs (`MOD 19–28`) + Upgraded Master Log Frameworks (`MOD 29–32`) + Supreme 5-Regime Master Radar (`MOD 33`) **100% Built, Indexed & Live** (36 unique sources total).
-
----
-
-## Complete Directory Map (36 Unique Sources)
-
-### 1. Governance, Indices & Historical Invariants (4 Sources)
-* **`00` — Project CORTEX-BTC Charter, 5-Pillar Waterfall & 18-Module Index**
-* **`00B` — Project CORTEX-BTC V2.0 Full-Stack Master Index (MOD 01–28+)**
-* **`00C` — Historical Registry (Entries #1–#37), 9-Year Cycle Laws & 3R Bar-Count Rules**
-* **`00D` — Project CORTEX-BTC Complete 36-Source Master Directory (MOD 01–33)**
-
-### 2. Supreme Master Regime Classifier (1 Source)
-* **`MOD 33` — Unified 5-Regime Master Radar and State-Transition Engine** *(Top-level regime classifier gating permitted PCF3 Configs A–J across Regimes 1 through 5)*
-
-### 3. Pillar 1: Master Macro Permissions, Liquidity Plumbing & Cross-Asset Contagion (6 Sources)
-* **`MOD 16` — Macro Liquidity, Yields, DXY & Stablecoin Dry Powder**
-* **`MOD 17` — 200D MA Secular Gates, Index Rebalancings & Session Handoffs**
-* **`MOD 22` — Net Fed Liquidity Impulse (Fed Balance Sheet - TGA - RRP)**
-* **`MOD 23` — MOVE Index (Bond Volatility) & High-Yield Credit Spread Breakers**
-* **`MOD 24` — USD-JPY Sovereign Carry-Trade Unwind & BOJ Alerts**
-* **`MOD 29` — Equity Multiple Compression, Energy Shocks & High-Beta Contagion**
-
-### 4. Pillar 2: Microstructure, Order Flow, Venue Spreads & Rough Path Signatures (12 Sources)
-* **`MOD 05` — The 4-Quadrant Spot CVD vs. Perp CVD Matrix**
-* **`MOD 06` — Passive Limit Absorption vs. Market Taker Exhaustion**
-* **`MOD 07` — Domestic Fiat Gateways & Spot ETFs vs. Offshore Flows**
-* **`MOD 08` — Rough Path Signatures I: Price-Volume Levy Signed Area**
-* **`MOD 09` — Rough Path Signatures II: Spot CVD-OI Levy Signed Area**
-* **`MOD 10` — Rough Path Signatures III: Multi-Horizon Alignment**
-* **`MOD 11` — Volume Profile Structural Topology**
-* **`MOD 12` — Garman-Klass Volatility Squeeze & Fan Expansion**
-* **`MOD 19` — Coinbase Premium Index Z-Scores & Venue Spreads**
-* **`MOD 20` — CME Futures Basis & Weekend Gap Fill Topology**
-* **`MOD 21` — Algorithmic TWAP/VWAP Accumulation Footprints vs. Spoofing**
-* **`MOD 30` — PCF3 Order Flow Engine & 10 Deterministic Configurations (A–J)** *(Upgraded with exact numerical parameters & 0.75% shield calibration)*
-
-### 5. Pillar 3: Derivatives Fragility & Options Volatility Surface (7 Sources)
-* **`MOD 01` — Rising OI + Extreme Negative Perp Basis**
-* **`MOD 02` — Rising OI + High Positive Basis**
-* **`MOD 03` — Deleveraging Flushes & OI Reset Mechanics**
-* **`MOD 04` — Funding Rate Velocity & Price Divergence Matrix**
-* **`MOD 25` — Dealer Gamma Exposure (GEX) & Zero-Gamma Flip Mechanics**
-* **`MOD 26` — Deribit & CME Monthly-Quarterly OpEx Max Pain Gravity**
-* **`MOD 27` — 25-Delta Implied Volatility Skew & DVOL Term Structure Extremes**
-
-### 6. Pillar 5: On-Chain Cohorts & Sovereign Custody Architecture (4 Sources)
-* **`MOD 13` — Short-Term Holder (STH) Realized Price & MVRV Bands**
-* **`MOD 14` — SOPR Profit/Loss Reset Cycles**
-* **`MOD 15` — Realized Cap Impulse & LTH-to-STH Wealth Transfer**
-* **`MOD 32` — Exchange Solvency Multiplier (M_solv) & Sovereign Multi-Sig Custody**
-
-### 7. Pillar 4 & Tier D: Master Compilers, ICDM Scoring & Autopsy Engine (3 Sources)
-* **`MOD 18` — Master 5-Pillar Confluence, 0.75% Risk Sizing & Exit Engine**
-* **`MOD 28` — Live Autopsy & Black Swan Circuit Breaker Engine**
-* **`MOD 31` — Institutional Capital Defense Matrix (ICDM 100-Pt Fragility Scale)**
-
----
-
-# PROJECT CORETEX BTC BRAIN — COMPLETE 67-SOURCE MASTER DIRECTORY (v7.0)
-
-**Status:** Full-Stack Quantitative & Sovereign Barbell Rulebook (00–00E + MOD 01–MOD 61, including MOD 41.1) — **67 Sources Total — 100% Codified, Indexed & Ready for Live VPS / Hermes / GitHub Operations**.
-**Governing Invariants:** Strict 1.0x Unleveraged Spot Only (BTC & USDT/USD), <= 0.75% Max Portfolio Risk per Trade (0.375% GATE_AMBER / 0.00% GATE_RED 100% Cash Lock), Net R >= 3.0 Post-Slippage Requirement, Fail-Closed DATA UNAVAILABLE Honesty (MOD 36), Deterministic Precedence Arbitration (MOD 60), and Air-Gapped Barbell Custody (Sleeve A Tactical Swing vs. Sleeve B 2-of-3 Dual-Jurisdiction Multi-Sig Cold Storage).
-
-#### 1. Governance, Indices & Historical Invariants (5 Sources)
-*   **00** — Project CORTEX-BTC: Charter, 5-Pillar Waterfall & 18-Module Index
-*   **00B** — Project CORTEX-BTC V2.0 Full-Stack Master Index (MOD 01–28+)
-*   **00C** — Historical Registry (Entries #1–#38), 9-Year Cycle Laws & 3R Bar-Count Rules
-*   **00D** — Project CORTEX-BTC Complete 44-Source Master Directory (MOD 01–40)
-*   **00E** — Project CoreTex BTC Brain Complete 67-Source Master Directory (v7.0, MOD 01–61)
-
-#### 2. Tier D Control-Plane, Supreme Radar & Mobile HUD (8 Sources)
-*   **MOD 28** — Live Autopsy & Black Swan Circuit Breaker Engine
-*   **MOD 31** — Institutional Capital Defense Matrix (ICDM 100-Pt Fragility Scale)
-*   **MOD 33** — Unified 5-Regime Master Radar and State-Transition Engine
-*   **MOD 36** — Telemetry Trust, Staleness SLA & Determinism Attestation
-*   **MOD 45** — Executive Bottom-Line HUD & Mobile Presentation Protocol
-*   **MOD 52** — Rolling 30-Trade Expectancy Audit & Parameter Drift Governor
-*   **MOD 60** — Intra-Pillar Conflict Resolution, Veto Precedence & Deadlock Arbiter Matrix
-*   **MOD 61** — Data Hub Ingestion, Hygiene Gate & Desk-Lite Verdict Compilation Protocol
-
-#### 3. Pillar 1 — Macro Liquidity Plumbing, Cross-Asset Gates & Secular Horizon (12 Sources)
-*   **MOD 16** — Macro Liquidity, Yields, DXY & Stablecoin Dry Powder
-*   **MOD 17** — 200D MA Secular Gates, Index Rebalancings & Session Handoffs
-*   **MOD 22** — Net Fed Liquidity Impulse (WALCL - TGA - RRP)
-*   **MOD 23** — MOVE Index (Bond Volatility) & High-Yield Credit Spread Breakers
-*   **MOD 24** — USD-JPY Sovereign Carry-Trade Unwind & BOJ Alerts
-*   **MOD 29** — Equity Multiple Compression, Energy Shocks & High-Beta Contagion
-*   **MOD 44** — Mega-IPO Capital Vacuums & Index Rebalance Liquidity Drains
-*   **MOD 46** — Block 1,050,000 (April 2028) Secular Horizon & Sovereign Barbell Anchor
-*   **MOD 47** — Corporate & Sovereign Treasury Velocity (mNAV & Proxy Flywheel)
-*   **MOD 49** — Rolling Cross-Asset Correlation & Decoupling Matrix (BTC vs. NDX / Gold / DXY)
-*   **MOD 56** — Secular Cycle Anatomy, Diminishing Returns & Anti-Narrative Discipline *(Reference-Only Context)*
-*   **MOD 58** — Macro Event & Economic Release Trinity Protocol (72-Hour FOMC, SEP Dot Plot, CPI, Core PCE & NFP Gate)
-
-#### 4. Pillar 2 — Microstructure, Order Flow, Rough Path Signatures & Chart Geometry (21 Sources)
-*   **MOD 05** — The 4-Quadrant Spot CVD vs. Perp CVD Matrix
-*   **MOD 06** — Passive Limit Absorption vs. Market Taker Exhaustion
-*   **MOD 07** — Domestic Fiat Gateways & Spot ETFs vs. Offshore Flows
-*   **MOD 08** — Rough Path Signatures I: Price-Volume Lévy Signed Area (A_P,V)
-*   **MOD 09** — Rough Path Signatures II: Spot CVD-OI Lévy Signed Area (A_CVD,OI)
-*   **MOD 10** — Rough Path Signatures III: Multi-Horizon Alignment (1H vs. 4H/1D)
-*   **MOD 11** — Volume Profile Structural Topology (VAH / POC / VAL)
-*   **MOD 12** — Garman-Klass Volatility Squeeze & Fan Expansion
-*   **MOD 19** — Coinbase Premium Index Z-Scores & Venue Spreads
-*   **MOD 20** — CME Futures Basis & Weekend Gap Fill Topology
-*   **MOD 21** — Algorithmic TWAP/VWAP Accumulation Footprints vs. Spoofing
-*   **MOD 30** — PCF3 Order Flow Engine & 10 Deterministic Configurations (A–J)
-*   **MOD 34** — AEGIS-3: 3-Stage Impulse Defense & Anti-Capitulation Sell-Freeze
-*   **MOD 35** — Liquidation Heatmap Distance Rule & Pull Score Engine
-*   **MOD 42** — Classical Structural Shapes & Liquidity-Pool Authentication
-*   **MOD 43** — Algorithmic Fibonacci Confluence & Harmonic Impulse Measurement
-*   **MOD 50** — Weekend Thin-Liquidity, Unsettled CME Clearing & Sunday 22:00 UTC Protocol
-*   **MOD 53** — Hawkes Point Processes, Jump-Diffusion De-Noising & Transfer Entropy Engine
-*   **MOD 54** — Multi-Timeframe Algorithmic Market Structure & Kline Lookback Contract
-*   **MOD 55** — Dual-Stage Disruption Telemetry & Recovery Radar Engine
-*   **MOD 57** — Intraday & Calendar Volatility Regime, DST Session Clock & Empirical Stop-Calibration Engine
-
-#### 5. Pillar 3 — Derivatives Leverage, Options Skew & Cascade Mechanics (8 Sources)
-*   **MOD 01** — Rising OI + Extreme Negative Perp Basis
-*   **MOD 02** — Rising OI + High Positive Basis
-*   **MOD 03** — Deleveraging Flushes & OI Reset Mechanics
-*   **MOD 04** — Funding Rate Velocity & Price Divergence Matrix
-*   **MOD 25** — Dealer Gamma Exposure (GEX) & Zero-Gamma Flip Mechanics
-*   **MOD 26** — Deribit & CME Monthly-Quarterly OpEx Max Pain Gravity
-*   **MOD 27** — 25-Delta Implied Volatility Skew & DVOL Term Structure Extremes
-*   **MOD 51** — Extreme Cascade Microstructure, Basis Blowouts & Staggered Limit Execution
-
-#### 6. Pillar 4 — Master Decision Compiler, Sizing & Slippage Governor (2 Sources)
-*   **MOD 18** — Master 5-Pillar Confluence, 0.75% Risk Sizing & Two-Stage Exit Engine
-*   **MOD 37** — Executable Liquidity, Net-3.0R Slippage & Equity-Curve Governor
-
-#### 7. Pillar 5 — On-Chain Cohorts, Stablecoins, ETFs, Solvency & Secular Exits (11 Sources)
-*   **MOD 13** — Short-Term Holder (STH) Realized Price & MVRV Bands
-*   **MOD 14** — SOPR Profit/Loss Reset Cycles
-*   **MOD 15** — Realized Cap Impulse & LTH-to-STH Wealth Transfer
-*   **MOD 32** — Exchange Solvency Multiplier (M_solv) & Sovereign Multi-Sig Custody
-*   **MOD 38** — ETF Primary-Market Settlement & BRRNY Fix-Window Engine
-*   **MOD 39** — Exchange Supply Activation & Aged-UTXO Dormancy Engine
-*   **MOD 40** — Miner Treasury Stress & Hashprice Economics Engine
-*   **MOD 41** — Secular Cycle ATH Cluster, First-Week Flush (Rule 1) & Flat Double-Top (+4% Rule 3) Exit Engine
-*   **MOD 41.1** — Secular ATH Operational Field Runbook & Countdown Checklist
-*   **MOD 48** — Stablecoin Supply Ratio (SSR), USDT.D & Net Mint/Burn Velocity
-*   **MOD 59** — Long-Term Holder (LTH) Cost Basis, True Market Mean & Secular Floor Matrix
-
----
-
-# PROJECT CORETEX BTC BRAIN — 00F: COMPLETE 84-SOURCE MASTER DIRECTORY (v14)
-
-**Status:** Full-Stack Quantitative, Operational Execution & Sovereign Barbell Rulebook (`00`–`00F`, `00H`, `00J` + `MOD 01`–`MOD 67`, including `MOD 18.1`, `MOD 18.2`, `MOD 31.1`, `MOD 41.1`, `MOD 41.2`, `MOD 42.1`, `MOD 42.1.1`, `MOD 64.1` & `MOD 65.1`) — **84 Sources Total — 100% Codified, Indexed & Ready for Live VPS / Hermes / GitHub Operations**.
-**Governing Invariants:** Strict `1.0x` Unleveraged Spot Only (BTC & USDT/USD), `<= 0.75%` Max Portfolio Risk per Trade (`0.375%` `GATE_AMBER` / `0.00%` `GATE_RED` `100% Cash Lock`), `Net R >= 3.0` Post-Slippage Requirement (`MOD 37`), Fail-Closed `DATA UNAVAILABLE` Honesty (`MOD 36`), Deterministic Precedence Arbitration (`MOD 60`), Air-Gapped Barbell Custody (`Sleeve A` 20% Tactical Dual-Inventory Sleeve: 10% BTC / 10% USDT vs. `Sleeve B` 80% 2-of-3 Dual-Jurisdiction Multi-Sig Cold Storage), and Human Operator Final Execution Authorization (`MOD 62`).
-
----
-
-## 1. Governance, Indices, Historical Invariants & Living Ledgers (8 Sources)
-* **`00`** — Project CORTEX-BTC: Charter, 5-Pillar Waterfall & 18-Module Index
-* **`00B`** — Project CORTEX-BTC V2.0 Full-Stack Master Index (MOD 01–28+)
-* **`00C`** — Historical Registry (Entries #1–#38), 9-Year Cycle Laws & 3R Bar-Count Rules
-* **`00D`** — Project CORTEX-BTC Complete 44-Source Master Directory (MOD 01–40)
-* **`00E`** — Project CoreTex BTC Brain Complete 67-Source Master Directory (v7.0, MOD 01–61)
-* **`00F`** — Project CoreTex BTC Brain Complete 84-Source Master Directory (v14, MOD 01–67)
-* **`00H`** — Live Market Field Notes & Telemetry Ledger (Living Reference)
-* **`00J`** — Hardware Wallet Security, Custody Hardening & Firmware Audit Ledger
-
----
-
-## 2. Tier D Control-Plane, Supreme Radar & Mobile HUD (13 Sources)
-* **`MOD 28`** — Live Autopsy & Black Swan Circuit Breaker Engine
-* **`MOD 31`** — Institutional Capital Defense Matrix (ICDM 100-Pt Fragility Scale)
-* **`MOD 31.1`** — Live ICDM Fragility Field Audit (2026-11-19)
-* **`MOD 33`** — Unified 5-Regime Master Radar and State-Transition Engine
-* **`MOD 36`** — Telemetry Trust, Staleness SLA & Determinism Attestation
-* **`MOD 45`** — Executive Bottom-Line HUD & Mobile Presentation Protocol
-* **`MOD 52`** — Rolling 30-Trade Expectancy Audit & Parameter Drift Governor
-* **`MOD 60`** — Intra-Pillar Conflict Resolution, Veto Precedence & Deadlock Arbiter Matrix
-* **`MOD 61`** — Data Hub Ingestion, Hygiene Gate & Desk-Lite Verdict Compilation Protocol
-* **`MOD 65`** — Media De-Noising, Narrative Triage & Signal Hygiene Protocol
-* **`MOD 65.1`** — Live YouTube Transcript Triage Audit (2026-11-19)
-* **`MOD 66`** — Multi-Layer Timeframe Synthesis & 4-Step Entry Architecture
-* **`MOD 67`** — Non-Predictive If-Then Spot Execution Framework
-
----
-
-## 3. Pillar 1 — Macro Liquidity Plumbing, Cross-Asset Gates & Secular Horizon (14 Sources)
-* **`MOD 16`** — Macro Liquidity, Yields, DXY & Stablecoin Dry Powder
-* **`MOD 17`** — 200D MA Secular Gates, Index Rebalancings & Session Handoffs
-* **`MOD 22`** — Net Fed Liquidity Impulse (WALCL − TGA − RRP)
-* **`MOD 23`** — MOVE Index (Bond Volatility) & High-Yield Credit Spread Breakers
-* **`MOD 24`** — USD-JPY Sovereign Carry-Trade Unwind & BOJ Alerts
-* **`MOD 29`** — Equity Multiple Compression, Energy Shocks & High-Beta Contagion
-* **`MOD 44`** — Mega-IPO Capital Vacuums & Index Rebalance Liquidity Drains
-* **`MOD 46`** — Block 1,050,000 (April 2028) Secular Horizon & Sovereign Barbell Anchor
-* **`MOD 47`** — Corporate & Sovereign Treasury Velocity (mNAV & Proxy Flywheel)
-* **`MOD 49`** — Rolling Cross-Asset Correlation & Decoupling Matrix (BTC vs. NDX / Gold / DXY)
-* **`MOD 56`** — Secular Cycle Anatomy, Diminishing Returns & Anti-Narrative Discipline *(Reference-Only Context)*
-* **`MOD 58`** — Macro Event & Economic Release Trinity Protocol (72-Hour FOMC, SEP Dot Plot, CPI, Core PCE & NFP Gate)
-* **`MOD 64`** — AI Debt Plumbing, Shadow Private Credit & Fed Stability Gate
-* **`MOD 64.1`** — Live Macro ETF Regime Briefing (2026-11-19)
-
----
-
-## 4. Pillar 2 — Microstructure, Order Flow, Rough Path Signatures & Chart Geometry (23 Sources)
-* **`MOD 05`** — The 4-Quadrant Spot CVD vs. Perp CVD Matrix
-* **`MOD 06`** — Passive Limit Absorption vs. Market Taker Exhaustion
-* **`MOD 07`** — Domestic Fiat Gateways & Spot ETFs vs. Offshore Flows
-* **`MOD 08`** — Rough Path Signatures I: Price-Volume Lévy Signed Area (`A_P,V`)
-* **`MOD 09`** — Rough Path Signatures II: Spot CVD-OI Lévy Signed Area (`A_CVD,OI`)
-* **`MOD 10`** — Rough Path Signatures III: Multi-Horizon Alignment (1H vs. 4H/1D)
-* **`MOD 11`** — Volume Profile Structural Topology (VAH / POC / VAL)
-* **`MOD 12`** — Garman-Klass Volatility Squeeze & Fan Expansion
-* **`MOD 19`** — Coinbase Premium Index Z-Scores & Venue Spreads
-* **`MOD 20`** — CME Futures Basis & Weekend Gap Fill Topology
-* **`MOD 21`** — Algorithmic TWAP/VWAP Accumulation Footprints vs. Spoofing
-* **`MOD 30`** — PCF3 Order Flow Engine & 10 Deterministic Configurations (A–J)
-* **`MOD 34`** — AEGIS-3: 3-Stage Impulse Defense & Anti-Capitulation Sell-Freeze
-* **`MOD 35`** — Liquidation Heatmap Distance Rule & Pull Score Engine
-* **`MOD 42`** — Classical Structural Shapes & Liquidity-Pool Authentication
-* **`MOD 42.1`** — The Symmetrical 11-Pattern Price Action & Microstructure Playbook
-* **`MOD 42.1.1`** — 4-Gate Bidirectional Spot Execution Playbook & Worked Field Walkthrough
-* **`MOD 43`** — Algorithmic Fibonacci Confluence & Harmonic Impulse Measurement
-* **`MOD 50`** — Weekend Thin-Liquidity, Unsettled CME Clearing & Sunday 22:00 UTC Protocol
-* **`MOD 53`** — Hawkes Point Processes, Jump-Diffusion De-Noising & Transfer Entropy Engine
-* **`MOD 54`** — Multi-Timeframe Algorithmic Market Structure & Kline Lookback Contract
-* **`MOD 55`** — Dual-Stage Disruption Telemetry & Recovery Radar Engine
-* **`MOD 57`** — Intraday & Calendar Volatility Regime, DST Session Clock & Empirical Stop-Calibration Engine
-
----
-
-## 5. Pillar 3 — Derivatives Leverage, Options Skew & Cascade Mechanics (8 Sources)
-* **`MOD 01`** — Rising OI + Extreme Negative Perp Basis
-* **`MOD 02`** — Rising OI + High Positive Basis
-* **`MOD 03`** — Deleveraging Flushes & OI Reset Mechanics
-* **`MOD 04`** — Funding Rate Velocity & Price Divergence Matrix
-* **`MOD 25`** — Dealer Gamma Exposure (GEX) & Zero-Gamma Flip Mechanics
-* **`MOD 26`** — Deribit & CME Monthly-Quarterly OpEx Max Pain Gravity
-* **`MOD 27`** — 25-Delta Implied Volatility Skew & DVOL Term Structure Extremes
-* **`MOD 51`** — Extreme Cascade Microstructure, Basis Blowouts & Staggered Limit Execution
-
----
-
-## 6. Pillar 4 — Master Decision Compiler, Sizing, Slippage & Dual-Inventory Execution (6 Sources)
-* **`MOD 18`** — Master 5-Pillar Confluence, 0.75% Risk Sizing & Two-Stage Exit Engine
-* **`MOD 18.1`** — Pre-Flight Go/No-Go Checklist & Anti-Knife Protocol
-* **`MOD 18.2`** — Reading a Falling Market Without a Forecast
-* **`MOD 37`** — Executable Liquidity, Net-3.0R Slippage & Equity-Curve Governor
-* **`MOD 62`** — Dual-Inventory Bidirectional Swing Engine (DIBSE v2.0 — Portfolio Allocation Controller, Loop A/B Ledgers & Order Lifecycle)
-* **`MOD 63`** — CORTEX-RHYME Empirical Derivatives State-Space Analogue & Expectancy Engine
-
----
-
-## 7. Pillar 5 — On-Chain Cohorts, Stablecoins, ETFs, Solvency & Secular Exits (12 Sources)
-* **`MOD 13`** — Short-Term Holder (STH) Realized Price & MVRV Bands
-* **`MOD 14`** — SOPR Profit/Loss Reset Cycles
-* **`MOD 15`** — Realized Cap Impulse & LTH-to-STH Wealth Transfer
-* **`MOD 32`** — Exchange Solvency Multiplier (`M_solv`) & Sovereign Multi-Sig Custody
-* **`MOD 38`** — ETF Primary-Market Settlement & BRRNY Fix-Window Engine
-* **`MOD 39`** — Exchange Supply Activation & Aged-UTXO Dormancy Engine
-* **`MOD 40`** — Miner Treasury Stress & Hashprice Economics Engine
-* **`MOD 41`** — Secular Cycle ATH Cluster, First-Week Flush (Rule 1) & Flat Double-Top (+4% Rule 3) Exit Engine
-* **`MOD 41.1`** — Secular ATH Operational Field Runbook & Countdown Checklist
-* **`MOD 41.2`** — Two-Swing Harvest Roadmap, Diminishing Multiples & Secular Shakeout Engine
-* **`MOD 48`** — Stablecoin Supply Ratio (SSR), USDT.D & Net Mint/Burn Velocity
-* **`MOD 59`** — Long-Term Holder (LTH) Cost Basis, True Market Mean & Secular Floor Matrix
-
----
-
-##### PROJECT CORTEX-BTC — 00H: LIVE MARKET FIELD NOTES & TELEMETRY LEDGER
-**Status:** Living Quantitative Field Ledger (Continuously Updated In-Place — Concrete Data Points, Structural Price Levels, Verified Statistics & Fact-Checked Narratives)
-**Last Updated:** Saturday, 21 November 2026 — 00:25 UTC (08:25 MYT / UTC+8)
-**Governance Scope:** Read-Only Empirical Reference & Audit Bridge (MOD 36 CB-04). Feeds qualitative/quantitative context into 00C (Historical Registry) without altering deterministic rulebook logic in MOD 01–66.
-
----
-
-###### 0. Machine-Readable Ledger Header (NotebookLM / Python Index)
-```yaml
-ledger_id: "00H"
-entry_type: "LIVING_FIELD_NOTES_AND_TELEMETRY_LEDGER"
-last_updated_utc: "2026-11-21T00:25:00Z"
-last_updated_myt: "2026-11-21 08:25 MYT"
-active_system_verdict: "GATE_RED_100_CASH_LOCK"
-icdm_fragility_score: 77.0 # >= 60 Systemic Crash Threat (MOD 31)
-mod_64_gate_state: "ACTIVE_SHADOW_CREDIT_AND_RATE_CEILING"
-mod_44_calendar_state: "POST_ANTHROPIC_IPO_NOV19_AND_ACTIVE_MSCI_NOV30"
-ltf_choch_pivot_usd: 64000 # Lowered from $66,000 following Nov 20 breakdown
-```
-
----
-
-###### 1. Active Structural Price & Liquidity Map (MOD 11 / MOD 17 / MOD 35 / MOD 54 / MOD 59)
-| Price Band (USD) | MYR Equivalent (~4.14–4.17) | Structural / On-Chain Classification | CoreTex Module & Execution Significance |
-| :--- | :--- | :--- | :--- |
-| **$126,000 – $126,198** | ~RM 523,000 | October 2025 Secular All-Time High (ATH) | Spot is currently **-53.7% to -54.1%** off ATH (MOD 56 mid-drawdown zone). |
-| **~$81,500** | ~RM 338,000 | Aggregate US Spot Bitcoin ETF Cost Basis | Major institutional breakeven ceiling (MOD 59 M4). |
-| **$77,500 – $78,000** | ~RM 322,000 – 324,000 | Cointime-Weighted True Market Mean / Active Investor RP | Structural overhead supply wall (MOD 59 M2). |
-| **$75,068 – $75,771** | ~RM 312,000 – 315,000 | Short-Term Holder (STH, <155d) Realized Price & Strategy (MSTR) Avg Cost ($75,452) | Breached on Nov 12–13; both STH cohort and Strategy's 850,849 BTC stack are underwater (MOD 13 / MOD 47). |
-| **~$74,760** | ~RM 310,000 | Nov 8, 2026 Pre-Breakdown Swing High | Origin of the -22% multi-week leg down. |
-| **$72,855 – $73,137** | ~RM 303,000 – 304,000 | 200-Day Simple Moving Average (200D SMA) | Secular trend gate lost (MOD 17 / MOD 61 CB-04). |
-| **$67,983 – $68,000** | ~RM 282,500 | 200-Week Moving Average (200W MA) | Macro multi-year trendline breached to the downside. |
-| **$62,000 – $66,000** | ~RM 257,500 – 274,000 | **Flipped Overhead HVN Supply / Prior POC** | Lost on Nov 20 breakdown below $61.5k; LTF **CHoCH** resistance reference lowered from $66,000 to **$64,000** (MOD 54 / MOD 65). |
-| **~$61,000 ($59.5k–$61k)** | ~RM 247,500 – 253,500 | **Swept Downside Long Liquidation Shelf** | Swept on Nov 20, 2026 (`MOD 35 M1` cascade continuation directly into the $58,000 secular range low). |
-| **$58,000 ($57,970–$58,460)** | **~RM 242,040** *(08:25 MYT)* | **June 2026 Secular Range Low (-54% off ATH) — ACTIVE TEST** | Swept to **$57,970.28** (Binance) early Nov 21; requires back-to-back green candle closes (`MOD 65 CB-02`) + USD Spot CVD turn (`MOD 05`) to validate any RSI bullish divergence. |
-| **$53,000 – $55,000** | ~RM 220,000 – 228,500 | Aggregate On-Chain Realized Price Band (MOD 59) | Primary downside target if **$56,000** support breaks (`$54,000` secondary staged spot target). |
-| **$51,000 → $47,000 → $42,000** | ~RM 174,500 – 212,000 | **Low-Volume Node (LVN) Downside Air-Pocket Targets** | Thin historical volume profile below $56k–$60k (MOD 11 M4); $51k–$47k represents the next major high-volume support shelf, with $42k as extreme tail target. |
-
----
-
-###### 2. Verified On-Chain, ETF, Corporate Treasury & Derivatives Telemetry (MOD 03 / MOD 07 / MOD 13 / MOD 14 / MOD 31 / MOD 47)
-* **US Spot Bitcoin ETF Flows (Farside Investors — T+1 through Nov 19, 2026):**
-  * **Nov 19 Single-Day Net Flow:** **-$582.3M** (3rd consecutive outflow session; 9 of last 10 trading sessions negative), led by BlackRock **IBIT -$541.1M** (all-time record single-day redemption since Jan 2024 launch, ~93% of net outflow), partially offset by Morgan Stanley **MSBT +$49.6M**.
-  * **Nov 18 Single-Day Net Flow:** **-$306.5M** (led by IBIT -$149.0M).
-  * **Nov 17 Single-Day Net Flow:** **-$239.9M** (BlackRock IBIT -$209.5M, Grayscale GBTC -$17.7M, ARKB -$13.1M, Valkyrie BRRR -$3.6M; partially offset by Morgan Stanley MSBT +$2.9M and Grayscale Mini Trust BTC +$1.1M).
-  * **Nov 16 Streak-Pause Nuance:** Printed **+$7.9M** aggregate net inflow (**IBIT +$76.5M** snapping an 11-session IBIT outflow streak vs. **-$68.6M** combined outflows across 7 peer funds), narrowly interrupting a 7-session **-$1.91B** aggregate outflow streak before heavy outflows resumed on Nov 17–19.
-  * **Multi-Day & YTD Trend:** Weekly ETF outflows exceed **-$1.1B**; November cumulative outflows have escalated to **-$3.47B**; 2026 YTD cumulative ETF net flows are firmly negative.
-  * **Q3 2026 13F Institutional Holdings (Lagged Structural Context):** Wells Fargo doubled IBIT to **$2.35B**, Goldman Sachs doubled to **$1.28B**, Bank of America increased 8x to **$685M**, and Abu Dhabi sovereign funds reported **$1.09B**.
-* **Corporate Treasury & Proxy Stress (MOD 47 / MOD 44):**
-  * **Strategy (MSTR):** Holds **850,849 BTC** acquired for **$64.2B** at an average purchase price of **$75,452/BTC** (after adding 485 BTC at $68,887 in the week through Nov 15 and repurchasing $228.1M of STRC preferred stock). At ~$58.0k–$58.5k spot, Strategy carries an **~$14.4B–$14.8B unrealized loss** (~22%–23% underwater), its mNAV has compressed toward parity (stalling accretive ATM equity-to-BTC issuance per MOD 47 CSU-47B), and MSCI passive index funds holding ~3.1% of MSTR common stock face mandatory deletion after the **Nov 30, 2026** close.
-* **On-Chain Cohort, RWA & Profitability Metrics (Glassnode / CryptoQuant / MacroMicro / RWA.xyz):**
-  * **MVRV Z-Score & Percent Supply in Profit:** MVRV Z-Score compressed to **0.30** as of Nov 19, 2026 (down from 0.66 a week earlier; inside the `0–1` macro value band per MOD 66 CB-02). Percent Supply in Profit dropped from 60.6% to ~52% prior to the Nov 20 breakdown below $58k, pushing roughly half of circulating supply toward breakeven/loss.
-  * **Realized Losses & Cohort Breakdown:** Single-day realized losses hit **25,800 BTC** (largest margin since early July 2026). Long-Term Holder (LTH) supply fell by **73,900 BTC** to a 90-day low of **16.2M BTC** (54.5% in profit / 32.2% in loss).
-  * **Short-Term Holder (STH) Stress:** STH-MVRV compressed to **~0.77** (spot ~$58.2k vs. Week 46 ledger-anchored STH RP $75.1k–$75.8k), STH-NUPL at **-7.42%** (Week 46), and STH-SOPR inverted at **0.956** (Week 46 ledger-anchored; `< 0.98` for `> 3` consecutive days).
-  * **Tokenization / RWA & Cross-Market Context (CNBC Digital Finance Forum, Nov 18, 2026):** Distributed tokenized RWAs (excluding stablecoins) grew +81% in 2026 to **$39.52B** as of Nov 16, 2026 (-1.69% over 30 days; tokenized funds at $37.8B, short-dated US Treasury funds at $13.5B, BlackRock BUIDL at $1.9B–$2.7B). Pantera Capital's Dan Morehead noted median institutional exposure to crypto/blockchain venture remains **0.0%** and board company Figure (FIGR) has processed **$30B+** in on-chain mortgages vs. 55-day legacy settlement.
-  * **Sentiment & Venue Spreads:** Crypto Fear & Greed Index at **10–11 (Extreme Fear / 9-month low)**; Coinbase Premium Index sustained negative (< -0.05% to -0.13% across 49+ days).
-* **Derivatives & Liquidation Mechanics:**
-  * **Macro Flush vs. Intraday Partial Flush:** Following the Nov 13–14 **$1.41B–$1.47B** liquidation cascade (~17% aggregate OI contraction; 7.2% weekly futures OI drop per Glassnode), a ~3% intraday dip wiped **~$500M** in long positions/closures and **-3% OI** (with flat spot CVD on that candle).
-  * **Funding Anomaly:** OI-weighted perpetual funding remained positive (**+0.0036% to +0.0053%** / ~4.4%–5.8% APR) into the breakdown below $65,000, scoring **8/8** on MOD 31 Vector 3 funding-neutrality breakdown.
-
----
-
-###### 3. Macro, Fed, AI-Semiconductor & Shadow-Credit Telemetry Log (MOD 16 / MOD 22 / MOD 23 / MOD 29 / MOD 44 / MOD 48 / MOD 64)
-* **Rates, FX & Global Equities (Nov 20–21, 2026):**
-  * **US 10-Year Treasury Yield:** Pulled back to **4.94%–4.95%** on Friday, Nov 20 (5th consecutive daily decline, down ~15 bps on the week from the 5.15% Nov 13 peak; FRED DGS10 5.04% on Nov 19; 10Y TIPS real yield **2.79%**) on safe-haven bond demand amid a broad global equity sell-off.
-  * **US Dollar Index (DXY):** **103.84** (holding above the 103.50 9-month resistance ceiling).
-  * **Global Equity & Asia AI Chip Rout (Nov 20, 2026 — MOD 29 / MOD 49 / MOD 64):** Over **$120B** wiped from Asia's AI chip leaders in the first 30 minutes of Friday, Nov 20 trading (Samsung Electronics **-4%**, SK Hynix **-6%**, Nikkei 225 closed **-5.06%**, KOSPI closed **-5%+**, Euro Stoxx 50 **-2.22%**, US S&P 500 **-3.70%** to 6,910.50). Driven by **Nov 19, 2026 US Commerce/BIS export controls** imposing licensing on advanced AI chips and `>12M TPP` remote compute across Malaysia, Singapore, Thailand, Indonesia, and Brazil, alongside post-Anthropic IPO capital rotation.
-  * **Cross-Asset Volatility:** VIX elevated at **24.81+**; ICE BofA MOVE Index at **~95–96**; public US High-Yield OAS at **323 bps** (CCC tier at 1,329 bps).
-* **FOMC Oct 27–28 Minutes (Released Nov 18, 19:00 UTC):**
-  * **Policy Decision & Dissent:** Held at **3.75%–4.00%** (10–2 vote; Governors Cook & Hammack dissented for +25 bps).
-  * **Hawkish Baseline & AI Inflation Link:** Headline PCE **3.6%** / Core PCE **3.1%** (~1.55x the 2.0% target). "Virtually all" participants judged further rate hikes likely appropriate under baseline outlooks, explicitly flagging **AI infrastructure buildout demand (tech hardware & electricity/grid bottlenecks)** as an active inflation driver. Markets price a +25 bps hike at the **Dec 8–9 FOMC** and another hike in **Jan 2027**.
-* **AI Debt Plumbing & Shadow Private Credit (MOD 64 — Fed Nov 2026 FSR & Gov. Barr Remarks):**
-  * **AI Debt Stack:** **$680B+** advanced-computing debt issued by Oct 2026 (~5x 2023 total; ~31% of nonfinancial IG), **$800B+** top-7 AI on-balance-sheet debt, **>$3.0T** off-balance-sheet AI lease/take-or-pay/residual-guarantee obligations, and **>$100B** circular vendor financing.
-  * **Data-Center Credit Stress:** CoreWeave 2032 unsecured notes trading near **79.5¢ (~16%–17%+ yield)** with 5Y CDS around **~1,100 bps**; neocloud bonds (Iren, Nebius, Cipher Digital) down **14%–21%** in November.
-  * **Private Credit & BDC Liquidity Gates:** Private credit AUM exceeds **$2.6T**, bank NBFI credit commitments exceed **$2.8T**, and largest US BHCs hold **~$1.0T** in AI/SPE/private-credit/utility exposure. **7 of 10** major non-traded BDCs prorated Q3/Nov repurchase offers (Blue Owl OTIC filling **12.8%** of ~39% tendered; Blackstone BCRED **49.9%**; Apollo ADS **33.9%**; HPS HLEND **43.7%**), with median BDC non-accruals at **2.8%** (highest since 2017).
-  * **Systemic Survey Warnings:** **87%** of Fed FSR survey contacts cited AI-related risks and **43%** cited cyberattacks (including misaligned autonomous AI agents) as top financial-stability threats.
-* **Stacked Calendar Liquidity & Regulatory Cliffs (MOD 44 / MOD 48):**
-  * **Nov 19, 2026 (Completed):** **Anthropic (ANT)** Nasdaq IPO listing — upsized to **980M Class A shares** at **$83.00/share** (above $70–$78 range) raising **$81.31B** plus **$26B** private placement (**$107.31B** total capital absorption; nearly 7x oversubscribed).
-  * **Nov 30, 2026 (Close):** **MSCI November Index Review** passive deletion of corporate Bitcoin treasury proxies (MSTR, Metaplanet, Upexi, IREN).
-  * **Jan 8, 2027 (EU MiCA / ESMA Deadline):** Hard deadline for EU-authorized CASPs to cease trading/custody of non-MiCA-compliant stablecoins (`USDT` EU wind-down).
-  * **Jan 18, 2027 (U.S. GENIUS Act / OCC Final Rule):** Federal payment-stablecoin reserve and licensing enforcement effective date (following Nov 12, 2026 EBA dual supervision of `USDC`).
-
----
-
-###### 4. Fact-Check & Anti-Trap Ledger (MOD 03 / MOD 28 / MOD 32 / MOD 40 / MOD 46 / MOD 56 / MOD 64 / MOD 65)
-| Source & Claim Audited | Fact-Checked Reality | Governing CoreTex Rule & Disposition |
-| :--- | :--- | :--- |
-| **Coin Bureau (Nov 18):** *"Fed warns if AI boom cracks, the whole market could crash with it."* | Fed FSR & FOMC minutes frame AI valuations, >$3T off-balance-sheet leases, and post-2013 peak hedge-fund leverage as *shock amplifiers*, not a baseline crash forecast; bank/household balance sheets remain resilient buffers. | **MOD 64 (CB-01 / CB-02):** Codified shadow-credit plumbing triggers into MOD 64 (Rank 2) while discarding sensationalist crash panic. |
-| **Coin Bureau (Nov 18):** *"Heavy leverage could trigger a crash like South Korea."* | US hedge-fund leverage is at post-2013 highs, but the South Korea KOSPI comparison was external commentator framing, not a direct Fed minutes statement. | **MOD 29 & MOD 64 (CB-04):** Track US prime-brokerage de-risking directly; discard external South Korea narrative. |
-| **YouTube Market Update (Nov 18):** *"More supply in a loss than in profit... historically always only occurred around bear market bottoms."* | Supply in Profit was ~52% (~48% in loss) on Nov 18, not yet <50%. Historically (2014, 2018, 2022), crossing <50% marked the **mid-point** of bear capitulation (in June 2022 it crossed <50% at ~$20k and fell for 6 more months to $15,475). | **MOD 56 (CB-02: 50% Drawdown Trap Ban) & MOD 14:** Never buy solely on ~50% supply in profit; require MOD 33 REGIME_5 reset (STH-SOPR <= 0.96 stabilization + positive USD Spot CVD). |
-| **YouTube Market Update (Nov 18):** *"-$500M / -3% Open Interest drop on a 3% dip = major deleveraging."* | A -3% OI drop leaves ~97% of leveraged positioning intact (MOD 03 partial flush vs. required -8% to -17% full reset). | **MOD 03 (CSU-03B) & MOD 35:** Do not front-run downside liquidation magnets after a shallow -3% OI dip. |
-| **Altcoin Daily / CNBC Forum (Nov 18–19):** *"2027 bull run + 0.0% median institutional exposure + Figure $30B mortgages + RWA/BTC tx ATHs -> deploy into ETH/SOL/Hyperliquid/Worldcoin now; trade Bitbase ($14,550 bonus) in crab market."* | Tom Lee & Dan Morehead quotes (0.0% median exposure, Figure $30B on-chain mortgages, ETH store-of-value shift) are verified, and Strategy (850,849 BTC @ $75,452 avg cost) is deeply underwater. However, RWA TVL ($39.52B) dipped -1.69% over 30d, Nvidia/Nasdaq drawdown figures (-40%/-15%) were overstated, and high BTC tx count without fee expansion is not a bottom signal. | **MOD 46 CB-01 & MOD 49 CB-04:** Long-term 2027–2029 adoption does **not** override GATE_RED (ICDM 77.0) or MOD 44 ($107.31B Anthropic IPO / Nov 30 MSCI deletion). Altcoin pitches and Bitbase $14,550 offshore affiliate promo **DISCARDED** (MOD 32 / MOD 59 CB-05). |
-| **RT1M Market Update (Nov 19):** *"2-year liquidation heatmap updated to show ~$3B liquidity at $51,000; price is attracted to liquidity and may sweep $51k first."* | Heatmap bars are unitless model estimates of leveraged positions, not resting limit orders, and multi-year lookbacks retain stale closed-OI bands (**ghost-band artifact**). Nearer shelves (`$61k` → `$58k`) carry dominant `Pull_Score` priority first. | **MOD 35 (`CB-01` / `M1` / `M7`) & MOD 65 (`CB-01`):** `00H` Section 1 maps `$51k → $47k → $42k` as LVN air-pocket targets only if `$56k` breaks. |
-| **RT1M Market Update (Nov 20 — `t8VFalzoCPk`):** *"Day 49 new low would make this the longest bear market ever; miners massively dumping BTC; LTF CHoCH at $64,000; 2 green candle closes needed for RSI bullish divergence."* | `Day 49` measures only the current uninterrupted breakdown leg, whereas full peak-to-trough bear cycles (`2013–2022`) lasted `365–410` days. However, the **-54% drawdown asymmetry** (vs. `-77.6%` to `-85%` cycle lows), **2-bar green-close RSI divergence confirmation rule**, and **$64,000 LTF CHoCH** pivot are valid. Miner selling was structural YTD AI-capex reserve sales (~50% sold Q1–Q3 2026; Antpool `2,077 BTC` Nov 10 transfer), not a fresh Nov 20 panic dump. | **MOD 56 (`CB-01`/`CB-02`), MOD 40, MOD 54 & MOD 65 (`CB-02`):** Updated LTF CHoCH reference to **$64,000** in `00H` Section 1; discarded `Day 49` duration hyperbole and RT1M Podcast promo (`124` subs). |
-
----
-
-###### 5. Active System Posture & Re-Arming Tripwires (MOD 31 / MOD 62 / MOD 66)
-* **Current Posture:** **GATE_RED — MANDATORY 100% USDT CASH LOCK (0.00% Tactical Risk)** across **Sleeve A** (MOD 62 DIBSE v2.0 / MOD 66 `CSU-66C`), driven by **MOD 31 ICDM 77.0 / 100**, **MOD 64 (CSU-64A + CSU-64B)**, **MOD 29 / MOD 49** global AI-semiconductor equity contagion, and **MOD 44 (Nov 30 MSCI deletion)**. **Sleeve B** (80% 2-of-3 cold storage governed by `MOD 32` & `00J`) remains untouched.
-* **Re-Arming Tripwires (All Required Before Deploying Sleeve A USDT):**
-  1. **MOD 31 M2 De-Escalation:** Aggregate ICDM score drops below **55** (Vector 2 drops below 15/25 via `>= 2` consecutive sessions of US Spot ETF net inflows `> +$100M/day` + Coinbase Premium `> 0.00%`, alongside stable/falling yields and equity stabilization).
-  2. **MOD 44 CB-04 Calendar Clearance:** T+1 clearance past the **Nov 30, 2026 MSCI index rebalance**, stabilization in neocloud/data-center credit spreads (`MOD 64`), and either a confirmed **4H Value Area High (VAH) / `$64,000` CHoCH reclaim** (`MOD 54` / `MOD 65 CB-02`) or a verified post-sweep `1H/4H` `VAL` reclaim at `$58k` / `$53k–$55k` backed by positive Domestic USD Spot CVD (`MOD 05`).
-
----
-
-##### PROJECT CORTEX-BTC — 00J: HARDWARE WALLET SECURITY, CUSTODY HARDENING & FIRMWARE AUDIT LEDGER
-**Status:** Living Hardware Custody & Security Reference Ledger (Dedicated to Cold Storage, Multi-Sig Quorum, Firmware/Bootloader Audits & Anti-Tamper Defense)
-**Last Updated:** Thursday, 19 November 2026 — 11:36 UTC (19:36 MYT / UTC+8)
-**Governance Scope:** Dedicated Hardware Wallet & Self-Custody Reference Ledger (Cross-Linked to MOD 32 & MOD 65). Tracks hardware wallet threat vectors, cryptographic verification rules, multi-sig recovery hygiene, and firmware release audits without altering Pillar 1–5 market execution formulas.
-
----
-
-###### 0. Machine-Readable Ledger Header (NotebookLM / Python Index)
-```yaml
-ledger_id: "00J"
-entry_type: "HARDWARE_WALLET_SECURITY_AND_CUSTODY_LEDGER"
-last_updated_utc: "2026-11-19T11:36:00Z"
-last_updated_myt: "2026-11-19 19:36 MYT"
-custody_architecture: "2-of-3 Multi-Vendor Hardware Quorum (Malaysia / Indonesia Jurisdiction Split)"
-entropy_standard: "Offline Physical Dice-Roll Entropy + Output Descriptor & Seed/Steel Backup"
-firmware_policy: "Targeted Security/Critical Updates Only + Offline GPG/SHA-256 Verification"
-```
-
----
-
-###### 1. Core Hardware Wallet Security Pillars & Operational Rules (MOD 32 / MOD 65 Bridge)
-* **Multi-Vendor 2-of-3 Quorum & Jurisdictional Split:** Avoid single-vendor monoculture risk across devices (e.g., Coldcard, BitBox02 / BitBox02 Nova, Keystone). Keep keys distributed across the **Malaysia / Indonesia** dual-jurisdiction layout with full output-descriptor backups stored separately from seed/passphrase material so funds can be recovered even if a single vendor's tooling or companion app is compromised.
-* **Offline Entropy & Zero Trust in Vendor RNG:** Generate seed entropy offline via physical dice rolls rather than trusting a single device or host RNG alone; back up seeds on durable steel / offline media without ever typing recovery words or passphrases into any computer, phone, browser, website, or AI prompt.
-* **Selective Firmware Updates & Cryptographic Verification:** Treat firmware updates as high-risk operational events rather than routine auto-installs—update only when addressing genuine security/critical fixes or required features, and always verify developer **GPG signatures** and **SHA-256 checksums** offline before flashing.
-* **Never Trust Host UI / Clipboard / Companion Apps Alone:** Always verify receiving addresses, change outputs, transaction fees, and swap/refund terms directly on hardware screens (and across independent screens where applicable), while enforcing hardware-locked exchange withdrawal whitelists and strict single-use address hygiene (no address reuse).
-
----
-
-###### 2. Firmware & Vulnerability Audit Log (2026 Hardware Security Entries)
-* **BitBox `11.2026` ("Cresta") Release Audit (Nov 19, 2026):**
-  * **Bootloader Downgrade Protection:** Fixes a bootloader issue where a precisely timed power loss while saving settings could lower the minimum accepted firmware version if an attacker also held physical/bootloader access and power control. Includes a bootloader upgrade (expect multiple progress bars during installation).
-  * **Transaction Fee Validation:** Fixes incomplete validation of app-supplied transaction data that could let a malicious app display a lower fee than miners receive (after fund preparation and repeated approvals/change-output warnings).
-  * **Swap Refund Address Verification:** Fixes missing verification that a swap refund address belongs to the user's wallet, preventing a compromised app from substituting an attacker-controlled refund address without separate device confirmation.
-  * **Multisig Derivation Path Restriction:** Restores restrictions on multisig receive address derivation paths so a malicious paired app cannot pull addresses outside standard search paths on registered multisig accounts (where withholding path details could create recovery friction even when recovery remains possible via descriptors/xpubs).
-  * **Attestation Warning Banner & Device UI:** Makes the authenticity/genuine warning banner display globally regardless of setup/pairing state, and adds German device language support (with Italian and Spanish planned).
-* **Prior 2026 Hardware Security Context (MOD 32 Cross-Reference):**
-  * Tracks broader 2026 hardware and supply-chain lessons—including BitBox `07.2026` ("Oeschinen") and `08.2026` ("Dixence" v9.26.5) bootloader/memory/Silent-Payments fixes, reported mid-2026 Coldcard seed-generation flaw fallout, and browser/CDN clipper supply-chain risks (e.g., Nov 2026 Optimizely `track.js` incident).
-
----
-
-###### 3. Pre-Update & Signing Checklist for Hardware Wallets
-1. **Confirm Necessity & Read Full Notes:** Verify whether the update addresses an active security fix or required feature, and read the complete official release notes (never click links from emails, DMs, or QR codes).
-2. **Verify Cryptographic Integrity:** Check official SHA-256 hashes and developer GPG signatures before applying firmware or companion app binaries; never enter seed words or passphrases during an update.
-3. **Expect Multi-Stage Bootloader Behavior:** When a bootloader update is included (such as BitBox `11.2026` Cresta), maintain stable power/connection and watch for multiple progress bars and reboots without interrupting mid-flash.
-4. **Verify Multisig Descriptors & On-Device Details:** Confirm multisig derivation paths/descriptors remain intact and verify addresses, amounts, and fees on-device prior to signing.
-
----
+## [01] 00 — Charter 5 Pillar Waterfall and Master Architecture
+<!-- Source: rulebook/00_Charter_5_Pillar_Waterfall_and_Master_Architecture.md -->
 
 # PROJECT CORTEX-BTC: THE SOVEREIGN BITCOIN BRAIN MATRIX
 **Architectural Charter, Mission Manifesto & Operational Blueprint (v1.0)**
@@ -700,14 +179,417 @@ Most market participants fail not because they lack charts or news feeds, but be
 
 ---
 
-# PROJECT CORTEX-BTC — MODULE 01: RISING OPEN INTEREST + EXTREME NEGATIVE PERPETUAL BASIS
-**Waterfall Tier:** Pillar 3 (Derivatives & Market Fragility) cross-verified with Pillar 2 (Microstructure & Order Flow) and Pillar 4 (Portfolio Engineering).
-**Empirical Benchmark Anchor:** November 12, 2026 Telemetry — Open Interest at **367.4K BTC** (**+22,000 BTC** 7-day expansion), Perpetual Basis at **-0.047%** across **156 consecutive hours** (bottom **1%** historical percentile), with exchange-level perpetual basis reaching **-0.058%** on Binance and **-0.048%** on OKX/Bybit alongside **-$1.1B** in 7-day futures net taker selling versus **+$32.5M** in 7-day spot net taker buying.
+## [02] 00C — Historical Intelligence Registry and Cycle Laws
+<!-- Source: rulebook/00C_Historical_Intelligence_Registry_and_Cycle_Laws.md -->
+
+# PROJECT CORTEX-BTC — 00C: HISTORICAL INTELLIGENCE REGISTRY (ENTRIES #1–#38), 9-YEAR CYCLE LAWS & EXECUTION INVARIANTS
+**Provenance:** Consolidated & deduplicated from Crypto & Macro Master Intelligence Log (Sources 00 & 04) plus live Q4 2026 empirical telemetry ledger (`Entry #38`) to preserve foundational historical lessons without duplicating `MOD 01–60`.
 
 ---
 
-## 1. Machine-Readable State & Routing Block (Python / Hermes / NotebookLM Index)
+#### 1. Foundational Cycle & Structural Laws (Entries #1–#34 Distilled)
+1. **9-Year Empirical Cycle Top Architecture (Entry #1):**
+   * Derived from 3,341 daily candles and 107 All-Time Highs: secular bull peaks require multi-pillar saturation across on-chain unrealized profit (MVRV), long-term holder distribution velocity, and macro liquidity peaks (Cluster B).
+2. **Primacy of Horizontal Liquidity Pools Over Lagging Geometric Charting (Entries #10 & #31):**
+   * Diagonal trendlines and lagging oscillators have zero causal force; institutional execution targets **horizontal resting liquidity pools** (equal highs/lows, Volume Profile VAH/VAL/POC, and liquidation clusters).
+3. **Q4 2026 vs. Q4 2018 Structural Macro Analogue (Entry #25):**
+   * Cost-push energy/tariff inflation shocks combined with restrictive central-bank policy force prolonged multiple compression and high-beta drawdowns until a clear Federal Reserve liquidity pivot occurs.
+4. **The 72-Hour Macro Trinity Gate (Entry #33):**
+   * Major scheduled macro prints (**FOMC, CPI, PCE, NFP**) create a 72-hour volatility distortion window (`T-24h` pre-positioning chop, `T-0` algorithmic whip, `T+24h` true institutional repricing — codified in `MOD 58`).
+5. **Permanent VPIN Exclusion Directive:**
+   * The Volume-Synchronized Probability of Toxicity (**VPIN**) model is permanently excluded from all scoring and execution engines in favor of **Rough Path Signatures (Order N <= 2 Lévy Signed Areas)** and **Domestic USD vs. Offshore USDT Spot CVD**.
 
+---
+
+#### 2. Exact Microstructure Bar-Count & Asymmetry Invariants (From Source 04)
+To prevent premature entries and poor reward-to-risk setups during `MOD 11` (Volume Profile VAL/VAH sweeps), `MOD 54` (Algorithmic Market Structure BOS), and `MOD 18` execution:
+
+##### A. Timeframe Bar-Count Scaling Matrix (1H & 4H Spot Swing Calibration)
+| Execution Phase | 1H Spot Swing Calibration | 4H Spot Swing Calibration | Structural Disqualification (Mandatory Abort) |
+| :--- | :--- | :--- | :--- |
+| **Phase 1: Sweep & Reclaim Duration** | **1 to 3 completed 1H bars** below support before closing firmly back inside the range. | **1 to 2 completed 4H bars** (single long lower-wick hammer or 2-bar reversal) closing back inside range. | **True Breakdown Acceptance:** Price closes and holds below support for **4+ consecutive 1H bars** or **2+ consecutive 4H bars** (Lock 100% Cash). |
+| **Phase 2: Low-Volume Retest Window** | **2 to 6 completed 1H bars** after the reclaim candle closes (contracting sell volume + narrowing spreads). | **1 to 3 completed 4H bars** after the reclaim candle closes. | **Runaway V-Bottom:** Price rallies straight to mid-range POC without retesting, degrading R:R below 3:1 (Pass — Do Not Chase). |
+
+##### B. Minimum 3:1 Asymmetry Filter (`Net R >= 3.0` Law — `MOD 18` & `MOD 37`)
+* Before authorizing any unleveraged spot entry (`0.75%` or `0.375%` risk ceiling):
+  * `Stop_Distance = Entry_Price - Hard_Invalidation_Wick_Low`
+  * `Target_1 = Range Point of Control (POC)` | `Target_2 = Value Area High (VAH)`
+  * **Hard Gate:** If `(Target_2 - Entry_Price) / Stop_Distance < 3.0` post-slippage, **PASS UNCONDITIONALLY** (insufficient asymmetric payoff).
+
+---
+
+#### 3. Post-v3.0 Live Empirical Incident Ledger (Entry #38)
+
+##### Entry #38 — November 2026 Q4 Drawdown, `$1.41B` Deleveraging Cascade & Stacked Anthropic IPO / MSCI Liquidity Vacuum (`Nov 9–15, 2026`)
+* **Event Window & Structural Regime:** `09 November 2026` to `15 November 2026` (`MOD 33: REGIME_4` — Liquidity Drain & Negative Gamma).
+* **Empirical Telemetry Verified:**
+  1. **Macro & Fixed-Income Drain (`Pillar 1` — `MOD 16`, `MOD 23`, `MOD 58`):** Hot October US CPI (`Nov 10, 2026`) propelled US 10-Year Treasury yields to **`5.129%`**, pushed the ICE BofA **MOVE Index** to **`92.44`**, and lifted **DXY** above **`103`** (`103.2`), while 30-day total stablecoin market cap contracted **`-$14.2B`** down to **`$285.592B`** (fastest contraction since June 2022).
+  2. **Stacked Mega-IPO & Passive Index Rebalance Vacuum (`MOD 44`):** Institutional liquidity suffered a dual calendar siphon: **Anthropic (`ANT`)** launched its mega-IPO roadshow (`825M` Class A shares at `$70–$78`, targeting up to **`$64.4B`** plus **`$26B`** strategic placement; pricing `Nov 18`, Nasdaq debut `Nov 19, 2026`), overlapping directly with **MSCI's November 2026 index review** removing corporate Bitcoin treasury proxies (**Strategy `MSTR`**, **Metaplanet**, **Upexi**, **IREN**) effective after the **`Nov 30, 2026`** close (`Dec 1` effective date).
+  3. **Institutional ETF & On-Chain Cost-Basis Breach (`Pillar 5` — `MOD 07`, `MOD 13`, `MOD 19`, `MOD 59`):** US Spot BTC ETFs logged a 7-day net outflow streak shedding **`~$2.35B`** across two weeks (`-$1.44B` over 5 days; `-$185.4M` single-day), while the **Coinbase Premium** remained inverted (`-0.13%` over `49` consecutive days). Spot sliced below Short-Term Holder Realized Price (**`$75,600–$75,771`**) and the Cointime-Weighted True Market Mean (**`~$77,500–$78,000`**), placing the `< 155-day` cohort underwater (`STH-MVRV ~ 0.90`).
+  4. **Derivatives Cascade & Thin-Weekend Sweep (`Pillar 2 & 3` — `MOD 03`, `MOD 50`, `MOD 51`, `MOD 53`):** Aggregate BTC futures Open Interest contracted **`~17%`** (`$10.6B -> $8.8B`) amid **`$1.41B`** in cumulative forced liquidations (`88%–92%` longs; `$819.62M` in a single 24h flush) and thinned order-book depth (`$72M`). On Sunday, **`Nov 15, 2026` (`01:44 UTC`)**, thin weekend liquidity (`MOD 50`) swept spot down to **`~$62,199–$62,268.50`** (`RM 254,408–254,784`) before rebounding `+4.2%` to **`~$64,800–$65,500`** (`RM 264,819–266,986`) while US Spot ETFs and Fedwire clearing remained closed.
+* **System Compilation & Arbitration Outcome (`MOD 18`, `MOD 31`, `MOD 60`):**
+  * **ICDM Fragility Score (`MOD 31`):** **`83 / 100 Points`** (`>= 60` systemic crash threshold; Vector 2 Liquidity Vacuum maxed at `25/25`).
+  * **Precedence Arbitration (`MOD 60`):** `Rank 1` (`MOD 44` stacked IPO/MSCI drain) + `Rank 2` (`ICDM 83` / `GATE_RED`) + `Rank 4` (`MOD 50` unsettled weekend gate) vetoed all counter-trend entries and enforced **`100% CASH LOCK` (`0.00%` tactical swing risk)** across Sleeve A while keeping Sleeve B (`2-of-3` multi-sig cold storage) air-gapped until ETF primary outflows halt (`MOD 59 CB-03`).
+* **Permanent Rulebook Modules Spawned:** Directly codified into **`MOD 44`** (Mega-IPO & Index Rebalance Vacuums), **`MOD 45`** (Executive Bottom-Line HUD), **`MOD 46`** (Block `1,050,000` Secular Barbell Anchor), **`MOD 50`** (Weekend Thin-Liquidity & Sunday `22:00 UTC` Protocol), **`MOD 53`** (Hawkes & Transfer Entropy), **`MOD 58`** (72-Hour Macro Trinity), **`MOD 59`** (LTH Cost Basis & True Market Mean), and **`MOD 60`** (7-Rank Veto Precedence Ladder).
+
+---
+
+## [03] 00C.1 — Historical Registry Entry 39 Nov 16 21 2026 Global Contagion Shock
+<!-- Source: rulebook/00C.1_Historical_Registry_Entry_39_Nov_16_21_2026_Global_Contagion_Shock.md -->
+
+##### PROJECT CORTEX-BTC — HISTORICAL REGISTRY EXTENSION (ENTRY #39)
+**Parent Ledger:** `00C — Historical Registry (Entries #1–#38), 9-Year Cycle Laws & 3R Bar-Count Rules`
+**Event Window:** Week Ending Friday–Saturday, November 20–21, 2026 (Logged Sunday, November 22, 2026 — 00:37 UTC / 08:37 MYT)
+**Primary Source Logged:** `@CoinBureau` Weekly Market Turmoil Summary (Cross-Verified Against Reuters, Bloomberg, FT, Taiwan News & FRED/Exchange Telemetry)
+**Governing CoreTex Modules:** `MOD 16`, `MOD 29` (CSU-29B / M2 / M8), `MOD 31` (ICDM 77.0), `MOD 49` (CSU-49A / M2 / M4), `MOD 60` (Rank 1–3 Veto), `MOD 62` (DIBSE v2.0), `MOD 64`, `MOD 65`
+
+--------------------------------------------------------------------------------
+
+###### 0. Machine-Readable Historical Entry Header (Python / Hermes / NotebookLM Index)
+```yaml
+registry_entry_id: "ENTRY_39"
+parent_registry: "00C"
+event_date_range: "2026-11-16_to_2026-11-21"
+logged_timestamp_utc: "2026-11-22T00:37:00Z"
+logged_timestamp_myt: "2026-11-22 08:37 MYT"
+regime_classification: "SYNCHRONOUS_CROSS_ASSET_LIQUIDITY_SCRAMBLE_AND_AI_UNWIND"
+coretex_gate_state: "GATE_RED_100_CASH_LOCK"
+icdm_score_at_event: 77.0
+btc_event_low_usd: 55000
+btc_ath_drawdown_pct: -56.4
+```
+
+--------------------------------------------------------------------------------
+
+###### 1. Verified Empirical Market Record (Week of Nov 16–21, 2026)
+During the trading week ending November 20–21, 2026, global equities, semiconductors, precious metals, and digital assets experienced a synchronous cross-asset liquidation shock driven by AI infrastructure valuation compression, US BIS semiconductor export controls, hawkish Federal Reserve rate repricing, and shadow-credit stress:
+
+| Asset / Benchmark | Verified Weekly Performance & Low | Historical Benchmark Significance |
+| :--- | :--- | :--- |
+| **S&P 500 (SPX)** | **-8.6%** weekly (closed ~6,910.50; -3.70% Fri Nov 20; ~**$6T** market cap erased; -11.6% off Oct 6 peak) | Entered official correction territory; 7-day losing streak (longest since Feb 2020) and worst weekly decline since April 2025. |
+| **Nasdaq-100 (NDX)** | **-10.4%** weekly (QQQ -5.48% to -5.67% Fri Nov 20; -19.7% below 52-week high) | Worst weekly decline since March 2020; erased full-year 2026 gains. |
+| **Nvidia (NVDA)** | **-22.9%** weekly (closed ~$125.53–$125.65; -13.93% Fri Nov 20) | Worst 5-day decline since October 2008 and seventh consecutive weekly loss. |
+| **Taiwan TAIEX** | **-17.5%** weekly (-7,641.83 points); hit **7-month low** | Worst weekly loss on record (at least 29+ years); triggered emergency Taiwan FSC short-sale ban below prior close and 150% short margin effective Nov 23, 2026. |
+| **Japan (Nikkei 225)** | Plunged -5.06% Fri Nov 20; hit **7-month low** | Caught in Asian AI hardware/equipment liquidation wave. |
+| **South Korea (KOSPI)** | Plunged -5%+ Fri Nov 20; hit **10-month low** | Heavy memory/semiconductor contagion (SK Hynix / Samsung Electronics). |
+| **China Equities** | Hit **16-month low** | Broad Asian regional risk-off and export-control spillover. |
+| **Gold & Silver** | Gold **-8.0% to -9.2%** weekly; Silver deeper sell-off | Gold's worst week since March 2026; Silver's worst week since January 2026 peak—confirming indiscriminate USD cash raising rather than safe-haven rotation. |
+| **Bitcoin (BTC)** | Swept **$55,000–$55,830** (-56.4% off Oct 2025 ATH of $126,198) | Lowest price level since September 2024 (~2-year low) amid -$3.47B Nov US Spot ETF outflows. |
+
+--------------------------------------------------------------------------------
+
+###### 2. Mechanical Effects on Project CoreTex BTC Brain Architecture
+1. **High-Beta Liquidity Release Valve (`MOD 29` CSU-29B & `MOD 49` CSU-49A / M2):**
+   * With rolling 30-day correlation $\text{Corr}(\text{BTC}, \text{NDX})$ elevated at **0.72–0.75** (above the `0.65` high-beta lockstep threshold), institutional multi-asset desks treated 24/7 liquid Bitcoin and US Spot ETFs (`-$3.47B` Nov outflows) as an immediate liquidity release valve to cover semiconductor and tech equity drawdowns.
+2. **Indiscriminate Cash-Scramble Validation (`MOD 49` M4 & `MOD 16`):**
+   * The simultaneous weekly collapse in **Gold (-8% to -9.2%)** and **Silver** alongside Nasdaq (-10.4%) and Bitcoin proves the shock was an acute **dollar/liquidity scramble** (`DXY 103.84`, restrictive real yields, hawkish FOMC baseline) rather than a localized crypto event or a safe-haven rotation. Under `MOD 49` M4, hard-asset correlation breaks down temporarily during margin calls until forced deleveraging exhausts.
+3. **AI Hardware & Shadow-Credit Feedback Loop (`MOD 64` & `MOD 29` CB-02):**
+   * Nvidia's **-22.9%** weekly drop and Taiwan's **-17.5%** crash (requiring regulatory short-sale circuit breakers) confirm real-time equity repricing of the `$680B+` AI debt stack and `>$3.0T` off-balance-sheet data-center obligations tracked in `MOD 64`.
+4. **Capital Preservation & Execution Posture (`MOD 31`, `MOD 60`, `MOD 62`):**
+   * **Sleeve A (20% Tactical DIBSE Inventory):** Locked in **100% USDT Cash Lock (`0.00%` new risk)** under `MOD 60` Ranks 1–3 (`ICDM 77.0 >= 60`). Weekend crypto bounces remain subject to Monday 13:30 UTC NY cash open gap-alignment risk (`MOD 49` M6 / `MOD 29` M8) until US tech indices stabilize, Taiwan's post-ban session clears, and US Spot ETF outflows reverse (`>= 2` sessions `> +$100M/day`).
+   * **Sleeve B (80% Sovereign Multi-Sig Cold Storage):** Strictly isolated and untouched (`MOD 32` / `MOD 62` Rule 28).
+
+---
+
+## [04] 00H — Live Market Field Notes and Telemetry Ledger
+<!-- Source: rulebook/00H_Live_Market_Field_Notes_and_Telemetry_Ledger.md -->
+
+###### PROJECT CORTEX-BTC — 00H: LIVE MARKET FIELD NOTES & TELEMETRY LEDGER
+**Status:** Living Quantitative Field Ledger (Continuously Updated In-Place — Concrete Data Points, Structural Price Levels, Verified Statistics & Fact-Checked Narratives)
+**Last Updated:** Sunday, 22 November 2026 — 01:21 UTC (09:21 MYT / UTC+8)
+**Governance Scope:** Read-Only Empirical Reference & Audit Bridge (MOD 36 CB-04). Feeds qualitative/quantitative context into 00C / 00C.1 (Historical Registry) without altering deterministic rulebook logic in MOD 01–68.1.
+
+--------------------------------------------------------------------------------
+
+###### 0. Machine-Readable Ledger Header (NotebookLM / Python Index)
+```yaml
+ledger_id: "00H"
+entry_type: "LIVING_FIELD_NOTES_AND_TELEMETRY_LEDGER"
+last_updated_utc: "2026-11-22T01:21:00Z"
+last_updated_myt: "2026-11-22 09:21 MYT"
+active_system_verdict: "GATE_RED_100_CASH_LOCK"
+icdm_fragility_score: 77.0 # >= 60 Systemic Crash Threat (MOD 31)
+mod_64_gate_state: "ACTIVE_SHADOW_CREDIT_AND_RATE_CEILING"
+mod_44_calendar_state: "POST_ANTHROPIC_IPO_NOV19_AND_ACTIVE_MSCI_NOV30"
+mod_68_1_live_cell: "BELOW_200D__NO_EDGE_OR_POSITIONS_LEAVING" # Spot ~$60,098 << $72.9k 200D SMA; funding mild-neg/mixed + OI -0.47% (24h)
+intraday_sweep_low_usd: 55000 # Nov 21 intraday wick low (~RM 228,882 at 06:15 UTC; lowest since Sept 2024)
+spot_recovery_reference_usd: 60098 # $60,097.76 at 2026-11-22 01:21 UTC / 09:21 MYT (~RM 247,182 at USD/MYR 4.113)
+ltf_choch_pivot_usd: 64000 # Lowered from $66,000 following Nov 20 breakdown; weekly close reclaim ref $60k-$61k
+```
+
+--------------------------------------------------------------------------------
+
+###### 1. Active Structural Price & Liquidity Map (MOD 11 / MOD 17 / MOD 35 / MOD 54 / MOD 59)
+| Price Band (USD) | MYR Equivalent (~4.11–4.17) | Structural / On-Chain Classification | CoreTex Module & Execution Significance |
+| ------ | ------ | ------ | ------ |
+| **$126,000 – $126,198** | ~RM 518,000 – 523,000 | October 2025 Secular All-Time High (ATH) | Spot hit **-56.4%** off ATH at the Nov 21 **$55,000** sweep low (lowest since Sept 2024) and currently sits **-52.4%** off ATH at **$60,098** (MOD 56 mid-drawdown zone). |
+| **~$81,500** | ~RM 335,200 – 338,000 | Aggregate US Spot Bitcoin ETF Cost Basis | Major institutional breakeven ceiling (MOD 59 M4). |
+| **$77,500 – $78,000** | ~RM 318,800 – 324,000 | Cointime-Weighted True Market Mean / Active Investor RP | Structural overhead supply wall (MOD 59 M2). |
+| **$75,068 – $75,771** | ~RM 308,800 – 315,000 | Short-Term Holder (STH, <155d) Realized Price & Strategy (MSTR) Avg Cost ($75,452) | Breached on Nov 12–13; both STH cohort and Strategy's 850,849 BTC stack are underwater (MOD 13 / MOD 47). |
+| **~$74,760** | ~RM 307,500 – 310,000 | Nov 8, 2026 Pre-Breakdown Swing High | Origin of the -22%+ multi-week leg down. |
+| **$72,855 – $73,137** | ~RM 299,700 – 304,000 | 200-Day Simple Moving Average (200D SMA) | Secular trend gate lost (MOD 17 / MOD 61 CB-04 / MOD 68.1 bear-regime divider). |
+| **$67,983 – $68,000** | ~RM 279,600 – 282,500 | 200-Week Moving Average (200W MA) | Macro multi-year trendline breached to the downside. |
+| **$62,000 – $66,000** | ~RM 255,000 – 274,000 | **Flipped Overhead HVN Supply / Prior POC & Monthly CPR S3** | Lost on Nov 20 breakdown below $61.5k (breaching Monthly CPR S3 at $62k by -12%); LTF **CHoCH** resistance reference lowered from $66,000 to **$64,000**, with **$60,000–$61,000** serving as the immediate weekly-close reclaim test currently underway (~$60,098) ahead of Sunday close & Monday NY open (MOD 54 / MOD 65). |
+| **~$61,000 ($59.5k–$61k)** | ~RM 244,700 – 253,500 | **Swept Downside Long Liquidation Shelf** | Swept on Nov 20, 2026 (MOD 35 M1 cascade continuation directly into the $58,000 secular range low and $55,000 Nov 21 sweep). |
+| **$55,000 – $58,460** | **~RM 228,882 – 247,182** *(spot $60,098 at 09:21 MYT)* | **Nov 21 Intraday Sweep Low ($55,000 / Sept 2024 Low) & June 2026 Secular Range Low ($57,970) — ACTIVE TEST** | Swept early Nov 21 to **$57,970.28** and flushed further between 03:35–06:15 UTC to **$55,000** (lowest level since Sept 2024; front-running $54,996 resting bids at $55,111 and tapping the 2023 daily momentum trendline / July low sweep at ~$56,100) before rebounding to **$60,098** on thin weekend liquidity. Requires Monday NY cash-open survival (`MOD 49 M6`), multi-bar 4H/1D closes, and USD Spot CVD turn (`MOD 05` / `MOD 65 CB-02`). |
+| **$53,000 – $55,000** | ~RM 218,000 – 228,500 | Aggregate On-Chain Realized Price Band (MOD 59) | Upper boundary ($55,000) tested on Nov 21; **$54,000–$53,000** remains primary downside target if **$55,000** breaks. |
+| **$49,000 – $51,000 → $44,000** *(Tail: $27k / $19k)* | ~RM 181,000 – 212,000 | **Order-Block Acceptance Boundary ($49k–$50k), LVN Air-Pocket & Major Volume Profile POC ($44k)** | Thin LVN air pocket below $55k–$56k (MOD 11 M4). Acceptance below the **$49,000–$50,000** prior order-block boundary (just above LTH Realized Price at ~$48,500) opens rotation into the **$44,000** major Volume Profile POC (with $42k–$47k structural shelf; $27k/$19k quarantined strictly as tail-risk scenarios per MOD 35 CB-01). |
+
+--------------------------------------------------------------------------------
+
+###### 2. Verified On-Chain, ETF, Corporate Treasury & Derivatives Telemetry (MOD 03 / MOD 07 / MOD 13 / MOD 14 / MOD 31 / MOD 47 / MOD 68 / MOD 68.1)
+*   **US Spot Bitcoin ETF Flows (Farside Investors — T+1 through Nov 19, 2026):**
+    *   **Nov 19 Single-Day Net Flow:** **-$582.3M** (3rd consecutive outflow session; 9 of last 10 trading sessions negative), led by BlackRock **IBIT -$541.1M** (all-time record single-day redemption since Jan 2024 launch, ~93% of net outflow), partially offset by Morgan Stanley **MSBT +$49.6M**.
+    *   **Nov 18 Single-Day Net Flow:** **-$306.5M** (led by IBIT -$149.0M).
+    *   **Nov 17 Single-Day Net Flow:** **-$239.9M** (BlackRock IBIT -$209.5M, Grayscale GBTC -$17.7M, ARKB -$13.1M, Valkyrie BRRR -$3.6M; partially offset by Morgan Stanley MSBT +$2.9M and Grayscale Mini Trust BTC +$1.1M).
+    *   **Nov 16 Streak-Pause Nuance:** Printed **+$7.9M** aggregate net inflow (**IBIT +$76.5M** snapping an 11-session IBIT outflow streak vs. **-$68.6M** combined outflows across 7 peer funds), narrowly interrupting a 7-session **-$1.91B** aggregate outflow streak before heavy outflows resumed on Nov 17–19.
+    *   **Multi-Day & YTD Trend:** Weekly ETF outflows exceed **-$1.1B**; November cumulative outflows have escalated to **-$3.47B**; 2026 YTD cumulative ETF net flows are firmly negative.
+    *   **Q3 2026 13F Institutional Holdings (Lagged Structural Context):** Wells Fargo doubled IBIT to **$2.35B**, Goldman Sachs doubled to **$1.28B**, Bank of America increased 8x to **$685M**, and Abu Dhabi sovereign funds reported **$1.09B**.
+*   **Corporate Treasury & Proxy Stress (MOD 47 / MOD 44):**
+    *   **Strategy (MSTR):** Holds **850,849 BTC** acquired for **$64.2B** at an average purchase price of **$75,452/BTC** (after adding 485 BTC at $68,887 in the week through Nov 15 and repurchasing $228.1M of STRC preferred stock). At ~$60.1k spot (~$55.0k intraday low), Strategy carries an **~$13.1B–$17.4B unrealized loss** (~20%–27% underwater), its mNAV has compressed toward parity (stalling accretive ATM equity-to-BTC issuance per MOD 47 CSU-47B), and MSCI passive index funds holding ~3.1% of MSTR common stock face mandatory deletion after the **Nov 30, 2026** close.
+*   **On-Chain Cohort, RWA & Profitability Metrics (Glassnode / CryptoQuant / MacroMicro / RWA.xyz):**
+    *   **MVRV Z-Score, LTH Realized Price & Percent Supply in Profit:** MVRV Z-Score compressed to **0.30** as of Nov 19, 2026 (down from 0.66 a week earlier; inside the 0–1 macro value band per MOD 66 CB-02), while Long-Term Holder (LTH) Realized Price sits near **~$48,500** (MOD 59). Percent Supply in Profit dropped from 60.6% to ~52% prior to the Nov 20–21 breakdown below $58k/$55k, pushing roughly half of circulating supply toward breakeven/loss without yet printing a full historical cycle-bottom reset across MVRV/NUPL/SOPR.
+    *   **Realized Losses & Cohort Breakdown:** Single-day realized losses hit **25,800 BTC** (largest margin since early July 2026). Long-Term Holder (LTH) supply fell by **73,900 BTC** to a 90-day low of **16.2M BTC** (54.5% in profit / 32.2% in loss).
+    *   **Short-Term Holder (STH) Stress:** STH-MVRV compressed to **~0.77–0.80** (spot ~$60.1k vs. Week 46 ledger-anchored STH RP $75.1k–$75.8k), STH-NUPL at **-7.42%** (Week 46), and STH-SOPR inverted at **0.956** (Week 46 ledger-anchored; < 0.98 for > 3 consecutive days).
+    *   **Tokenization / RWA & Cross-Market Context (CNBC Digital Finance Forum, Nov 18, 2026):** Distributed tokenized RWAs (excluding stablecoins) grew +81% in 2026 to **$39.52B** as of Nov 16, 2026 (-1.69% over 30 days; tokenized funds at $37.8B, short-dated US Treasury funds at $13.5B, BlackRock BUIDL at $1.9B–$2.7B). Pantera Capital's Dan Morehead noted median institutional exposure to crypto/blockchain venture remains **0.0%** and board company Figure (FIGR) has processed **$30B+** in on-chain mortgages vs. 55-day legacy settlement.
+    *   **Sentiment & Venue Spreads:** Crypto Fear & Greed Index at **10–11 (Extreme Fear / 9-month low)**; Coinbase Premium Index sustained negative (< -0.05% to -0.13% across 49+ days).
+*   **Derivatives & Liquidation Mechanics (`MOD 68` / `MOD 68.1` Live Cell Tag):**
+    *   **Macro Flush vs. Nov 21 Intraday Sweep:** Following the Nov 13–14 **$1.41B–$1.47B** liquidation cascade (~17% aggregate OI contraction; 7.2% weekly futures OI drop per Glassnode) and Nov 18 **~$500M** (-3% OI) partial flush, the Nov 21 sweep to **$55,000** generated three consecutive 4H volume climax spikes. Aggregate CoinGlass OI ticked down **-0.47%** (24h) during the Nov 21 washout, while long positioning remained sticky (~78%), Bitfinex margin longs hit a **3-sigma** extreme, and large wallets paired 8K BTC exchange withdrawals with **$40,000 put-option hedging**.
+    *   **Funding Snapshot & `MOD 68.1` Live Matrix Read:** While OI-weighted funding stayed positive (`+0.0036%` to `+0.0053%`) into the breakdown below $65k (scoring **8/8** on MOD 31 Vector 3), the CoinGlass `2026-11-21 00:00` settlement print dipped mildly negative on offshore venues (**Binance `-0.0077%/8h`**, **OKX `-0.0066%/8h`**, **Bybit `-0.0061%/8h`**, **Deribit `-0.0089%/8h`**) while **24h OI fell `-0.47%`** and BTC AVG printed `+0.0064%` (Bitfinex outlier). Mapped against **`MOD 68.1`**, with spot at **$60,098** (`<< $72.9k` 200D SMA) and OI flat-to-falling rather than expanding on deep negative weekly funding, the live tape sits inside the **no-edge / `Positions leaving` base-rate band** (`50%` hit rate, `-0.06%` median 7d), offering zero squeeze authorization and reinforcing **`GATE_RED_100_CASH_LOCK`**.
+
+--------------------------------------------------------------------------------
+
+###### 3. Macro, Fed, AI-Semiconductor & Shadow-Credit Telemetry Log (MOD 16 / MOD 22 / MOD 23 / MOD 29 / MOD 44 / MOD 48 / MOD 64)
+*   **Rates, FX & Global Equities (Week Ending Nov 20–21, 2026 — Historical Registry Entry #39):**
+    *   **US 10-Year Treasury Yield:** Pulled back to **4.94%–4.95%** on Friday, Nov 20 (5th consecutive daily decline, down ~15 bps on the week from the 5.15% Nov 13 peak; FRED DGS10 5.04% on Nov 19; 10Y TIPS real yield **2.79%**) on safe-haven bond demand amid a broad global equity sell-off.
+    *   **US Dollar Index (DXY) & USD/MYR:** DXY at **103.84** (19-month high, holding above the 103.50 resistance ceiling); USD/MYR spot at **4.1130** (Nov 20–21).
+    *   **Weekly Global Equity, Semiconductor & Metals Rout (Week of Nov 16–21, 2026 — MOD 29 / MOD 49 / MOD 64):**
+        *   **US Indices & Nvidia:** **S&P 500 fell -8.6%** (~$6T market cap erased; closed ~6,910.50, -3.70% Fri Nov 20, -11.6% off Oct 6 peak in official correction; worst week since April 2025); **Nasdaq-100 fell -10.4%** (QQQ -5.48% to -5.67% Fri Nov 20; worst week since March 2020); **Nvidia (NVDA) fell -22.9%** (closed ~$125.53–$125.65, -13.93% Fri Nov 20; worst week since October 2008 and 7th straight weekly loss), with AMD pair-hedge breakdown.
+        *   **Asian Regional Contagion & Emergency Intervention:** Over **$120B** wiped from Asia's AI chip leaders in the opening 30 minutes of Friday, Nov 20 trading. For the week, **Taiwan (TAIEX) crashed -17.5%** (-7,641.83 points; worst week in at least 29 years / on record, hitting a **7-month low** and prompting Taiwan's FSC to ban short sales below prior close and raise short margin to 150% effective Nov 23, 2026); **Japan (Nikkei 225)** closed -5.06% Fri Nov 20 at a **7-month low** (closed Mon Nov 23 for Labour Thanksgiving Day); **South Korea (KOSPI)** closed -5%+ at a **10-month low**; and **China** equities hit a **16-month low**. Driven by **Nov 19, 2026 US Commerce/BIS export controls** imposing licensing on advanced AI chips and >12M TPP remote compute across Malaysia, Singapore, Thailand, Indonesia, and Brazil, alongside post-Anthropic IPO capital rotation.
+        *   **Precious Metals Cash Scramble:** **Gold fell -8.0% to -9.2%** on the week (worst week since March 2026) and **Silver** posted its worst week since January 2026, confirming an indiscriminate cross-asset USD liquidity scramble (`MOD 49` M4) rather than safe-haven rotation.
+    *   **Cross-Asset Volatility:** VIX spiked to **40** intraday before closing at **35.9** (up from 24.81+); ICE BofA MOVE Index at **~95–96**; public US High-Yield OAS at **323 bps** (CCC tier at 1,329 bps).
+*   **FOMC Oct 27–28 Minutes (Released Nov 18, 19:00 UTC):**
+    *   **Policy Decision & Dissent:** Held at **3.75%–4.00%** (10–2 vote; Governors Cook & Hammack dissented for +25 bps).
+    *   **Hawkish Baseline & AI Inflation Link:** Headline PCE **3.6%** / Core PCE **3.1%** (~1.55x the 2.0% target). "Virtually all" participants judged further rate hikes likely appropriate under baseline outlooks, explicitly flagging **AI infrastructure buildout demand (tech hardware & electricity/grid bottlenecks)** as an active inflation driver. Markets price a +25 bps hike at the **Dec 8–9 FOMC** and another hike in **Jan 2027**.
+*   **AI Debt Plumbing & Shadow Private Credit (MOD 64 — Fed Nov 2026 FSR & Gov. Barr Remarks):**
+    *   **AI Debt Stack:** **$680B+** advanced-computing debt issued by Oct 2026 (~5x 2023 total; ~31% of nonfinancial IG), **$800B+** top-7 AI on-balance-sheet debt, **>$3.0T** off-balance-sheet AI lease/take-or-pay/residual-guarantee obligations, and **>$100B** circular vendor financing.
+    *   **Data-Center Credit Stress:** CoreWeave 2032 unsecured notes trading near **79.5¢ (~16%–17%+ yield)** with 5Y CDS around **~1,100 bps**; neocloud bonds (Iren, Nebius, Cipher Digital) down **14%–21%** in November.
+    *   **Private Credit & BDC Liquidity Gates:** Private credit AUM exceeds **$2.6T**, bank NBFI credit commitments exceed **$2.8T**, and largest US BHCs hold **~$1.0T** in AI/SPE/private-credit/utility exposure. **7 of 10** major non-traded BDCs prorated Q3/Nov repurchase offers (Blue Owl OTIC filling **12.8%** of ~39% tendered; Blackstone BCRED **49.9%**; Apollo ADS **33.9%**; HPS HLEND **43.7%**), with median BDC non-accruals at **2.8%** (highest since 2017).
+    *   **Systemic Survey Warnings:** **87%** of Fed FSR survey contacts cited AI-related risks and **43%** cited cyberattacks (including misaligned autonomous AI agents) as top financial-stability threats.
+*   **Stacked Calendar Liquidity & Regulatory Cliffs (MOD 44 / MOD 48):**
+    *   **Nov 19, 2026 (Completed):** **Anthropic (ANT)** Nasdaq IPO listing — upsized to **980M Class A shares** at **$83.00/share** (above $70–$78 range) raising **$81.31B** plus **$26B** private placement (**$107.31B** total capital absorption; nearly 7x oversubscribed).
+    *   **Nov 30, 2026 (Close):** **MSCI November Index Review** passive deletion of corporate Bitcoin treasury proxies (MSTR, Metaplanet, Upexi, IREN).
+    *   **Jan 8, 2027 (EU MiCA / ESMA Deadline):** Hard deadline for EU-authorized CASPs to cease trading/custody of non-MiCA-compliant stablecoins (USDT EU wind-down).
+    *   **Jan 18, 2027 (U.S. GENIUS Act / OCC Final Rule):** Federal payment-stablecoin reserve and licensing enforcement effective date (following Nov 12, 2026 EBA dual supervision of USDC).
+
+--------------------------------------------------------------------------------
+
+###### 4. Fact-Check & Anti-Trap Ledger (MOD 03 / MOD 28 / MOD 32 / MOD 40 / MOD 46 / MOD 52 / MOD 56 / MOD 64 / MOD 65 / MOD 68 / MOD 68.1)
+| Source & Claim Audited | Fact-Checked Reality | Governing CoreTex Rule & Disposition |
+| ------ | ------ | ------ |
+| **Coin Bureau (Nov 18):** *"Fed warns if AI boom cracks, the whole market could crash with it."* | Fed FSR & FOMC minutes frame AI valuations, >$3T off-balance-sheet leases, and post-2013 peak hedge-fund leverage as *shock amplifiers*, not a baseline crash forecast; bank/household balance sheets remain resilient buffers. | **MOD 64 (CB-01 / CB-02):** Codified shadow-credit plumbing triggers into MOD 64 (Rank 2) while discarding sensationalist crash panic. |
+| **Coin Bureau (Nov 18):** *"Heavy leverage could trigger a crash like South Korea."* | US hedge-fund leverage is at post-2013 highs, but the South Korea KOSPI comparison was external commentator framing, not a direct Fed minutes statement. | **MOD 29 & MOD 64 (CB-04):** Track US prime-brokerage de-risking directly; discard external South Korea narrative. |
+| **YouTube Market Update (Nov 18):** *"More supply in a loss than in profit... historically always only occurred around bear market bottoms."* | Supply in Profit was ~52% (~48% in loss) on Nov 18, not yet <50%. Historically (2014, 2018, 2022), crossing <50% marked the **mid-point** of bear capitulation (in June 2022 it crossed <50% at ~$20k and fell for 6 more months to $15,475). | **MOD 56 (CB-02: 50% Drawdown Trap Ban) & MOD 14:** Never buy solely on ~50% supply in profit; require MOD 33 REGIME_5 reset (STH-SOPR <= 0.96 stabilization + positive USD Spot CVD). |
+| **YouTube Market Update (Nov 18):** *"-$500M / -3% Open Interest drop on a 3% dip = major deleveraging."* | A -3% OI drop leaves ~97% of leveraged positioning intact (MOD 03 partial flush vs. required -8% to -17% full reset). | **MOD 03 (CSU-03B) & MOD 35:** Do not front-run downside liquidation magnets after a shallow -3% OI dip. |
+| **Altcoin Daily / CNBC Forum (Nov 18–19):** *"2027 bull run + 0.0% median institutional exposure + Figure $30B mortgages + RWA/BTC tx ATHs -> deploy into ETH/SOL/Hyperliquid/Worldcoin now; trade Bitbase ($14,550 bonus) in crab market."* | Tom Lee & Dan Morehead quotes (0.0% median exposure, Figure $30B on-chain mortgages, ETH store-of-value shift) are verified, and Strategy (850,849 BTC @ $75,452 avg cost) is deeply underwater. However, RWA TVL ($39.52B) dipped -1.69% over 30d, Nvidia/Nasdaq drawdown figures (-40%/-15%) were overstated, and high BTC tx count without fee expansion is not a bottom signal. | **MOD 46 CB-01 & MOD 49 CB-04:** Long-term 2027–2029 adoption does **not** override GATE_RED (ICDM 77.0) or MOD 44 ($107.31B Anthropic IPO / Nov 30 MSCI deletion). Altcoin pitches and Bitbase $14,550 offshore affiliate promo **DISCARDED** (MOD 32 / MOD 59 CB-05). |
+| **RT1M Market Update (Nov 19):** *"2-year liquidation heatmap updated to show ~$3B liquidity at $51,000; price is attracted to liquidity and may sweep $51k first."* | Heatmap bars are unitless model estimates of leveraged positions, not resting limit orders, and multi-year lookbacks retain stale closed-OI bands (**ghost-band artifact**). Nearer shelves ($61k → $58k) carry dominant Pull_Score priority first. | **MOD 35 (CB-01 / M1 / M7) & MOD 65 (CB-01):** 00H Section 1 maps $49k–$51k → $44k as LVN/POC targets only if $55k breaks. |
+| **RT1M Market Update (Nov 20 — t8VFalzoCPk):** *"Day 49 new low would make this the longest bear market ever; miners massively dumping BTC; LTF CHoCH at $64,000; 2 green candle closes needed for RSI bullish divergence."* | Day 49 measures only the current uninterrupted breakdown leg, whereas full peak-to-trough bear cycles (2013–2022) lasted 365–410 days. However, the **-54% drawdown asymmetry** (vs. -77.6% to -85% cycle lows), **2-bar green-close RSI divergence confirmation rule**, and **$64,000 LTF CHoCH** pivot are valid. Miner selling was structural YTD AI-capex reserve sales (~50% sold Q1–Q3 2026; Antpool 2,077 BTC Nov 10 transfer), not a fresh Nov 20 panic dump. | **MOD 56 (CB-01 / CB-02), MOD 40, MOD 54 & MOD 65 (CB-02):** Updated LTF CHoCH reference to **$64,000** in 00H Section 1; discarded Day 49 duration hyperbole and RT1M Podcast promo (124 subs). |
+| **The Trading Parrot Livestream (Nov 21 — KIGixUsNuAs):** *"$55,000 sweep hits 2023 daily trendline & Monthly CPR S3 (-12% below $62K); OI still ~$20B (needs ~$15B reset) & LTH Realized Price at $48,500; acceptance below $49K–$50K opens $44K POC (with $27K/$19K tail targets); VIX hit 40 (35.9 close) & S&P monthly RSI <30 would be uncharted; host averages down at $56K to $66,204.60 avg; promotes 60%–80% Black Friday deals."* | Verified the Nov 21 intraday sweep to $55,000 (front-running $54,996 bids) and bounce toward ~$60,098, elevated OI / sticky longs, $48,500 LTH RP, VIX 40 intraday / 35.9 close, and $49K–$50K acceptance boundary into the $44K POC. Weekly reclaim requires $60K–$61K close (aligning with $64K LTF CHoCH). However, $27K/$19K projections are distant tail scenarios (`MOD 35 CB-01`), and averaging down into an active breakdown without a closed-bar CHoCH violates `MOD 18.1` / `MOD 62`. | **MOD 65 (6-Question Audit), MOD 11, MOD 18.1, MOD 35 (CB-01) & MOD 62:** Logged $55,000 sweep, $48,500 LTH RP, $49K–$50K acceptance threshold, and VIX 35.9 close into 00H; quarantined $19K–$27K as tail scenarios; **DISCARDED** unconfirmed knife-catching DCA and Black Friday indicator/Discord promo. |
+| **@CoinBureau Weekly Market Turmoil Post (Nov 21–22):** *"S&P 500 -8.6% (~$6T erased, worst week since Apr 2025); Nasdaq 100 -10.4% (worst since Mar 2020); Nvidia -22.9% (worst since Oct 2008); Taiwan -17.5% (worst in 29+ yrs); Gold worst week since March, Silver worst since Jan; Bitcoin lowest since Sept 2024; Taiwan/Japan 7-mo lows, South Korea 10-mo low, China 16-mo low."* | **100% Verified** against primary market feeds (S&P 500 -8.6% to ~6,910.50; Nasdaq-100 -10.4%; NVDA -22.9% to ~$125.53; TAIEX -17.5% / -7,641.83 pts triggering Nov 23 FSC short-sale ban; Gold -8% to -9.2%; BTC $55,000–$55,830 lowest since Sept 2024). | **Codified as Historical Registry Entry #39 (`00C.1`) & Logged in `00H` Section 3 (`MOD 29` CSU-29B / `MOD 49` CSU-49A & M4 / `MOD 60`):** Confirms synchronous cross-asset cash scramble and reinforces `GATE_RED_100_CASH_LOCK`. |
+| **Empirical Primer (`funding-rates-and-open-interest.md`, Nov 22):** *"Funding is a tail signal, not a scale (IC -0.047 across 2,587 days); negative funding + rising OI = Crowded Shorts (n=18, 72% hit rate, 50%–87% 95% CI) vs. falling OI = Positions Leaving (n=18, 50%); positive funding (> +0.03%/day) does not mark tops."* | **Methodology Valid; Upper-Tail Bucketing Flawed.** Tail-not-scale discipline, 2×2 Funding × OI split, denominator/CI honesty, overlapping-window discount (`~sqrt(k)`), episode-cluster counting (`146` tail days = `~4` crashes), and EV-per-unit-risk formula are verified best practices. **However**, Binance/OKX fix the default 8h interest rate at **`+0.01%` (`+0.03%/day`)** with a `±0.05%` clamp, so `> +0.03%/day` (`n = 1,041` = **40.3%** of all days) is NOT an extreme upper tail and dilutes true blow-off fragility (`> +0.035%/8h`). | **Codified as `MOD 68` & Integrated into `MOD 52` (`CB-05`) + `MOD 65` (`CB-06`):** Enforces 4-Rule Empirical Sample Hygiene Gate, context-only tail-funding rules, and symmetric percentile upper-tail tests; **CORRECTED** the `+0.03%/day` clamp bias. |
+| **Empirical State Matrix (`positioning-decision-matrix.md` `c727d7e` & `btc-cortex/tools/state_matrix.py` `c3c327a`, Nov 22):** *"299 non-overlapping weeks (`2021-01-08` → `2026-09-30`) crossed across `200D SMA × Funding × OI`: Above 200D `Crowded shorts` = `0/299` weeks; all populated cells above 200D = `49%–51%` coin flip; Below 200D `Crowded shorts` = `n=18` (`+3.55%` median 7d, `72%` hit, 95% CI `50%–87%`); no cell authorizes a trade."* | **Verified Empirical Discipline; Three Guardrails Added.** Non-overlapping 299-week matrix and `0/299` above-200D structural law are cleanly grounded. Clarified that: (1) binary `Crowded longs` (`> 0%`, 88% of weeks) does not override `MOD 02` extreme upper-tail blow-off checks (`>= +0.035%/8h`); (2) spot-only wording for `below 200D + Crowded shorts` argues against Loop B panic selling at lows without authorizing Loop A buys; and (3) `tools/state_matrix.py` OI units (`BTC contracts` vs `USD`) remain flagged `UNVERIFIED_PENDING_CODE_AUDIT` (`MOD 68 CB-02`). | **Codified as `MOD 68.1` & Cross-Linked into `MOD 68`, `MOD 01`, `MOD 04`, `MOD 17`:** Live Nov 22 state tagged in Section 2 as `BELOW_200D__NO_EDGE_OR_POSITIONS_LEAVING` (reinforcing `GATE_RED_100_CASH_LOCK`). |
+
+--------------------------------------------------------------------------------
+
+###### 5. Active System Posture & Re-Arming Tripwires (MOD 31 / MOD 62 / MOD 66)
+*   **Current Posture:** **GATE_RED — MANDATORY 100% USDT CASH LOCK (0.00% Tactical Risk)** across **Sleeve A** (MOD 62 DIBSE v2.0 / MOD 66 CSU-66C), driven by **MOD 31 ICDM 77.0 / 100**, **MOD 64 (CSU-64A + CSU-64B)**, **MOD 29 / MOD 49** global AI-semiconductor equity contagion (Historical Entry #39), and **MOD 44 (Nov 30 MSCI deletion)**. **Sleeve B** (80% 2-of-3 cold storage governed by MOD 32 & 00J) remains untouched.
+*   **Re-Arming Tripwires (All Required Before Deploying Sleeve A USDT):**
+    1.  **MOD 31 M2 De-Escalation:** Aggregate ICDM score drops below **55** (Vector 2 drops below 15/25 via >= 2 consecutive sessions of US Spot ETF net inflows > +$100M/day + Coinbase Premium > 0.00%, alongside stable/falling yields and equity stabilization).
+    2.  **MOD 44 CB-04 & MOD 29 M8 Calendar/Session Clearance:** T+1 clearance past the **Nov 30, 2026 MSCI index rebalance**, stabilization across Monday NY cash equity open (`14:30–18:00 UTC` / `22:30–02:00 MYT` per MOD 57 DST clock) and Taiwan's Nov 23 short-sale-ban session, stabilization in neocloud/data-center credit spreads (MOD 64), and either a confirmed **4H Value Area High (VAH) / $64,000 CHoCH reclaim** (MOD 54 / MOD 65 CB-02) or a verified post-sweep 1H/4H VAL reclaim at $55k–$58k / $53k–$54k backed by positive Domestic USD Spot CVD (MOD 05).
+
+---
+
+## [05] 00J — Hardware Wallet Security Custody Hardening and Firmware Audit Ledger
+<!-- Source: rulebook/00J_Hardware_Wallet_Security_Custody_Hardening_and_Firmware_Audit_Ledger.md -->
+
+##### PROJECT CORTEX-BTC — 00J: HARDWARE WALLET SECURITY, CUSTODY HARDENING & FIRMWARE AUDIT LEDGER
+**Status:** Living Hardware Custody & Security Reference Ledger (Dedicated to Cold Storage, Multi-Sig Quorum, Firmware/Bootloader Audits & Anti-Tamper Defense)
+**Last Updated:** Thursday, 19 November 2026 — 11:36 UTC (19:36 MYT / UTC+8)
+**Governance Scope:** Dedicated Hardware Wallet & Self-Custody Reference Ledger (Cross-Linked to MOD 32 & MOD 65). Tracks hardware wallet threat vectors, cryptographic verification rules, multi-sig recovery hygiene, and firmware release audits without altering Pillar 1–5 market execution formulas.
+
+---
+
+###### 0. Machine-Readable Ledger Header (NotebookLM / Python Index)
+```yaml
+ledger_id: "00J"
+entry_type: "HARDWARE_WALLET_SECURITY_AND_CUSTODY_LEDGER"
+last_updated_utc: "2026-11-19T11:36:00Z"
+last_updated_myt: "2026-11-19 19:36 MYT"
+custody_architecture: "2-of-3 Multi-Vendor Hardware Quorum (Malaysia / Indonesia Jurisdiction Split)"
+entropy_standard: "Offline Physical Dice-Roll Entropy + Output Descriptor & Seed/Steel Backup"
+firmware_policy: "Targeted Security/Critical Updates Only + Offline GPG/SHA-256 Verification"
+```
+
+---
+
+###### 1. Core Hardware Wallet Security Pillars & Operational Rules (MOD 32 / MOD 65 Bridge)
+* **Multi-Vendor 2-of-3 Quorum & Jurisdictional Split:** Avoid single-vendor monoculture risk across devices (e.g., Coldcard, BitBox02 / BitBox02 Nova, Keystone). Keep keys distributed across the **Malaysia / Indonesia** dual-jurisdiction layout with full output-descriptor backups stored separately from seed/passphrase material so funds can be recovered even if a single vendor's tooling or companion app is compromised.
+* **Offline Entropy & Zero Trust in Vendor RNG:** Generate seed entropy offline via physical dice rolls rather than trusting a single device or host RNG alone; back up seeds on durable steel / offline media without ever typing recovery words or passphrases into any computer, phone, browser, website, or AI prompt.
+* **Selective Firmware Updates & Cryptographic Verification:** Treat firmware updates as high-risk operational events rather than routine auto-installs—update only when addressing genuine security/critical fixes or required features, and always verify developer **GPG signatures** and **SHA-256 checksums** offline before flashing.
+* **Never Trust Host UI / Clipboard / Companion Apps Alone:** Always verify receiving addresses, change outputs, transaction fees, and swap/refund terms directly on hardware screens (and across independent screens where applicable), while enforcing hardware-locked exchange withdrawal whitelists and strict single-use address hygiene (no address reuse).
+
+---
+
+###### 2. Firmware & Vulnerability Audit Log (2026 Hardware Security Entries)
+* **BitBox `11.2026` ("Cresta") Release Audit (Nov 19, 2026):**
+  * **Bootloader Downgrade Protection:** Fixes a bootloader issue where a precisely timed power loss while saving settings could lower the minimum accepted firmware version if an attacker also held physical/bootloader access and power control. Includes a bootloader upgrade (expect multiple progress bars during installation).
+  * **Transaction Fee Validation:** Fixes incomplete validation of app-supplied transaction data that could let a malicious app display a lower fee than miners receive (after fund preparation and repeated approvals/change-output warnings).
+  * **Swap Refund Address Verification:** Fixes missing verification that a swap refund address belongs to the user's wallet, preventing a compromised app from substituting an attacker-controlled refund address without separate device confirmation.
+  * **Multisig Derivation Path Restriction:** Restores restrictions on multisig receive address derivation paths so a malicious paired app cannot pull addresses outside standard search paths on registered multisig accounts (where withholding path details could create recovery friction even when recovery remains possible via descriptors/xpubs).
+  * **Attestation Warning Banner & Device UI:** Makes the authenticity/genuine warning banner display globally regardless of setup/pairing state, and adds German device language support (with Italian and Spanish planned).
+* **Prior 2026 Hardware Security Context (MOD 32 Cross-Reference):**
+  * Tracks broader 2026 hardware and supply-chain lessons—including BitBox `07.2026` ("Oeschinen") and `08.2026` ("Dixence" v9.26.5) bootloader/memory/Silent-Payments fixes, reported mid-2026 Coldcard seed-generation flaw fallout, and browser/CDN clipper supply-chain risks (e.g., Nov 2026 Optimizely `track.js` incident).
+
+---
+
+###### 3. Pre-Update & Signing Checklist for Hardware Wallets
+1. **Confirm Necessity & Read Full Notes:** Verify whether the update addresses an active security fix or required feature, and read the complete official release notes (never click links from emails, DMs, or QR codes).
+2. **Verify Cryptographic Integrity:** Check official SHA-256 hashes and developer GPG signatures before applying firmware or companion app binaries; never enter seed words or passphrases during an update.
+3. **Expect Multi-Stage Bootloader Behavior:** When a bootloader update is included (such as BitBox `11.2026` Cresta), maintain stable power/connection and watch for multiple progress bars and reboots without interrupting mid-flash.
+4. **Verify Multisig Descriptors & On-Device Details:** Confirm multisig derivation paths/descriptors remain intact and verify addresses, amounts, and fees on-device prior to signing.
+
+---
+
+## [06] 00P — Complete 83 Source Master Directory
+<!-- Source: rulebook/00P_Complete_83_Source_Master_Directory.md -->
+
+# PROJECT CORETEX BTC BRAIN — 00P: COMPLETE 83-SOURCE MASTER DIRECTORY (v15.0 / v8.0)
+**Last Updated:** Sunday, 22 November 2026 — 01:25 UTC (09:25 MYT / UTC+8)
+**Mandate:** 1.0x unleveraged spot BTC/USDT/USD only | <= 0.75% max equity risk per trade (0.375% GATE_AMBER / 0.00% GATE_RED 100% Cash Lock) | Net R >= 3.0 post-slippage | Fail-closed DATA UNAVAILABLE honesty (MOD 36) | Barbell custody (Sleeve A 20% tactical DIBSE swing vs. Sleeve B 80% 2-of-3 multi-sig cold storage).
+**v8.0 / v15.0 Canonical Cleanup Changelog (vs. v7.9):**
+* Permanently purged 10 obsolete intermediate master directories (`00B`, `00D`, `00E`, `00F`, `00G`, `00K`, `00L`, `00M`, `00N`, `00O`) and deduplicated redundant directory snapshots.
+* Consolidated the active vault to **exactly 83 canonical sources** (`6` foundational charters/registries/ledgers + `77` quantitative modules `MOD 01`–`MOD 68.1`).
+
+**v7.9 Changelog (vs. v7.8):**
+* Added **`MOD 68.1`** — Empirical Regime × Funding × OI Decision Matrix (299-Week State Grid; `btc-cortex` `c3c327a` / `btc-library` `c727d7e`).
+* Cross-integrated **`MOD 68.1`** into **`MOD 68`** (parent pointer + `0/299` bull-regime structural law), **`MOD 01`** & **`MOD 04`** (Horizon Reconciliation Notes distinguishing 48h–72h intraday dips from weekly averages), and **`MOD 17`** (`200D SMA` secular divider cross-reference).
+* Synchronized **`00H`** through 2026-11-22 01:21 UTC (spot `$60,098`, CoinGlass `11-21 00:00` mild-negative funding + `-0.47%` OI tagged in `MOD 68.1` no-edge/positions-leaving band, and `c3c327a`/`c727d7e` logged in Section 4).
+* Updated **`00P`** in-place to **v8.0 / v15.0 (83 Canonical Sources)** as the sole authoritative Master Directory Index.
+
+--------------------------------------------------------------------------------
+
+#### 1. Governance, Master Indices & Field/Security Ledgers (6 Sources)
+*   **00** — Project CORTEX-BTC: Charter, 5-Pillar Waterfall & 18-Module Index
+*   **00C** — Historical Registry (Entries #1–#38), 9-Year Cycle Laws & 3R Bar-Count Rules
+*   **00C.1** — Historical Registry Entry #39: Nov 16–21, 2026 Global AI-Equity & Cross-Asset Contagion Shock
+*   **00H** — Live Market Field Notes & Telemetry Ledger
+*   **00J** — Hardware Wallet Security, Custody Hardening & Firmware Audit Ledger
+*   **00P** — Project CoreTex BTC Brain Master Directory Index (83 Sources, v8.0 / v15.0 — Current Canonical Index)
+
+--------------------------------------------------------------------------------
+
+#### 2. Derivatives, Order Flow, Rough Path Signatures & Volume Structure (MOD 01–MOD 15 | 15 Sources)
+*   **MOD 01** — Rising OI + Extreme Negative Perp Basis (Pillar 3 — reconciled with MOD 68.1)
+*   **MOD 02** — Rising OI + High Positive Basis (Pillar 3)
+*   **MOD 03** — Deleveraging Flushes & OI Reset Mechanics (Pillar 3)
+*   **MOD 04** — Funding Rate Velocity & Price Divergence Matrix (Pillar 3 — reconciled with MOD 68.1)
+*   **MOD 05** — The 4-Quadrant Spot CVD vs. Perp CVD Matrix (Pillar 2)
+*   **MOD 06** — Passive Limit Absorption vs. Market Taker Exhaustion
+*   **MOD 07** — Domestic Fiat Gateways & Spot ETFs vs. Offshore Flows
+*   **MOD 08** — Rough Path Signatures I: Price-Volume Lévy Signed Area
+*   **MOD 09** — Rough Path Signatures II: Spot CVD-OI Lévy Signed Area
+*   **MOD 10** — Rough Path Signatures III: Multi-Horizon Alignment
+*   **MOD 11** — Volume Profile Structural Topology (Pillar 2)
+*   **MOD 12** — Garman-Klass Volatility Squeeze & Fan Expansion
+*   **MOD 13** — Short-Term Holder (STH) Realized Price & MVRV Bands
+*   **MOD 14** — SOPR Profit/Loss Reset Cycles (Pillar 5)
+*   **MOD 15** — Realized Cap Impulse & LTH-to-STH Wealth Transfer
+
+--------------------------------------------------------------------------------
+
+#### 3. Macro Liquidity, Execution Sizing, Venues & Options/Solvency (MOD 16–MOD 32 + Sub-Modules | 20 Sources)
+*   **MOD 16** — Macro Liquidity, Yields, DXY & Stablecoin Dry Powder
+*   **MOD 17** — 200D MA Secular Gates, Index Rebalancings & Session Handoffs (cross-linked with MOD 68.1)
+*   **MOD 18** — Master 5-Pillar Confluence, 0.75% Risk Sizing & Exit Engine
+*   **MOD 18.1** — Pre-Flight Go/No-Go Checklist & Anti-Knife Protocol
+*   **MOD 18.2** — Reading a Falling Market Without a Forecast
+*   **MOD 19** — Coinbase Premium Index Z-Scores & Venue Spreads
+*   **MOD 20** — CME Futures Basis & Weekend Gap Fill Topology
+*   **MOD 21** — Algorithmic TWAP/VWAP Accumulation Footprints vs. Spoofing
+*   **MOD 22** — Net Fed Liquidity Impulse (Fed Balance Sheet - TGA - RRP)
+*   **MOD 23** — MOVE Index (Bond Volatility) & High-Yield Credit Spread Breakers
+*   **MOD 24** — USD-JPY Sovereign Carry-Trade Unwind & BOJ Alerts
+*   **MOD 25** — Dealer Gamma Exposure (GEX) & Zero-Gamma Flip Mechanics
+*   **MOD 26** — Deribit & CME Monthly-Quarterly OpEx Max Pain Gravity
+*   **MOD 27** — 25-Delta Implied Volatility Skew & DVOL Term Structure Extremes
+*   **MOD 28** — Live Autopsy & Black Swan Circuit Breaker Engine (Tier D Compounding)
+*   **MOD 29** — Equity Multiple Compression, Energy Shocks & High-Beta Contagion
+*   **MOD 30** — PCF3 Order Flow Engine & 10 Deterministic Configurations (A–J)
+*   **MOD 31** — Institutional Capital Defense Matrix (ICDM 100-Pt Fragility Scale)
+*   **MOD 31.1** — Live ICDM Fragility Field Audit (2026-11-19)
+*   **MOD 32** — Exchange Solvency Multiplier (M_solv) & Sovereign Multi-Sig Custody
+
+--------------------------------------------------------------------------------
+
+#### 4. Radar, Defense, Execution Governors, Cycle Exits & Playbooks (MOD 33–MOD 43 + Sub-Modules | 15 Sources)
+*   **MOD 33** — Unified 5-Regime Master Radar and State-Transition Engine
+*   **MOD 34** — AEGIS-3: 3-Stage Impulse Defense & Anti-Capitulation Sell-Freeze
+*   **MOD 35** — Liquidation Heatmap Distance Rule & Pull Score Engine
+*   **MOD 36** — Telemetry Trust, Staleness SLA & Determinism Attestation
+*   **MOD 37** — Executable Liquidity, Net-3.0R Slippage & Equity-Curve Governor
+*   **MOD 38** — ETF Primary-Market Settlement & BRRNY Fix-Window Engine
+*   **MOD 39** — Exchange Supply Activation & Aged-UTXO Dormancy Engine
+*   **MOD 40** — Miner Treasury Stress & Hashprice Economics Engine
+*   **MOD 41** — Secular Cycle ATH Cluster, First-Week Flush (Rule 1) & Flat Double-Top (+4% Rule 3) Exit Engine
+*   **MOD 41.1** — Secular ATH Operational Field Runbook & Countdown Checklist
+*   **MOD 41.2** — Two-Swing Harvest Roadmap
+*   **MOD 42** — Classical Structural Shapes & Liquidity-Pool Authentication
+*   **MOD 42.1** — The Symmetrical 11-Pattern Price Action & Microstructure Playbook
+*   **MOD 42.1.1** — 4-Gate Bidirectional Spot Execution Playbook & Worked Field Walkthrough
+*   **MOD 43** — Algorithmic Fibonacci Confluence & Harmonic Impulse Measurement
+
+--------------------------------------------------------------------------------
+
+#### 5. Macro Vacuums, HUD, Horizons, Cross-Asset, Cascades, Audit & Tier D Engines (MOD 44–MOD 68.1 + Sub-Modules | 27 Sources)
+*   **MOD 44** — Mega-IPO Capital Vacuums & Index Rebalance Liquidity Drains
+*   **MOD 45** — Executive Bottom-Line HUD & Mobile Presentation Protocol
+*   **MOD 46** — Block 1,050,000 (April 2028) Secular Horizon & Sovereign Barbell Anchor
+*   **MOD 47** — Corporate & Sovereign Treasury Velocity (mNAV & Proxy Flywheel)
+*   **MOD 48** — Stablecoin Supply Ratio (SSR), USDT.D & Net Mint/Burn Velocity
+*   **MOD 49** — Rolling Cross-Asset Correlation & Decoupling Matrix (BTC vs. NDX / Gold / DXY)
+*   **MOD 50** — Weekend Thin-Liquidity, Unsettled CME Clearing & Sunday 22:00 UTC Re-Open Protocol
+*   **MOD 51** — Extreme Cascade Microstructure, Basis Blowouts & Staggered Limit Execution
+*   **MOD 52** — Rolling 30-Trade Expectancy Audit, Parameter Drift & 4-Rule Empirical Sample Hygiene Governor
+*   **MOD 53** — Hawkes Point Processes, Jump-Diffusion De-Noising & Transfer Entropy Capital Rotation Engine
+*   **MOD 54** — Multi-Timeframe Algorithmic Market Structure & Kline Level Engine
+*   **MOD 55** — Dual-Stage Disruption Telemetry & Recovery Radar Engine
+*   **MOD 56** — Secular Cycle Anatomy, Diminishing Returns & Anti-Narrative Discipline
+*   **MOD 57** — Intraday & Calendar Volatility Regime, DST Session Close Engine
+*   **MOD 58** — Macro Event & Economic Release Trinity Protocol (72-Hour Window)
+*   **MOD 59** — Long-Term Holder (LTH) Cost Basis, True Market Mean & On-Chain Valuation
+*   **MOD 60** — Intra-Pillar Conflict Resolution, Veto Precedence & Decision Engine
+*   **MOD 61** — Data Hub Ingestion, Hygiene Gate & Desk-Lite Verdict Engine
+*   **MOD 62** — Dual-Inventory Bidirectional Swing Engine (DIBSE v2.0)
+*   **MOD 63** — CORTEX-RHYME Empirical State-Space Analogue Engine
+*   **MOD 64** — AI Debt Plumbing, Shadow Private Credit & Fed Stability Gate (Pillar 1)
+*   **MOD 64.1** — Live Macro ETF Regime Briefing (2026-11-19)
+*   **MOD 65** — Media De-Noising, Narrative Triage & 6-Question Signal Hygiene Protocol (Tier D)
+*   **MOD 66** — Multi-Layer Timeframe Synthesis & 4-Step Entry Architecture (Tier D)
+*   **MOD 67** — Non-Predictive If-Then Spot Execution Framework (Tier D & Pillar 4)
+*   **MOD 68** — Derivatives Positioning Context, Tail-Only Funding Mechanics & Empirical Sample Hygiene (Pillar 3 & Tier D)
+*   **MOD 68.1** — Empirical Regime × Funding × OI Decision Matrix (299-Week State Grid)
+
+---
+
+## [07] MOD 01 — Rising Open Interest Extreme Negative Perpetual Basis
+<!-- Source: rulebook/MOD_01_Rising_Open_Interest_Extreme_Negative_Perpetual_Basis.md -->
+
+### PROJECT CORTEX-BTC — MODULE 01: RISING OPEN INTEREST + EXTREME NEGATIVE PERPETUAL BASIS
+**Waterfall Tier:** Pillar 3 (Derivatives & Market Fragility) cross-verified with Pillar 2 (Microstructure & Order Flow) and Pillar 4 (Portfolio Engineering). **Empirical Benchmark Anchor:** November 12, 2026 Telemetry — Open Interest at **367.4K BTC** (**+22,000 BTC** 7-day expansion), Perpetual Basis at **-0.047%** across **156 consecutive hours** (bottom **1%** historical percentile), with exchange-level perpetual basis reaching **-0.058%** on Binance and **-0.048%** on OKX/Bybit alongside **-$1.1B** in 7-day futures net taker selling versus **+$32.5M** in 7-day spot net taker buying.
+
+--------------------------------------------------------------------------------
+
+#### 1. Machine-Readable State & Routing Block (Python / Hermes / NotebookLM Index)
 ```yaml
 module_id: "MOD_01"
 entry_type: "CONDITIONAL_SIGNAL_UNIT"
@@ -738,85 +620,87 @@ risk_parameters:
   exit_protocol: "TWO_STAGE_STRUCTURAL"
 ```
 
----
+--------------------------------------------------------------------------------
 
-## 2. Protective Circuit Breakers (Mandatory Pre-Execution Filters)
-
+#### 2. Protective Circuit Breakers (Mandatory Pre-Execution Filters)
 Before any Scenario in Module 01 can authorize a spot entry, all four circuit breakers must pass:
-* **Circuit Breaker 1 — Pillar 1 Macro Permission Gate:** Verify that secular macro permissions (200-Day Moving Average regime, sovereign yield impulse, and DXY trajectory) allow risk deployment. If Pillar 1 is in a **100% Cash Lock**, Module 01 signals are restricted strictly to **Defensive Stand-Down** or **Existing Position Exit**.
-* **Circuit Breaker 2 — Domestic Fiat (USD) vs. Offshore (USDT) Venue Split:** Offshore spot positive CVD alone is insufficient. Verify that **Domestic Fiat Gateways (Coinbase/Kraken BTC-USD)** exhibit positive Spot CVD or a rising positive Coinbase Premium alongside net spot taker buying, and verify that CME Open Interest is not collapsing against offshore leverage expansion.
-* **Circuit Breaker 3 — Order-Book Absorption Verification:** Do not buy a candle close simply because basis is in the bottom 1% of history. Limit-order absorption must be confirmed on the 15-minute/1-hour footprint (selling volume failing to displace price downward at Value Area Low or high-volume support nodes).
-* **Circuit Breaker 4 — Forced-Liquidation Stand-Down:** If Open Interest is actively puking downward on red candles (long liquidation cascade in progress), all spot buy orders are frozen until Open Interest contraction decelerates and funding/basis volatility stabilizes.
+*   **Circuit Breaker 1 — Pillar 1 Macro Permission Gate:** Verify that secular macro permissions (200-Day Moving Average regime, sovereign yield impulse, and DXY trajectory) allow risk deployment. If Pillar 1 is in a **100% Cash Lock**, Module 01 signals are restricted strictly to **Defensive Stand-Down** or **Existing Position Exit**.
+*   **Circuit Breaker 2 — Domestic Fiat (USD) vs. Offshore (USDT) Venue Split:** Offshore spot positive CVD alone is insufficient. Verify that **Domestic Fiat Gateways (Coinbase/Kraken BTC-USD)** exhibit positive Spot CVD or a rising positive Coinbase Premium alongside net spot taker buying, and verify that CME Open Interest is not collapsing against offshore leverage expansion.
+*   **Circuit Breaker 3 — Order-Book Absorption Verification:** Do not buy a candle close simply because basis is in the bottom 1% of history. Limit-order absorption must be confirmed on the 15-minute/1-hour footprint (selling volume failing to displace price downward at Value Area Low or high-volume support nodes).
+*   **Circuit Breaker 4 — Forced-Liquidation Stand-Down:** If Open Interest is actively puking downward on red candles (long liquidation cascade in progress), all spot buy orders are frozen until Open Interest contraction decelerates and funding/basis volatility stabilizes.
+
+--------------------------------------------------------------------------------
+
+#### 3. Core Conditional Signal Units (Condition A -> Outcome B -> Rule C)
+##### CSU-01A: The Spot-Backed Short Squeeze ("The August 19 Precedent")
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. 7-day Open Interest expands significantly (>= +5% or +1.5 Z-score; benchmark +22,000 BTC) while Perpetual Basis remains in the bottom 1st–5th historical percentile (<= -0.025% to -0.06%) for >= 72 hours.
+    2. **Perpetual CVD** slopes steeply negative (7-day futures net taker flow deeply negative, e.g., -$1.1B), confirming aggressive leveraged shorting.
+    3. **Domestic Fiat (USD) Spot CVD** and net spot taker flow remain positive (spot absorbing futures selling), and price holds flat or prints higher lows above the 15m/1H Volume Profile Value Area Low (VAL).
+    4. **Rough Path Signature (Verdict 0):** Price–Volume and Spot CVD–OI Lévy Signed Area confirms spot flow is leading contract creation with positive upward path curvature.
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Sovereign Macro Lens:** Unleveraged institutional spot buyers are absorbing every market-sell order fired by leveraged perpetual short sellers. Because every perpetual contract requires a 1:1 counterparty, the Open Interest surge consists of trapped leveraged shorts sitting underwater against a rising spot floor.
+    *   **Probable Trajectory:** Any upward spot catalyst forces sequential short margin breaches and automated market-buy liquidations (mirroring the August 19 precedent at $69,335 that drove a +14% 7-day rally).
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Entry Trigger:** Execute **Unleveraged Spot Long** upon a verified 15-minute/1-hour footprint **Value Area High (VAH) reclaim** (or Developing POC breakout) accompanied by positive Domestic USD Spot CVD.
+    *   **Position Sizing Formula (0.75% Risk Ceiling):** Spot Position (BTC) = (0.0075 * Total Portfolio Equity) / (Entry Price - Invalidation Stop Price)
+    *   **Hard Structural Invalidation Stop:** Place hard stop immediately below the absorption swing low / Volume Profile VAL where limit bid absorption was verified.
+    *   **Two-Stage Profit Exit Protocol:**
+        *   **Stage 1 Exit (50% of Position):** Close 50% into the short-squeeze vertical impulse when **Perpetual Basis crosses above 0.00% into positive territory** AND **Open Interest drops by 5% to 8%** (confirming trapped shorts have been forcibly covered). Move stop on remaining 50% to breakeven.
+        *   **Stage 2 Exit (Remaining 50%):** Trail behind the 4H Volume Profile VAL or close fully if Domestic USD Spot CVD diverges negatively while Perp Basis spikes into overheated positive territory (> +0.03%).
+
+##### CSU-01B: The Passive Long-Trap Cascade ("Adler Correction Risk")
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. 7-day Open Interest expands (>= +5% or +1.5 Z-score) with Perpetual Basis negative (<= -0.025%) for >= 72 hours.
+    2. **Domestic Fiat (USD) Spot CVD** slopes **negative or flat** (both spot and futures show aligned net taker outflows, e.g., 24H futures -$1.2B and spot -$83.3M, or CME OI drops while offshore OI rises).
+    3. Price fails to reclaim the 1H Developing POC and breaks below the multi-day Volume Profile Value Area Low (VAL) on expanding volume.
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Sovereign Macro Lens:** Institutional spot buyers have stepped aside. The 1:1 long side of the Open Interest build-up is held by **offshore leveraged passive futures limit-buyers** borrowing into a falling market to catch a falling knife.
+    *   **Probable Trajectory:** With no genuine domestic spot bid floor beneath the market, aggressive perp selling pushes price below the margin maintenance threshold of passive futures longs, triggering a cascading **long-liquidation flush**.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** **LOCK 100% CASH (Zero Spot Long Exposure).** If holding an existing spot swing position, execute an immediate protective exit upon the loss of the 1H VAL accompanied by negative Domestic Spot CVD.
+    *   **Knife-Catching Ban:** Do not place resting spot limit bids during the breakdown. Wait for **Module 03 (Deleveraging Flush & OI Reset)** conditions—specifically an Open Interest wipeout of > 8% to 12% and verified post-flush Domestic USD Spot CVD step-in.
+
+##### CSU-01C: Institutional Delta-Neutral Basis Compression (Synthetic Chop)
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. Open Interest rises steadily while Perpetual Basis sits moderately negative (-0.01% to -0.035%), while dated quarterly/CME futures maintain a standard money-market contango premium (+5.3% to +5.7% annualized).
+    2. Spot ETF netflows or OTC spot purchases match the notional increase in short futures Open Interest.
+    3. Garman-Klass (OHLC) volatility compresses into the bottom 20th percentile; price oscillates tightly around the Volume Profile Point of Control (POC).
+*   **Observed Outcome B (The Mechanical Trajectory):** The Open Interest expansion is driven by delta-neutral institutional hedging or cross-venue basis arbitrage rather than directional speculation. Upward price ticks will not trigger panic short-covering cascades because short futures legs are hedged by spot holdings.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** **STANDBY / 100% CASH PRESERVATION.** Do not deploy swing capital inside a delta-neutral POC chop zone. Wait for a Garman-Klass volatility expansion paired with a directional Rough Path Signature breakout above VAH or below VAL.
+
+##### CSU-01D: Orderly Deleveraging & Mean Reversion (Signal Reset)
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. Perpetual Basis rises from its extreme discount back to 0.00% or slightly positive.
+    2. Total Open Interest contracts gradually by 5% to 8%+ over 48–96 hours **without** a violent price spike or crash.
+*   **Observed Outcome B (The Mechanical Trajectory):** Both leveraged longs and shorts have voluntarily closed their positions into neutral liquidity. The coiled spring has been disarmed without a liquidation cascade.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** **DEACTIVATE MODULE 01 WATCH.** Cancel all squeeze-dependent pending triggers and transition the scanner to **Module 05 (Spot vs. Perp CVD Matrix)** and **Module 11 (Volume Profile Topology)** for standard trend evaluation.
+
+--------------------------------------------------------------------------------
+
+#### 4. Dynamic Regime Mutation Lookup Matrix (M1 through M8)
+| Mutation ID | Initial State | Telemetry Mutation Observed (Condition A') | Mechanical Meaning (Outcome B') | Mandatory Execution Override (Rule C') |
+| ------ | ------ | ------ | ------ | ------ |
+| **M1: Squeeze Ignition** | CSU-01A (Accumulation) | Price reclaims 1H VAH + OI starts **dropping** (-2% to -5%) + Perp CVD spikes vertically **positive** + Basis jumps toward **0%**. | Trapped perp shorts have hit liquidation thresholds; forced market-buy covering is underway. | Hold Spot Long; prepare **Stage 1 Profit Exit (50%)** as Basis crosses **0.00%** and OI unwind reaches **-5% to -8%**. |
+| **M2: Late-Long Hand-Off Trap** | M1 (Active Squeeze) | Price rallies +8% to +14%, Basis flips **highly positive (> +0.025%)**, and **OI starts rising again** at the highs while USD Spot CVD flattens. | Shorts are gone; retail FOMO longs are opening high-leverage longs at the top while spot buyers stop bidding. | **Execute Stage 2 Exit (Close remaining 50% Spot Long immediately).** Transition to Module 02 (Crowded Positive Basis Warning). |
+| **M3: Spot Bid Exhaustion** | CSU-01A (Accumulation) | Basis stays negative and OI stays high, but **Domestic USD Spot CVD flips negative** over a 4H/24H window (aligned spot + futures outflow). | Institutional spot absorbers have pulled their resting limit bids; perp sellers are about to overwhelm the book. | **Abort CSU-01A Watch.** If already in a Spot Long, exit at market ahead of the structural stop to preserve capital. |
+| **M4: Long-Trap Breakdown** | CSU-01B (Fragile Floor) | Price breaks VAL + **OI drops sharply** (-5% to -12%) + Long liquidations exceed **85% of total liquidations**. | Passive leveraged futures longs are being forcibly liquidated into a thin spot order book. | **Enforce 100% Cash Lock.** Block all dip-buying until OI contraction halts and 15m footprint shows verified bid absorption. |
+| **M5: Short-Pile-On Breakdown** | CSU-01B (Fragile Floor) | Price breaks support, Basis drops even deeper (**below -0.06%**), and **OI continues rising** into the breakdown. | Breakdown is driven by aggressive new momentum shorts piling in at the lows rather than long liquidations. | Stay **100% Cash** during initial impulse, but put **CSU-01A** on high alert: if Domestic USD Spot CVD steps in at lower HTF support, late breakdown shorts become massive squeeze fuel. |
+| **M6: Premature Basis Flip** | CSU-01A / 01B (Range Chop) | Price has **not** broken out, OI remains elevated, yet Basis/Funding flips **positive** mid-range. | Perp traders have flipped net long inside the chop before any short squeeze occurred—eliminating short-squeeze fuel. | **Cancel Bullish Squeeze Bias.** High OI + positive basis inside a stagnant range increases downside long-flush vulnerability. |
+| **M7: Offshore Spoof Divergence** | CSU-01A (False Signal) | Aggregate Spot CVD or OI rises on **offshore USDT venues**, while **Coinbase USD Spot CVD**, **CME OI (-15%)**, and **Spot ETF netflows (-$299.8M)** are negative. | Offshore tether churn and retail dip-borrowing are masking domestic institutional exit. | **Circuit Breaker 2 Tripped: DO NOT ENTER.** Treat setup as CSU-01B (Downside Correction Risk) until USD gateways turn positive. |
+| **M8: Post-Flush V-Bottom Reclaim** | M4 (Long Cascade) | After a **> 8%** OI flush, price sweeps a major HTF liquidity low, reclaims VAL on the 15m chart, Basis stays deeply negative, and **USD Spot CVD surges**. | Weak leveraged longs have been wiped out; late panic shorts at the bottom are now trapped by institutional spot buyers. | **Authorize Spot Long Entry** under the **0.75% Risk Formula**, placing the invalidation stop below the capitulation wick low. |
+
+--------------------------------------------------------------------------------
+
+#### 5. Empirical Horizon Reconciliation Note (`MOD 68.1` Cross-Link)
+Per **`MOD 68.1`** (299 non-overlapping weeks, `2021-01-08` → `2026-09-30`), full-week negative funding paired with rising Open Interest (*Crowded Shorts*) occurred **`0 / 299` times above the 200-Day SMA** and exclusively below it (`n = 18`, `72%` hit rate, 95% CI `50%–87%`). Accordingly, when operating in a secular bull regime above the 200D SMA, `MOD 01` monitors **short-window intraday to 72-hour negative basis discounts** (`CSU-01A`) rather than full-week negative funding averages—and below the 200D SMA, weekly crowded-short context remains strictly subordinate to `MOD 60` Ranks 0–3 (`GATE_RED` / `ICDM >= 60`) and Domestic USD Spot CVD authentication (`CB-02`).
 
 ---
 
-## 3. Core Conditional Signal Units (`Condition A -> Outcome B -> Rule C`)
-
-### CSU-01A: The Spot-Backed Short Squeeze ("The August 19 Precedent")
-* **Trigger Condition A (The Telemetry Scan):**
-  1. 7-day Open Interest expands significantly (`>= +5%` or `+1.5 Z-score`; benchmark `+22,000 BTC`) while Perpetual Basis remains in the bottom 1st–5th historical percentile (`<= -0.025%` to `-0.06%`) for `>= 72 hours`.
-  2. **Perpetual CVD** slopes steeply negative (7-day futures net taker flow deeply negative, e.g., `-$1.1B`), confirming aggressive leveraged shorting.
-  3. **Domestic Fiat (USD) Spot CVD** and net spot taker flow remain positive (spot absorbing futures selling), and price holds flat or prints higher lows above the 15m/1H Volume Profile Value Area Low (VAL).
-  4. **Rough Path Signature (Verdict 0):** Price–Volume and Spot CVD–OI Lévy Signed Area confirms spot flow is leading contract creation with positive upward path curvature.
-* **Observed Outcome B (The Mechanical Trajectory):**
-  * **Sovereign Macro Lens:** Unleveraged institutional spot buyers are absorbing every market-sell order fired by leveraged perpetual short sellers. Because every perpetual contract requires a 1:1 counterparty, the Open Interest surge consists of trapped leveraged shorts sitting underwater against a rising spot floor.
-  * **Probable Trajectory:** Any upward spot catalyst forces sequential short margin breaches and automated market-buy liquidations (mirroring the August 19 precedent at `$69,335` that drove a `+14%` 7-day rally).
-* **Execution Rule C (The Non-Negotiable Action):**
-  * **Entry Trigger:** Execute **Unleveraged Spot Long** upon a verified 15-minute/1-hour footprint **Value Area High (VAH) reclaim** (or Developing POC breakout) accompanied by positive Domestic USD Spot CVD.
-  * **Position Sizing Formula (0.75% Risk Ceiling):**
-    `Spot Position (BTC) = (0.0075 * Total Portfolio Equity) / (Entry Price - Invalidation Stop Price)`
-  * **Hard Structural Invalidation Stop:** Place hard stop immediately below the absorption swing low / Volume Profile VAL where limit bid absorption was verified.
-  * **Two-Stage Profit Exit Protocol:**
-    * **Stage 1 Exit (50% of Position):** Close 50% into the short-squeeze vertical impulse when **Perpetual Basis crosses above 0.00% into positive territory** AND **Open Interest drops by 5% to 8%** (confirming trapped shorts have been forcibly covered). Move stop on remaining 50% to breakeven.
-    * **Stage 2 Exit (Remaining 50%):** Trail behind the 4H Volume Profile VAL or close fully if Domestic USD Spot CVD diverges negatively while Perp Basis spikes into overheated positive territory (`> +0.03%`).
-
-### CSU-01B: The Passive Long-Trap Cascade ("Adler Correction Risk")
-* **Trigger Condition A (The Telemetry Scan):**
-  1. 7-day Open Interest expands (`>= +5%` or `+1.5 Z-score`) with Perpetual Basis negative (`<= -0.025%`) for `>= 72 hours`.
-  2. **Domestic Fiat (USD) Spot CVD** slopes **negative or flat** (both spot and futures show aligned net taker outflows, e.g., 24H futures `-$1.2B` and spot `-$83.3M`, or CME OI drops while offshore OI rises).
-  3. Price fails to reclaim the 1H Developing POC and breaks below the multi-day Volume Profile Value Area Low (VAL) on expanding volume.
-* **Observed Outcome B (The Mechanical Trajectory):**
-  * **Sovereign Macro Lens:** Institutional spot buyers have stepped aside. The 1:1 long side of the Open Interest build-up is held by **offshore leveraged passive futures limit-buyers** borrowing into a falling market to catch a falling knife.
-  * **Probable Trajectory:** With no genuine domestic spot bid floor beneath the market, aggressive perp selling pushes price below the margin maintenance threshold of passive futures longs, triggering a cascading **long-liquidation flush**.
-* **Execution Rule C (The Non-Negotiable Action):**
-  * **Action:** **LOCK 100% CASH (Zero Spot Long Exposure).** If holding an existing spot swing position, execute an immediate protective exit upon the loss of the 1H VAL accompanied by negative Domestic Spot CVD.
-  * **Knife-Catching Ban:** Do not place resting spot limit bids during the breakdown. Wait for **Module 03 (Deleveraging Flush & OI Reset)** conditions—specifically an Open Interest wipeout of `> 8% to 12%` and verified post-flush Domestic USD Spot CVD step-in.
-
-### CSU-01C: Institutional Delta-Neutral Basis Compression (Synthetic Chop)
-* **Trigger Condition A (The Telemetry Scan):**
-  1. Open Interest rises steadily while Perpetual Basis sits moderately negative (`-0.01%` to `-0.035%`), while dated quarterly/CME futures maintain a standard money-market contango premium (`+5.3%` to `+5.7%` annualized).
-  2. Spot ETF netflows or OTC spot purchases match the notional increase in short futures Open Interest.
-  3. Garman-Klass (OHLC) volatility compresses into the bottom 20th percentile; price oscillates tightly around the Volume Profile Point of Control (POC).
-* **Observed Outcome B (The Mechanical Trajectory):**
-  The Open Interest expansion is driven by delta-neutral institutional hedging or cross-venue basis arbitrage rather than directional speculation. Upward price ticks will not trigger panic short-covering cascades because short futures legs are hedged by spot holdings.
-* **Execution Rule C (The Non-Negotiable Action):**
-  * **Action:** **STANDBY / 100% CASH PRESERVATION.** Do not deploy swing capital inside a delta-neutral POC chop zone. Wait for a Garman-Klass volatility expansion paired with a directional Rough Path Signature breakout above VAH or below VAL.
-
-### CSU-01D: Orderly Deleveraging & Mean Reversion (Signal Reset)
-* **Trigger Condition A (The Telemetry Scan):**
-  1. Perpetual Basis rises from its extreme discount back to `0.00%` or slightly positive.
-  2. Total Open Interest contracts gradually by `5% to 8%+` over 48–96 hours **without** a violent price spike or crash.
-* **Observed Outcome B (The Mechanical Trajectory):**
-  Both leveraged longs and shorts have voluntarily closed their positions into neutral liquidity. The coiled spring has been disarmed without a liquidation cascade.
-* **Execution Rule C (The Non-Negotiable Action):**
-  * **Action:** **DEACTIVATE MODULE 01 WATCH.** Cancel all squeeze-dependent pending triggers and transition the scanner to **Module 05 (Spot vs. Perp CVD Matrix)** and **Module 11 (Volume Profile Topology)** for standard trend evaluation.
-
----
-
-## 4. Dynamic Regime Mutation Lookup Matrix (`M1` through `M8`)
-
-| Mutation ID | Initial State | Telemetry Mutation Observed (`Condition A'`) | Mechanical Meaning (`Outcome B'`) | Mandatory Execution Override (`Rule C'`) |
-| :--- | :--- | :--- | :--- | :--- |
-| **M1: Squeeze Ignition** | `CSU-01A` (Accumulation) | Price reclaims 1H VAH + OI starts **dropping** (-2% to -5%) + Perp CVD spikes vertically **positive** + Basis jumps toward **0%**. | Trapped perp shorts have hit liquidation thresholds; forced market-buy covering is underway. | Hold Spot Long; prepare **Stage 1 Profit Exit (50%)** as Basis crosses **0.00%** and OI unwind reaches **-5% to -8%**. |
-| **M2: Late-Long Hand-Off Trap** | `M1` (Active Squeeze) | Price rallies +8% to +14%, Basis flips **highly positive (> +0.025%)**, and **OI starts rising again** at the highs while USD Spot CVD flattens. | Shorts are gone; retail FOMO longs are opening high-leverage longs at the top while spot buyers stop bidding. | **Execute Stage 2 Exit (Close remaining 50% Spot Long immediately).** Transition to Module 02 (Crowded Positive Basis Warning). |
-| **M3: Spot Bid Exhaustion** | `CSU-01A` (Accumulation) | Basis stays negative and OI stays high, but **Domestic USD Spot CVD flips negative** over a 4H/24H window (aligned spot + futures outflow). | Institutional spot absorbers have pulled their resting limit bids; perp sellers are about to overwhelm the book. | **Abort `CSU-01A` Watch.** If already in a Spot Long, exit at market ahead of the structural stop to preserve capital. |
-| **M4: Long-Trap Breakdown** | `CSU-01B` (Fragile Floor) | Price breaks VAL + **OI drops sharply** (-5% to -12%) + Long liquidations exceed **85% of total liquidations**. | Passive leveraged futures longs are being forcibly liquidated into a thin spot order book. | **Enforce 100% Cash Lock.** Block all dip-buying until OI contraction halts and 15m footprint shows verified bid absorption. |
-| **M5: Short-Pile-On Breakdown** | `CSU-01B` (Fragile Floor) | Price breaks support, Basis drops even deeper (**below -0.06%**), and **OI continues rising** into the breakdown. | Breakdown is driven by aggressive new momentum shorts piling in at the lows rather than long liquidations. | Stay **100% Cash** during initial impulse, but put **CSU-01A** on high alert: if Domestic USD Spot CVD steps in at lower HTF support, late breakdown shorts become massive squeeze fuel. |
-| **M6: Premature Basis Flip** | `CSU-01A` / `01B` (Range Chop) | Price has **not** broken out, OI remains elevated, yet Basis/Funding flips **positive** mid-range. | Perp traders have flipped net long inside the chop before any short squeeze occurred—eliminating short-squeeze fuel. | **Cancel Bullish Squeeze Bias.** High OI + positive basis inside a stagnant range increases downside long-flush vulnerability. |
-| **M7: Offshore Spoof Divergence** | `CSU-01A` (False Signal) | Aggregate Spot CVD or OI rises on **offshore USDT venues**, while **Coinbase USD Spot CVD**, **CME OI (-15%)**, and **Spot ETF netflows (-$299.8M)** are negative. | Offshore tether churn and retail dip-borrowing are masking domestic institutional exit. | **Circuit Breaker 2 Tripped: DO NOT ENTER.** Treat setup as `CSU-01B` (Downside Correction Risk) until USD gateways turn positive. |
-| **M8: Post-Flush V-Bottom Reclaim** | `M4` (Long Cascade) | After a **> 8%** OI flush, price sweeps a major HTF liquidity low, reclaims VAL on the 15m chart, Basis stays deeply negative, and **USD Spot CVD surges**. | Weak leveraged longs have been wiped out; late panic shorts at the bottom are now trapped by institutional spot buyers. | **Authorize Spot Long Entry** under the **0.75% Risk Formula**, placing the invalidation stop below the capitulation wick low. |
-
----
+## [08] MOD 02 — Rising Open Interest High Positive Perpetual Basis
+<!-- Source: rulebook/MOD_02_Rising_Open_Interest_High_Positive_Perpetual_Basis.md -->
 
 # PROJECT CORTEX-BTC — MODULE 02: RISING OPEN INTEREST + HIGH POSITIVE PERPETUAL BASIS
 **Waterfall Tier:** Pillar 3 (Derivatives & Market Fragility) cross-verified with Pillar 2 (Microstructure & Order Flow) and Pillar 4 (Portfolio Engineering).
@@ -937,6 +821,9 @@ Before any Scenario in Module 02 can authorize a spot action, all four circuit b
 
 ---
 
+## [09] MOD 03 — Deleveraging Flushes And Open Interest Reset Mechanics
+<!-- Source: rulebook/MOD_03_Deleveraging_Flushes_And_Open_Interest_Reset_Mechanics.md -->
+
 # PROJECT CORTEX-BTC — MODULE 03: DELEVERAGING FLUSHES & OPEN INTEREST RESET MECHANICS
 **Waterfall Tier:** Pillar 3 (Derivatives & Market Fragility) cross-verified with Pillar 2 (Microstructure & Order Flow) and Pillar 4 (Portfolio Engineering).
 **Empirical Benchmark Anchor:** November 12–13, 2026 & Historical Reset Benchmarks — Binance BTC futures Open Interest contracting **~17%** from **$10.6B down to $8.8B** (echoing the June 2026 reset below **$60,000** that preceded a **+45%** expansion above **$87,000**), alongside intra-day liquidation cascades reaching **$304.50M (87% Longs)** on the flush from **$74,771.4** to **$71,218.1**.
@@ -1054,14 +941,15 @@ Before any Scenario in Module 03 can authorize a spot entry after a flush, all f
 
 ---
 
-# PROJECT CORTEX-BTC — MODULE 04: FUNDING RATE VELOCITY & PRICE DIVERGENCE MATRIX
-**Waterfall Tier:** Pillar 3 (Derivatives & Market Fragility) cross-verified with Pillar 2 (Microstructure & Order Flow) and Pillar 4 (Portfolio Engineering).
-**Empirical Benchmark Anchor:** November 12, 2026 Cross-Venue Funding Telemetry — OI-weighted 8-hour perpetual funding averaging **+0.0073% to +0.0075%** (**8.02%–8.24% APR**), exhibiting sharp cross-venue dispersion between domestic/on-chain venues (**+0.0021% on Hyperliquid**, **+0.0024% on Coinbase CDE**) and offshore retail venues (**+0.0080% on Binance**, **+0.0082% on Bybit**, **+0.0100% / 10.95% APR on OKX**).
+## [10] MOD 04 — Funding Rate Velocity And Price Divergence Matrix
+<!-- Source: rulebook/MOD_04_Funding_Rate_Velocity_And_Price_Divergence_Matrix.md -->
 
----
+### PROJECT CORTEX-BTC — MODULE 04: FUNDING RATE VELOCITY & PRICE DIVERGENCE MATRIX
+**Waterfall Tier:** Pillar 3 (Derivatives & Market Fragility) cross-verified with Pillar 2 (Microstructure & Order Flow) and Pillar 4 (Portfolio Engineering). **Empirical Benchmark Anchor:** November 12, 2026 Cross-Venue Funding Telemetry — OI-weighted 8-hour perpetual funding averaging **+0.0073% to +0.0075%** (**8.02%–8.24% APR**), exhibiting sharp cross-venue dispersion between domestic/on-chain venues (**+0.0021% on Hyperliquid**, **+0.0024% on Coinbase CDE**) and offshore retail venues (**+0.0080% on Binance**, **+0.0082% on Bybit**, **+0.0100% / 10.95% APR on OKX**).
 
-## 1. Machine-Readable State & Routing Block (Python / Hermes / NotebookLM Index)
+--------------------------------------------------------------------------------
 
+#### 1. Machine-Readable State & Routing Block (Python / Hermes / NotebookLM Index)
 ```yaml
 module_id: "MOD_04"
 entry_type: "CONDITIONAL_SIGNAL_UNIT"
@@ -1092,84 +980,86 @@ risk_parameters:
   exit_protocol: "TWO_STAGE_STRUCTURAL"
 ```
 
----
+--------------------------------------------------------------------------------
 
-## 2. Protective Circuit Breakers (Mandatory Pre-Execution Filters)
-
+#### 2. Protective Circuit Breakers (Mandatory Pre-Execution Filters)
 Before any Scenario in Module 04 can authorize a spot decision, all four circuit breakers must pass:
-* **Circuit Breaker 1 — OI-Weighted Normalization (`CB-02`):** Different exchanges settle funding on different schedules (Binance/Bybit/OKX every 8 hours; Coinbase CDE/Hyperliquid every 1 hour). Always normalize all rates to an **8-hour OI-weighted composite** (`Rate_8h = Rate_1h * 8`) and track the **spread between offshore retail venues and domestic USD venues**.
-* **Circuit Breaker 2 — Negative Funding Fallacy Filter (`CB-01`):** A common retail error is assuming negative funding is automatically bullish. Negative funding is only bullish when **Price is holding support or rising** and **Domestic USD Spot CVD is positive** (`Disbelief Rally`). If Price and Domestic Spot CVD are both falling, negative funding simply confirms an active downtrend.
-* **Circuit Breaker 3 — Pillar 1 Macro Permission Gate:** Even a textbook Disbelief Rally divergence is capped in duration if Pillar 1 (Macro Liquidity & 200D MA) is in a **100% Cash Lock**.
-* **Circuit Breaker 4 — Velocity Exhaustion Filter:** When funding velocity spikes vertically (`> +2.5 Z-score` in `< 24 hours`) without matching Spot CVD acceleration, the move is driven by synthetic leverage chasing and is prone to sharp mean reversion.
+*   **Circuit Breaker 1 — OI-Weighted Normalization (CB-02):** Different exchanges settle funding on different schedules (Binance/Bybit/OKX every 8 hours; Coinbase CDE/Hyperliquid every 1 hour). Always normalize all rates to an **8-hour OI-weighted composite** (Rate_8h = Rate_1h * 8) and track the **spread between offshore retail venues and domestic USD venues**.
+*   **Circuit Breaker 2 — Negative Funding Fallacy Filter (CB-01):** A common retail error is assuming negative funding is automatically bullish. Negative funding is only bullish when **Price is holding support or rising** and **Domestic USD Spot CVD is positive** (Disbelief Rally). If Price and Domestic Spot CVD are both falling, negative funding simply confirms an active downtrend.
+*   **Circuit Breaker 3 — Pillar 1 Macro Permission Gate:** Even a textbook Disbelief Rally divergence is capped in duration if Pillar 1 (Macro Liquidity & 200D MA) is in a **100% Cash Lock**.
+*   **Circuit Breaker 4 — Velocity Exhaustion Filter:** When funding velocity spikes vertically (> +2.5 Z-score in < 24 hours) without matching Spot CVD acceleration, the move is driven by synthetic leverage chasing and is prone to sharp mean reversion.
+
+--------------------------------------------------------------------------------
+
+#### 3. Core Conditional Signal Units (Condition A -> Outcome B -> Rule C)
+##### CSU-04A: The Disbelief Rally ("Price Rising While Funding Compresses or Stays Negative")
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. **Price Slope (Delta_P):** Spot price trends higher over 48–168 hours, printing higher highs and higher lows above the 4H Developing POC.
+    2. **Funding Velocity (Delta_F):** OI-weighted 8-hour funding **falls or remains compressed/negative** (<= +0.0030% down to -0.020%, rolling 72h Price-Funding correlation <= -0.50).
+    3. **Spot Confirmation:** **Domestic Fiat (USD) Spot CVD** slopes steadily **positive** while Perpetual CVD lags or trends negative (traders are shorting every bounce in futures while unleveraged spot buyers absorb).
+    4. **Rough Path Signature (Verdict 0):** Price–Volume Lévy Signed Area confirms volume-backed upward path curvature.
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Sovereign Macro Lens:** This is the highest-quality, most sustainable bullish structure in Bitcoin markets. Real spot capital is driving price higher while skeptical futures traders continuously short the rally—creating a self-fueling ladder of trapped short liquidity without any long-side funding overhang.
+    *   **Probable Trajectory:** Persistent upward grind punctuated by sharp, sudden short-squeeze candles whenever resistance levels break, continuing until skepticism finally turns into FOMO (funding flips steeply positive).
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Entry Trigger:** Execute **Unleveraged Spot Long** on any minor pullback to the 1H Volume Profile **POC or VAL** where funding dips further negative and Domestic USD Spot CVD holds firm.
+    *   **Position Sizing Formula (0.75% Risk Ceiling):** Spot Position (BTC) = (0.0075 * Total Portfolio Equity) / (Entry Price - Invalidation Stop Price)
+    *   **Hard Structural Invalidation Stop:** Place hard stop below the prior 4H swing higher-low / Volume Profile VAL.
+    *   **Two-Stage Profit Exit Protocol:**
+        *   **Stage 1 Exit (50% of Position):** Hold through the disbelief grind until funding finally capitulates upward (crosses above +0.020%/8h with a sharp short-liquidation spike); close 50% and move stop to breakeven.
+        *   **Stage 2 Exit (Remaining 50%):** Exit remaining 50% when funding hits the >= 90th percentile (> +0.035%/8h) and Domestic USD Spot CVD flattens.
+
+##### CSU-04B: Disbelief Dip-Buying ("Price Falling While Funding Spikes Higher")
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. **Price Slope (Delta_P):** Spot price declines steadily over 24–96 hours, losing key 1H/4H Volume Profile support nodes.
+    2. **Funding Velocity (Delta_F):** OI-weighted 8-hour funding **rises sharply** (e.g., from +0.005% to +0.020%+, especially on offshore retail venues like OKX/Binance), with rolling 72h Price-Funding correlation <= -0.50.
+    3. **Spot Confirmation:** **Domestic Fiat (USD) Spot CVD** and US Spot ETF netflows are **negative** (spot distribution into leveraged retail dip-buyers).
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Sovereign Macro Lens:** As price drops, retail futures traders aggressively buy the dip with high leverage, bidding perpetual futures *above* the falling spot price and paying high funding rates to institutional spot sellers who are offloading inventory.
+    *   **Probable Trajectory:** Extremely fragile structure. Because dip-buyers are using margin rather than unleveraged spot, continued spot selling forces those leveraged dip-buyers into margin calls—accelerating the downtrend via cascading long liquidations.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** **LOCK 100% CASH (Strict Ban on Dip-Buying).** Do not deploy spot capital while retail funding is rising into a falling price tape. Wait until funding breaks downward (capitulation flip) and Module 03 (CSU-03A) confirms leveraged dip-buyers have been liquidated.
+
+##### CSU-04C: Contango Carry Bleed ("Stagnant Price With Sustained High Positive Funding")
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. **Price Slope (Delta_P):** Price is trapped in a tight horizontal range (Garman-Klass volatility < 25th percentile) for >= 72 hours.
+    2. **Funding Level:** OI-weighted 8-hour funding stays elevated at **+0.015% to +0.035%+ (16%–38% APR)** with elevated Open Interest.
+    3. **Cross-Venue Spread:** Offshore retail funding (Binance/OKX/Bybit) trades >= +6 to +10 bps higher per 8h than domestic/institutional venues (Coinbase/CME).
+*   **Observed Outcome B (The Mechanical Trajectory):** Leveraged longs are bleeding heavy funding payments every 8 hours without receiving any upward price appreciation. Eventually, funding fatigue forces leveraged longs to close at market, triggering a sharp downward stop-hunt wick through the bottom of the range.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** **STANDBY / 100% CASH PRESERVATION.** Avoid holding unhedged tactical longs inside high-funding range chop. Wait for the inevitable downward funding-fatigue wick (Mutation M4) to sweep range lows and reset funding before evaluating entry.
+
+##### CSU-04D: Backwardation Panic Inflection ("Funding Velocity Crash Into Deep Negative Territory")
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. **Funding Velocity (Delta_F):** OI-weighted 8-hour funding plunges rapidly (<= -2.5 Z-score, crashing from positive into **-0.015% to -0.050%**) within 12–36 hours following a sharp price drop.
+    2. **Order-Book & Spot Audit:** Price hits a major higher-timeframe Volume Profile VAL or On-Chain STH Realized Price band, and **Domestic Fiat (USD) Spot CVD** shows immediate passive limit-bid absorption (price stops falling despite heavy market selling).
+*   **Observed Outcome B (The Mechanical Trajectory):** Panic hedging and late-bottom shorting have reached a crescendo at structural support. Market makers and spot institutions are absorbing the panic futures selling at a discount.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Entry Trigger:** Authorize **Unleveraged Spot Long** only once 15m/1H price reclaims the local Developing POC with positive Domestic USD Spot CVD (confirming panic sellers are trapped). Size strictly via the **0.75% Risk Formula** with hard stop beneath the panic wick low.
+
+--------------------------------------------------------------------------------
+
+#### 4. Dynamic Regime Mutation Lookup Matrix (M1 through M8)
+| Mutation ID | Initial State | Telemetry Mutation Observed (Condition A') | Mechanical Meaning (Outcome B') | Mandatory Execution Override (Rule C') |
+| ------ | ------ | ------ | ------ | ------ |
+| **M1: Disbelief-to-FOMO Flip** | CSU-04A (Disbelief Rally) | After rallying for days on negative/low funding, 8h funding suddenly spikes above **+0.025%** on a breakout candle while **USD Spot CVD flattens**. | Skeptical shorts have capitulated; retail FOMO longs are now chasing the move at highs. | **Execute Stage 1 (50%) or Stage 2 (100%) Profit Exit** into the funding spike. |
+| **M2: Dip-Buyer Capitulation** | CSU-04B (Disbelief Dip) | Price drops sharply, long liquidations spike, and **8h funding crashes from +0.020% down to <= 0.000%** in under 12 hours. | Leveraged dip-buyers have finally been wiped out, removing the overhead long-liquidation overhang. | Lift CSU-04B ban; transition to **Module 03 (CSU-03A)** to watch for post-flush USD Spot CVD step-in. |
+| **M3: Offshore-Domestic Divergence** | Any State | Offshore funding (OKX/Binance) spikes to +0.010%–0.025% while **Coinbase/Hyperliquid funding stays near 0.000%** and Coinbase Spot CVD is negative. | Retail offshore leverage is diverging from flat/distributing US institutional flow. | **Circuit Breaker 2 Warning:** Do not trust offshore funding optimism; tighten stops or remain in **100% Cash**. |
+| **M4: Contango Fatigue Flush** | CSU-04C (Carry Bleed) | After days of stagnant price and high funding, price breaks range VAL, **OI drops -5% to -10%**, and funding resets to <= +0.005%. | Leveraged longs finally capitulated under funding bleed, sweeping range liquidity. | **Wait 1–2 hours for OI to stabilize**; if USD Spot CVD reclaims range VAL, enter 0.75% Risk Spot Long. |
+| **M5: Failed Backwardation Bounce** | CSU-04D (Panic Inflection) | Funding plunges deep negative (< -0.030%), price bounces weakly for 2 hours, then **breaks the panic low** as **USD Spot CVD turns negative**. | Institutional spot buyers pulled bids; backwardation reflects genuine structural liquidation rather than a bottom. | **Hard Stop Triggered / Enforce 100% Cash Lock.** Do not re-enter until higher-timeframe support holds. |
+| **M6: Funding-Neutral Trend** | CSU-04A (Disbelief Rally) | Price climbs steadily for weeks while funding remains pinned in the **+0.005% to +0.010%** baseline band and USD Spot CVD rises smoothly. | Ideal institutional accumulation trend—zero leverage excess and steady spot demand. | **Maintain Core Spot Swing Position**; trail stops smoothly below 4H Volume Profile VALs. |
+| **M7: Arbitrage Basis Compression** | CSU-04C (Carry Bleed) | Perpetual funding drops to 0.000% alongside dated futures basis compressing below +4% APR and **US Spot ETF outflows**. | Institutional cash-and-carry desks are unwinding long spot / short futures spreads. | **Maintain 100% Cash Lock** until ETF outflows stabilize and basis stops compressing. |
+| **M8: Double-Divergence Bottom** | CSU-04D (Panic Inflection) | Price prints a marginally lower low, but **8h funding prints a higher low** (less negative) while **Domestic USD Spot CVD prints a higher low**. | Aggressive short-selling pressure is exhausting itself while domestic spot absorption strengthens. | **High-Conviction Reversal Signal:** Execute 0.75% Risk Spot Long upon 15m/1H VAH reclaim. |
+
+--------------------------------------------------------------------------------
+
+#### 5. Empirical Horizon Reconciliation Note (`MOD 68.1` Cross-Link)
+Per **`MOD 68.1`** (299 non-overlapping weeks, `2021-01-08` → `2026-09-30`), a full-week negative funding average paired with rising Open Interest has **`0 / 299` occurrences above the 200-Day SMA**. Consequently, in secular uptrends (`> 200D SMA`), **`CSU-04A` (The Disbelief Rally)** operates strictly on **short-window (`48h–72h`) funding compression (`<= +0.0030%/8h`) or brief 8-hour negative dips** driven by Spot CVD leadership—never waiting for a full weekly negative funding regime, which empirically occurs exclusively below the 200D SMA.
 
 ---
 
-## 3. Core Conditional Signal Units (`Condition A -> Outcome B -> Rule C`)
-
-### CSU-04A: The Disbelief Rally ("Price Rising While Funding Compresses or Stays Negative")
-* **Trigger Condition A (The Telemetry Scan):**
-  1. **Price Slope (`Delta_P`):** Spot price trends higher over 48–168 hours, printing higher highs and higher lows above the 4H Developing POC.
-  2. **Funding Velocity (`Delta_F`):** OI-weighted 8-hour funding **falls or remains compressed/negative** (`<= +0.0030%` down to `-0.020%`, rolling 72h Price-Funding correlation `<= -0.50`).
-  3. **Spot Confirmation:** **Domestic Fiat (USD) Spot CVD** slopes steadily **positive** while Perpetual CVD lags or trends negative (traders are shorting every bounce in futures while unleveraged spot buyers absorb).
-  4. **Rough Path Signature (Verdict 0):** Price–Volume Lévy Signed Area confirms volume-backed upward path curvature.
-* **Observed Outcome B (The Mechanical Trajectory):**
-  * **Sovereign Macro Lens:** This is the highest-quality, most sustainable bullish structure in Bitcoin markets. Real spot capital is driving price higher while skeptical futures traders continuously short the rally—creating a self-fueling ladder of trapped short liquidity without any long-side funding overhang.
-  * **Probable Trajectory:** Persistent upward grind punctuated by sharp, sudden short-squeeze candles whenever resistance levels break, continuing until skepticism finally turns into FOMO (`funding flips steeply positive`).
-* **Execution Rule C (The Non-Negotiable Action):**
-  * **Entry Trigger:** Execute **Unleveraged Spot Long** on any minor pullback to the 1H Volume Profile **POC or VAL** where funding dips further negative and Domestic USD Spot CVD holds firm.
-  * **Position Sizing Formula (0.75% Risk Ceiling):**
-    `Spot Position (BTC) = (0.0075 * Total Portfolio Equity) / (Entry Price - Invalidation Stop Price)`
-  * **Hard Structural Invalidation Stop:** Place hard stop below the prior 4H swing higher-low / Volume Profile VAL.
-  * **Two-Stage Profit Exit Protocol:**
-    * **Stage 1 Exit (50% of Position):** Hold through the disbelief grind until funding finally capitulates upward (crosses above `+0.020%/8h` with a sharp short-liquidation spike); close 50% and move stop to breakeven.
-    * **Stage 2 Exit (Remaining 50%):** Exit remaining 50% when funding hits the `>= 90th percentile` (`> +0.035%/8h`) and Domestic USD Spot CVD flattens.
-
-### CSU-04B: Disbelief Dip-Buying ("Price Falling While Funding Spikes Higher")
-* **Trigger Condition A (The Telemetry Scan):**
-  1. **Price Slope (`Delta_P`):** Spot price declines steadily over 24–96 hours, losing key 1H/4H Volume Profile support nodes.
-  2. **Funding Velocity (`Delta_F`):** OI-weighted 8-hour funding **rises sharply** (`e.g., from +0.005% to +0.020%+`, especially on offshore retail venues like OKX/Binance), with rolling 72h Price-Funding correlation `<= -0.50`.
-  3. **Spot Confirmation:** **Domestic Fiat (USD) Spot CVD** and US Spot ETF netflows are **negative** (spot distribution into leveraged retail dip-buyers).
-* **Observed Outcome B (The Mechanical Trajectory):**
-  * **Sovereign Macro Lens:** As price drops, retail futures traders aggressively buy the dip with high leverage, bidding perpetual futures *above* the falling spot price and paying high funding rates to institutional spot sellers who are offloading inventory.
-  * **Probable Trajectory:** Extremely fragile structure. Because dip-buyers are using margin rather than unleveraged spot, continued spot selling forces those leveraged dip-buyers into margin calls—accelerating the downtrend via cascading long liquidations.
-* **Execution Rule C (The Non-Negotiable Action):**
-  * **Action:** **LOCK 100% CASH (Strict Ban on Dip-Buying).** Do not deploy spot capital while retail funding is rising into a falling price tape. Wait until funding breaks downward (`capitulation flip`) and Module 03 (`CSU-03A`) confirms leveraged dip-buyers have been liquidated.
-
-### CSU-04C: Contango Carry Bleed ("Stagnant Price With Sustained High Positive Funding")
-* **Trigger Condition A (The Telemetry Scan):**
-  1. **Price Slope (`Delta_P`):** Price is trapped in a tight horizontal range (`Garman-Klass volatility < 25th percentile`) for `>= 72 hours`.
-  2. **Funding Level:** OI-weighted 8-hour funding stays elevated at **`+0.015% to +0.035%+` (`16%–38% APR`)** with elevated Open Interest.
-  3. **Cross-Venue Spread:** Offshore retail funding (Binance/OKX/Bybit) trades `>= +6 to +10 bps` higher per 8h than domestic/institutional venues (Coinbase/CME).
-* **Observed Outcome B (The Mechanical Trajectory):**
-  Leveraged longs are bleeding heavy funding payments every 8 hours without receiving any upward price appreciation. Eventually, funding fatigue forces leveraged longs to close at market, triggering a sharp downward stop-hunt wick through the bottom of the range.
-* **Execution Rule C (The Non-Negotiable Action):**
-  * **Action:** **STANDBY / 100% CASH PRESERVATION.** Avoid holding unhedged tactical longs inside high-funding range chop. Wait for the inevitable downward funding-fatigue wick (`Mutation M4`) to sweep range lows and reset funding before evaluating entry.
-
-### CSU-04D: Backwardation Panic Inflection ("Funding Velocity Crash Into Deep Negative Territory")
-* **Trigger Condition A (The Telemetry Scan):**
-  1. **Funding Velocity (`Delta_F`):** OI-weighted 8-hour funding plunges rapidly (`<= -2.5 Z-score`, crashing from positive into **`-0.015% to -0.050%`** within 12–36 hours) following a sharp price drop.
-  2. **Order-Book & Spot Audit:** Price hits a major higher-timeframe Volume Profile VAL or On-Chain STH Realized Price band, and **Domestic Fiat (USD) Spot CVD** shows immediate passive limit-bid absorption (`price stops falling despite heavy market selling`).
-* **Observed Outcome B (The Mechanical Trajectory):**
-  Panic hedging and late-bottom shorting have reached a crescendo at structural support. Market makers and spot institutions are absorbing the panic futures selling at a discount.
-* **Execution Rule C (The Non-Negotiable Action):**
-  * **Entry Trigger:** Authorize **Unleveraged Spot Long** only once 15m/1H price reclaims the local Developing POC with positive Domestic USD Spot CVD (`confirming panic sellers are trapped`). Size strictly via the **0.75% Risk Formula** with hard stop beneath the panic wick low.
-
----
-
-## 4. Dynamic Regime Mutation Lookup Matrix (`M1` through `M8`)
-
-| Mutation ID | Initial State | Telemetry Mutation Observed (`Condition A'`) | Mechanical Meaning (`Outcome B'`) | Mandatory Execution Override (`Rule C'`) |
-| :--- | :--- | :--- | :--- | :--- |
-| **M1: Disbelief-to-FOMO Flip** | `CSU-04A` (Disbelief Rally) | After rallying for days on negative/low funding, 8h funding suddenly spikes above **`+0.025%`** on a breakout candle while **USD Spot CVD flattens**. | Skeptical shorts have capitulated; retail FOMO longs are now chasing the move at highs. | **Execute Stage 1 (50%) or Stage 2 (100%) Profit Exit** into the funding spike. |
-| **M2: Dip-Buyer Capitulation** | `CSU-04B` (Disbelief Dip) | Price drops sharply, long liquidations spike, and **8h funding crashes from `+0.020%` down to `<= 0.000%`** in under 12 hours. | Leveraged dip-buyers have finally been wiped out, removing the overhead long-liquidation overhang. | Lift `CSU-04B` ban; transition to **Module 03 (`CSU-03A`)** to watch for post-flush USD Spot CVD step-in. |
-| **M3: Offshore-Domestic Divergence** | Any State | Offshore funding (OKX/Binance) spikes to `+0.010%–0.025%` while **Coinbase/Hyperliquid funding stays near `0.000%`** and Coinbase Spot CVD is negative. | Retail offshore leverage is diverging from flat/distributing US institutional flow. | **Circuit Breaker 2 Warning:** Do not trust offshore funding optimism; tighten stops or remain in **100% Cash**. |
-| **M4: Contango Fatigue Flush** | `CSU-04C` (Carry Bleed) | After days of stagnant price and high funding, price breaks range VAL, **OI drops `-5% to -10%`**, and funding resets to `<= +0.005%`. | Leveraged longs finally capitulated under funding bleed, sweeping range liquidity. | **Wait 1–2 hours for OI to stabilize**; if USD Spot CVD reclaims range VAL, enter `0.75% Risk` Spot Long. |
-| **M5: Failed Backwardation Bounce** | `CSU-04D` (Panic Inflection) | Funding plunges deep negative (`< -0.030%`), price bounces weakly for 2 hours, then **breaks the panic low** as **USD Spot CVD turns negative**. | Institutional spot buyers pulled bids; backwardation reflects genuine structural liquidation rather than a bottom. | **Hard Stop Triggered / Enforce 100% Cash Lock.** Do not re-enter until higher-timeframe support holds. |
-| **M6: Funding-Neutral Trend** | `CSU-04A` (Disbelief Rally) | Price climbs steadily for weeks while funding remains pinned in the **`+0.005% to +0.010%`** baseline band and USD Spot CVD rises smoothly. | Ideal institutional accumulation trend—zero leverage excess and steady spot demand. | **Maintain Core Spot Swing Position**; trail stops smoothly below 4H Volume Profile VALs. |
-| **M7: Arbitrage Basis Compression** | `CSU-04C` (Carry Bleed) | Perpetual funding drops to `0.000%` alongside dated futures basis compressing below `+4% APR` and **US Spot ETF outflows**. | Institutional cash-and-carry desks are unwinding long spot / short futures spreads. | **Maintain 100% Cash Lock** until ETF outflows stabilize and basis stops compressing. |
-| **M8: Double-Divergence Bottom** | `CSU-04D` (Panic Inflection) | Price prints a marginally lower low, but **8h funding prints a higher low** (less negative) while **Domestic USD Spot CVD prints a higher low**. | Aggressive short-selling pressure is exhausting itself while domestic spot absorption strengthens. | **High-Conviction Reversal Signal:** Execute `0.75% Risk` Spot Long upon 15m/1H VAH reclaim. |
-
----
+## [11] MOD 05 — The 4 Quadrant Spot CVD vs Perpetual CVD Matrix
+<!-- Source: rulebook/MOD_05_The_4_Quadrant_Spot_CVD_vs_Perpetual_CVD_Matrix.md -->
 
 # PROJECT CORTEX-BTC — MODULE 05: THE 4-QUADRANT SPOT CVD VS. PERPETUAL CVD MATRIX
 **Waterfall Tier:** Pillar 2 (Microstructure, Order Flow & Path Geometry) cross-verified with Pillar 3 (Derivatives) and Pillar 4 (Portfolio Engineering).
@@ -1282,6 +1172,9 @@ risk_parameters:
 | **M8: Session Handoff Flip** | `CSU-05C` (Asia/London) | Asia/London sessions print Quad 3 (Perp-led bounce), then at 09:30 EST (NY Open) Coinbase USD Spot CVD surges positive and takes the lead. | US institutional spot inflows validated and rescued an initially fragile overnight perp move. | **Upgrade from Standby to `CSU-05B`** — permit tactical entry if 1H VAH holds after first 60 minutes of NY open. |
 
 ---
+
+## [12] MOD 06 — Passive Limit Absorption vs Market Taker Exhaustion
+<!-- Source: rulebook/MOD_06_Passive_Limit_Absorption_vs_Market_Taker_Exhaustion.md -->
 
 # PROJECT CORTEX-BTC — MODULE 06: PASSIVE LIMIT ABSORPTION VS. MARKET TAKER EXHAUSTION
 **Waterfall Tier:** Pillar 2 (Microstructure, Order Flow & Path Geometry) cross-verified with Pillar 4 (Portfolio Engineering).
@@ -1396,6 +1289,9 @@ risk_parameters:
 
 ---
 
+## [13] MOD 07 — Domestic Fiat Gateways and Spot ETFs vs Offshore Perp USDT Flows
+<!-- Source: rulebook/MOD_07_Domestic_Fiat_Gateways_and_Spot_ETFs_vs_Offshore_Perp_USDT_Flows.md -->
+
 # PROJECT CORTEX-BTC — MODULE 07: DOMESTIC FIAT GATEWAYS (USD) & SPOT ETFS VS. OFFSHORE PERP/USDT FLOWS
 **Waterfall Tier:** Pillar 2 (Microstructure & Order Flow) integrated with Pillar 5 (Institutional & On-Chain Flows).
 **Empirical Benchmark Anchor:** November 2026 Venue Divergence — US Spot BTC ETFs recording **-$1.177B** in 3-week outflows (including **-$299.8M** single-day outflow on Nov 12) and CME Open Interest dropping **~15%**, while offshore perpetual venues (OKX/Hyperliquid/Binance) expanded leveraged OI by **+22,000 BTC** before breaking down.
@@ -1504,6 +1400,9 @@ risk_parameters:
 | **M8: Full Global Venue Alignment** | `CSU-07A` (Expansion) | Coinbase USD Spot CVD, US Spot ETFs (`+$400M+`), CME OI, and Offshore Spot/Perp CVD all turn strongly positive simultaneously above 1D VAH. | Rare global institutional + retail synchronized expansion regime. | **Hold Core Spot Swing Position** with wide structural trailing stop behind the 1D Volume Profile VAL. |
 
 ---
+
+## [14] MOD 08 — Rough Path Signatures I Price Volume Levy Signed Area
+<!-- Source: rulebook/MOD_08_Rough_Path_Signatures_I_Price_Volume_Levy_Signed_Area.md -->
 
 # PROJECT CORTEX-BTC — MODULE 08: ROUGH PATH SIGNATURES I — PRICE-VOLUME LÉVY SIGNED AREA (A_P,V)
 **Waterfall Tier:** Pillar 2 (Microstructure, Order Flow & Path Geometry) cross-verified with Pillar 1 (Macro Permissions) and Pillar 4 (Portfolio Engineering).
@@ -1623,6 +1522,9 @@ Before any Scenario in Module 08 can authorize a spot order, all four circuit br
 
 ---
 
+## [15] MOD 09 — Rough Path Signatures II Spot CVD Open Interest Levy Signed Area
+<!-- Source: rulebook/MOD_09_Rough_Path_Signatures_II_Spot_CVD_Open_Interest_Levy_Signed_Area.md -->
+
 # PROJECT CORTEX-BTC — MODULE 09: ROUGH PATH SIGNATURES II — SPOT CVD–OPEN INTEREST LÉVY SIGNED AREA (A_CVD,OI)
 **Waterfall Tier:** Pillar 2 & Pillar 3 Bridge (Joint Path Geometry of Unleveraged Spot Flow vs. Leveraged Derivatives Creation) cross-verified with Pillar 4 (Portfolio Engineering).
 **Empirical Benchmark Anchor:** November 2026 Joint Flow-Leverage Telemetry — During the November 6–12 window, Perpetual Open Interest surged by **+22,000 BTC** (to **367.4K BTC**) *before* brief 3-day spot buying (**+$269.4M**) appeared, followed by domestic spot outflows (**-$83.3M to -$141.5M** 24H) while offshore perps kept adding leverage—tracing a negative `A_CVD,OI` curvature (`Leverage leading Spot`) that preceded the **$1.41B** long liquidation flush below **$69,000**.
@@ -1737,6 +1639,9 @@ Before any Scenario in Module 09 can authorize a spot order, all four circuit br
 | **M8: Full 3D Signature Alignment** | `CSU-09A` + `MOD 08` | Both **`A_P,V >= +1.5 Z`** (MOD 08) and **`A_CVD,OI >= +1.5 Z`** (MOD 09) fire simultaneously on 1H and 4H. | Volume leads price AND domestic spot leads leverage—maximum structural purity. | **Highest-Conviction Swing Trigger:** Deploy full `0.75% Risk` Spot allocation. |
 
 ---
+
+## [16] MOD 10 — Rough Path Signatures III Multi Horizon Alignment
+<!-- Source: rulebook/MOD_10_Rough_Path_Signatures_III_Multi_Horizon_Alignment.md -->
 
 # PROJECT CORTEX-BTC — MODULE 10: ROUGH PATH SIGNATURES III — MULTI-HORIZON ALIGNMENT (1H TACTICAL VS. 4H/1D STRUCTURAL)
 **Waterfall Tier:** Pillar 2 (Microstructure, Order Flow & Path Geometry) cross-verified with Pillar 1 (Macro Permissions) and Pillar 4 (Portfolio Engineering).
@@ -1866,6 +1771,9 @@ Before any Scenario in Module 10 can authorize capital deployment, all four circ
 
 ---
 
+## [17] MOD 11 — Volume Profile Structural Topology
+<!-- Source: rulebook/MOD_11_Volume_Profile_Structural_Topology.md -->
+
 # PROJECT CORTEX-BTC — MODULE 11: VOLUME PROFILE STRUCTURAL TOPOLOGY (VAH, VAL, POC & LVN)
 **Waterfall Tier:** Pillar 2 (Microstructure, Order Flow & Auction Market Theory) cross-verified with Pillar 1 (Macro Permissions) and Pillar 4 (Portfolio Engineering).
 **Empirical Benchmark Anchor:** November 2026 Auction Structure Telemetry — Price oscillating inside a multi-day Value Area between **$71,218 (VAL)** and **$75,771 (VAH / STH Realized Price)** with Developing POC near **$73,800**, before losing the **$73,000** lower value shelf and traversing a Low-Volume Node (LVN) vacuum down toward the **$68,000** high-volume bid cluster.
@@ -1985,6 +1893,9 @@ Before any Scenario in Module 11 can authorize a spot order, all four circuit br
 
 ---
 
+## [18] MOD 12 — Garman Klass Volatility Squeeze And Fan Expansion
+<!-- Source: rulebook/MOD_12_Garman_Klass_Volatility_Squeeze_And_Fan_Expansion.md -->
+
 # PROJECT CORTEX-BTC — MODULE 12: GARMAN-KLASS (OHLC) VOLATILITY SQUEEZE & FAN EXPANSION
 **Waterfall Tier:** Pillar 2 & Pillar 4 Bridge (Range-Based Volatility Estimator, Regime Birth & Stop-Distance Calibration) cross-verified with Pillar 1 (Macro Permissions).
 **Empirical Benchmark Anchor:** November 2026 Volatility Regime Telemetry — Garman-Klass 24H/7D annualized realized volatility expanding abruptly from bottom-quartile compression (`< 28% annualized`) into top-decile shock expansion (`> 68% annualized`) as Bitcoin broke below **$73,000** toward **$68,000** amid **$1.41B** in forced liquidations.
@@ -2101,6 +2012,9 @@ Why **Garman-Klass (GK)** beats standard close-to-close volatility or Bollinger 
 | **M8: Weekend Low-GK Drift** | Sat–Sun Session | GK volatility drops to `< 5th percentile` over weekend with zero institutional flow. | Artificial weekend illiquidity—not a true structural squeeze. | **Ignore Weekend GK Readings** until Sunday 22:00 UTC / Monday Asia-NY handoff (`MOD 17`). |
 
 ---
+
+## [19] MOD 13 — Short Term Holder Realized Price And MVRV Bands
+<!-- Source: rulebook/MOD_13_Short_Term_Holder_Realized_Price_And_MVRV_Bands.md -->
 
 # PROJECT CORTEX-BTC — MODULE 13: SHORT-TERM HOLDER (STH) REALIZED PRICE & MVRV BANDS
 **Waterfall Tier:** Pillar 5 (On-Chain Cohorts & Sovereign Defense) cross-verified with Pillar 1 (Macro Permissions) and Pillar 4 (Portfolio Engineering).
@@ -2220,6 +2134,9 @@ Before any Scenario in Module 13 can authorize a spot decision, all four circuit
 | **M8: Sovereign Cold-Storage Tranche** | `CSU-13D` (Deep Discount) | `STH-MVRV <= 0.82` coincides with `200W MA` / Realized Price touch and Pillar 1 macro stabilization. | Generational sovereign accumulation window. | Execute tactical `0.75% Risk` swing entry AND allocate sovereign cold-storage capital (`MOD 18`). |
 
 ---
+
+## [20] MOD 14 — SOPR Profit Loss Reset Cycles
+<!-- Source: rulebook/MOD_14_SOPR_Profit_Loss_Reset_Cycles.md -->
 
 # PROJECT CORTEX-BTC — MODULE 14: SOPR (SPENT OUTPUT PROFIT RATIO) PROFIT/LOSS RESET CYCLES
 **Waterfall Tier:** Pillar 5 (On-Chain Cohorts & Realized Spending Behavior) cross-verified with Pillar 1 (Macro Permissions) and Pillar 4 (Portfolio Engineering).
@@ -2341,6 +2258,9 @@ While `MVRV` (`MOD 13`) measures *unrealized* profit/loss sitting in wallets, **
 
 ---
 
+## [21] MOD 15 — Realized Cap Impulse And LTH To STH Wealth Transfer
+<!-- Source: rulebook/MOD_15_Realized_Cap_Impulse_And_LTH_To_STH_Wealth_Transfer.md -->
+
 # PROJECT CORTEX-BTC — MODULE 15: REALIZED CAP IMPULSE & LTH-TO-STH WEALTH TRANSFER
 **Waterfall Tier:** Pillar 5 (On-Chain Cohorts, Capital Flows & Sovereign Defense) cross-verified with Pillar 1 (Macro Permissions) and Pillar 4 (Portfolio Engineering).
 **Empirical Benchmark Anchor:** November 2026 Cohort & Supply Telemetry — Following Bitcoin's **41% drawdown** from its October 2025 ATH (**$126,080**) down to the **$68,000–$75,000** range amid **$1.44B** in 5-day US Spot ETF outflows and **$14.2B** in 30-day stablecoin contraction, wallets holding **100 to 10,000 BTC** shifted to net accumulation while mega-whales (`> 10,000 BTC`) and retail (`< 100 BTC`) reduced exposure.
@@ -2457,6 +2377,9 @@ Realized Capitalization values every Bitcoin UTXO at the price it last moved on-
 | **M8: Sovereign Multi-Sig Audit Trigger** | Any Major Regime Shift | Portfolio cash/BTC ratio shifts significantly (`> 25%` rebalance) or exchange counterparty stress emerges. | Operational custody hygiene check required under Pillar 5 sovereign defense. | Verify cold-storage multi-sig quorum and keep active exchange balance strictly limited to tactical swing margin. |
 
 ---
+
+## [22] MOD 16 — Macro Liquidity Sovereign Yields DXY And Stablecoin Dry Powder
+<!-- Source: rulebook/MOD_16_Macro_Liquidity_Sovereign_Yields_DXY_And_Stablecoin_Dry_Powder.md -->
 
 # PROJECT CORTEX-BTC — MODULE 16: MACRO LIQUIDITY, SOVEREIGN YIELDS, DXY & STABLECOIN DRY POWDER
 **Waterfall Tier:** Pillar 1 (Master Macro Permissions & Regimes — Top Gate of the 5-Pillar Decision Waterfall).
@@ -2577,14 +2500,15 @@ risk_parameters:
 
 ---
 
-# PROJECT CORTEX-BTC — MODULE 17: 200D MA SECULAR GATES, INDEX REBALANCINGS & SESSION HANDOFFS
-**Waterfall Tier:** Pillar 1 & Pillar 2 Bridge (Secular Trend Regime, Forced Institutional Calendar Flows & Intraday Session Microstructure) cross-verified with Pillar 4.
-**Empirical Benchmark Anchor:** November 2026 Secular & Session Telemetry — Bitcoin trading below its **200-Day Simple/Exponential Moving Average** during the Q4 2026 drawdown from **$126,080** to **$68,000–$75,000**, exhibiting recurring **Asia/Europe session relief bounces** that are consistently sold during the **New York ETF Cash-Open window (13:30–16:00 UTC)** amid **-$1.44B** in 5-day US Spot ETF redemptions.
+## [23] MOD 17 — 200D MA Secular Gates Index Rebalancings and Session Handoffs
+<!-- Source: rulebook/MOD_17_200D_MA_Secular_Gates_Index_Rebalancings_and_Session_Handoffs.md -->
 
----
+### PROJECT CORTEX-BTC — MODULE 17: 200D MA SECULAR GATES, INDEX REBALANCINGS & SESSION HANDOFFS
+**Waterfall Tier:** Pillar 1 & Pillar 2 Bridge (Secular Trend Regime, Forced Institutional Calendar Flows & Intraday Session Microstructure) cross-verified with Pillar 4. **Empirical Benchmark Anchor:** November 2026 Secular & Session Telemetry — Bitcoin trading below its **200-Day Simple/Exponential Moving Average** during the Q4 2026 drawdown from **$126,080** to **$68,000–$75,000**, exhibiting recurring **Asia/Europe session relief bounces** that are consistently sold during the **New York ETF Cash-Open window (13:30–16:00 UTC)** amid **-$1.44B** in 5-day US Spot ETF redemptions.
 
-## 1. Machine-Readable State & Routing Block (Python / Hermes / NotebookLM Index)
+--------------------------------------------------------------------------------
 
+#### 1. Machine-Readable State & Routing Block (Python / Hermes / NotebookLM Index)
 ```yaml
 module_id: "MOD_17"
 entry_type: "CONDITIONAL_SIGNAL_UNIT"
@@ -2619,78 +2543,77 @@ risk_parameters:
   exit_protocol: "TWO_STAGE_STRUCTURAL"
 ```
 
----
+--------------------------------------------------------------------------------
 
-## 2. Protective Circuit Breakers (Mandatory Pre-Execution Filters)
-
+#### 2. Protective Circuit Breakers (Mandatory Pre-Execution Filters)
 Before any Scenario in Module 17 can authorize capital deployment, all four circuit breakers must pass:
-* **Circuit Breaker 1 — The 200-Day Moving Average Secular Divider (`CB-01`):** Across Bitcoin's entire market history, trading above a rising 200D MA defines secular expansion (`full 0.75% risk permitted`), whereas trading below a declining 200D MA defines capital-preservation defense (`maximum 0.375% risk only on extreme capitulation resets, otherwise 100% Cash`).
-* **Circuit Breaker 2 — The New York Session Truth Test (`CB-02`):** In the Spot ETF era, **New York hours (13:30–21:00 UTC)** dictate structural direction. Rallies built on offshore leverage during Asia hours routinely get faded by NY ETF/institutional desks if US flows are negative. Always wait for the NY cash open to validate overnight moves.
-* **Circuit Breaker 3 — Passive Index & Forced Corporate Flow Stand-Down (`CB-03`):** When major equity/index providers (such as MSCI removals of Bitcoin treasury proxies) or quarter-end institutional rebalancings execute forced mechanical selling, order flow is price-insensitive. Stand down in **100% Cash** until the mechanical rebalancing window closes.
-* **Circuit Breaker 4 — Weekend / CME Gap Discipline:** Avoid initiating swing positions during thin Saturday–Sunday offshore chop; wait for Sunday 22:00 UTC CME futures open and Monday NY liquidity.
+*   **Circuit Breaker 1 — The 200-Day Moving Average Secular Divider (CB-01):** Across Bitcoin's entire market history, trading above a rising 200D MA defines secular expansion (full 0.75% risk permitted), whereas trading below a declining 200D MA defines capital-preservation defense (maximum 0.375% risk only on extreme capitulation resets, otherwise 100% Cash). *(Cross-reference **`MOD 57 M4`** & **`MOD 68.1`**: Above the 200D SMA, every populated weekly Funding × OI leverage cell collapses to a `49%–51%` coin flip with `0 / 299` weekly crowded-short occurrences; directional crowded-short separation appears exclusively below the 200D SMA.)*
+*   **Circuit Breaker 2 — The New York Session Truth Test (CB-02):** In the Spot ETF era, **New York hours (13:30–21:00 UTC)** dictate structural direction. Rallies built on offshore leverage during Asia hours routinely get faded by NY ETF/institutional desks if US flows are negative. Always wait for the NY cash open to validate overnight moves.
+*   **Circuit Breaker 3 — Passive Index & Forced Corporate Flow Stand-Down (CB-03):** When major equity/index providers (such as MSCI removals of Bitcoin treasury proxies) or quarter-end institutional rebalancings execute forced mechanical selling, order flow is price-insensitive. Stand down in **100% Cash** until the mechanical rebalancing window closes.
+*   **Circuit Breaker 4 — Weekend / CME Gap Discipline:** Avoid initiating swing positions during thin Saturday–Sunday offshore chop; wait for Sunday 22:00 UTC CME futures open and Monday NY liquidity.
 
----
+--------------------------------------------------------------------------------
 
-## 3. Core Conditional Signal Units (`Condition A -> Outcome B -> Rule C`)
+#### 3. Core Conditional Signal Units (Condition A -> Outcome B -> Rule C)
+##### CSU-17A: Secular 200D MA Reclaim & Retest ("Macro Bull Regime Ignition")
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. Bitcoin reclaims its **200-Day Moving Average** from below with a strong volume-backed impulse (MOD 08A) and holds above the 200D MA for >= 3 consecutive daily closes.
+    2. **Retest Confirmation:** Price pulls back to kiss the **200D MA from above**, where **Domestic Fiat (USD) Spot CVD** and US Spot ETF netflows surge positive (absorbing all sellers) and 1H/4H Volume Profile VAL holds.
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Sovereign Macro Lens:** Secular trend-following funds, CTA algorithms, and institutional asset allocators flip from net-short/neutral back to systematic long allocation.
+    *   **Probable Trajectory:** Multi-month structural uptrend with high-probability higher lows along the rising 200D MA.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Entry Trigger:** Execute **Unleveraged Spot Long** upon the confirmed **15m/1H VAH reclaim off the 200D MA retest**, sized to the full **0.75% Risk Ceiling** with hard structural stop 3%–4% below the 200D MA swing low.
+    *   **Two-Stage Profit Exit Protocol:**
+        *   **Stage 1 Exit (50% of Position):** Close 50% at +3.0R or STH-MVRV = 1.25; move stop to breakeven.
+        *   **Stage 2 Exit (Remaining 50%):** Trail behind 4H/1D Volume Profile VALs while price holds above the 200D MA.
 
-### CSU-17A: Secular 200D MA Reclaim & Retest ("Macro Bull Regime Ignition")
-* **Trigger Condition A (The Telemetry Scan):**
-  1. Bitcoin reclaims its **200-Day Moving Average** from below with a strong volume-backed impulse (`MOD 08A`) and holds above the 200D MA for `>= 3 consecutive daily closes`.
-  2. **Retest Confirmation:** Price pulls back to kiss the **200D MA from above**, where **Domestic Fiat (USD) Spot CVD** and US Spot ETF netflows surge positive (`absorbing all sellers`) and 1H/4H Volume Profile VAL holds.
-* **Observed Outcome B (The Mechanical Trajectory):**
-  * **Sovereign Macro Lens:** Secular trend-following funds, CTA algorithms, and institutional asset allocators flip from net-short/neutral back to systematic long allocation.
-  * **Probable Trajectory:** Multi-month structural uptrend with high-probability higher lows along the rising 200D MA.
-* **Execution Rule C (The Non-Negotiable Action):**
-  * **Entry Trigger:** Execute **Unleveraged Spot Long** upon the confirmed **15m/1H VAH reclaim off the 200D MA retest**, sized to the full **0.75% Risk Ceiling** with hard structural stop `3%–4%` below the 200D MA swing low.
-  * **Two-Stage Profit Exit Protocol:**
-    * **Stage 1 Exit (50% of Position):** Close 50% at `+3.0R` or `STH-MVRV = 1.25`; move stop to breakeven.
-    * **Stage 2 Exit (Remaining 50%):** Trail behind 4H/1D Volume Profile VALs while price holds above the 200D MA.
+##### CSU-17B: Asia/London Stop Sweep -> New York Institutional Reversal ("NY Absorption Session")
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. During **Asia (00:00–08:00 UTC)** or **London (08:00–13:30 UTC)** hours, price sweeps downward below the prior day's low / 4H VAL, triggering offshore long liquidations (MOD 03).
+    2. **New York Session Reversal (13:30–16:30 UTC):** Immediately upon the US equity/ETF cash open, **Coinbase USD Spot CVD surges vertically positive**, price reclaims the London/Asia range VAL, and A_CVD,OI flips positive.
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Sovereign Macro Lens:** US institutional desks used overnight offshore liquidity sweeps to accumulate discounted spot inventory at the NY open.
+    *   **Probable Trajectory:** Strong NY-session trend reversal reclaiming the entire overnight drop and squeezing late European/Asian breakdown shorts.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Entry Trigger:** Execute **Unleveraged Spot Long** upon the **15m/1H close back above the overnight VAL** between 13:30 and 16:30 UTC, sized strictly to the **0.75% Risk Ceiling** (0.375% if below 200D MA) with stop beneath the overnight sweep low.
 
-### CSU-17B: Asia/London Stop Sweep -> New York Institutional Reversal ("NY Absorption Session")
-* **Trigger Condition A (The Telemetry Scan):**
-  1. During **Asia (00:00–08:00 UTC)** or **London (08:00–13:30 UTC)** hours, price sweeps downward below the prior day's low / 4H VAL, triggering offshore long liquidations (`MOD 03`).
-  2. **New York Session Reversal (13:30–16:30 UTC):** Immediately upon the US equity/ETF cash open, **Coinbase USD Spot CVD surges vertically positive**, price reclaims the London/Asia range VAL, and `A_CVD,OI` flips positive.
-* **Observed Outcome B (The Mechanical Trajectory):**
-  * **Sovereign Macro Lens:** US institutional desks used overnight offshore liquidity sweeps to accumulate discounted spot inventory at the NY open.
-  * **Probable Trajectory:** Strong NY-session trend reversal reclaiming the entire overnight drop and squeezing late European/Asian breakdown shorts.
-* **Execution Rule C (The Non-Negotiable Action):**
-  * **Entry Trigger:** Execute **Unleveraged Spot Long** upon the **15m/1H close back above the overnight VAL** between `13:30 and 16:30 UTC`, sized strictly to the **0.75% Risk Ceiling** (`0.375%` if below 200D MA) with stop beneath the overnight sweep low.
+##### CSU-17C: Asia Leveraged Perp Pump -> New York Spot Fade ("The Offshore Pump Trap")
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. During **Asia hours (00:00–08:00 UTC)**, Bitcoin rallies +2% to +5% driven by rising offshore Open Interest (Binance/OKX/Bybit) and positive funding, while **Domestic USD Spot CVD is flat**.
+    2. **NY Cash Open Rejection (13:30–15:30 UTC):** At the US market open, **Coinbase USD Spot CVD turns steeply negative**, price loses the Asia session POC/VAL, and A_P,V rolls over negative.
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Sovereign Macro Lens:** Offshore retail leverage chased an illiquid overnight bounce directly into waiting US institutional spot/ETF sell programs.
+    *   **Probable Trajectory:** Complete retracement of the Asia pump plus a downward stop-hunt through the prior day's low.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** **BLOCK ALL MORNING LONG ENTRIES. LOCK 100% CASH.** If holding a tactical position from the prior day, exit immediately upon loss of the Asia POC at the NY open.
 
-### CSU-17C: Asia Leveraged Perp Pump -> New York Spot Fade ("The Offshore Pump Trap")
-* **Trigger Condition A (The Telemetry Scan):**
-  1. During **Asia hours (00:00–08:00 UTC)**, Bitcoin rallies `+2% to +5%` driven by rising offshore Open Interest (`Binance/OKX/Bybit`) and positive funding, while **Domestic USD Spot CVD is flat**.
-  2. **NY Cash Open Rejection (13:30–15:30 UTC):** At the US market open, **Coinbase USD Spot CVD turns steeply negative**, price loses the Asia session POC/VAL, and `A_P,V` rolls over negative.
-* **Observed Outcome B (The Mechanical Trajectory):**
-  * **Sovereign Macro Lens:** Offshore retail leverage chased an illiquid overnight bounce directly into waiting US institutional spot/ETF sell programs.
-  * **Probable Trajectory:** Complete retracement of the Asia pump plus a downward stop-hunt through the prior day's low.
-* **Execution Rule C (The Non-Negotiable Action):**
-  * **Action:** **BLOCK ALL MORNING LONG ENTRIES. LOCK 100% CASH.** If holding a tactical position from the prior day, exit immediately upon loss of the Asia POC at the NY open.
+##### CSU-17D: Forced Index Rebalancing / Quarterly OpEx Stand-Down ("Mechanical Flow Freeze")
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. Market is inside a known **forced mechanical flow window**: passive index rebalancing effective date (e.g., MSCI/S&P constituent adjustments), quarter-end institutional rebalancing (final 48 hours of Mar/Jun/Sep/Dec), or quarterly Deribit/CME Options Expiration (final 24 hours before 08:00 UTC Friday settlement).
+    2. Order flow shows large, mechanical TWAP selling or extreme pin gravity around Max Pain strikes regardless of intraday sentiment.
+*   **Observed Outcome B (The Mechanical Trajectory):** Price action is dominated by non-economic mechanical hedging and forced index flows rather than organic price discovery.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** **ENFORCE MANDATORY 24H–48H CASH STAND-DOWN (CB-03).** Wait until the rebalancing deadline or Friday 08:00 UTC OpEx settlement passes, then evaluate the post-settlement volatility release (MOD 12A).
 
-### CSU-17D: Forced Index Rebalancing / Quarterly OpEx Stand-Down ("Mechanical Flow Freeze")
-* **Trigger Condition A (The Telemetry Scan):**
-  1. Market is inside a known **forced mechanical flow window**: passive index rebalancing effective date (e.g., MSCI/S&P constituent adjustments), quarter-end institutional rebalancing (`final 48 hours of Mar/Jun/Sep/Dec`), or quarterly Deribit/CME Options Expiration (`final 24 hours before 08:00 UTC Friday settlement`).
-  2. Order flow shows large, mechanical TWAP selling or extreme pin gravity around Max Pain strikes regardless of intraday sentiment.
-* **Observed Outcome B (The Mechanical Trajectory):**
-  Price action is dominated by non-economic mechanical hedging and forced index flows rather than organic price discovery.
-* **Execution Rule C (The Non-Negotiable Action):**
-  * **Action:** **ENFORCE MANDATORY 24H–48H CASH STAND-DOWN (`CB-03`).** Wait until the rebalancing deadline or Friday 08:00 UTC OpEx settlement passes, then evaluate the post-settlement volatility release (`MOD 12A`).
+--------------------------------------------------------------------------------
 
----
-
-## 4. Dynamic Regime Mutation Lookup Matrix (`M1` through `M8`)
-
-| Mutation ID | Initial State | Telemetry Mutation Observed (`Condition A'`) | Mechanical Meaning (`Outcome B'`) | Mandatory Execution Override (`Rule C'`) |
-| :--- | :--- | :--- | :--- | :--- |
+#### 4. Dynamic Regime Mutation Lookup Matrix (M1 through M8)
+| Mutation ID | Initial State | Telemetry Mutation Observed (Condition A') | Mechanical Meaning (Outcome B') | Mandatory Execution Override (Rule C') |
+| ------ | ------ | ------ | ------ | ------ |
 | **M1: 200D MA Death-Cross Rejection** | Below 200D MA | Price rallies up to kiss the **declining 200D MA from below**, prints heavy ask absorption, and **USD Spot CVD turns negative**. | Secular bear ceiling defended by institutional sellers. | **Strict 100% Cash Lock.** Exit any counter-trend bounce immediately at the 200D MA touch. |
-| **M2: Failed 200D MA Breakout** | `CSU-17A` (Reclaim) | Price closes above 200D MA for 1–2 days, then **closes back below 200D MA** on heavy ETF outflows and rising OI. | Secular false breakout ("bull trap above 200D MA"). | **Hard Stop Triggered / Enforce 100% Cash Lock.** |
-| **M3: NY Open Confirmation Surge** | Asia/London Rally | Price rallies overnight, dips slightly into `13:30 UTC` NY open, holds Asia VAH, and **US Spot ETFs + Coinbase CVD buy aggressively**. | US institutions validated and joined the overnight move ("All-Session Aligned Trend"). | **Authorize Spot Long Entry** on the `13:30–14:30 UTC` VAH retest (`0.75% Risk Ceiling`). |
-| **M4: London Stop-Hunt Reversal** | Asia Range Chop | At `08:00–10:00 UTC` (London open), price sweeps Asia high/low by `0.5%–1.5%` and immediately snaps back inside the Asia range. | Classic European liquidity sweep setting the intraday extreme. | Trade the `MOD 11A` VAL reclaim only if confirmed by positive USD Spot CVD. |
-| **M5: Friday CME Close Pin & Sunday Gap** | Friday 20:00 UTC | Price drifts sharply away from Friday `21:00 UTC` CME close over the weekend on thin offshore volume (`< 30th pct`). | Creates an un-traded CME futures gap prone to `70%+` fill probability within 48 hours of Sunday open. | **Do Not Chase Weekend Gaps**; wait for Sunday `22:00 UTC` open and gap-fill absorption. |
-| **M6: Post-Index-Rebalance Relief** | `CSU-17D` (Stand-Down) | Forced index selling deadline passes (e.g., market close on rebalancing day), selling volume vanishes, and **USD Spot CVD steps in**. | Artificial forced seller is completely removed from the order book. | Lift `CB-03` stand-down; evaluate `0.375%–0.75%` Spot Long on 15m/1H VAH reclaim. |
-| **M7: 200-Week MA Sovereign Floor** | Deep Bear Drawdown | Price touches or sweeps the **200-Week Moving Average** (`historically ultimate cycle floor`) alongside `STH-MVRV <= 0.82`. | Multi-year generational valuation floor. | Initiate sovereign cold-storage accumulation tranches (`MOD 18`) once 1D/4H USD Spot CVD stabilizes. |
-| **M8: NY Close Institutional Dump** | Intraday Uptrend | Price holds strong all day, then in the final hour (`20:00–21:00 UTC` NY close), massive spot selling hits to fulfill daily ETF redemptions. | Authorized Participants (APs) executing end-of-day ETF redemption basket sales. | **Tighten Stops Before `20:00 UTC`** whenever preliminary ETF flow trackers signal heavy net outflows. |
+| **M2: Failed 200D MA Breakout** | CSU-17A (Reclaim) | Price closes above 200D MA for 1–2 days, then **closes back below 200D MA** on heavy ETF outflows and rising OI. | Secular false breakout ("bull trap above 200D MA"). | **Hard Stop Triggered / Enforce 100% Cash Lock.** |
+| **M3: NY Open Confirmation Surge** | Asia/London Rally | Price rallies overnight, dips slightly into 13:30 UTC NY open, holds Asia VAH, and **US Spot ETFs + Coinbase CVD buy aggressively**. | US institutions validated and joined the overnight move ("All-Session Aligned Trend"). | **Authorize Spot Long Entry** on the 13:30–14:30 UTC VAH retest (0.75% Risk Ceiling). |
+| **M4: London Stop-Hunt Reversal** | Asia Range Chop | At 08:00–10:00 UTC (London open), price sweeps Asia high/low by 0.5%–1.5% and immediately snaps back inside the Asia range. | Classic European liquidity sweep setting the intraday extreme. | Trade the MOD 11A VAL reclaim only if confirmed by positive USD Spot CVD. |
+| **M5: Friday CME Close Pin & Sunday Gap** | Friday 20:00 UTC | Price drifts sharply away from Friday 21:00 UTC CME close over the weekend on thin offshore volume (< 30th pct). | Creates an un-traded CME futures gap prone to 70%+ fill probability within 48 hours of Sunday open. | **Do Not Chase Weekend Gaps**; wait for Sunday 22:00 UTC open and gap-fill absorption. |
+| **M6: Post-Index-Rebalance Relief** | CSU-17D (Stand-Down) | Forced index selling deadline passes (e.g., market close on rebalancing day), selling volume vanishes, and **USD Spot CVD steps in**. | Artificial forced seller is completely removed from the order book. | Lift CB-03 stand-down; evaluate 0.375%–0.75% Spot Long on 15m/1H VAH reclaim. |
+| **M7: 200-Week MA Sovereign Floor** | Deep Bear Drawdown | Price touches or sweeps the **200-Week Moving Average** (historically ultimate cycle floor) alongside STH-MVRV <= 0.82. | Multi-year generational valuation floor. | Initiate sovereign cold-storage accumulation tranches (MOD 18) once 1D/4H USD Spot CVD stabilizes. |
+| **M8: NY Close Institutional Dump** | Intraday Uptrend | Price holds strong all day, then in the final hour (20:00–21:00 UTC NY close), massive spot selling hits to fulfill daily ETF redemptions. | Authorized Participants (APs) executing end-of-day ETF redemption basket sales. | **Tighten Stops Before 20:00 UTC** whenever preliminary ETF flow trackers signal heavy net outflows. |
 
 ---
+
+## [24] MOD 18 — Master 5 Pillar Confluence 0.75 Risk Sizing Engine And Two Stage Exit Protocol
+<!-- Source: rulebook/MOD_18_Master_5_Pillar_Confluence_0.75_Risk_Sizing_Engine_And_Two_Stage_Exit_Protocol.md -->
 
 # PROJECT CORTEX-BTC — MODULE 18: MASTER 5-PILLAR CONFLUENCE, 0.75% RISK SIZING ENGINE & TWO-STAGE EXIT PROTOCOL
 **Waterfall Tier:** Pillar 4 (Master Portfolio Engineering, Execution Synthesis & Sovereign Capital Defense — The Final Decision Compiler of Project CORTEX-BTC).
@@ -2833,6 +2756,9 @@ Whenever you feed live market telemetry into **Project CORTEX-BTC**, Gemini, Her
 
 ---
 
+## [25] MOD 18.1 — Pre Flight Go No Go Checklist and Anti Knife Protocol
+<!-- Source: rulebook/MOD_18.1_Pre_Flight_Go_No_Go_Checklist_and_Anti_Knife_Protocol.md -->
+
 # PROJECT CORTEX-BTC — MODULE 18.1: PRE-FLIGHT GO/NO-GO CHECKLIST & ANTI-KNIFE PROTOCOL
 
 **Waterfall Tier:** Pillar 2 (Microstructure & Order Flow Execution) & Pillar 3 (Derivatives Microstructure & Positioning) / Operational Execution Runbook
@@ -2896,6 +2822,9 @@ veto_rule: "SINGLE_NO_ENFORCES_100_PERCENT_CASH"
 10. **Empirical Telemetry:** Are all values verified directly from live exchange feeds rather than unverified estimates (Fail-Closed)?
 
 ---
+
+## [26] MOD 18.2 — Reading a Falling Market Without a Forecast
+<!-- Source: rulebook/MOD_18.2_Reading_a_Falling_Market_Without_a_Forecast.md -->
 
 # PROJECT CORTEX-BTC — MODULE 18.2: READING A FALLING MARKET WITHOUT A FORECAST
 
@@ -2972,6 +2901,9 @@ Before entering any position, establish the exact levels that prove the thesis w
 4. **Confusing Sentiment with Positioning:** Extreme fear reflects sentiment; funding rates reflect positioning. A fearful market with flat positioning has already expressed its panic.
 
 ---
+
+## [27] MOD 19 — Coinbase Premium Index Z Scores And Domestic Offshore Spreads
+<!-- Source: rulebook/MOD_19_Coinbase_Premium_Index_Z_Scores_And_Domestic_Offshore_Spreads.md -->
 
 # PROJECT CORTEX-BTC — MODULE 19: COINBASE PREMIUM INDEX Z-SCORES & DOMESTIC-OFFSHORE SPREADS
 **Waterfall Tier:** Pillar 2 & Pillar 5 Bridge (US Institutional Spot Demand vs. Offshore Retail/Perp Pricing) cross-verified with Pillar 1 (Macro Permissions) and Pillar 4 (Portfolio Engineering).
@@ -3084,6 +3016,9 @@ risk_parameters:
 | **M8: Friday Close Premium Fade** | Friday `19:00–21:00 UTC` | `CPI_pct` turns negative into the Friday equity close after a strong week. | Pre-weekend institutional risk reduction / profit-taking before CME closes. | **Bank Stage 1 (50%) Profit** ahead of weekend thin liquidity (`MOD 20`). |
 
 ---
+
+## [28] MOD 20 — CME Futures Basis And Weekend Gap Fill Topology
+<!-- Source: rulebook/MOD_20_CME_Futures_Basis_And_Weekend_Gap_Fill_Topology.md -->
 
 # PROJECT CORTEX-BTC — MODULE 20: CME FUTURES BASIS & WEEKEND GAP FILL TOPOLOGY
 **Waterfall Tier:** Pillar 2 & Pillar 3 Bridge (Regulated Institutional Term Structure & Friday-to-Sunday Settlement Gaps) cross-verified with Pillar 4 (Portfolio Engineering).
@@ -3199,6 +3134,9 @@ risk_parameters:
 | **M8: Post-Flush CME OI Bottom** | `CSU-20D` (Unwind) | After a `-15%+` CME OI drop, CME OI turns upward for `3 consecutive sessions` with rising basis and positive ETF flows. | Regulated institutional capital has finished de-risking and is re-entering long. | Upgrade institutional posture; authorize `0.75% Risk` Spot Swing deployment. |
 
 ---
+
+## [29] MOD 21 — Algorithmic TWAP VWAP Accumulation Footprints vs Spoofed Liquidity
+<!-- Source: rulebook/MOD_21_Algorithmic_TWAP_VWAP_Accumulation_Footprints_vs_Spoofed_Liquidity.md -->
 
 # PROJECT CORTEX-BTC — MODULE 21: ALGORITHMIC TWAP/VWAP ACCUMULATION FOOTPRINTS VS. SPOOFED LIQUIDITY
 **Waterfall Tier:** Pillar 2 (Microstructure, Order-Book Forensics & Institutional Execution Algorithms) cross-verified with Pillar 1 (Macro Permissions) and Pillar 4 (Portfolio Engineering).
@@ -3316,6 +3254,9 @@ risk_parameters:
 
 ---
 
+## [30] MOD 22 — Net Fed Liquidity Impulse
+<!-- Source: rulebook/MOD_22_Net_Fed_Liquidity_Impulse.md -->
+
 # PROJECT CORTEX-BTC — MODULE 22: NET FED LIQUIDITY IMPULSE (FED BALANCE SHEET − TGA − RRP)
 **Waterfall Tier:** Pillar 1 (Master Macro Liquidity Plumbing — Leading Dollar Reserve Impulse) cross-verified with Pillar 4 (Portfolio Engineering) and Pillar 5 (Sovereign Defense).
 **Empirical Benchmark Anchor:** November 2026 Federal Reserve & US Treasury Plumbing Telemetry — US Treasury General Account (**TGA**) elevated at **$912.13B** (draining private bank reserves), Overnight Reverse Repo (**RRP**) facility near exhaustion, US 10-Year Yield at **5.129%**, and crypto stablecoins contracting **-$14.2B in 30 days**—confirming an active **Net Dollar Liquidity Drain (`GATE_RED`)**.
@@ -3426,6 +3367,9 @@ Why **Net Fed Liquidity (`WALCL − TGA − RRP`)** is the master plumbing gauge
 | **M8: Thursday H.4.1 Surprise Revision** | Weekly Thursday `20:30 UTC` | Weekly Fed H.4.1 release shows unexpected `-$80B+` drop in bank reserves alongside breaking 4H VAL. | Confirms hidden liquidity tightening behind weak price action. | **Enforce 100% Cash Lock**; reject weekend relief bounces. |
 
 ---
+
+## [31] MOD 23 — MOVE Index And High Yield Credit Spread Breakers
+<!-- Source: rulebook/MOD_23_MOVE_Index_And_High_Yield_Credit_Spread_Breakers.md -->
 
 # PROJECT CORTEX-BTC — MODULE 23: MOVE INDEX (BOND VOLATILITY) & HIGH-YIELD CREDIT SPREAD BREAKERS
 **Waterfall Tier:** Pillar 1 (Fixed-Income Systemic Stress & Cross-Asset Margin Risk Early-Warning Radar) cross-verified with Pillar 4 (Portfolio Engineering).
@@ -3538,6 +3482,9 @@ Why **MOVE Index** and **High-Yield (Junk) Credit Spreads** act as Bitcoin's sys
 
 ---
 
+## [32] MOD 24 — USD JPY Sovereign Carry Trade Unwind And BOJ Intervention Alerts
+<!-- Source: rulebook/MOD_24_USD_JPY_Sovereign_Carry_Trade_Unwind_And_BOJ_Intervention_Alerts.md -->
+
 # PROJECT CORTEX-BTC — MODULE 24: USD/JPY SOVEREIGN CARRY-TRADE UNWIND & BOJ INTERVENTION ALERTS
 **Waterfall Tier:** Pillar 1 (Global FX Liquidity & Cross-Asset Leverage Carry-Trade Breaker) cross-verified with Pillar 4 (Portfolio Engineering).
 **Empirical Benchmark Anchor:** November 13, 2026 Live FX Telemetry — **USD/JPY** trading directly on the psychological **160.00 Bank of Japan (BOJ) intervention threshold** (**159.88–160.13 JPY/USD**, spiking to **160.1255** at 06:15 UTC before snapping sharply downward to **159.7130** at 06:40 UTC) alongside US 10Y yields at **5.129%**, creating acute bilateral FX intervention and carry-trade unwind tail risk.
@@ -3646,6 +3593,9 @@ Why **USD/JPY** is one of the most dangerous hidden liquidation triggers for Bit
 | **M8: BTC Sovereign Hedge Divergence** | `CSU-24C` (FX Turmoil) | `USD/JPY` and fiat currencies experience severe volatility, **yet Coinbase Premium (`MOD 19`) surges `> +0.10%` and BTC breaks 4H VAH**. | Investors fleeing fiat currency instability into hard sovereign monetary assets (BTC/Gold). | **Authorize `0.375%–0.75%` Spot Long** *only* upon confirmed 4H VAH acceptance + positive USD Spot CVD. |
 
 ---
+
+## [33] MOD 25 — Dealer Gamma Exposure And Zero Gamma Flip Mechanics
+<!-- Source: rulebook/MOD_25_Dealer_Gamma_Exposure_And_Zero_Gamma_Flip_Mechanics.md -->
 
 # PROJECT CORTEX-BTC — MODULE 25: DEALER GAMMA EXPOSURE (GEX) & ZERO-GAMMA FLIP MECHANICS
 **Waterfall Tier:** Pillar 2 & Pillar 3 Bridge (Options Market-Maker Delta-Hedging Flows & Volatility Amplification) cross-verified with Pillar 4 (Portfolio Engineering).
@@ -3764,6 +3714,9 @@ Why **Dealer Gamma Exposure (GEX)** governs whether breakouts stick or mean-reve
 
 ---
 
+## [34] MOD 26 — Deribit And CME Monthly Quarterly OPEX Max Pain Gravity
+<!-- Source: rulebook/MOD_26_Deribit_And_CME_Monthly_Quarterly_OPEX_Max_Pain_Gravity.md -->
+
 # PROJECT CORTEX-BTC — MODULE 26: DERIBIT & CME MONTHLY/QUARTERLY OPEX MAX PAIN GRAVITY
 **Waterfall Tier:** Pillar 3 (Derivatives Expiration Calendar, Strike Pinning & Post-Expiry Volatility Release) cross-verified with Pillar 1 (Macro) and Pillar 4 (Portfolio Engineering).
 **Empirical Benchmark Anchor:** November 10–13, 2026 Deribit & CME Expiration Telemetry — Front weekly expiry (`13NOV26`, **27.2K BTC** OI) carrying Max Pain at **$77,000** (`+/- 3.0%` implied 1-SD move) and major quarterly expiry (`25DEC26`, **95.3K BTC** OI) carrying Max Pain at **$75,000**, demonstrating how macro/ETF shocks (`10Y Yield 5.129%`, `-$1.44B ETF outflows`) override Max Pain gravity prior to expiry while setting up post-settlement volatility releases.
@@ -3873,6 +3826,9 @@ risk_parameters:
 | **M8: New-Month Call Wall Magnet Shift** | Post-OpEx Monday | Newly dominant monthly expiry shows massive Call OI building `$10K–$15K` above spot with positive Coinbase Premium. | Institutional positioning for next upside leg is actively establishing. | Align `Stage 2` swing profit targets with the new dominant Call Wall strike. |
 
 ---
+
+## [35] MOD 27 — 25 Delta Implied Volatility Skew And DVOL Term Structure Extremes
+<!-- Source: rulebook/MOD_27_25_Delta_Implied_Volatility_Skew_And_DVOL_Term_Structure_Extremes.md -->
 
 # PROJECT CORTEX-BTC — MODULE 27: 25-DELTA IMPLIED VOLATILITY SKEW & DVOL TERM STRUCTURE EXTREMES
 **Waterfall Tier:** Pillar 3 (Options Fear/Greed Pricing, Tail-Risk Hedging Extremes & Volatility Term Structure) cross-verified with Pillar 1 (Macro) and Pillar 4 (Portfolio Engineering).
@@ -3987,6 +3943,9 @@ risk_parameters:
 
 ---
 
+## [36] MOD 28 — Live Autopsy And Black Swan Circuit Breaker Engine
+<!-- Source: rulebook/MOD_28_Live_Autopsy_And_Black_Swan_Circuit_Breaker_Engine.md -->
+
 # PROJECT CORTEX-BTC — MODULE 28: LIVE AUTOPSY & BLACK SWAN CIRCUIT BREAKER ENGINE (TIER D)
 **Waterfall Tier:** Tier D Continuous Epistemic Memory & Post-Trade/Black-Swan Codification Protocol (Governs All Future Modules `MOD 29+` and Entries `#108+`).
 **Empirical Benchmark Anchor:** Historical & 2026 Structural Shock Audits — Including the **Oct 29–30, 2026 Binance $6.3B Hot-Wallet Exploit**, **Sept 24–25, 2026 Bitget $387.5M Multi-Chain Exploit**, **Feb 21, 2025 Bybit $1.46B Cold-Wallet Drain**, and **Nov 12–13, 2026 Hot CPI / 5.129% 10Y Yield / -$1.44B ETF Outflow / $1.41B Liquidation Cascade**—demonstrating how every novel market shock is permanently distilled into a deterministic circuit breaker so it is never re-learned at a financial loss.
@@ -4081,6 +4040,9 @@ proposed_new_rule: "IF [Exact Telemetry Condition A] -> THEN [Mechanical Outcome
 ```
 
 ---
+
+## [37] MOD 29 — Equity Multiple Compression Energy Shocks And High Beta Contagion
+<!-- Source: rulebook/MOD_29_Equity_Multiple_Compression_Energy_Shocks_And_High_Beta_Contagion.md -->
 
 # PROJECT CORTEX-BTC — MODULE 29: EQUITY MULTIPLE COMPRESSION, ENERGY SHOCKS & HIGH-BETA CONTAGION
 **Waterfall Tier:** Pillar 1 (Cross-Asset Valuation Denominator, Energy Cost-Push Inflation & Tech/AI Credit Contagion) cross-verified with Pillar 4 (Portfolio Engineering).
@@ -4186,6 +4148,9 @@ risk_parameters:
 
 ---
 
+## [38] MOD 30 — PCF3 Order Flow Engine And 10 Deterministic Configurations
+<!-- Source: rulebook/MOD_30_PCF3_Order_Flow_Engine_And_10_Deterministic_Configurations.md -->
+
 # PROJECT CORTEX-BTC — MODULE 30: PCF3 ORDER FLOW ENGINE & 10 DETERMINISTIC CONFIGURATIONS (A–J)
 **Waterfall Tier:** Pillar 2 & Pillar 3 Rapid Synthesis Matrix (12-Variable Telemetry Classifier & Configurations `A` through `J`) cross-verified with Pillar 1 (Macro) and Pillar 4 (Portfolio Engineering).
 **Provenance & Empirical Benchmark Anchor:** Upgraded from Master Log **Entry #35** (`02_Entry #35: PCF3 Order Flow Engine & 10 Execution Configurations`) — Synthesizing 12 core order-flow variables into 10 deterministic market configurations (`Config A` through `Config J`) and the 4-Regime Spot vs. Perpetual CVD Matrix.
@@ -4264,6 +4229,9 @@ risk_parameters:
 | **4. Structural Spot Bleed** | **Drifting Downward** | Flat / Chopping | Compressed / Declining | **Cash Preservation (`CONFIG_I`):** Zero bounce sustainability until organic USD spot bids step in. |
 
 ---
+
+## [39] MOD 31 — Institutional Capital Defense Matrix
+<!-- Source: rulebook/MOD_31_Institutional_Capital_Defense_Matrix.md -->
 
 # PROJECT CORTEX-BTC — MODULE 31: INSTITUTIONAL CAPITAL DEFENSE MATRIX (ICDM 100-POINT FRAGILITY SCALE)
 **Waterfall Tier:** Cross-Pillar Quantitative Crash-Risk Scoring Rubric (0–100 Point Deterministic Fragility Gauge) governing Pillar 4 Capital Allocation.
@@ -4371,6 +4339,9 @@ Applying the **ICDM 100-Point Fragility Scale** to today's live market demonstra
 
 ---
 
+## [40] MOD 31.1 — Live ICDM Fragility Field Audit 2026 11 19
+<!-- Source: rulebook/MOD_31.1_Live_ICDM_Fragility_Field_Audit_2026_11_19.md -->
+
 # LIVE FRAGILITY AUDIT: MOD 31 (ICDM) + MOD 64 — 2026-11-19 (08:59 MYT / 00:59 UTC)
 
 ## 1. Executive Verdict & Risk Posture
@@ -4411,6 +4382,9 @@ Applying the **ICDM 100-Point Fragility Scale** to today's live market demonstra
 2. **Calendar & Shadow Credit Clearance (`MOD 44 CB-04` & `MOD 64`):** T+1 clearance past the **Nov 30 MSCI rebalance**, stabilization in neocloud/data-center credit spreads, and a confirmed **4H Value Area High (VAH)** reclaim above ~$65,000–$65,500 on positive Domestic USD Spot CVD (`MOD 05`).
 
 ---
+
+## [41] MOD 32 — Exchange Solvency Multiplier And Sovereign Multi Sig Custody Architecture
+<!-- Source: rulebook/MOD_32_Exchange_Solvency_Multiplier_And_Sovereign_Multi_Sig_Custody_Architecture.md -->
 
 # PROJECT CORTEX-BTC — MODULE 32: EXCHANGE SOLVENCY MULTIPLIER (M_SOLV) & SOVEREIGN MULTI-SIG CUSTODY ARCHITECTURE
 **Waterfall Tier:** Pillar 5 & Tier D (Quantitative Exchange Exploit Containment Routing & Generational Multi-Signature Cold Storage Protocol).
@@ -4517,6 +4491,9 @@ risk_parameters:
 
 ---
 
+## [42] MOD 33 — Unified 5 Regime Master Radar And State Transition Engine
+<!-- Source: rulebook/MOD_33_Unified_5_Regime_Master_Radar_And_State_Transition_Engine.md -->
+
 # PROJECT CORTEX-BTC — MODULE 33: UNIFIED 5-REGIME MASTER RADAR & STATE-TRANSITION ENGINE
 **Waterfall Tier:** Supreme Macro-Structural Regime Classifier (Sitting above Pillars 1–5 to govern active execution protocols and route tactical Configs A–J).
 **Empirical Benchmark Anchor:** November 13, 2026 Live Synthesis — Governing the transition between structural liquidity expansion, multiple-compression chop, and liquidation/capitulation resets across the master architecture.
@@ -4588,6 +4565,9 @@ risk_parameters:
 | **`TR-06`** | `REGIME_5` $\rightarrow$ `REGIME_4` *(Failed Bottom)* | Reclaim fails: price closes `4+` consecutive 1H bars below sweep support (`00C`) and `USD Spot CVD` rolls back negative. | Hard stop triggered (`-0.375%` max loss); re-lock **100% Cash** immediately. |
 
 ---
+
+## [43] MOD 34 — AEGIS 3 Impulse Defense and Anti Capitulation Shield
+<!-- Source: rulebook/MOD_34_AEGIS_3_Impulse_Defense_and_Anti_Capitulation_Shield.md -->
 
 # PROJECT CORTEX-BTC — MODULE 34: AEGIS-3 (ASYMMETRIC EXPOSURE & GEOPOLITICAL/IMPULSE SHIELD)
 **Waterfall Tier:** Pillar 2 & Pillar 4 Real-Time Impulse Defense & Anti-Capitulation Execution Engine (Upstream 1m–5m/1H–4H Shield).
@@ -4703,6 +4683,9 @@ risk_parameters:
 
 ---
 
+## [44] MOD 35 — Liquidation Heatmap Distance Rule And Pull Score Engine
+<!-- Source: rulebook/MOD_35_Liquidation_Heatmap_Distance_Rule_And_Pull_Score_Engine.md -->
+
 # PROJECT CORTEX-BTC — MODULE 35: LIQUIDATION HEATMAP DISTANCE RULE & PULL SCORE ENGINE
 **Waterfall Tier:** Pillar 2 & Pillar 3 Quantitative Liquidity-Target & Permission Engine (Ranking Competing Upper vs. Lower Liquidation Magnets).
 **Provenance & Empirical Benchmark Anchor:** Synthesized from `The Distance Rule` (`CS4`) and `The Liquidity-Hunt Myth` (`CS1` — Nov 13, 2026 BTC worked case study), establishing exact percentage-distance normalization, the **Pull Score** ranking formula, ATR movement feasibility, and the **Permission-Before-Target** law.
@@ -4807,6 +4790,9 @@ risk_parameters:
 
 ---
 
+## [45] MOD 36 — Telemetry Trust Staleness SLA And Determinism Attestation
+<!-- Source: rulebook/MOD_36_Telemetry_Trust_Staleness_SLA_And_Determinism_Attestation.md -->
+
 # PROJECT CORTEX-BTC — MODULE 36: TELEMETRY TRUST, STALENESS SLA & DETERMINISM ATTESTATION
 **Waterfall Tier:** Tier D Supreme Control-Plane Gate (Sits *above* `MOD 33` Master Regime Radar and `MOD 18` Sizing Engine to enforce fail-closed data integrity, cross-venue price quorum, cron heartbeat verification, and bit-for-bit replay determinism).
 **Provenance & Empirical Benchmark Anchor:** Synthesized from the November 13, 2026 Cross-Model Architecture Audit (ChatGPT, Qwen, Perplexity) — addressing GitHub Actions `schedule` best-effort top-of-hour queue delays/drops, stale API feeds, cross-venue price outliers, and strict separation between NotebookLM qualitative research and the deterministic pure-Python compiler (`cortex_matrix_engine.py`).
@@ -4909,6 +4895,9 @@ risk_parameters:
 | **M8: Clean Audit Trail Attestation** | Routine Cycle | Every cycle writes immutable `(input_hash, ruleset_hash, verdict_hash)` to Git history. | Guarantees 100% walk-forward backtest fidelity without look-ahead bias. | Archive `as_of_timestamp_utc` alongside `publication_timestamp_utc` for all delayed macro/ETF prints. |
 
 ---
+
+## [46] MOD 37 — Executable Liquidity Net 3.0R Slippage and Equity Curve Governor
+<!-- Source: rulebook/MOD_37_Executable_Liquidity_Net_3.0R_Slippage_and_Equity_Curve_Governor.md -->
 
 # PROJECT CORTEX-BTC — MODULE 37: EXECUTABLE LIQUIDITY, NET-3.0R SLIPPAGE & EQUITY-CURVE GOVERNOR
 **Waterfall Tier:** Pillar 4 & Tier D Control-Plane Execution & Portfolio-Heat Governor (Verifies L2 executable depth, post-cost `Net R >= 3.0`, stressed stop slippage, and temporal drawdown caps).
@@ -5021,6 +5010,9 @@ risk_parameters:
 
 ---
 
+## [47] MOD 38 — ETF Primary Market Settlement And BRRNY Fix Window Engine
+<!-- Source: rulebook/MOD_38_ETF_Primary_Market_Settlement_And_BRRNY_Fix_Window_Engine.md -->
+
 # PROJECT CORTEX-BTC — MODULE 38: ETF PRIMARY-MARKET SETTLEMENT & BRRNY FIX-WINDOW ENGINE
 **Waterfall Tier:** Pillar 2 & Pillar 5 Institutional Settlement Mechanics Engine (Extends `MOD 07` by separating intraday creation/redemption arbitrage during the `15:00–16:00 NY` BRRNY fix window from `T+1` lagged flow tables and in-kind vs. cash AP delivery).
 **Provenance & Empirical Benchmark Anchor:** Synthesized from the November 13, 2026 Cross-Model Architecture Audit (ChatGPT `MOD 39` + Qwen `MOD 36` + Meta `MOD 38`) — incorporating the SEC's **July 29, 2025 in-kind ETP creation/redemption approval**, **T+1 settlement mechanics**, and the **CME CF BRRNY (`15:00–16:00 ET`)** daily NAV benchmark window.
@@ -5123,6 +5115,9 @@ risk_parameters:
 | **M8: Issuer Holdings File Delay (`UNKNOWN`)** | Overnight Audit | Custodian/issuer fails to publish updated `BTC_per_share` or shares-outstanding file by `08:00 MYT`. | `iNAV` denominator cannot be verified cleanly (`MOD 36`). | Tag `MOD_38_STATE = UNKNOWN` until issuer basket file updates; do not extrapolate prior-day shares. |
 
 ---
+
+## [48] MOD 39 — Exchange Supply Activation And Aged UTXO Dormancy Engine
+<!-- Source: rulebook/MOD_39_Exchange_Supply_Activation_And_Aged_UTXO_Dormancy_Engine.md -->
 
 # PROJECT CORTEX-BTC — MODULE 39: EXCHANGE SUPPLY ACTIVATION & AGED-UTXO DORMANCY ENGINE
 **Waterfall Tier:** Pillar 5 On-Chain Supply-Activation Engine (Tracks dormant/aged UTXO spending and entity-adjusted BTC migration onto exchange-controlled infrastructure *before* realized spot selling prints).
@@ -5228,6 +5223,9 @@ risk_parameters:
 | **M8: On-Chain Indexer Lag (`> 6 Blocks`)** | Routine Scan | Primary on-chain API lags Bitcoin chain tip by `> 6 blocks` (`~60+ min`). | Recent exchange deposit bursts may not yet appear in the JSON feed. | Tag `MOD_39_STATE = UNKNOWN` (`MOD 36`) during high-volatility cascades until indexer catches tip. |
 
 ---
+
+## [49] MOD 40 — Miner Treasury Stress And Hashprice Economics Engine
+<!-- Source: rulebook/MOD_40_Miner_Treasury_Stress_And_Hashprice_Economics_Engine.md -->
 
 # PROJECT CORTEX-BTC — MODULE 40: MINER TREASURY STRESS & HASHPRICE ECONOMICS ENGINE
 **Waterfall Tier:** Pillar 5 Structural Supply-Side Economics Engine (Detects deteriorating miner unit revenue via `Hashprice`, network difficulty retarget pressure, fee-share compression, and corroborated miner-to-exchange transfers).
@@ -5335,6 +5333,9 @@ risk_parameters:
 | **M8: Hashprice / Mempool Feed Outage** | Routine Scan | `mempool.space` or Hashrate Index API fails SLA (`MOD 36`). | Missing secondary supply-side telemetry. | Tag `MOD_40_STATE = UNKNOWN` (advisory only—never freeze core execution solely on miner API lag). |
 
 ---
+
+## [50] MOD 41 — Secular Cycle ATH Cluster and Double Top Exit Engine
+<!-- Source: rulebook/MOD_41_Secular_Cycle_ATH_Cluster_and_Double_Top_Exit_Engine.md -->
 
 # MOD 41 — Secular Cycle ATH Cluster, First-Week Flush (Rule 1) & Flat Double-Top (+4% Rule 3) Exit Engine (Pillar 1 & 5)
 
@@ -5472,6 +5473,9 @@ risk_parameters:
 
 ---
 
+## [51] MOD 41.1 — Secular ATH Operational Field Runbook and Countdown Checklist
+<!-- Source: rulebook/MOD_41.1_Secular_ATH_Operational_Field_Runbook_and_Countdown_Checklist.md -->
+
 # MOD 41.1 — Secular ATH Operational Field Runbook & Countdown Checklist (Pillar 1 & 5)
 
 *Source File: `MOD_41.1_Secular_ATH_Operational_Field_Runbook_and_Countdown_Checklist.md`*
@@ -5576,6 +5580,9 @@ Based on empirical diminishing returns across cycles (compressing from `3.49x` i
 | **M8: Secular Cycle Reclaim** | Price decisively reclaims and holds above `$126,200` with Pillar 1 Macro Gate Green and ETF net inflows. | Post-bear secular recovery confirmed; transition to new cycle expansion. | Reset ATH tracker to Cluster A and arm Swing 1 distribution targets (`$172,000–$180,000` / `$230,000–$250,000`). |
 
 ---
+
+## [52] MOD 41.2 — Two Swing Harvest Roadmap Diminishing Multiples and Secular Shakeout Engine
+<!-- Source: rulebook/MOD_41.2_Two_Swing_Harvest_Roadmap_Diminishing_Multiples_and_Secular_Shakeout_Engine.md -->
 
 # PROJECT CORTEX-BTC — MODULE 41.2: TWO-SWING HARVEST ROADMAP, DIMINISHING MULTIPLES & SECULAR SHAKEOUT ENGINE
 
@@ -5710,6 +5717,9 @@ The entire Two-Swing Roadmap formally arms when Bitcoin definitively breaks and 
 
 ---
 
+## [53] MOD 42 — Classical Structural Shapes and Liquidity Pool Authentication
+<!-- Source: rulebook/MOD_42_Classical_Structural_Shapes_and_Liquidity_Pool_Authentication.md -->
+
 # MOD 42 — Classical Structural Shapes & Liquidity-Pool Authentication Engine (Pillar 2)
 
 *Source File: `MOD_42_Classical_Structural_Shapes_and_Liquidity_Pool_Authentication.md`*
@@ -5833,6 +5843,9 @@ Before any Scenario in Module 42 can authorize a spot decision, all four circuit
 | **M8: Structural Shape Resonance** | Multi-Timeframe | 1H Double Bottom aligns perfectly with 4H Inverse Head & Shoulders and 1D Rising Trendline support. | Fractal institutional accumulation across tactical and structural horizons. | **Highest-Conviction Swing Trigger:** Deploy full `0.75% Risk` Spot allocation on neckline/VAH reclaim. |
 
 ---
+
+## [54] MOD 42.1 — The Symmetrical 11 Pattern Price Action and Microstructure Playbook
+<!-- Source: rulebook/MOD_42.1_The_Symmetrical_11_Pattern_Price_Action_and_Microstructure_Playbook.md -->
 
 ### PROJECT CORTEX-BTC — MODULE 42.1: THE SYMMETRICAL 11-PATTERN PRICE ACTION & MICROSTRUCTURE PLAYBOOK
 **Waterfall Tier:** Pillar 2 & Pillar 4 Sub-Module (Symmetrical Range Extremes, Liquidity Sweeps, Order-Flow Absorption & Bidirectional Spot BTC/USDT Swing Execution) — child operational playbook of **MOD 42 (Classical Structural Shapes & Liquidity-Pool Authentication Engine)**, harmonized with **MOD 05** (Spot vs. Perp CVD), **MOD 06** (Passive Limit Absorption), **MOD 11** (Volume Profile Topology), **MOD 18** (0.75% Spot Risk Sizing), **MOD 35** (Liquidation Sweeps), **MOD 54** (MTF Kline Lock), **MOD 60** (7-Rank Veto Precedence Ladder), and **MOD 62** (Dual-Inventory Bidirectional Swing Engine — DIBSE v2.0).
@@ -6063,6 +6076,9 @@ In an unleveraged dual-asset spot portfolio (**BTC + USDT**), short-side pattern
 
 ---
 
+## [55] MOD 42.1.1 — 4 Gate Bidirectional Spot Execution Playbook and Worked Field Walkthrough
+<!-- Source: rulebook/MOD_42.1.1_4_Gate_Bidirectional_Spot_Execution_Playbook_and_Worked_Field_Walkthrough.md -->
+
 ### PROJECT CORTEX-BTC — MODULE 42.1.1: 4-GATE BIDIRECTIONAL SPOT EXECUTION PLAYBOOK & WORKED FIELD WALKTHROUGH
 **Waterfall Tier:** Pillar 2 & Pillar 4 Operational Field Runbook (Step-by-Step `USDT <-> BTC` Execution Workflow & Worked Examples) — child operational reference of **MOD 42.1 (The Symmetrical 11-Pattern Price Action & Microstructure Playbook)** and **MOD 42 (Classical Structural Shapes & Liquidity-Pool Authentication Engine)**, integrated with **MOD 05** (Spot vs. Perp CVD), **MOD 11** (Volume Profile Topology), **MOD 18** (`0.75%` Spot Risk Sizing & Two-Stage Exit), **MOD 31** (`ICDM` Fragility Gate), **MOD 37** (`Net R >= 3.0`), **MOD 54** (MTF Kline Lock), **MOD 60** (Veto Precedence), **MOD 62** (`DIBSE v2.0`), and **MOD 65** (`CB-02` Multi-Step Sequence).
 **Document Provenance:** Codified from the live November 2026 operational walkthrough of `MOD 42.1` inside `DIBSE v2.0` (`MOD 62`).
@@ -6160,6 +6176,9 @@ sizing_invariants:
 **MOD 42.1.1 operationalizes MOD 42.1 inside DIBSE v2.0: never execute a chart shape on sight—enforce Gate 1 Location & Pillar 1 Permission, Gate 2 Pattern Classification, Gate 3 Order-Flow/Momentum Confirmation, and Gate 4 `Net R >= 3.0` Spot Sizing.**
 
 ---
+
+## [56] MOD 43 — Algorithmic Fibonacci Confluence and Harmonic Impulse Measurement
+<!-- Source: rulebook/MOD_43_Algorithmic_Fibonacci_Confluence_and_Harmonic_Impulse_Measurement.md -->
 
 # PROJECT CORTEX-BTC — MODULE 43: ALGORITHMIC FIBONACCI CONFLUENCE & HARMONIC IMPULSE MEASUREMENT
 
@@ -6264,6 +6283,9 @@ Before any Fibonacci or Harmonic Impulse signal can authorize a spot decision, a
 | **M5: Offshore-Only Confluence** | `CSU-43A` (.618 Retrace) | Price hits the `.618` and POC, but limit-bid absorption is strictly on Binance USDT (offshore) with zero USD Spot CVD. | Weak structural foundation; high risk of support failure. | **Circuit Breaker 2 Tripped: Reject Signal.** Stand down and maintain 100% Cash Lock. |
 
 ---
+
+## [57] MOD 44 — Mega IPO Capital Vacuums and Index Rebalance Liquidity Drains
+<!-- Source: rulebook/MOD_44_Mega_IPO_Capital_Vacuums_and_Index_Rebalance_Liquidity_Drains.md -->
 
 # PROJECT CORTEX-BTC — MODULE 44: MEGA-IPO CAPITAL VACUUMS & INDEX REBALANCE LIQUIDITY DRAINS
 **Waterfall Tier:** Pillar 1 (Macro Liquidity Plumbing) & Pillar 5 (Institutional Flows & Calendar Calendar-Event Risk) — operates alongside `MOD 07` (Spot ETF Flows), `MOD 17` (Index Rebalancings), `MOD 22` (Net Fed Liquidity), and `MOD 38` (ETF Primary-Market Settlement).
@@ -6374,6 +6396,9 @@ risk_parameters:
 | **M8: Hermes Calendar Pre-Emptive Flag** | `T-35d` Before Event | Hermes Agent scans upcoming SEC S-1 filings / MSCI quarterly review announcements and detects an upcoming `>= $25B` IPO or `>= $5B` proxy deletion. | Early-warning visibility before mainstream retail traders notice the liquidity drain. | **Publish `MOD 44` Alert on Telegram HUD** and tighten Stage 1 profit-taking thresholds on open longs. |
 
 ---
+
+## [58] MOD 45 — Executive Bottom Line HUD and Mobile Presentation Protocol
+<!-- Source: rulebook/MOD_45_Executive_Bottom_Line_HUD_and_Mobile_Presentation_Protocol.md -->
 
 # PROJECT CORTEX-BTC — MODULE 45: EXECUTIVE BOTTOM-LINE HUD & MOBILE PRESENTATION PROTOCOL
 **Waterfall Tier:** Tier D (Control-Plane, Output Rendering & Mobile Operator Interface) — governs all Telegram HUD alerts, Hermes Agent responses, GitHub Actions hourly pings, and executive market briefings across Pillars 1–5.
@@ -6566,6 +6591,9 @@ VERDICT: <EXECUTION_COMMAND>
 
 ---
 
+## [59] MOD 46 — Block 1050000 April 2028 Secular Horizon and Sovereign Barbell Anchor
+<!-- Source: rulebook/MOD_46_Block_1050000_April_2028_Secular_Horizon_and_Sovereign_Barbell_Anchor.md -->
+
 # PROJECT CORTEX-BTC — MODULE 46: BLOCK 1,050,000 (APRIL 2028) SECULAR HORIZON & SOVEREIGN BARBELL ANCHOR
 **Waterfall Tier:** Pillar 1 (Secular Supply Schedule), Pillar 4 (Barbell Capital Allocation), & Pillar 5 (On-Chain Cohorts & Sovereign Multi-Sig Custody) — operates directly alongside `MOD 13` (STH Realized Price & MVRV), `MOD 14` (SOPR Reset Cycles), `MOD 18` (`CSU-18D` Sovereign Cold-Storage Tranches), `MOD 32` (`2-of-3` Dual-Jurisdiction Cold Storage), and `MOD 41` (Secular Cycle ATH Cluster & Harvest Roadmaps).
 **Empirical Benchmark Anchor:**
@@ -6679,6 +6707,9 @@ risk_parameters:
 
 ---
 
+## [60] MOD 47 — Corporate and Sovereign Treasury Velocity
+<!-- Source: rulebook/MOD_47_Corporate_and_Sovereign_Treasury_Velocity.md -->
+
 # PROJECT CORETEX BTC BRAIN — MODULE 47: CORPORATE & SOVEREIGN TREASURY VELOCITY (mNAV & PROXY FLYWHEEL)
 **Waterfall Tier:** Pillar 1 (Macro & Institutional Capital Allocation) & Pillar 5 (Corporate/Sovereign Balance-Sheet Flows & Supply Absorption) — operates alongside `MOD 07` (Spot ETF Flows), `MOD 17` (Index Rebalancings), `MOD 38` (Corporate Treasury ATM / TWAP Supply), `MOD 39` (Exchange Supply & Cold Sweeps), and `MOD 44` (Index Rebalance Liquidity Drains).
 **Empirical Benchmark Anchor:**
@@ -6790,6 +6821,9 @@ risk_parameters:
 
 ---
 
+## [61] MOD 48 — Stablecoin Supply Ratio and Net Mint Burn Velocity
+<!-- Source: rulebook/MOD_48_Stablecoin_Supply_Ratio_and_Net_Mint_Burn_Velocity.md -->
+
 # PROJECT CORETEX BTC BRAIN — MODULE 48: STABLECOIN SUPPLY RATIO (SSR), USDT.D & NET MINT/BURN VELOCITY
 **Waterfall Tier:** Pillar 1 (Macro Liquidity & Crypto-Native Dry Powder) & Pillar 5 (Settlement-Rail Flows & Exchange Buying Power) — operates directly alongside `MOD 05` (Spot vs. Perp CVD), `MOD 07` (Domestic USD Gateways vs. Offshore), `MOD 16` (Macro Liquidity & Stablecoin Dry Powder), `MOD 22` (Net Fed Liquidity), and `MOD 39` (Exchange Supply & Stablecoin Inflows).
 **Empirical Benchmark Anchor:**
@@ -6897,6 +6931,9 @@ risk_parameters:
 | **M8: Stablecoin API / DefiLlama Feed Lag (`MOD 36`)** | Routine Scan | Primary stablecoin supply or `SSR` endpoint lags `> 24H` during high volatility. | Stale denominator/numerator data (`UNKNOWN` state). | Tag `MOD_48_STATE = UNKNOWN` (`MOD 36`); rely on live `MOD 05` USD Spot CVD + `MOD 07` ETF flows. |
 
 ---
+
+## [62] MOD 49 — Rolling Cross Asset Correlation and Decoupling Matrix
+<!-- Source: rulebook/MOD_49_Rolling_Cross_Asset_Correlation_and_Decoupling_Matrix.md -->
 
 # PROJECT CORETEX BTC BRAIN — MODULE 49: ROLLING CROSS-ASSET CORRELATION & DECOUPLING MATRIX (BTC VS. NDX / GOLD / DXY)
 **Waterfall Tier:** Pillar 1 (Cross-Asset Macro Regime & Contagion Filter) — operates directly alongside `MOD 16` (Macro Liquidity, Yields & DXY), `MOD 17` (Session Handoffs), `MOD 22` (Net Fed Liquidity), `MOD 23` (MOVE Index), `MOD 29` (Equity Multiple Compression & High-Beta Contagion), and `MOD 44` (Mega-IPO Capital Vacuums).
@@ -7006,6 +7043,9 @@ risk_parameters:
 
 ---
 
+## [63] MOD 50 — Weekend Thin Liquidity Unsettled CME and Sunday Reopen
+<!-- Source: rulebook/MOD_50_Weekend_Thin_Liquidity_Unsettled_CME_and_Sunday_Reopen.md -->
+
 # PROJECT CORETEX BTC BRAIN — MODULE 50: WEEKEND THIN-LIQUIDITY, UNSETTLED CME CLEARING & SUNDAY 22:00 UTC RE-OPEN PROTOCOL
 **Waterfall Tier:** Pillar 2 (Microstructure & Session Liquidity) & Pillar 4 (Execution Timing & Sizing Governor) — operates directly alongside `MOD 05` (Spot vs. Perp CVD), `MOD 07` (Domestic USD Gateways vs. Offshore), `MOD 17` (Session Handoffs), `MOD 20` (CME Basis & Gap Topology), and `MOD 37` (Executable L2 Depth & Slippage).
 **Empirical Benchmark Anchor:**
@@ -7094,6 +7134,9 @@ risk_parameters:
 | **M8: Weekend Stablecoin De-Peg Scare (`MOD 48`)** | Sat–Sun Session | Thin weekend liquidity causes brief `USDT/USDC` wick to `$0.993` that recovers within `< 30 mins`. | **Pause `60 mins` to verify peg stability** before resuming normal radar monitoring. |
 
 ---
+
+## [64] MOD 51 — Extreme Cascade Microstructure Basis Blowouts and Staggered Limits
+<!-- Source: rulebook/MOD_51_Extreme_Cascade_Microstructure_Basis_Blowouts_and_Staggered_Limits.md -->
 
 # PROJECT CORETEX BTC BRAIN — MODULE 51: EXTREME CASCADE MICROSTRUCTURE, BASIS BLOWOUTS & STAGGERED LIMIT EXECUTION
 **Waterfall Tier:** Pillar 3 (Derivatives & Basis Stress) & Pillar 4 (Post-Cascade Execution & Slippage Control) — operates directly alongside `MOD 01` (Negative Basis), `MOD 03` (Deleveraging Flushes & OI Resets), `MOD 06` (Passive Absorption), `MOD 34` (AEGIS-3 Impulse Defense), `MOD 35` (Liquidation Heatmap Pull Score), and `MOD 37` (Executable L2 Liquidity & `Net R >= 3.0`).
@@ -7185,18 +7228,22 @@ risk_parameters:
 
 ---
 
-# PROJECT CORETEX BTC BRAIN — MODULE 52: ROLLING 30-TRADE EXPECTANCY AUDIT & PARAMETER DRIFT GOVERNOR
-**Waterfall Tier:** Tier D (Continuous Governance, Statistical Calibration & Anti-Curve-Fitting Control-Plane) — operates directly alongside `MOD 18` (`0.75%` Risk & Two-Stage Exit), `MOD 28` (Live Autopsy & Black Swan Engine), `MOD 30` (`PCF3` Configs `A–J`), `MOD 36` (Determinism Attestation), and `MOD 37` (`Net R >= 3.0` & Equity-Curve Governor).
+## [65] MOD 52 — Rolling 30 Trade Expectancy Audit and Parameter Drift Governor
+<!-- Source: rulebook/MOD_52_Rolling_30_Trade_Expectancy_Audit_and_Parameter_Drift_Governor.md -->
+
+### PROJECT CORETEX BTC BRAIN — MODULE 52: ROLLING 30-TRADE EXPECTANCY AUDIT & PARAMETER DRIFT GOVERNOR
+**Waterfall Tier:** Tier D (Continuous Governance, Statistical Calibration & Anti-Curve-Fitting Control-Plane) — operates directly alongside MOD 18 (0.75% Risk & Two-Stage Exit), MOD 28 (Live Autopsy & Black Swan Engine), MOD 30 (PCF3 Configs A–J), MOD 36 (Determinism Attestation), MOD 37 (Net R >= 3.0 & Equity-Curve Governor), MOD 65 (Media De-Noising & Signal Hygiene), and MOD 68 (Derivatives Positioning Context & Empirical Sample Hygiene).
 **Empirical Benchmark Anchor:**
-1. **Live Operations Launch Baseline (November 2026):** Ahead of deploying Project CoreTex BTC Brain onto a 24/7 Ubuntu VPS + Hermes Agent + GitHub Actions stack, `MOD 52` establishes the deterministic statistical audit ledger (`trade_audit_ledger.json`) required to verify that live execution matches theoretical **`Net R >= 3.0`** expectancy without silent slippage erosion, regime drift, or emotional parameter tampering.
-2. **Expectancy Law (`E[R]`):** Across a rolling window of `N = 30` closed spot trades, true system edge is governed by:
+1. **Live Operations Launch Baseline (November 2026):** Ahead of deploying Project CoreTex BTC Brain onto a 24/7 Ubuntu VPS + Hermes Agent + GitHub Actions stack, MOD 52 establishes the deterministic statistical audit ledger (`trade_audit_ledger.json`) required to verify that live execution matches theoretical **Net R >= 3.0** expectancy without silent slippage erosion, regime drift, or emotional parameter tampering.
+2. **Expectancy Law (E[R]) & Unit-Risk Payoff Formula:** Across a rolling window of $N = 30$ closed spot trades, true system edge is governed by:
    $$E[R] = (\text{WinRate} \times \text{AvgWin}_R) - (\text{LossRate} \times \text{AvgLoss}_R)$$
-   With strict `1.0x` spot-only `0.75%` risk capping every losing trade at `-1.0R` (`-0.75%` equity) and `MOD 37` requiring `>= +3.0R` projected reward, even a `35%` win rate yields `+0.40R` positive expectancy per trade (`+12.0R` / `+9.0%` compounded equity per 30 trades).
+   Equivalently, for directional/positioning signal audits:
+   $$\text{EV}_{\text{unit risk}} = (\text{up\_fraction} \times \text{gain\_drop\_ratio}) - (1 - \text{up\_fraction})$$
+   With strict 1.0x spot-only 0.75% risk capping every losing trade at $-1.0R$ (-0.75% equity) and MOD 37 requiring $\ge +3.0R$ projected reward, even a 35% win rate yields $+0.40R$ positive expectancy per trade ($+12.0R$ / $+9.0\%$ compounded equity per 30 trades). Conversely, a high hit rate with inverted payoff (e.g., 65% hit rate with 0.32 gain/drop ratio $\rightarrow \text{EV} = -0.14$) destroys capital.
 
----
+--------------------------------------------------------------------------------
 
-## 1. Machine-Readable State & Routing Block (Python / Hermes / GitHub Index)
-
+#### 1. Machine-Readable State & Routing Block (Python / Hermes / GitHub Index)
 ```yaml
 module_id: "MOD_52"
 entry_type: "EXPECTANCY_AND_DRIFT_GOVERNOR"
@@ -7213,12 +7260,20 @@ audit_parameters:
   slippage_drift_tolerance_r: 0.25 # Max allowed gap between Modeled Net R (MOD 37) and Realized Net R
   config_quarantine_losses: 4 # Any MOD 30 Config (A-J) suffering 4 consecutive -1.0R losses enters quarantine
 
+# 4-RULE EMPIRICAL SAMPLE HYGIENE GATE (INTEGRATED WITH MOD 65 & MOD 68)
+empirical_sample_hygiene:
+  require_denominator_and_ci: true # Always report n, total N, and 95% confidence interval width (e.g., n=18 at 72% -> 50%-87% CI)
+  overlapping_window_correction: "Discount overlapping k-day forward return samples by ~sqrt(k) or use strictly non-overlapping intervals"
+  cluster_episode_counting: "Report distinct independent market episodes alongside raw bar counts (e.g., 146 tail days = ~4 crash episodes)"
+  payoff_and_regime_split: "Never evaluate hit rate without EV_unit_risk and bull/bear trend-regime conditioning"
+
 # ANTI-TRAP CIRCUIT BREAKERS
 circuit_breakers:
   CB_01_ZERO_SMALL_SAMPLE_CURVE_FITTING: "NEVER modify module thresholds (Z-scores, VAH bar counts, or stop multipliers) based on 1 to 10 trades; require N >= 30 closed trades OR a verified structural Black Swan autopsy (MOD 28)."
   CB_02_SLIPPAGE_EROSION_THROTTLE: "If realized execution slippage/fees erode >= 0.25R vs MOD 37 pre-trade estimates across 10+ trades, force passive-only limit routing and halve risk to 0.375% until execution fills normalize."
   CB_03_CONFIG_ATTRIBUTION_QUARANTINE: "Track win rate and E[R] separately for each MOD 30 Config (A-J) and MOD 33 Regime (1-5); if any single Config prints 4 consecutive stop-outs, quarantine that Config without disabling healthy Configs."
   CB_04_IMMUTABLE_RISK_CEILING: "No statistical audit or winning streak may EVER raise max risk above 0.75% per trade or authorize > 1.0x leverage."
+  CB_05_EMPIRICAL_SAMPLE_HYGIENE_GATE: "Reject any backtest, external research study, or positioning claim that omits sample denominator/CI width, uses uncorrected overlapping forward windows, mistakes clustered crash days for independent events, or reports hit rate without payoff-adjusted EV and regime conditioning (cross-locked with MOD 65 CB-06 & MOD 68 CB-05)."
 
 # RISK & SIZING CONSTANTS (PILLAR 4)
 risk_parameters:
@@ -7227,55 +7282,66 @@ risk_parameters:
   leverage_permitted: 1.0 # Strict Unleveraged Spot Only
 ```
 
----
+--------------------------------------------------------------------------------
 
-## 2. Protective Circuit Breakers (Mandatory Governance Invariants)
+#### 2. Protective Circuit Breakers (Mandatory Governance Invariants)
+*   **Circuit Breaker 1 — Anti-Curve-Fitting Law (CB-01):** Changing Z-score thresholds or lookback windows after two or three frustrating losses destroys out-of-sample robustness. Parameter adjustments require **N >= 30 closed trades** in the audit ledger (CB-01), except when a structural Black Swan (MOD 28) exposes a verified market-plumbing blind spot.
+*   **Circuit Breaker 2 — Execution Slippage & Fee Drift Guard (CB-02):** If real-world fills on USD spot venues slip >= 0.25R worse than MOD 37 pre-trade L2 projections over 10 consecutive trades, MOD 52 automatically throttles sizing to **0.375% (GATE_AMBER)** and enforces passive maker limit execution.
+*   **Circuit Breaker 3 — Granular Config Quarantine (CB-03):** Rather than shutting down the entire brain when one setup struggles, MOD 52 isolates performance by MOD 30 Config (A–J) and MOD 33 Regime (1–5), quarantining any specific Config that hits **4 consecutive -1.0R stop-outs** for a MOD 28 post-mortem.
+*   **Circuit Breaker 4 — Immutable Sovereign Risk Ceiling (CB-04):** Even if rolling 30-trade expectancy exceeds +0.80R, maximum equity risk per trade stays permanently locked at **0.75%** (1.0x spot only).
+*   **Circuit Breaker 5 — Empirical Sample Hygiene Gate (CB-05):** Any internal `ctc_backtest_lab` test or external signal claim (e.g., funding/OI studies per MOD 68) must pass all four statistical hygiene rules before informing position sizing or module thresholds: (1) report denominator $n/N$ and 95% CI width; (2) eliminate or discount overlapping forward-return windows; (3) count distinct independent episodes rather than raw clustered days; and (4) report payoff-adjusted EV split by macro trend regime.
 
-* **Circuit Breaker 1 — Anti-Curve-Fitting Law (`CB-01`):** Changing Z-score thresholds or lookback windows after two or three frustrating losses destroys out-of-sample robustness. Parameter adjustments require **`N >= 30` closed trades** in the audit ledger (`CB-01`), except when a structural Black Swan (`MOD 28`) exposes a verified market-plumbing blind spot.
-* **Circuit Breaker 2 — Execution Slippage & Fee Drift Guard (`CB-02`):** If real-world fills on USD spot venues slip `>= 0.25R` worse than `MOD 37` pre-trade L2 projections over 10 consecutive trades, `MOD 52` automatically throttles sizing to **`0.375%` (`GATE_AMBER`)** and enforces passive maker limit execution.
-* **Circuit Breaker 3 — Granular Config Quarantine (`CB-03`):** Rather than shutting down the entire brain when one setup struggles, `MOD 52` isolates performance by `MOD 30` Config (`A–J`) and `MOD 33` Regime (`1–5`), quarantining any specific Config that hits **4 consecutive `-1.0R` stop-outs** for a `MOD 28` post-mortem.
-* **Circuit Breaker 4 — Immutable Sovereign Risk Ceiling (`CB-04`):** Even if rolling 30-trade expectancy exceeds `+0.80R`, maximum equity risk per trade stays permanently locked at **`0.75%`** (`1.0x` spot only).
+--------------------------------------------------------------------------------
 
----
+#### 3. Core Conditional Signal Units (Condition A -> Outcome B -> Rule C)
+##### CSU-52A: Healthy Positive Expectancy Regime (Rolling 30-Trade E[R] >= +0.35R)
+*   **Trigger Condition A:** Across the last 30 closed spot trades, realized E[R] >= +0.35R, average losing trade stays <= 1.05R (confirming disciplined stop adherence), and slippage drift vs. MOD 37 is < 0.25R.
+*   **Observed Outcome B:** The 5-Pillar Waterfall and MOD 30 configurations are aligned with live market microstructure.
+*   **Execution Rule C:** **MAINTAIN FULL 0.75% SPOT RISK AUTHORIZATION** (when Pillar 1 == GATE_GREEN) and prohibit discretionary parameter edits (CB-01).
 
-## 3. Core Conditional Signal Units (`Condition A -> Outcome B -> Rule C`)
+##### CSU-52B: Slippage / Execution Friction Drift Alert (Realized R - Modeled R <= -0.25R)
+*   **Trigger Condition A:** Over the last 10+ executed spot trades, actual entry/exit slippage + taker fees reduce realized reward by >= 0.25R compared to MOD 37 pre-trade calculations.
+*   **Observed Outcome B:** Exchange L2 depth or order routing is experiencing higher friction than modeled (e.g., chasing market orders during volatile 1H candles).
+*   **Execution Rule C:** **THROTTLE MAX RISK TO 0.375% (GATE_AMBER)** and enforce **100% passive limit-order entry (MOD 51 CB-03)** until 10-trade slippage drift drops back below 0.15R.
 
-### CSU-52A: Healthy Positive Expectancy Regime (`Rolling 30-Trade E[R] >= +0.35R`)
-* **Trigger Condition A:** Across the last `30` closed spot trades, realized `E[R] >= +0.35R`, average losing trade stays `<= 1.05R` (confirming disciplined stop adherence), and slippage drift vs. `MOD 37` is `< 0.25R`.
-* **Observed Outcome B:** The 5-Pillar Waterfall and `MOD 30` configurations are aligned with live market microstructure.
-* **Execution Rule C:** **MAINTAIN FULL `0.75%` SPOT RISK AUTHORIZATION** (when `Pillar 1 == GATE_GREEN`) and prohibit discretionary parameter edits (`CB-01`).
+##### CSU-52C: Single-Config Regime Mismatch (4 Consecutive -1.0R Losses in One Config)
+*   **Trigger Condition A:** A specific MOD 30 configuration (e.g., CONFIG_G breakout or CONFIG_F range fade) records **4 consecutive stop-outs** inside the current MOD 33 regime, while total portfolio drawdown remains within MOD 37 bounds.
+*   **Observed Outcome B:** That specific tactical pattern is temporarily mismatched with current order-book behavior.
+*   **Execution Rule C:** **QUARANTINE ONLY THAT CONFIG (STATUS = QUARANTINED)** and generate a MOD 28 diagnostic entry; keep unaffected MOD 30 Configs active at normal sizing.
 
-### CSU-52B: Slippage / Execution Friction Drift Alert (`Realized R - Modeled R <= -0.25R`)
-* **Trigger Condition A:** Over the last `10+` executed spot trades, actual entry/exit slippage + taker fees reduce realized reward by `>= 0.25R` compared to `MOD 37` pre-trade calculations.
-* **Observed Outcome B:** Exchange L2 depth or order routing is experiencing higher friction than modeled (e.g., chasing market orders during volatile `1H` candles).
-* **Execution Rule C:** **THROTTLE MAX RISK TO `0.375%` (`GATE_AMBER`)** and enforce **100% passive limit-order entry (`MOD 51 CB-03`)** until 10-trade slippage drift drops back below `0.15R`.
+##### CSU-52D: Rolling 30-Trade Negative Expectancy Governor (Rolling 30-Trade E[R] < 0.00R)
+*   **Trigger Condition A:** Rolling 30-trade realized expectancy drops below **0.00R** (or cumulative drawdown hits MOD 37 -3.00% weekly lock).
+*   **Observed Outcome B:** Structural regime shift has degraded edge across multiple waterfall modules.
+*   **Execution Rule C:** **ENFORCE 0.375% HALF-SIZE RISK CAP (GATE_AMBER)** across all signals, run a full MOD 28 30-trade attribution autopsy via Hermes + Gemini, and require 10 consecutive trades at E[R] >= +0.20R before restoring 0.75% sizing.
 
-### CSU-52C: Single-Config Regime Mismatch (`4 Consecutive -1.0R Losses in One Config`)
-* **Trigger Condition A:** A specific `MOD 30` configuration (e.g., `CONFIG_G` breakout or `CONFIG_F` range fade) records **4 consecutive stop-outs** inside the current `MOD 33` regime, while total portfolio drawdown remains within `MOD 37` bounds.
-* **Observed Outcome B:** That specific tactical pattern is temporarily mismatched with current order-book behavior.
-* **Execution Rule C:** **QUARANTINE ONLY THAT CONFIG (`STATUS = QUARANTINED`)** and generate a `MOD 28` diagnostic entry; keep unaffected `MOD 30` Configs active at normal sizing.
+--------------------------------------------------------------------------------
 
-### CSU-52D: Rolling 30-Trade Negative Expectancy Governor (`Rolling 30-Trade E[R] < 0.00R`)
-* **Trigger Condition A:** Rolling `30`-trade realized expectancy drops below **`0.00R`** (or cumulative drawdown hits `MOD 37` `-3.00%` weekly lock).
-* **Observed Outcome B:** Structural regime shift has degraded edge across multiple waterfall modules.
-* **Execution Rule C:** **ENFORCE `0.375%` HALF-SIZE RISK CAP (`GATE_AMBER`)** across all signals, run a full `MOD 28` 30-trade attribution autopsy via Hermes + Gemini, and require `10` consecutive trades at `E[R] >= +0.20R` before restoring `0.75%` sizing.
-
----
-
-## 4. Dynamic Regime Mutation Lookup Matrix (`M1` through `M8`)
-
+#### 4. Dynamic Regime Mutation Lookup Matrix (M1 through M8)
 | Mutation ID | Initial State | Telemetry Mutation Observed | Mandatory Execution Override |
-| :--- | :--- | :--- | :--- |
-| **M1: Premature Stage-2 Runner Cutting** | `CSU-52A` / `52D` | Audit reveals `AvgWin_R` dropped from `3.2R` to `< 1.8R` because operator manually closed Stage 2 (`50%`) runners early before `1D` targets. | **Lock Automated Trailing Stop (`MOD 18`);** ban manual early runner exits unless `Rule 1` / `MOD 34` fires. |
-| **M2: Stop-Loss Slippage Breach (`AvgLoss > 1.15R`)** | Any Active State | Gapping weekend or cascade stops cause average loss to exceed `1.15R` (`> 0.86%` equity per trade). | **Activate `MOD 50` Weekend & `MOD 51` Limit-Ladder Filters** immediately. |
-| **M3: Post-Quarantine Paper-Validation Re-Entry** | `CSU-52C` (Quarantined) | A quarantined `MOD 30` Config logs `5` consecutive simulated shadow signals with `E[R] >= +0.40R` after a `MOD 33` regime shift. | **Lift Quarantine at `0.375%` Probe Sizing** for the next 5 live trades. |
-| **M4: Zero-Trade Patience Streak (`> 21 Days` Cash Lock)** | `GATE_RED` / `MOD 44` | System executes `0` trades for `21+` days during an extended bear/IPO drain (`Nov 2026` regime). | **Log `0.00R` Capital Preservation Win;** do NOT lower `Net R >= 3.0` standards just to force activity. |
-| **M5: `MOD 36` Telemetry Corruption Invalidation** | Audit Review | A logged loss occurred while an upstream feed was stale (`MOD 36` breach). | **Tag Trade `INFRASTRUCTURE_FAULT`**, exclude from strategy `E[R]`, and tighten `MOD 36` SLA check. |
-| **M6: Sovereign Vault (`Sleeve B`) Firewall Audit** | Monthly Review | Monthly check confirms `0` tactical swing stop-outs touched `Sleeve B` `2-of-3` cold storage (`MOD 46 CB-04`). | **Certify `BARBELL_INTEGRITY = PASS`** on monthly `MOD 45` HUD report. |
-| **M7: Rulebook Commit & Checksum Verification (`MOD 36`)** | Every Git Sync | New module (`MOD 47–52`) is pushed to `origin/main` via Google Antigravity. | **Record SHA-256 Commit Hash in `trade_audit_ledger.json`** to link every trade to its exact rulebook version. |
-| **M8: Audit Ledger Missing / Corrupted (`MOD 36`)** | Pre-Trade Check | `trade_audit_ledger.json` fails JSON schema validation on VPS. | **Fail-Closed to `0.375%` (`GATE_AMBER`)** until ledger is restored from GitHub backup. |
+| ------ | ------ | ------ | ------ |
+| **M1: Premature Stage-2 Runner Cutting** | CSU-52A / 52D | Audit reveals AvgWin_R dropped from 3.2R to < 1.8R because operator manually closed Stage 2 (50%) runners early before 1D targets. | **Lock Automated Trailing Stop (MOD 18);** ban manual early runner exits unless Rule 1 / MOD 34 fires. |
+| **M2: Stop-Loss Slippage Breach (AvgLoss > 1.15R)** | Any Active State | Gapping weekend or cascade stops cause average loss to exceed 1.15R (> 0.86% equity per trade). | **Activate MOD 50 Weekend & MOD 51 Limit-Ladder Filters** immediately. |
+| **M3: Post-Quarantine Paper-Validation Re-Entry** | CSU-52C (Quarantined) | A quarantined MOD 30 Config logs 5 consecutive simulated shadow signals with E[R] >= +0.40R after a MOD 33 regime shift. | **Lift Quarantine at 0.375% Probe Sizing** for the next 5 live trades. |
+| **M4: Zero-Trade Patience Streak (> 21 Days Cash Lock)** | GATE_RED / MOD 44 | System executes 0 trades for 21+ days during an extended bear/IPO drain (Nov 2026 regime). | **Log 0.00R Capital Preservation Win;** do NOT lower Net R >= 3.0 standards just to force activity. |
+| **M5: MOD 36 Telemetry Corruption Invalidation** | Audit Review | A logged loss occurred while an upstream feed was stale (MOD 36 breach). | **Tag Trade INFRASTRUCTURE_FAULT**, exclude from strategy E[R], and tighten MOD 36 SLA check. |
+| **M6: Sovereign Vault (Sleeve B) Firewall Audit** | Monthly Review | Monthly check confirms 0 tactical swing stop-outs touched Sleeve B 2-of-3 cold storage (MOD 46 CB-04). | **Certify BARBELL_INTEGRITY = PASS** on monthly MOD 45 HUD report. |
+| **M7: Rulebook Commit & Checksum Verification (MOD 36)** | Every Git Sync | New module (MOD 47–68) is pushed to origin/main via Google Antigravity. | **Record SHA-256 Commit Hash in `trade_audit_ledger.json`** to link every trade to its exact rulebook version. |
+| **M8: Audit Ledger Missing / Corrupted (MOD 36)** | Pre-Trade Check | `trade_audit_ledger.json` fails JSON schema validation on VPS. | **Fail-Closed to 0.375% (GATE_AMBER)** until ledger is restored from GitHub backup. |
+
+--------------------------------------------------------------------------------
+
+#### 5. 4-Rule Empirical Sample Hygiene Gate (Mandatory Backtest & Research Audit)
+| Rule # | Statistical Hygiene Requirement | Failure Mode Caught | Mandatory CoreTex Standard |
+| ------ | ------ | ------ | ------ |
+| **1. Denominator & CI Width** | Report exact triggered count $n$, total universe $N$, and 95% confidence interval. | Treating a 72% hit rate on $n = 18$ (95% CI: `50%–87%`) as a precision sizing signal. | Never size positions off thin tail samples; require $N \ge 30$ closed trades for parameter changes (CB-01). |
+| **2. Overlap Discounting** | Use non-overlapping windows or discount $k$-day rolling daily counts by $\sim\sqrt{k}$. | Sampling 7-day forward returns daily shares 6 days of path, inflating apparent certainty. | Enforce non-overlapping weekly/trade intervals in `ctc_backtest_lab` validation runs. |
+| **3. Cluster-Episode Count** | Collapse consecutive crash/tail days into distinct market episodes. | Counting `146` negative-funding tail days as `146` independent bets when they belong to `~4` crashes. | Log `distinct_episodes` alongside `raw_observations` in every signal scorecard. |
+| **4. Payoff EV & Regime Split** | Compute $\text{EV}_{\text{unit risk}}$ and stratify results across bull (`>200D SMA`) vs. bear (`<200D SMA`) regimes. | High win-rate claims with inverted payoff (e.g., 65% win × 0.32 payoff = `-0.14` EV) or bull/bear cancellation. | Require positive `E[R]` post-slippage (`MOD 37`) and regime-conditioned attribution (`MOD 17` / `MOD 33`). |
 
 ---
+
+## [66] MOD 53 — Hawkes Point Processes Jump Diffusion and Transfer Entropy
+<!-- Source: rulebook/MOD_53_Hawkes_Point_Processes_Jump_Diffusion_and_Transfer_Entropy.md -->
 
 # PROJECT CORTEX-BTC — MODULE 53: HAWKES POINT PROCESSES, JUMP-DIFFUSION DE-NOISING & TRANSFER ENTROPY CAPITAL ROTATION ENGINE
 **Waterfall Tier:** Pillar 1 (Macro Liquidity & Cross-Asset Rotation) and Pillar 2 (Microstructure, Path Geometry & Order Flow).  
@@ -7396,6 +7462,9 @@ Before any trade signal can be authorized under this engine, all four circuit br
 
 ---
 
+## [67] MOD 54 — Multi Timeframe Algorithmic Market Structure and Kline Lookback Contract
+<!-- Source: rulebook/MOD_54_Multi_Timeframe_Algorithmic_Market_Structure_and_Kline_Lookback_Contract.md -->
+
 # PROJECT CORTEX-BTC — MODULE 54: MULTI-TIMEFRAME ALGORITHMIC MARKET STRUCTURE, KLINE LOOKBACK CONTRACT & UI EXPLAINABILITY SCHEMA
 
 **Waterfall Tier:** Pillar 2 (Microstructure & Path Geometry) integrated directly with Tier D (Control-Plane Trust & Output Rendering).
@@ -7482,6 +7551,9 @@ ui_explainability_schema:
 
 ---
 
+## [68] MOD 55 — Dual Stage Disruption Telemetry and Recovery Radar Engine
+<!-- Source: rulebook/MOD_55_Dual_Stage_Disruption_Telemetry_and_Recovery_Radar_Engine.md -->
+
 # PROJECT CORTEX-BTC — MODULE 55: DUAL-STAGE DISRUPTION TELEMETRY & RECOVERY RADAR ENGINE
 
 **Waterfall Tier:** Pillar 2 & Pillar 3 Bridge (Microstructure & Derivatives Fragility).
@@ -7559,6 +7631,9 @@ output_contract:
     *   **Action:** Emit `TRUST_DEGRADED`. Trigger **MOD 36 UNKNOWN (DATA UNAVAILABLE)**. Lock portfolio to 100% Cash until the database is rebuilt or gracefully re-baselines.
 
 ---
+
+## [69] MOD 56 — Secular Cycle Anatomy Diminishing Returns and Anti Narrative Discipline
+<!-- Source: rulebook/MOD_56_Secular_Cycle_Anatomy_Diminishing_Returns_and_Anti_Narrative_Discipline.md -->
 
 # PROJECT CORETEX BTC BRAIN — MODULE 56: SECULAR CYCLE ANATOMY, DIMINISHING RETURNS & ANTI-NARRATIVE DISCIPLINE
 **Waterfall Tier:** Pillar 1 (Secular Market Structure & Macro Regime Context) & Tier D (Anti-Bias Governance & Narrative Quarantine) — operates directly alongside MOD 13 (STH Realized Price & MVRV), MOD 14 (SOPR Reset Cycles), MOD 16 (Macro Liquidity Gate), MOD 18 (0.75% Spot-Only Sizing), MOD 33 (Unified 5-Regime Master Radar), MOD 34 (AEGIS-3 Impulse Defense), MOD 36 (Zero-Hallucination Telemetry Trust), MOD 41 (Secular Cycle ATH Exit Engine), and MOD 46 (Block 1,050,000 Secular Horizon).  
@@ -7667,6 +7742,9 @@ Popular retail narratives compress Bitcoin's history into a 3-stage loop (*Crash
 * **Execution Rule C:** **ANCHOR EXITS TO TELEMETRY, NOT HYPE TARGETS.** Enforce MOD 18 two-stage exits (`>= 3.0R` minimum net expectancy per MOD 37) and MOD 41 secular ATH cluster rules rather than holding blindly for historical percentage multiples.
 
 ---
+
+## [70] MOD 57 — Intraday and Calendar Volatility Regime DST Session Clock and Stop Calibration
+<!-- Source: rulebook/MOD_57_Intraday_and_Calendar_Volatility_Regime_DST_Session_Clock_and_Stop_Calibration.md -->
 
 # PROJECT CORTEX-BTC BRAIN — MODULE 57: INTRADAY & CALENDAR VOLATILITY REGIME, DST SESSION CLOCK & EMPIRICAL STOP-CALIBRATION ENGINE
 
@@ -7853,6 +7931,9 @@ risk_parameters:
 
 ---
 
+## [71] MOD 58 — Macro Event and Economic Release Trinity Protocol 72H FOMC CPI PCE NFP Gate
+<!-- Source: rulebook/MOD_58_Macro_Event_and_Economic_Release_Trinity_Protocol_72H_FOMC_CPI_PCE_NFP_Gate.md -->
+
 # PROJECT CORETEX-BTC BRAIN — MODULE 58: MACRO EVENT & ECONOMIC RELEASE TRINITY PROTOCOL (72-HOUR FOMC, SEP DOT PLOT, CPI, CORE PCE & NFP GATE)
 
 **Waterfall Tier:** Pillar 1 (Macro Liquidity Plumbing, Sovereign Rate Gates & Scheduled Event Risk Control-Plane) — expands Historical Registry `00C` Entry #33 (*72-Hour Macro Trinity Gate*) into a deterministic execution state machine operating directly alongside `MOD 16` (Macro Liquidity & Yields), `MOD 17` (Session Handoffs), `MOD 22` (Net Fed Liquidity), `MOD 23` (MOVE Index & Credit Spreads), `MOD 34` (AEGIS-3 Impulse Defense), `MOD 44` (Calendar Liquidity Vacuums), and `MOD 57` (DST Session Clock & Volatility Calibration).
@@ -8016,6 +8097,9 @@ risk_parameters:
 
 ---
 
+## [72] MOD 59 — Long Term Holder LTH Cost Basis True Market Mean and Secular Floor Matrix
+<!-- Source: rulebook/MOD_59_Long_Term_Holder_LTH_Cost_Basis_True_Market_Mean_and_Secular_Floor_Matrix.md -->
+
 # PROJECT CORETEX-BTC BRAIN — MODULE 59: LONG-TERM HOLDER (LTH) COST BASIS, TRUE MARKET MEAN & SECULAR FLOOR MATRIX
 
 **Waterfall Tier:** Pillar 5 (On-Chain Valuation, Cohort Cost-Basis Stack & Sovereign Barbell Reserve Governance) — operates directly alongside `MOD 13` (STH Realized Price & MVRV), `MOD 14` (SOPR Reset Cycles), `MOD 15` (Realized Cap Impulse & LTH-to-STH Wealth Transfer), `MOD 18` (`CSU-18D` Sovereign Cold-Storage Tranches), `MOD 32` (`2-of-3` Dual-Jurisdiction Multi-Sig Custody), `MOD 41` (Secular Cycle ATH Exit Engine), `MOD 46` (Block `1,050,000` April 2028 Secular Horizon), and `MOD 56` (Secular Cycle Anatomy & Diminishing Returns).
@@ -8151,6 +8235,9 @@ risk_parameters:
 
 ---
 
+## [73] MOD 60 — Intra Pillar Conflict Resolution Veto Precedence and Deadlock Arbiter Matrix
+<!-- Source: rulebook/MOD_60_Intra_Pillar_Conflict_Resolution_Veto_Precedence_and_Deadlock_Arbiter_Matrix.md -->
+
 # PROJECT CORETEX-BTC BRAIN — MODULE 60: INTRA-PILLAR CONFLICT RESOLUTION, VETO PRECEDENCE & DEADLOCK ARBITER MATRIX
 
 **Waterfall Tier:** Tier D (Supreme Governance, Deterministic Arbitration & Deadlock Control-Plane) — sits directly inside `cortex_matrix_engine.py` alongside `MOD 18` (Master 5-Pillar Compiler), `MOD 31` (ICDM 100-Pt Fragility Scale), `MOD 33` (Unified 5-Regime Master Radar), `MOD 36` (Telemetry Trust & Determinism Attestation), `MOD 45` (Executive Bottom-Line HUD), and `MOD 52` (Rolling 30-Trade Expectancy Audit).
@@ -8273,6 +8360,9 @@ audit_output_fields:
 | **M5: Post-Autopsy Rule Addition (`MOD 28`)** | Vault Update (`MOD 61+`) | A new `MOD` is added to the rulebook following a `MOD 28` Live Autopsy or research audit. | New rule requires explicit placement in `global_precedence_ladder` (`Ranks 0–6`) to prevent orphan logic. | **Mandatory `MOD 60` Registration:** Assign every new module a rank (`0–6`) and intra-pillar tie-breaker before live activation. |
 
 ---
+
+## [74] MOD 61 — Data Hub Ingestion Hygiene Gate and Desk Lite Verdict Compilation Protocol
+<!-- Source: rulebook/MOD_61_Data_Hub_Ingestion_Hygiene_Gate_and_Desk_Lite_Verdict_Compilation_Protocol.md -->
 
 # PROJECT CORETEX-BTC BRAIN — MODULE 61: DATA HUB INGESTION, HYGIENE GATE & DESK-LITE VERDICT COMPILATION PROTOCOL
 
@@ -8403,6 +8493,9 @@ risk_parameters:
 | **M5: Mobile Telegram Compression Request** | `CSU-61C` Output | Operator requests a mobile HUD card or runs on `Samsung Galaxy A55` / Telegram (`MOD 45 M1`). | Full 6-section workstation report exceeds single-screen mobile viewport ergonomics. | **Auto-Compress to `MOD 45` Template `45A` HUD** while preserving exact `DATA UNAVAILABLE` tags and flip triggers.
 
 ---
+
+## [75] MOD 62 — Dual Inventory Bidirectional Swing Engine DIBSE v2
+<!-- Source: rulebook/MOD_62_Dual_Inventory_Bidirectional_Swing_Engine_DIBSE_v2.md -->
 
 # PROJECT CORTEX-BTC — MODULE 62: DUAL-INVENTORY BIDIRECTIONAL SWING ENGINE (DIBSE v2.0)
 **Waterfall Tier:** Pillar 4 & Operational Execution Engine (Portfolio Allocation Controller, Dual-Inventory Ledger Accounting & Order Lifecycle Management) — harmonized with `MOD 18` (Master 5-Pillar Compiler & 0.75% Risk Sizing), `MOD 32` (Sovereign Barbell Multi-Sig Custody), `MOD 33` (Unified 5-Regime Master Radar), `MOD 37` (Executable Liquidity & Net-3.0R Slippage Governor), `MOD 46` (Block 1,050,000 Secular Horizon), and `MOD 60` (7-Rank Veto Precedence Ladder).
@@ -9197,6 +9290,9 @@ Its objective is disciplined portfolio rotation, preservation of capital, measur
 
 ---
 
+## [76] MOD 63 — CORTEX RHYME Empirical State Space Analogue Engine
+<!-- Source: rulebook/MOD_63_CORTEX_RHYME_Empirical_State_Space_Analogue_Engine.md -->
+
 ### PROJECT CORTEX-BTC — MODULE 63: CORTEX-RHYME EMPIRICAL DERIVATIVES STATE-SPACE ANALOGUE & EXPECTANCY ENGINE
 **Waterfall Tier:** Pillar 1 & Pillar 4 Quantitative Prior Bridge (Base-Rate Conditioning, Tail-Asymmetry Auditing & Sizing Conviction Modulator) — harmonized with MOD 12 (Garman-Klass Volatility), MOD 18 (Master 5-Pillar Compiler & 0.75% Risk Sizing), MOD 33 (Unified 5-Regime Master Radar), MOD 36 (Telemetry Trust & Staleness SLA), MOD 37 (Executable Liquidity & Net-3.0R Slippage Governor), MOD 60 (7-Rank Veto Precedence Ladder), and MOD 62 (Dual-Inventory Bidirectional Swing Engine — DIBSE v2.0).
 **Document Provenance:** Codified from `CORTEX-RHYME v1.1.0` (`aikeluargalee-tech/cortex-rhyme` open-source static edge telemetry engine).
@@ -9305,6 +9401,9 @@ MOD 63 reports `median_up_pct` (median gain when $R > 0$) separately from `media
 
 ---
 
+## [77] MOD 64 — AI Debt Plumbing Shadow Private Credit and Fed Stability Gate
+<!-- Source: rulebook/MOD_64_AI_Debt_Plumbing_Shadow_Private_Credit_and_Fed_Stability_Gate.md -->
+
 ### PROJECT CORTEX-BTC — MODULE 64: AI DEBT PLUMBING, SHADOW PRIVATE CREDIT & FED STABILITY GATE
 **Waterfall Tier:** Pillar 1 (Shadow Credit Plumbing, AI Off-Balance-Sheet Leverage & Systemic Amplification Gate) cross-verified with Pillar 4 (Portfolio Risk Ceiling) and Tier D (`MOD_60` Precedence Registration).
 **Provenance & Empirical Benchmark Anchor:** Distilled from the **Federal Reserve November 2026 Financial Stability Report (FSR, Nov 13, 2026)**, **Governor Michael S. Barr's Nov 16, 2026 Systemic AI Remarks**, and the **October 27–28, 2026 FOMC Minutes (released Nov 18, 2026)** — tracking **$680B+** advanced-computing debt issuance (~31% of nonfinancial IG), **$800B+** top-7 AI on-balance-sheet debt, **>$3.0T** off-balance-sheet AI lease/guarantee obligations, **>$100B** circular vendor financing, **>$2.6T** private credit vehicles (with rising PIK/BDC redemption gates), **>$2.8T** bank NBFI commitments, **~$1.0T** largest US BHC AI/SPE/private-credit exposure, **post-2013 peak hedge-fund leverage**, **3.6% headline / 3.1% core PCE** driven partly by AI power/hardware bottlenecks, and **43% cyber-risk / 87% AI-risk** systemic survey warnings.
@@ -9406,6 +9505,9 @@ risk_parameters:
 
 ---
 
+## [78] MOD 64.1 — Live Macro ETF Regime Briefing 2026 11 19
+<!-- Source: rulebook/MOD_64.1_Live_Macro_ETF_Regime_Briefing_2026_11_19.md -->
+
 # Market Telemetry & Macro Regime Briefing — 2026-11-19 (08:15 MYT)
 
 ## 1. Core Market Snapshot
@@ -9429,14 +9531,17 @@ risk_parameters:
 
 ---
 
-### PROJECT CORTEX-BTC — MODULE 65: MEDIA DE-NOISING, NARRATIVE TRIAGE & SIGNAL HYGIENE PROTOCOL
-**Waterfall Tier:** Tier D Meta-Governance, Media Audit & Signal Hygiene Gate (Filtering External Market Updates, Model Category Errors, Single-Candle Traps & Narrative Overreach Before Pillar 1–5 Ingestion) — harmonized with MOD 35 (Heatmap Distance Rule), MOD 36 (Telemetry Trust & Staleness SLA), MOD 41 (Candle-Close Confirmation), MOD 54 (Multi-Timeframe Kline Lock), MOD 56 (Anti-Narrative Discipline), MOD 60 (7-Rank Veto Precedence Ladder), and MOD 61 (Data Hub Ingestion & Hygiene Gate).
-**Document Provenance:** Codified from `Bitcoin-Educational-Article.md` (*Bitcoin in a Downtrend: How to Read Liquidity, ETF Flows, and Sentiment Without Getting Fooled*, Nov 2026 empirical case study).
-**Governance Posture:** Mandatory Pre-Ingestion Media & Commentary Firewall. Prevents viral YouTube/X/blog narratives, stale multi-year heatmap projections, unconfirmed single-candle CHoCH calls, and backward-looking sentiment readings from bypassing MOD 60 upstream vetoes or triggering premature Sleeve A USDT deployment.
+## [79] MOD 65 — Media De Noising Narrative Triage and Signal Hygiene Protocol
+<!-- Source: rulebook/MOD_65_Media_De_Noising_Narrative_Triage_and_Signal_Hygiene_Protocol.md -->
 
----
+##### PROJECT CORTEX-BTC — MODULE 65: MEDIA DE-NOISING, NARRATIVE TRIAGE & SIGNAL HYGIENE PROTOCOL
+**Waterfall Tier:** Tier D Meta-Governance, Media Audit & Signal Hygiene Gate (Filtering External Market Updates, Model Category Errors, Single-Candle Traps, Statistical Claim Flaws & Narrative Overreach Before Pillar 1–5 Ingestion) — harmonized with MOD 35 (Heatmap Distance Rule), MOD 36 (Telemetry Trust & Staleness SLA), MOD 41 (Candle-Close Confirmation), MOD 52 (Rolling 30-Trade Expectancy & Empirical Sample Hygiene), MOD 54 (Multi-Timeframe Kline Lock), MOD 56 (Anti-Narrative Discipline), MOD 60 (7-Rank Veto Precedence Ladder), MOD 61 (Data Hub Ingestion & Hygiene Gate), and MOD 68 (Derivatives Positioning Context & Tail-Only Funding Mechanics).
+**Document Provenance:** Codified from `Bitcoin-Educational-Article.md` (*Bitcoin in a Downtrend: How to Read Liquidity, ETF Flows, and Sentiment Without Getting Fooled*, Nov 2026 empirical case study) and upgraded via `funding-rates-and-open-interest.md` (Nov 2026 empirical funding/OI hygiene audit).
+**Governance Posture:** Mandatory Pre-Ingestion Media & Commentary Firewall. Prevents viral YouTube/X/blog narratives, stale multi-year heatmap projections, unconfirmed single-candle CHoCH calls, backward-looking sentiment readings, and statistically flawed backtest/funding claims from bypassing MOD 60 upstream vetoes or triggering premature Sleeve A USDT deployment.
 
-#### 1. Machine-Readable State & Routing Block (Python / Hermes / NotebookLM Index)
+--------------------------------------------------------------------------------
+
+###### 1. Machine-Readable State & Routing Block (Python / Hermes / NotebookLM Index)
 ```yaml
 module_id: "MOD_65"
 entry_type: "MEDIA_DENOISING_AND_SIGNAL_HYGIENE_GOVERNOR"
@@ -9449,13 +9554,14 @@ governance_registration:
   upstream_veto_subordination: "External commentary, sentiment troughs, or single-indicator divergences NEVER override MOD 60 Ranks 0-3 (MOD 36 DATA HALT, MOD 16 GATE_RED, ICDM >= 60, MOD 44/58 Event Lock, or MOD 34/51 Active Cascade)."
   standalone_trade_authorization: false # Strictly prohibited; acts as a narrative & model-hygiene firewall
 
-# 5-QUESTION MEDIA AUDIT GATE (MANDATORY BEFORE LOGGING EXTERNAL CLAIMS)
+# 6-QUESTION MEDIA & EMPIRICAL AUDIT GATE (MANDATORY BEFORE LOGGING EXTERNAL CLAIMS)
 media_audit_checklist:
   q1_timeframe_separation: "Are Higher-Timeframe (1D/1W), Tactical Swing (4H/1H), and Long-Term Accumulation horizons explicitly separated without goalpost shifting?"
   q2_deterministic_trigger: "Does the claim define an exact candle-close confirmation and hard invalidation level (wicks excluded per MOD 41 CB-01 / MOD 54)?"
-  q3_primary_source_verification: "Are ETF flows (Farside/SoSoValue), derivatives (CoinGlass), and sentiment (Alternative.me) traced to primary feeds rather than unverified commentary?"
+  q3_primary_source_verification: "Are ETF flows (Farside/SoSoValue), derivatives (CoinGlass/exchange specs), and sentiment (Alternative.me) traced to primary feeds rather than unverified commentary?"
   q4_falsifiability_condition: "Does the thesis state an explicit 'I am wrong if...' invalidation line alongside the alternative scenario?"
   q5_risk_and_horizon_completeness: "Does the analysis account for position sizing (<= 0.75% cap), liquidity friction, and time horizon—or is it entertainment?"
+  q6_empirical_sample_and_formula_hygiene: "If quoting win rates or historical studies, does it report denominator/CI, discount overlapping windows, count distinct episodes, compute payoff-adjusted EV, and respect venue formula mechanics (e.g., Binance +0.01%/8h funding clamp)?"
 
 # MODEL vs. FACT SEPARATION THRESHOLDS
 hygiene_constants:
@@ -9463,111 +9569,84 @@ hygiene_constants:
   choch_sequence_steps_required: 2 # Step 1: Pivot break close (CHoCH) -> Step 2: Higher Low + Higher High (never 1-step)
   sentiment_extreme_fear_ceiling: 20 # Backward-looking stretch indicator only; zero standalone entry authority
   etf_flow_lag_and_reflexivity: "T+1 settlement & price-flow feedback loop; single-day flips (e.g., +$8M) do not break multi-day trends"
+  funding_formula_clamp_8h_pct: 0.01 # Binance/OKX default 8h interest rate (+0.03%/day); >+0.03%/day is NOT an extreme upper tail (MOD 68 CB-03)
 
 # RISK & SIZING CONSTANTS (PILLAR 4)
 risk_parameters:
-  narrative_only_max_risk_pct: 0.00 # Strict 100% Cash Lock if thesis fails the 5-Question Audit
+  narrative_only_max_risk_pct: 0.00 # Strict 100% Cash Lock if thesis fails the Media Audit
   leverage_permitted: 1.0 # Strict Unleveraged Spot Only
 ```
 
----
+--------------------------------------------------------------------------------
 
-#### 2. Protective Circuit Breakers (External Commentary & Indicator Anti-Trap Rules)
-* **Circuit Breaker 1 — Model-vs.-Order-Book Translation Filter (CB-01):** Never treat liquidation heatmaps, cycle curves, or oscillator bands as resting order-book liquidity or deterministic timetables. Translate any headline claiming *"$X billion of liquidity sits at Price Y"* into: *"The provider's leverage model estimates $X billion would liquidate if price traded at Price Y, using entry/OI assumptions that may be stale—especially on multi-year (1Y–2Y) lookbacks."* (Cross-locked with **MOD 35 CB-01**).
-* **Circuit Breaker 2 — Single-Candle CHoCH & Moving-Goalpost Ban (CB-02):** A single candle close above a lower high (**CHoCH**) or a single higher low is an early structural clue—**not** confirmation of a new bull market. Require a two-step structural sequence (**CHoCH close → Higher Low → Higher High**) on the governing timeframe (`MOD 54`), and lock invalidation triggers upfront so analysts cannot shift bull-confirmation goalposts downward mid-downtrend (e.g., shifting from $87k daily close to a $66k bounce).
-* **Circuit Breaker 3 — Oversold RSI Extension vs. Timing Filter (CB-03):** Daily RSI < 30 measures downside velocity and extension, **not** a calendar reversal date. In active downtrends (`MOD 17` below 200D SMA), oversold bounces routinely form lower highs before rolling over. Use RSI strictly to avoid chasing late breakdown shorts—never as a standalone spot buy trigger.
-* **Circuit Breaker 4 — Backward-Looking Sentiment & Reflexive ETF Flow Filter (CB-04):** Extreme Fear readings (e.g., Crypto Fear & Greed <= 11) and single-day ETF flow pauses (e.g., +$7.9M after -$1.91B in outflows) reflect *past* price pain and T+1 reflexive redemptions, not forward capital commitments. Use sentiment exclusively as a **personal-bias audit** (*"Am I reacting to structure or to red candles?"*), never as an entry timer (`MOD 56 CB-02`).
-* **Circuit Breaker 5 — Multi-Horizon Frame Separation Lock (CB-05):** Strictly decouple **Long-Term Sovereign Accumulation (Sleeve B)**, **Daily Structural Regime (Pillar 1/2)**, and **Intraday Tactical Execution (Sleeve A)**. Never allow a long-term *"generational discount"* narrative to justify premature tactical buying while daily structure and macro gates (`MOD 16` / `MOD 31` / `MOD 64`) remain `GATE_RED`.
+###### 2. Protective Circuit Breakers (External Commentary & Indicator Anti-Trap Rules)
+*   **Circuit Breaker 1 — Model-vs.-Order-Book Translation Filter (CB-01):** Never treat liquidation heatmaps, cycle curves, or oscillator bands as resting order-book liquidity or deterministic timetables. Translate any headline claiming *"$X billion of liquidity sits at Price Y"* into: *"The provider's leverage model estimates $X billion would liquidate if price traded at Price Y, using entry/OI assumptions that may be stale—especially on multi-year (1Y–2Y) lookbacks."* (Cross-locked with **MOD 35 CB-01**).
+*   **Circuit Breaker 2 — Single-Candle CHoCH & Moving-Goalpost Ban (CB-02):** A single candle close above a lower high (**CHoCH**) or a single higher low is an early structural clue—**not** confirmation of a new bull market. Require a two-step structural sequence (**CHoCH close → Higher Low → Higher High**) on the governing timeframe (MOD 54), and lock invalidation triggers upfront so analysts cannot shift bull-confirmation goalposts downward mid-downtrend (e.g., shifting from $87k daily close to a $66k bounce).
+*   **Circuit Breaker 3 — Oversold RSI Extension vs. Timing Filter (CB-03):** Daily RSI < 30 measures downside velocity and extension, **not** a calendar reversal date. In active downtrends (MOD 17 below 200D SMA), oversold bounces routinely form lower highs before rolling over. Use RSI strictly to avoid chasing late breakdown shorts—never as a standalone spot buy trigger.
+*   **Circuit Breaker 4 — Backward-Looking Sentiment & Reflexive ETF Flow Filter (CB-04):** Extreme Fear readings (e.g., Crypto Fear & Greed <= 11) and single-day ETF flow pauses (e.g., +$7.9M after -$1.91B in outflows) reflect *past* price pain and T+1 reflexive redemptions, not forward capital commitments. Use sentiment exclusively as a **personal-bias audit** (*"Am I reacting to structure or to red candles?"*), never as an entry timer (MOD 56 CB-02).
+*   **Circuit Breaker 5 — Multi-Horizon Frame Separation Lock (CB-05):** Strictly decouple **Long-Term Sovereign Accumulation (Sleeve B)**, **Daily Structural Regime (Pillar 1/2)**, and **Intraday Tactical Execution (Sleeve A)**. Never allow a long-term *"generational discount"* narrative to justify premature tactical buying while daily structure and macro gates (MOD 16 / MOD 31 / MOD 64) remain GATE_RED.
+*   **Circuit Breaker 6 — Statistical Claim & Exchange-Formula Hygiene Filter (CB-06):** Reject or flag any quantitative claim, X thread, or educational study that: (a) quotes a hit rate without sample denominator $n/N$, 95% confidence interval, or payoff-adjusted EV (`MOD 52 CB-05`); (b) samples overlapping multi-day forward returns daily without overlap correction or cluster-episode deduplication; or (c) misinterprets exchange-formula artifacts—such as treating Binance's `+0.01%/8h` (`+0.03%/day`) clamped interest-rate baseline as a "zero-centered" scale or using `> +0.03%/day` to claim positive funding does not signal upper-tail fragility (`MOD 68 CB-03`).
 
----
+--------------------------------------------------------------------------------
 
-#### 3. Core Conditional Signal Units (Condition A -> Outcome B -> Rule C)
-##### CSU-65A: Media Narrative Failure ("Entertainment-Only / Unfalsifiable Update")
-* **Trigger Condition A (The Telemetry Scan):**
-  1. An external video, post, or article fails >= 2 items on the **5-Question Media Audit Gate** (e.g., mixes 15m bounce talk with 4-year cycle claims, cites 2-year heatmap clusters as guaranteed magnets, shifts invalidation goalposts, or omits risk sizing).
-* **Observed Outcome B (The Mechanical Trajectory):**
-  * **Cognitive & Execution Risk:** Ingesting uncalibrated commentary induces premature dip-buying into LVN air pockets or emotional capitulation at local sentiment troughs.
-* **Execution Rule C (The Non-Negotiable Action):**
-  * **Action:** **QUARANTINE & DISCARD NARRATIVE.** Assign **0.00% execution weight**; extract only verifiable primary-source data points (if any) into `00H` after cross-checking against `MOD 36` and `MOD 61`.
+###### 3. Core Conditional Signal Units (Condition A -> Outcome B -> Rule C)
+###### CSU-65A: Media Narrative Failure ("Entertainment-Only / Unfalsifiable Update")
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. An external video, post, or article fails >= 2 items on the **6-Question Media & Empirical Audit Gate** (e.g., mixes 15m bounce talk with 4-year cycle claims, cites 2-year heatmap clusters as guaranteed magnets, shifts invalidation goalposts, quotes unverified hit rates without denominator/EV, or omits risk sizing).
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Cognitive & Execution Risk:** Ingesting uncalibrated commentary induces premature dip-buying into LVN air pockets or emotional capitulation at local sentiment troughs.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** **QUARANTINE & DISCARD NARRATIVE.** Assign **0.00% execution weight**; extract only verifiable primary-source data points (if any) into 00H after cross-checking against MOD 36 and MOD 61.
 
-##### CSU-65B: Multi-Step Structural Reversal Sequence ("CHoCH-to-Trend Verification")
-* **Trigger Condition A (The Telemetry Scan):**
-  1. Price prints a **Daily or 4H candle close** (wicks excluded) above the last Lower High (**Bullish CHoCH**), **AND**
-  2. Subsequent pullback holds a verified **Higher Low** above prior swing support with positive Domestic USD Spot CVD (`MOD 05`/`MOD 07`), followed by a **Higher High** close.
-* **Observed Outcome B (The Mechanical Trajectory):**
-  * **Microstructure Lens:** Transitions market structure from an oversold downtrend bounce (lower-high rollover trap) into a validated two-step trend reversal.
-* **Execution Rule C (The Non-Negotiable Action):**
-  * **Action:** **PASS TO PILLAR 4 SIZING GATE (`MOD 18` / `MOD 62`).** Authorize tactical Sleeve A spot deployment (`0.375%–0.75%` risk, Net `R >= 3.0`) *only* after verifying `MOD 60` Ranks 0–3 (`MOD 16`, `MOD 31` ICDM, `MOD 44`, `MOD 64`) are no longer `GATE_RED`.
+###### CSU-65B: Multi-Step Structural Reversal Sequence ("CHoCH-to-Trend Verification")
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. Price prints a **Daily or 4H candle close** (wicks excluded) above the last Lower High (**Bullish CHoCH**), **AND**
+    2. Subsequent pullback holds a verified **Higher Low** above prior swing support with positive Domestic USD Spot CVD (MOD 05/MOD 07), followed by a **Higher High** close.
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Microstructure Lens:** Transitions market structure from an oversold downtrend bounce (lower-high rollover trap) into a validated two-step trend reversal.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** **PASS TO PILLAR 4 SIZING GATE (MOD 18 / MOD 62).** Authorize tactical Sleeve A spot deployment (0.375%–0.75% risk, Net R >= 3.0) *only* after verifying MOD 60 Ranks 0–3 (MOD 16, MOD 31 ICDM, MOD 44, MOD 64) are no longer GATE_RED.
 
-##### CSU-65C: Extreme Fear Personal-Bias Audit ("Sentiment Stretch Protocol")
-* **Trigger Condition A (The Telemetry Scan):**
-  1. Crypto Fear & Greed Index prints `<= 15` (Extreme Fear) while 1D/4H structure remains below descending trendlines and 200D SMA (`MOD 17`), with net ETF flows negative (`MOD 07`).
-* **Observed Outcome B (The Mechanical Trajectory):**
-  * **Behavioral Lens:** Crowd pessimism is stretched, creating high probability of violent short-covering bounces that fail beneath HTF resistance (`MOD 35 M3`).
-* **Execution Rule C (The Non-Negotiable Action):**
-  * **Action:** **HOLD 100% CASH LOCK ON SLEEVE A (0.00% Risk); PROTECT SLEEVE B COLD STORAGE.** Do not panic-sell core cold storage into extreme fear, and do not deploy tactical USDT until `CSU-65B` structural sequence + `MOD 03`/`MOD 14` exhaustion confirm.
+###### CSU-65C: Extreme Fear Personal-Bias Audit ("Sentiment Stretch Protocol")
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. Crypto Fear & Greed Index prints <= 15 (Extreme Fear) while 1D/4H structure remains below descending trendlines and 200D SMA (MOD 17), with net ETF flows negative (MOD 07).
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Behavioral Lens:** Crowd pessimism is stretched, creating high probability of violent short-covering bounces that fail beneath HTF resistance (MOD 35 M3).
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** **HOLD 100% CASH LOCK ON SLEEVE A (0.00% Risk); PROTECT SLEEVE B COLD STORAGE.** Do not panic-sell core cold storage into extreme fear, and do not deploy tactical USDT until CSU-65B structural sequence + MOD 03/MOD 14 exhaustion confirm.
 
----
+--------------------------------------------------------------------------------
 
-#### 4. Dynamic Regime Mutation Lookup Matrix (M1 through M5)
+###### 4. Dynamic Regime Mutation Lookup Matrix (M1 through M5)
 | Mutation ID | Initial State | Telemetry Mutation Observed (Condition A') | Mechanical Meaning (Outcome B') | Mandatory Execution Override (Rule C') |
-| :--- | :--- | :--- | :--- | :--- |
-| **M1: Oversold Bounce Rollover Trap** | Daily RSI < 30 + Fear <= 15 | Price bounces +3% to +6% off support on a wick, **fails to close 1D/4H above prior Lower High**, and rolls over with negative Spot CVD. | Classic downtrend oversold relief bounce forming a new Lower High (not a reversal). | **Maintain 100% Cash Lock;** treat unclosed wicks above resistance as invalid rejections (`CB-02`). |
-| **M2: False ETF Flow Dawn** | Multi-Day ETF Outflow Streak | Spot ETFs print a single barely positive session (e.g., `+$8M` after `-$1.9B` outflows), followed immediately by renewed redemptions (`-$240M`). | T+1 settlement noise / single-issuer rebalance rather than sustained institutional accumulation. | **Require >= 2 Consecutive Sessions of > +$100M Net Inflows + Coinbase Premium >= 0%** before lifting ETF outflow caution (`MOD 31 M2`). |
-| **M3: Stale Multi-Year Heatmap Panic** | 2Y Heatmap Shows Distant Cluster | Viral updates highlight a multi-billion-dollar cluster 15%–20% below spot on a 1Y/2Y heatmap while nearer shelves sit 2%–5% away. | Model carry-forward artifact from historical OI (`CB-01` / `MOD 35 M7`), not an immediate execution magnet. | **Filter Distant Band via `MOD 35 Pull_Score`;** anchor invalidation and watch levels strictly to active nearest shelves. |
-| **M4: Goalpost Shift / Thesis Drift** | Bearish HTF Bias Active | Commentator keeps HTF bearish label while simultaneously pitching leveraged dip-buys without an explicit invalidation trigger. | Conflation of long-term DCA horizon with short-term tactical execution (`CB-05`). | **Reject Trade Signal;** enforce strict Sleeve A (tactical) vs. Sleeve B (sovereign cold storage) separation (`MOD 62`). |
-| **M5: Validated Two-Step Reversal** | `CSU-65C` (Extreme Fear) | Price closes 1D above CHoCH level, prints a Higher Low on rising USD Spot CVD, ETF outflows flip to multi-day inflows, and `ICDM < 55`. | Sentiment trough + structural sequence + institutional flow alignment confirmed. | **Graduate from `MOD 65` Quarantine to `MOD 18` / `MOD 62` Active Execution.** |
+| ------ | ------ | ------ | ------ | ------ |
+| **M1: Oversold Bounce Rollover Trap** | Daily RSI < 30 + Fear <= 15 | Price bounces +3% to +6% off support on a wick, **fails to close 1D/4H above prior Lower High**, and rolls over with negative Spot CVD. | Classic downtrend oversold relief bounce forming a new Lower High (not a reversal). | **Maintain 100% Cash Lock;** treat unclosed wicks above resistance as invalid rejections (CB-02). |
+| **M2: False ETF Flow Dawn** | Multi-Day ETF Outflow Streak | Spot ETFs print a single barely positive session (e.g., +$8M after -$1.9B outflows), followed immediately by renewed redemptions (-$240M). | T+1 settlement noise / single-issuer rebalance rather than sustained institutional accumulation. | **Require >= 2 Consecutive Sessions of > +$100M Net Inflows + Coinbase Premium >= 0%** before lifting ETF outflow caution (MOD 31 M2). |
+| **M3: Stale Multi-Year Heatmap Panic** | 2Y Heatmap Shows Distant Cluster | Viral updates highlight a multi-billion-dollar cluster 15%–20% below spot on a 1Y/2Y heatmap while nearer shelves sit 2%–5% away. | Model carry-forward artifact from historical OI (CB-01 / MOD 35 M7), not an immediate execution magnet. | **Filter Distant Band via MOD 35 Pull_Score;** anchor invalidation and watch levels strictly to active nearest shelves. |
+| **M4: Goalpost Shift / Thesis Drift** | Bearish HTF Bias Active | Commentator keeps HTF bearish label while simultaneously pitching leveraged dip-buys without an explicit invalidation trigger. | Conflation of long-term DCA horizon with short-term tactical execution (CB-05). | **Reject Trade Signal;** enforce strict Sleeve A (tactical) vs. Sleeve B (sovereign cold storage) separation (MOD 62). |
+| **M5: Validated Two-Step Reversal** | CSU-65C (Extreme Fear) | Price closes 1D above CHoCH level, prints a Higher Low on rising USD Spot CVD, ETF outflows flip to multi-day inflows, and ICDM < 55. | Sentiment trough + structural sequence + institutional flow alignment confirmed. | **Graduate from MOD 65 Quarantine to MOD 18 / MOD 62 Active Execution.** |
+
+--------------------------------------------------------------------------------
+
+###### 5. Operational 5-Minute Media & Empirical Triage Checklist (Quick-Reference Audit Table)
+| Audit Gate | Diagnostic Question | Pass Requirement (Ingest to 00H / MOD) | Fail Action (Discard / Quarantine) |
+| ------ | ------ | ------ | ------ |
+| **1. Timeframe** | Is the governing chart horizon (1D, 4H, 15m, or multi-year cycle) explicitly isolated? | Explicit separation of tactical swing vs. multi-year DCA. | Reject mixed-horizon narratives (CB-05). |
+| **2. Trigger** | Is there an exact **candle-close** confirmation and invalidation price? | Closed bar confirmation (1D/4H) with hard stop level. | Ignore wick pokes and open-ended ranges (CB-02). |
+| **3. Source** | Are numbers traced to verifiable feeds (Farside, CoinGlass, Glassnode, FRED, exchange specs)? | Verifiable primary telemetry matching MOD 36 SLA. | Discard unverified screenshots or viral estimates. |
+| **4. Alternative** | Is an explicit *"I am wrong if..."* invalidation scenario defined? | Two-sided conditional logic (If A -> B; if not A -> C). | Classify as entertainment; assign 0.00% weight. |
+| **5. Risk & Sizing** | Are position sizing (<= 0.75%), Net R >= 3.0, and liquidity depth addressed? | Aligned with MOD 18 / MOD 37 unleveraged spot rules. | Block execution; never size off media conviction. |
+| **6. Sample & Formula Hygiene** | Are denominator $n/N$, overlap discount, episode count, payoff EV, and venue formula clamps checked? | Passes MOD 52 CB-05 & MOD 68 CB-03/CB-05 audit. | Flag statistical/formula flaw in 00H; block sizing weight (CB-06). |
+
+--------------------------------------------------------------------------------
+
+###### FINAL DIRECTIVE
+**MOD 65 separates market mechanics from market theater. Models estimate, oscillators measure extension, sentiment reflects the past, uncalibrated sample counts flatter noise, and only multi-step candle-close structure backed by verified spot flow authorizes capital.**
 
 ---
 
-#### 5. Operational 5-Minute Media Triage Checklist (Quick-Reference Audit Table)
-| Audit Gate | Diagnostic Question | Pass Requirement (Ingest to `00H` / `MOD`) | Fail Action (Discard / Quarantine) |
-| :--- | :--- | :--- | :--- |
-| **1. Timeframe** | Is the governing chart horizon (`1D`, `4H`, `15m`, or multi-year cycle) explicitly isolated? | Explicit separation of tactical swing vs. multi-year DCA. | Reject mixed-horizon narratives (`CB-05`). |
-| **2. Trigger** | Is there an exact **candle-close** confirmation and invalidation price? | Closed bar confirmation (`1D`/`4H`) with hard stop level. | Ignore wick pokes and open-ended ranges (`CB-02`). |
-| **3. Source** | Are numbers traced to verifiable feeds (Farside, CoinGlass, Glassnode, FRED)? | Verifiable primary telemetry matching `MOD 36` SLA. | Discard unverified screenshots or viral estimates. |
-| **4. Alternative** | Is an explicit *"I am wrong if..."* invalidation scenario defined? | Two-sided conditional logic (`If A -> B; if not A -> C`). | Classify as entertainment; assign `0.00%` weight. |
-| **5. Risk & Sizing** | Are position sizing (`<= 0.75%`), `Net R >= 3.0`, and liquidity depth addressed? | Aligned with `MOD 18` / `MOD 37` unleveraged spot rules. | Block execution; never size off media conviction. |
-
----
-
-##### FINAL DIRECTIVE
-**MOD 65 separates market mechanics from market theater. Models estimate, oscillators measure extension, sentiment reflects the past, and only multi-step candle-close structure backed by verified spot flow authorizes capital.**
-
----
-
-# PROJECT CORTEX-BTC — MODULE 65.1: LIVE YOUTUBE TRANSCRIPT TRIAGE AUDIT (2026-11-19)
-
-**Waterfall Tier:** Tier D Operational Case Study & Runbook (Companion to MOD 65).
-**Empirical Benchmark:** Live media audit of market commentary during the 19 November 2026 market downturn.
-**Core Objective:** Operationalize the 5-Question Media Audit Gate against live retail influencer commentary to demonstrate how to de-noise media narratives during active liquidation regimes.
-
----
-
-## 1. Influencer Claim Audit & Telemetry Cross-Examination
-
-### Claim 1: "Supply in Profit at ~50% marks a guaranteed macro cycle bottom."
-* **MOD 65 Triage:** Fails Question 3 (Primary-Source Verification) and Question 4 (Falsifiability).
-* **Telemetry Cross-Check:** Per MOD 56 CB-02, during secular bear transitions, Supply in Profit routinely compresses from 50% down to 35%–42% before true generational capitulation prints.
-* **Verdict:** Entertainment / narrative bias. 0.00% execution weight.
-
-### Claim 2: "The 3% drop in Open Interest proves leverage has completely reset."
-* **MOD 65 Triage:** Fails Question 2 (Deterministic Trigger) and Question 5 (Risk Completeness).
-* **Telemetry Cross-Check:** Per MOD 03 CSU-03B, a -3% OI contraction is an intra-trend partial shakeout, not a full deleveraging flush (which requires -8% to -17% OI contraction).
-* **Verdict:** Premature knife-catching risk. Stand down in cash.
-
-### Claim 3: "Liquidation heatmaps show massive resting buy orders down at $51,000."
-* **MOD 65 Triage:** Trips MOD 65 CB-01 (Model-vs.-Order-Book Translation Filter).
-* **Telemetry Cross-Check:** Heatmaps are derivative models subject to vendor lookback adjustments, not real resting limit orders on exchange books. True structural support sits at the $58,000 Volume Profile HVN (MOD 11).
-* **Verdict:** Invalid execution thesis.
-
----
-
-## 2. Desk Directives & Operational Conclusion
-* External commentary failing the MOD 65 filter must never trigger tactical swing allocation.
-* When macro gates (MOD 16 / MOD 64) enforce GATE_RED, all retail commentary proposing dip-buys is quarantined.
-
----
+## [80] MOD 66 — Multi Layer Timeframe Synthesis and 4 Step Entry Architecture
+<!-- Source: rulebook/MOD_66_Multi_Layer_Timeframe_Synthesis_and_4_Step_Entry_Architecture.md -->
 
 ### PROJECT CORTEX-BTC — MODULE 66: MULTI-LAYER TIMEFRAME SYNTHESIS & 4-STEP ENTRY ARCHITECTURE
 **Waterfall Tier:** Tier D Master Execution Synthesis & Cross-Timeframe Alignment Engine (Organizing Market Structure, On-Chain Valuation/Behavior, Derivatives/ETF Fuel & Volume Profile Triggers into a Disciplined 4-Step Spot Entry Workflow) — harmonized with 00 Charter (5-Pillar Waterfall), MOD 01–07 (Derivatives, Spot CVD & ETF Flows), MOD 11 (Volume Profile Topology), MOD 13–14 (STH Realized Price, MVRV & SOPR), MOD 16/31/64 (Pillar 1 Macro/Credit Gate), MOD 18/18.1 (0.75% Spot Risk Sizing & Pre-Flight Checklist), MOD 35 (Liquidity Sweeps), MOD 54 (MTF Kline Lock), MOD 60 (7-Rank Veto Precedence Ladder), and MOD 62 (DIBSE v2.0).
@@ -9709,6 +9788,9 @@ risk_parameters:
 
 ---
 
+## [81] MOD 67 — Non Predictive If Then Spot Execution Framework
+<!-- Source: rulebook/MOD_67_Non_Predictive_If_Then_Spot_Execution_Framework.md -->
+
 ### PROJECT CORTEX-BTC — MODULE 67: NON-PREDICTIVE IF-THEN SPOT EXECUTION FRAMEWORK
 **Waterfall Tier:** Tier D Behavioral Governance & Pillar 4 Spot Execution Rulebook (Replacing Directional Forecasting with Binary Candle-Close If-Then Decision Matrices & Cash-Firewall Discipline) — harmonized with **00 Charter**, **MOD 18 / 18.1 / 18.2** (`0.75%` Risk Sizing, Pre-Flight Go/No-Go & Reading a Falling Market Without a Forecast), **MOD 31** (`ICDM` Fragility Gate), **MOD 42.1 / 42.1.1** (Symmetrical 11-Pattern Playbook), **MOD 54** (MTF Candle-Close Lookback Contract), **MOD 60** (Veto Precedence Ladder), **MOD 62** (`DIBSE v2.0`), **MOD 65** (Media Hygiene), and **MOD 66** (4-Layer Timeframe Synthesis).
 **Module Type:** Educational / Behavioral Governance Rulebook Entry (NotebookLM Reference Library)
@@ -9795,3 +9877,260 @@ Before clicking Buy (`USDT → BTC`) or Sell (`BTC → USDT`), verify all four q
 
 ##### FINAL DIRECTIVE
 **MOD 67 eliminates emotional forecasting: treat every unconfirmed bounce as guilty until proven innocent, anchor all portfolio shifts to completed daily/weekly candle closes around a pre-defined line in the sand, and guard the cash firewall at 1.0x unleveraged spot.**
+
+---
+
+## [82] MOD 68 — Derivatives Positioning Context Tail Only Funding Mechanics and Empirical Sample Hygiene
+<!-- Source: rulebook/MOD_68_Derivatives_Positioning_Context_Tail_Only_Funding_Mechanics_and_Empirical_Sample_Hygiene.md -->
+
+##### PROJECT CORTEX-BTC — MODULE 68: DERIVATIVES POSITIONING CONTEXT, TAIL-ONLY FUNDING MECHANICS & EMPIRICAL SAMPLE HYGIENE
+**Waterfall Tier:** Pillar 3 & Tier D Bridge (Context-Only Leverage Crowding Taxonomy, Exchange Formula Clamp Hygiene & 4-Rule Statistical Validation Governor) — harmonized with **MOD 01** (Rising OI + Extreme Negative Basis), **MOD 02** (Crowded Positive Basis), **MOD 03** (Deleveraging Flushes & OI Resets), **MOD 04** (Funding Velocity & Venue Spreads), **MOD 05** (Spot vs. Perp CVD), **MOD 31** (ICDM Fragility Scale), **MOD 42.1** (BTC-Denominated OI Rulebook 3.2), **MOD 52** (Rolling 30-Trade Expectancy Audit), **MOD 60** (7-Rank Veto Precedence Ladder), **MOD 62** (DIBSE v2.0), and **MOD 65** (Media De-Noising & Signal Hygiene).
+**Document Provenance:** Codified from `funding-rates-and-open-interest.md` (*Funding Rates and Open Interest: Reading the Leverage Crowd*, Nov 2026 empirical audit) and corrected against official Binance/OKX perpetual funding-rate specifications (including the fixed `+0.01%/8h` interest-rate clamp and May 2025 / Jan 2026 dynamic settlement-interval updates).
+**Governance Posture:** Context-Only Derivatives Crowding & Empirical Validation Governor. **Zero standalone trade authorization.** Enforces strict separation between linear sentiment folklore and true tail-only leverage mechanics, prevents small-sample or overlapping-window overfitting, and corrects exchange formula distortions before any positioning metric enters Pillar 3 or `ctc_backtest_lab` research.
+
+--------------------------------------------------------------------------------
+
+###### 1. Machine-Readable State & Routing Block (Python / Hermes / NotebookLM Index)
+```yaml
+module_id: "MOD_68"
+entry_type: "DERIVATIVES_CONTEXT_AND_SAMPLE_HYGIENE_GOVERNOR"
+waterfall_pillar: "PILLAR_3_AND_TIER_D_POSITIONING_HYGIENE"
+title: "Derivatives Positioning Context, Tail-Only Funding Mechanics & Empirical Sample Hygiene"
+
+# MOD 60 PRECEDENCE & EXECUTION BOUNDARY
+governance_registration:
+  mod_60_precedence_rank: "PILLAR_3_CONTEXT_AND_TIER_D_VALIDATION_FILTER"
+  standalone_trade_authorization: false # Positioning is CONTEXT ONLY; never a standalone buy/sell trigger
+  upstream_veto_subordination: "NEVER overrides MOD 60 Ranks 0-3 (MOD 36 DATA HALT, MOD 16 GATE_RED, ICDM >= 60, MOD 44/58 Event Lock, or MOD 34/51 Active Cascade)."
+
+# SINGLE-SAMPLE EMPIRICAL REFERENCE BENCHMARKS (NOT UNIVERSAL LAWS)
+single_sample_benchmarks:
+  daily_btcusdt_sample:
+    window: "2019-09 to 2026-10"
+    total_observations_n: 2587
+    rank_ic_funding_vs_7d_return: -0.047 # Tail signal, not a linear scale
+    extreme_negative_daily_band_lt_neg0_01pct: {n: 146, mean_7d_pct: 4.68, median_7d_pct: 2.95, hit_rate_pct: 66.4, distinct_crash_episodes: 4}
+    mid_and_positive_bands: "Indistinguishable from base-rate coin flip (49.5%-55.1% hit rates); >+0.03%/day bucket (n=1041, 40.3%) is distorted by Binance +0.01%/8h clamp"
+  non_overlapping_weekly_sample:
+    window: "2021-01 to 2026-09"
+    total_observations_n: 299
+    crowded_shorts_neg_funding_rising_oi: {n: 18, mean_7d_pct: 3.05, median_7d_pct: 3.55, hit_rate_pct: 72.0, ci_95_pct: [50, 87], mean_14d_pct: 3.03}
+    positions_leaving_neg_funding_falling_oi: {n: 18, mean_7d_pct: 1.80, median_7d_pct: -0.06, hit_rate_pct: 50.0, mean_14d_pct: 3.35}
+    crowded_longs_pos_funding_rising_oi: {n: 156, mean_7d_pct: 0.33, median_7d_pct: 0.02, hit_rate_pct: 50.0, mean_14d_pct: 1.37}
+    quiet_deleveraging_pos_funding_falling_oi: {n: 107, mean_7d_pct: 0.25, median_7d_pct: 0.03, hit_rate_pct: 50.0, mean_14d_pct: 0.12}
+
+# EXCHANGE FORMULA & NORMALIZATION CONSTANTS
+exchange_mechanics_guards:
+  binance_okx_interest_rate_8h_pct: 0.01 # Fixed 0.03%/day (10.95% simple APR); NOT zero-centered
+  binance_clamp_band_pct: [-0.05, 0.05] # Average premium in [-0.04%, +0.06%] prints flat +0.01%/8h
+  dynamic_settlement_clock_break: "2025-05 hourly escalation & 2026-01 reversion rules (do not mix raw per-period prints across regimes without realized daily summation)"
+  oi_denomination_mandatory: "BTC_CONTRACTS_ONLY" # Prevents USD price-inflation distortion (MOD 42.1 Rulebook 3.2)
+  symmetric_tail_quantiles: [0.05, 0.95] # Required for valid upper-vs-lower tail testing
+
+# 4-RULE EMPIRICAL SAMPLE HYGIENE CONSTANTS (HARMONIZED WITH MOD 52 CB-05 & MOD 65 CB-06)
+sample_hygiene_rules:
+  r1_denominator_and_ci: "Mandatory n/N + 95% confidence interval reporting"
+  r2_overlap_correction: "Use non-overlapping intervals OR divide effective sample size by overlap horizon k (uncertainty inflated ~sqrt(k))"
+  r3_episode_clustering: "Count distinct independent market episodes rather than raw consecutive crash days"
+  r4_ev_and_regime_split: "EV_unit_risk = (up_fraction * gain_drop_ratio) - (1 - up_fraction), conditioned on >200D vs <200D SMA"
+
+# RISK & SIZING CONSTANTS (PILLAR 4)
+risk_parameters:
+  sizing_from_funding_alone_pct: 0.00 # Strictly prohibited; use for confidence/patience calibration only
+  leverage_permitted: 1.0 # Strict Unleveraged Spot Only
+```
+
+--------------------------------------------------------------------------------
+
+###### 2. Protective Circuit Breakers (Mandatory Positioning & Empirical Invariants)
+*   **Circuit Breaker 1 — Tail-Not-Scale & Context-Only Law (CB-01):** Perpetual funding has near-zero linear rank correlation with forward returns (`IC ≈ -0.047` across 2,587 daily BTCUSDT bars). Mid-range funding prints (including mild negative rates such as `-0.002%` to `-0.007%/8h`) sit inside a coin-flip noise band. Funding is strictly a **tail-only context condition**—never a sentiment slider and never a standalone spot entry or position-sizing trigger.
+*   **Circuit Breaker 2 — Mandatory 2×2 Funding × BTC-Denominated OI Split (CB-02):** Never quote funding as a single scalar without pairing it with **Open Interest direction measured in BTC contracts** (never USD notional, which mechanically inflates with rising price per `MOD 42.1` Rulebook 3.2). Negative funding + rising BTC OI (*Crowded Shorts*: trapped bears paying to stay short) and negative funding + falling BTC OI (*Positions Leaving*: an empty room with no forced buyers) have opposite mechanical trajectories.
+*   **Circuit Breaker 3 — Exchange Formula Clamp & Clock-Shift Guard (CB-03):** Standard perpetual formulas on Binance and OKX embed a fixed `+0.01%/8h` (`+0.03%/day`, `10.95%` simple APR) interest-rate component with a `±0.05%` clamp, flattening any average premium between `-0.04%` and `+0.06%` to exactly `+0.01%/8h`. Consequently:
+    1. A daily bucket labeled `> +0.03%/day` captures **~40%+** of all days and is **NOT** an extreme upper tail; valid upper-tail testing requires symmetric empirical quantiles (e.g., rolling `>= 90th–95th` percentile or `> +0.035%/8h` per `MOD 04`).
+    2. Because venues introduced dynamic hourly settlement escalation (Binance May 2025 / Jan 2026 reversion rules), aggregate historical funding by **realized daily sum** rather than multiplying raw per-period prints by `1,095`.
+*   **Circuit Breaker 4 — Spot-Blindness, Passive Long-Trap & Basis-Arb Filter (CB-04):** Perpetual funding cannot see unleveraged spot flows. Before treating `Negative Funding + Rising OI` as bullish squeeze fuel, verify **Domestic USD Spot CVD (`MOD 05` / `MOD 07` / `MOD 19`)** to rule out a **`MOD 01 CSU-01B` Passive Long-Trap Cascade** or **`M5` Short-Pile-On Breakdown**. Likewise, distinguish directional crowded longs from institutional delta-neutral Spot ETF / short-perp basis arbitrage (`MOD 04 M7`).
+*   **Circuit Breaker 5 — 4-Rule Empirical Sample Hygiene Gate (CB-05):** Any positioning research, backtest, or media claim must report: (1) exact denominator $n/N$ and 95% CI width (`n = 18` at `72%` spans `50%–87%`, too wide for sizing); (2) non-overlapping horizons or `~sqrt(k)` overlap discounting; (3) distinct cluster episodes (`146` tail days = `~4` crashes); and (4) payoff-adjusted $\text{EV}_{\text{unit risk}}$ split by trend regime (`>200D` vs. `<200D` SMA). Cross-locked with **`MOD 52 CB-05`** and **`MOD 65 CB-06`**.
+*   **Circuit Breaker 6 — Upstream Veto Subordination (CB-06):** Even a genuine extreme `Crowded Shorts` tail state has **0.00% execution authority** while `MOD 60` Ranks 0–3 (`MOD 36 DATA HALT`, `MOD 16 GATE_RED`, `MOD 31 ICDM >= 60`, `MOD 44` calendar lock, or `MOD 64` shadow-credit stress) remain active.
+
+--------------------------------------------------------------------------------
+
+###### 3. Core Conditional Signal Units (Condition A -> Outcome B -> Rule C)
+###### CSU-68A: Qualified Crowded-Shorts Context ("Tail Squeeze Fuel — Context Only")
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. Realized daily OI-weighted funding falls into the **bottom 5th percentile** (`< -0.01%/day` or `<= -0.015%/8h` across multi-venue composite, `MOD 04 CB-02`).
+    2. **BTC-denominated Open Interest** is **rising** (confirming new shorts opening and paying to stay short, not old positions closing).
+    3. **Spot & Macro Gate Verification:** `MOD 60` Ranks 0–3 are clear (`ICDM < 55`, non-`GATE_RED`) **AND** Domestic USD Spot CVD (`MOD 05`) prints absorption/higher lows at HTF structural support (`MOD 11` / `MOD 54`).
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Microstructure Lens:** Short positioning is genuinely crowded at an extreme tail (`72%` hit rate in the 2021–2026 weekly reference sample, `n = 18`, 95% CI `50%–87%`), creating asymmetric forced-cover fuel if price reclaims structure.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** **ELEVATE WATCH PRIORITY — DO NOT SIZE FROM FUNDING ALONE.** Pass qualified context to **`MOD 01` (`CSU-01A`)**, **`MOD 18`**, and **`MOD 62`** (Loop A) to await a closed-bar 1H/4H VAL/POC reclaim with **Net R >= 3.0** and standard risk caps (`<= 0.375%` Amber / `<= 0.75%` Green).
+
+###### CSU-68B: Empty-Room Trap Quarantine ("Negative Funding + Falling OI")
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. Perpetual funding turns negative (`< 0.00%`), **AND**
+    2. **BTC-denominated Open Interest is falling** across 24h–7d windows (old leveraged positions closing/draining out).
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Microstructure Lens:** Market is in the **Positions Leaving** state (`50%` hit rate / `-0.06%` median 7d return in the weekly reference sample)—there are no trapped shorts left to fuel a mechanical short squeeze.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** **QUARANTINE SQUEEZE NARRATIVE; STAND DOWN.** Do not deploy Sleeve A USDT on "negative funding = bounce" slogans; evaluate price strictly via **`MOD 03` (`CSU-03D`)** voluntary unwind + **`MOD 11`** Volume Profile + **`MOD 05`** Spot CVD.
+
+###### CSU-68C: Symmetric Upper-Tail Crowded-Long Fragility Filter ("True Blow-Off Overhang")
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. OI-weighted funding breaks cleanly **above** the Binance/OKX `+0.01%/8h` (`+0.03%/day`) clamped plateau into the **top 5th–10th rolling percentile** (`>= +0.030% to +0.035%/8h` / `>= +0.09% to +0.105%/day`).
+    2. **BTC-denominated Open Interest** is expanding rapidly (`>= +5%` over 48h–7d) while **Domestic USD Spot CVD flattens or diverges negatively** (`MOD 42.1` Rulebook 3.1/3.2).
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Microstructure Lens:** Eliminates the `+0.03%/day` clamp dilution error and isolates genuine directional long crowding where upside rallies are fragile and downside liquidation cascades accelerate rapidly.
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** **BLOCK NEW SLEEVE A LONG ADDITIONS (`MOD 02` / `MOD 04 CSU-04C`).** Tighten trailing stops on open Loop A longs and authorize **Loop B (`BTC -> USDT`)** defensive profit-taking (`MOD 18` Stage 1 / `MOD 62` Rule 18) upon closed-bar rejection at HTF resistance.
+
+###### CSU-68D: Statistical Claim & Backtest Rejection ("Thin-Sample / Formula-Flawed Study")
+*   **Trigger Condition A (The Telemetry Scan):**
+    1. An external article, indicator pitch, or internal `ctc_backtest_lab` candidate cites a derivatives/positioning edge while failing any item of the **4-Rule Empirical Sample Hygiene Gate** (missing denominator/CI, uncorrected overlapping forward returns, clustered episodes treated as independent $N$, hit rate without EV/regime split, or unadjusted `+0.01%/8h` clamp / USD OI).
+*   **Observed Outcome B (The Mechanical Trajectory):**
+    *   **Governance Risk:** False statistical precision leads to curve-fitted parameters and oversized bets on thin tail samples (`n < 20`).
+*   **Execution Rule C (The Non-Negotiable Action):**
+    *   **Action:** **REJECT FOR PRODUCTION DEPLOYMENT (`0.00%` Weight).** Log the flaw in **`00H` Section 4** (`MOD 65 CB-06`) and require a strictly causal, non-overlapping, symmetric-quantile re-test under **`MOD 52 CB-05`** before re-evaluation.
+
+--------------------------------------------------------------------------------
+
+###### 4. Dynamic Regime Mutation Lookup Matrix (M1 through M6)
+| Mutation ID | Initial State | Telemetry Mutation Observed (Condition A') | Mechanical Meaning (Outcome B') | Mandatory Execution Override (Rule C') |
+| ------ | ------ | ------ | ------ | ------ |
+| **M1: Mild-Negative Noise Mirage** | Watchlist Alert | Funding dips to `-0.002%` to `-0.008%/8h` on offshore venues while Binance/Coinbase hover near `0.000%` to `+0.003%`. | Inside the coin-flip noise band (`IC ≈ -0.047`), not an extreme crowded-short tail. | **Ignore Squeeze Narrative;** assign `0.00%` bullish weight (CB-01). |
+| **M2: Crowded Shorts -> Passive Long Trap** | CSU-68A (Neg Funding + Rising OI) | Price breaks 4H VAL while **Domestic USD Spot CVD turns steeply negative** and ETFs print outflows. | Rising OI reflects offshore passive knife-catchers or aggressive momentum shorts overwhelming absent spot bids (`MOD 01 CSU-01B` / `M5`). | **Abort Squeeze Watch; Enforce 100% Cash Lock** until `MOD 03` full OI flush completes. |
+| **M3: Clamp-Plateau False Calm** | Routine Scan | Binance BTCUSDT prints flat `+0.0100%/8h` for days while intraday perp premium swings between `-0.035%` and `+0.055%`. | Formula clamp (`±0.05%`) is censoring real basis shifts inside the plateau (CB-03). | **Read Raw Perp-vs-Spot Basis & Spot/Perp CVD (`MOD 05`) directly** instead of clamped funding prints. |
+| **M4: Settlement-Clock Regime Break** | Historical Backtest | Backtest pools pre-May 2025 8h funding prints with post-May 2025 hourly-escalated cap prints using a fixed `×1,095` annualizer. | Mixed clock mechanics distort historical tail percentiles and APR comparisons (CB-03). | **Re-aggregate via Realized Daily Funding Sum** (`sum(period_rates_in_utc_day)`) across all backtests. |
+| **M5: Cash-and-Carry Basis Arb Mirage** | Elevated OI + Positive Funding | BTC OI and positive funding rise steadily while **US Spot ETF inflows surge** and CME/dated basis stays orderly (`+8%–12%` APR). | Institutional delta-neutral basis carry (long Spot ETF / short Perp), not fragile retail leverage (`MOD 04 M7`). | **Do Not Treat as Crowded-Long Top;** require Spot CVD breakdown + `>95th` pct funding before Loop B exit. |
+| **M6: Upstream Veto Override During Tail** | CSU-68A (Extreme Neg Tail) | Genuine crowded-short tail prints while `MOD 31 ICDM >= 60`, `MOD 64` credit stress, or `MOD 29` equity contagion is active (`GATE_RED`). | Macro liquidity drain overrides local derivatives positioning. | **Enforce `GATE_RED_100_CASH_LOCK` (CB-06);** log context in `00H` without deploying Sleeve A USDT. |
+
+--------------------------------------------------------------------------------
+
+###### 5. Operational Reference Tables (2×2 State Matrix & 4-Rule Audit Gate)
+**Table A — The 2×2 Funding × BTC-Denominated OI Context Matrix (Context Only)**
+| Market State | Realized Funding | BTC-Denominated OI | Mechanical Meaning | CoreTex Action Posture |
+| ------ | ------ | ------ | ------ | ------ |
+| **Crowded Shorts** | Extreme Negative (`< 5th` pct) | **Rising** | New shorts opening and paying to stay short | **Watchlist Priority** — Pass to `MOD 01` / `MOD 05` Spot CVD & `MOD 60` gates (`CSU-68A`). |
+| **Positions Leaving** | Negative | **Falling** | Old leveraged positions closing ("empty room") | **Stand Down** — Zero squeeze fuel (`CSU-68B`); wait for `MOD 03D` / `MOD 11` base. |
+| **Crowded Longs (True Upper Tail)** | Extreme Positive (`> 95th` pct, above `+0.01%/8h` clamp) | **Rising** | Fragile leveraged bulls paying high carry | **Block New Longs** — Tighten stops / screen Loop B distribution (`CSU-68C`). |
+| **Quiet Deleveraging** | Positive / Neutral | **Falling** | Voluntary leverage drain, no directional conviction | **Baseline Noise** — Defer to `MOD 03D` time-bleed + `MOD 11` Volume Profile. |
+
+**Table B — Mandatory 4-Rule Empirical Sample Hygiene Audit (`MOD 52` / `MOD 65` / `MOD 68`)**
+| Audit Rule | Diagnostic Formula / Check | Minimum CoreTex Standard |
+| ------ | ------ | ------ |
+| **1. Denominator & CI** | Report `n / N` and 95% confidence interval width | Never size positions off small-sample tails (e.g., `n = 18` → `50%–87%` CI). |
+| **2. Overlap Correction** | Sample non-overlapping bars or discount effective $N$ by overlap $k$ (`~sqrt(k)`) | Prohibit raw daily overlapping 7d return counts as independent proofs. |
+| **3. Cluster-Episode Count** | Collapse consecutive tail days into distinct market episodes | Distinguish `146` daily tail rows from `4` independent crash episodes. |
+| **4. Payoff EV & Regime Split** | $\text{EV}_{\text{unit risk}} = (\text{up\_fraction} \times \text{gain\_drop\_ratio}) - (1 - \text{up\_fraction})$ | Require positive post-slippage `E[R]` stratified across `>200D` vs. `<200D` SMA. |
+
+--------------------------------------------------------------------------------
+
+###### FINAL DIRECTIVE
+**MOD 68 keeps leverage telemetry honest: perpetual funding is a censored, tail-only context signal—never a linear sentiment score, never a standalone trigger, and never stronger than its denominator, its exchange clamp formula, or the underlying Domestic USD Spot CVD.**
+
+---
+
+## [83] MOD 68.1 — Empirical Regime x Funding x OI Decision Matrix 299 Week State Grid
+<!-- Source: rulebook/MOD_68.1_Empirical_Regime_x_Funding_x_OI_Decision_Matrix_299_Week_State_Grid.md -->
+
+##### PROJECT CORTEX-BTC — MODULE 68.1: EMPIRICAL REGIME × FUNDING × OI DECISION MATRIX (299-WEEK STATE GRID)
+**Waterfall Tier:** Pillar 3 & Tier D Operational Lookup Sub-Module (Child Empirical Table to **MOD 68: Derivatives Positioning Context, Tail-Only Funding Mechanics & Empirical Sample Hygiene**) — harmonized with **MOD 01** (Rising OI + Negative Basis), **MOD 02** (Crowded Positive Basis), **MOD 04** (Funding Velocity & Divergence), **MOD 17** (200D MA Secular Divider), **MOD 34** (AEGIS-3 Anti-Capitulation Sell-Freeze), **MOD 52** (`CB-05` Empirical Sample Hygiene), **MOD 57** (`M4` Below-200D Drift), **MOD 60** (7-Rank Veto Precedence), and **MOD 62** (DIBSE v2.0).
+**Document & Code Provenance:**
+* `btc-cortex`: `tools/state_matrix.py` + `data/state_matrix.md` (commit `c3c327a`)
+* `btc-library`: `articles/positioning-decision-matrix.md` + `.pdf` (commit `c727d7e`)
+**Governance Posture:** Read-Only Empirical Lookup Grid (**Zero standalone trade authorization**). Measures all 8 combinations of `200D SMA Regime × Funding Sign × Open Interest Direction` across **299 non-overlapping weeks (`2021-01-08` → `2026-09-30`)** so every state must earn its sample count before influencing decision aggression.
+
+--------------------------------------------------------------------------------
+
+###### 0. Machine-Readable State & Routing Block (Python / Hermes / NotebookLM Index)
+```yaml
+module_id: "MOD_68.1"
+parent_module: "MOD_68"
+entry_type: "EMPIRICAL_REGIME_POSITIONING_LOOKUP_GRID"
+waterfall_pillar: "PILLAR_3_AND_TIER_D_POSITIONING_LOOKUP"
+title: "Empirical Regime x Funding x OI Decision Matrix (299-Week State Grid)"
+
+# CODE & LIBRARY PROVENANCE
+provenance:
+  code_repo: "btc-cortex"
+  code_files: ["tools/state_matrix.py", "data/state_matrix.md"]
+  code_commit: "c3c327a"
+  library_repo: "btc-library"
+  library_files: ["articles/positioning-decision-matrix.md", "articles/positioning-decision-matrix.pdf"]
+  library_commit: "c727d7e"
+  sample_window: "2021-01-08 to 2026-09-30"
+  sample_observations_non_overlapping_weeks: 299
+  oi_unit_in_state_matrix_py: "UNVERIFIED_PENDING_CODE_AUDIT" # Must confirm BTC contracts vs USD notional per MOD 68 CB-02
+
+# MOD 60 PRECEDENCE & EXECUTION BOUNDARY
+governance_registration:
+  mod_60_precedence_rank: "PILLAR_3_CONTEXT_LOOKUP_SUBMODULE_TO_MOD_68"
+  standalone_trade_authorization: false # No cell in this matrix authorizes a trade
+  upstream_veto_subordination: "NEVER overrides MOD 60 Ranks 0-3 (DATA HALT, GATE_RED, ICDM >= 60, MOD 44/58 Lock, or Active Cascade)."
+
+# KEY STRUCTURAL LAWS EXTRACTED FROM 299-WEEK GRID
+structural_laws:
+  bull_regime_crowded_shorts_count: 0 # 0/299 weeks above 200D SMA (structural fact, not missing data)
+  above_200d_edge_status: "COIN_FLIP_BASE_RATE" # 49%-51% hit rate across all populated cells above 200D SMA
+  below_200d_crowded_shorts: {n: 18, mean_7d_pct: 3.05, median_7d_pct: 3.55, hit_rate_pct: 72.0, ci_95_pct: [50, 87], mean_14d_pct: 3.03}
+  binary_positive_funding_caveat: "Crowded longs (n=92 above / n=64 below) uses binary funding > 0% (88% of weeks are positive); does NOT invalidate MOD 02 / MOD 68 CSU-68C extreme upper-tail (>= +0.035%/8h) blow-off guards."
+
+# V2 RESEARCH BACKLOG (FOR tools/state_matrix.py UPGRADES)
+v2_research_backlog:
+  - "Verify and lock OI_DELTA calculation strictly to BTC contracts (sum_open_interest), never USD notional"
+  - "Add Axis 4: Futures-vs-Spot Basis to separate directional crowding from delta-neutral carry"
+  - "Compute per-cell regime-matched excess returns (cell return minus unconditional >200D or <200D baseline)"
+  - "Split positive funding into neutral clamp plateau (0% to +0.03%/day) vs symmetric top 5%-10% upper tail"
+  - "Expand sample window past 2026-09-30 as new non-overlapping weeks close"
+```
+
+--------------------------------------------------------------------------------
+
+###### 1. The 8-Cell Empirical Decision Matrix (`2021-01-08` → `2026-09-30`, `N = 299` Non-Overlapping Weeks)
+| Regime (`200D SMA`) | Leverage State | `n` | Mean 7d | Median 7d | Hit Rate | Mean 14d | CoreTex Reading |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **Above 200D** | Crowded shorts (`F < 0`, `OI ↑`) | **0** | — | — | — | — | **Never occurred** in 299 weeks (structural fact) |
+| **Above 200D** | Positions leaving (`F < 0`, `OI ↓`) | **4** | `+4.23%` | `+0.08%` | `50%` | `+7.34%` | Colour only (insufficient `n`) |
+| **Above 200D** | Crowded longs (`F > 0`, `OI ↑`) | **92** | `+0.50%` | `−0.32%` | `49%` | `+1.64%` | **No edge** (binary `> 0%` sign; base-rate chop) |
+| **Above 200D** | Quiet deleveraging (`F > 0`, `OI ↓`) | **70** | `+0.71%` | `+0.61%` | `51%` | `+0.73%` | **No edge** (base-rate drift) |
+| **Below 200D** | **Crowded shorts (`F < 0`, `OI ↑`)** | **18** | **`+3.05%`** | **`+3.55%`** | **`72%`** | **`+3.03%`** | **Directional colour only** (95% CI `50%–87%`; cannot size) |
+| **Below 200D** | Positions leaving (`F < 0`, `OI ↓`) | **14** | `+1.10%` | `−0.06%` | `50%` | `+2.21%` | Colour only (empty room; no forced buyers) |
+| **Below 200D** | Crowded longs (`F > 0`, `OI ↑`) | **64** | `+0.07%` | `+0.08%` | `52%` | `+1.00%` | **No edge** (binary `> 0%` sign) |
+| **Below 200D** | Quiet deleveraging (`F > 0`, `OI ↓`) | **37** | `−0.62%` | `−0.02%` | `49%` | `−1.02%` | **No edge** (bear drift) |
+
+*Note on Sample & Horizon:* Non-overlapping weekly forward returns eliminate the daily 7-day overlap distortion (`MOD 52 CB-05`). Weekly aggregates differ from intraday/48h–72h funding dips tracked in `MOD 01` and `MOD 04`.
+
+--------------------------------------------------------------------------------
+
+###### 2. Core Structural Findings & Spot-Only Operational Rules
+1. **The Weekly Signal Lives Exclusively Below the 200-Day SMA:** Every populated cell above the 200-day moving average prints a `49%–51%` coin flip. Directional separation in weekly leverage states appears only inside bear regimes (`< 200D SMA`), reinforcing `MOD 17` and `MOD 57 M4`.
+2. **Weekly "Crowded Shorts" Never Occurs in an Uptrend (`0 / 299` Weeks):** Zero occurrences above the 200D SMA is a structural market fact, not a data gap. Waiting for a full-week negative funding squeeze during a secular bull market waits indefinitely—bull-regime disbelief rallies (`MOD 04 CSU-04A`) occur via short-window (`48h–72h`) funding compression (`<= +0.003%/8h`), not week-long negative averages.
+3. **Binary-Sign (`> 0%`) vs. Extreme Upper-Tail Clarification (`MOD 02` Harmonization):** In this grid, `Crowded longs` (`n = 92 + 64 = 156`) and `Quiet deleveraging` (`n = 70 + 37 = 107`) account for **263 of 299 weeks (`88%` of history)** because funding is split at `0.00%` rather than above Binance's `+0.01%/8h` clamp. Therefore, the `"no edge"` verdict on binary `Crowded longs` does **not** override or invalidate `MOD 02` / `MOD 68 CSU-68C` extreme upper-tail fragility gates (`>= 90th–95th` percentile / `>= +0.035%/8h` paired with negative Domestic USD Spot CVD).
+4. **Tightened 1.0x Spot-Only Actionable Doctrine (`Below 200D + Crowded Shorts`, `n = 18`):**
+   * Because a `72%` hit rate on `n = 18` carries a wide 95% confidence interval (`50%–87%`), the historical record leans upward—**enough to argue against panic-selling spot or executing Loop B (`BTC -> USDT`) distribution into a fresh bear-market low** (harmonizing with `MOD 34` AEGIS-3 anti-capitulation sell-freeze), **but NOT enough to authorize or size a Loop A (`USDT -> BTC`) spot buy** without independent Pillar 1/2/4 confirmation (`MOD 60`, `MOD 05` Domestic USD Spot CVD, `MOD 11` reclaim, `MOD 62` Rule 15).
+
+--------------------------------------------------------------------------------
+
+###### 3. Mandatory 4-Step Operational Read Sequence
+Evaluate the positioning grid strictly in descending order—never skip Step 1 or Step 4:
+```text
+1. REGIME      Is spot above or below the 200-day SMA? (MOD 17)
+2. FUNDING     Which side is paying over the realized weekly window? (MOD 68 CB-03)
+3. OPEN INT.   Is BTC-denominated OI rising (crowd growing) or falling (crowd leaving)? (MOD 68 CB-02)
+4. CELL COUNT  Does the cell have a valid count & separation, or is it base-rate / colour only?
+```
+* **Hard Rule:** Only a cell with an audited count may adjust aggression (and strictly to *reduce* premature risk-taking or prevent capitulation selling). **No cell in this matrix authorizes a trade.**
+
+--------------------------------------------------------------------------------
+
+###### 4. Planned v2 Upgrade Backlog (`tools/state_matrix.py`)
+1. **OI Unit Verification (`MOD 68 CB-02`):** Audit `tools/state_matrix.py` (`c3c327a`) to confirm weekly OI change is measured in **BTC contracts (`sum_open_interest`)**, not USD notional.
+2. **Axis 4 — Futures-vs-Spot Basis:** Cross basis against funding to separate directional speculation from delta-neutral cash-and-carry arbitrage (`MOD 02 CSU-02C` / `MOD 68 M5`).
+3. **Regime-Matched Baseline Controls:** Report each cell's excess return relative to the unconditional `> 200D` or `< 200D` weekly mean so bull-market drift does not flatter cells above the 200D SMA.
+4. **Symmetric Upper-Tail Funding Buckets:** Split the `88%` positive-funding mass into the clamped baseline (`0%` to `+0.03%/day`) versus true `>= 90th / 95th` percentile upper tails (`MOD 68 CB-03`).
+
+--------------------------------------------------------------------------------
+
+###### FINAL DIRECTIVE
+**MOD 68.1 enforces empirical humility across all eight Regime × Funding × OI states: four populated cells show no edge, bull-regime crowded shorts have never occurred in 299 weeks, and the sole directional cell (`below 200D + Crowded shorts`, `n = 18`) serves strictly as an anti-capitulation patience cue—never a position-sizing trigger.**
+
+---
