@@ -1,67 +1,67 @@
 {
   "schema_version": "cortex-telemetry-v3.0",
-  "as_of_utc": "2026-11-25T17:23:31Z",
-  "as_of_myt": "2026-11-26 01:23:31 MYT",
-  "generated_at_epoch": 1795627411,
-  "spot_price": 59220.93,
+  "as_of_utc": "2026-11-26T01:50:01Z",
+  "as_of_myt": "2026-11-26 09:50:01 MYT",
+  "generated_at_epoch": 1795657801,
+  "spot_price": 60807.35,
   "venues": {
     "binance": {
-      "price": 59220.93,
-      "timestamp_utc": "2026-11-25T17:23:31Z"
+      "price": 60807.35,
+      "timestamp_utc": "2026-11-26T01:50:02Z"
     },
     "coinbase": {
-      "price": 59127.03,
-      "timestamp_utc": "2026-11-25T17:23:32Z"
+      "price": 60700.0,
+      "timestamp_utc": "2026-11-26T01:50:03Z"
     },
     "coingecko": {
-      "price": 59337.0,
-      "timestamp_utc": "2026-11-25T17:22:29Z"
+      "price": 60699.0,
+      "timestamp_utc": "2026-11-26T01:48:50Z"
     },
     "kraken": {
-      "price": 59136.5,
-      "timestamp_utc": "2026-11-25T17:23:31Z"
+      "price": 60712.7,
+      "timestamp_utc": "2026-11-26T01:50:01Z"
     },
     "okx": {
-      "price": 59219.2,
-      "timestamp_utc": "2026-11-25T17:23:33Z"
+      "price": 60791.7,
+      "timestamp_utc": "2026-11-26T01:50:04Z"
     }
   },
   "price": {
-    "spot": 59220.93,
-    "high_24h": 60294.68,
+    "spot": 60807.35,
+    "high_24h": 61622.38,
     "low_24h": 57300.38,
-    "price_change_pct_24h": -0.754,
-    "volume_24h_usd": 1400139672.8885827,
-    "sma50": 75211.44499999999,
-    "sma200": 72082.05869999998,
-    "rsi14": 23.706067001213952,
-    "atr14": 3471.3685714285716,
+    "price_change_pct_24h": 2.591,
+    "volume_24h_usd": 1641061500.5574517,
+    "sma50": 74785.89419999998,
+    "sma200": 71981.22969999997,
+    "rsi14": 28.6664489258806,
+    "atr14": 3390.883571428571,
     "range_high_45d": 84898.0,
     "range_low_45d": 55130.0,
-    "realized_vol_7d_pct": 47.29060927771297
+    "realized_vol_7d_pct": 48.8612899777131
   },
   "liquidity": {
     "spread_bps": 0.002,
-    "depth_1pct_usd": 12674491.55
+    "depth_1pct_usd": 12866654.36
   },
   "derivatives": {
     "open_interest": {
-      "current_btc": 31369.216700000132,
-      "change_24h_pct": 1.536,
+      "current_btc": 31329.758600000132,
+      "change_24h_pct": 1.554,
       "venue": "OKX BTC-USDT-SWAP"
     },
-    "funding_rate_pct": 0.00603,
-    "long_short_ratio": 2.82,
+    "funding_rate_pct": 0.01,
+    "long_short_ratio": 2.75,
     "perp_cvd": {
       "24h": {
-        "cvd_btc": -24456.66
+        "cvd_btc": 189347.96
       }
     }
   },
   "order_flow": {
     "spot_cvd_binance": {
       "24h": {
-        "cvd_btc": 697.0599
+        "cvd_btc": 370.4316
       }
     }
   },
@@ -71,20 +71,20 @@
     "half_hour_fee_sat_vb": 1.0,
     "hour_fee_sat_vb": 1.0,
     "minimum_fee_sat_vb": 1.0,
-    "mempool_tx_count": 73207.0,
-    "mempool_vsize_bytes": 31043735.0,
-    "block_height": 977543
+    "mempool_tx_count": 69412.0,
+    "mempool_vsize_bytes": 30758687.0,
+    "block_height": 977607
   },
   "macro": {
     "us10y_yield_pct": {
-      "value": 4.92,
-      "as_of_utc": "2026-11-23",
+      "value": 4.91,
+      "as_of_utc": "2026-11-24",
       "source": "FRED:DGS10",
       "status": "ok"
     },
     "us10y_real_yield_pct": {
       "value": 2.79,
-      "as_of_utc": "2026-11-23",
+      "as_of_utc": "2026-11-24",
       "source": "FRED:DFII10",
       "status": "ok"
     },
